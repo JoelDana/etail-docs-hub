@@ -1,0 +1,897 @@
+Well, here it is. A month has already gone by, and here we are at the June version of Tech Edge.
+For those of you that might be on vacation, lucky you.
+You're going to miss a great session today, but as always, you'll be able to find it on the Help Center
+and review not only this one, but all the previous Tech Edges.
+This month, once again, based on your input, we're going to be talking about pricing.
+We're going to be talking about advanced pricing, taking repricing to that next level.
+For those of you that this is your first Tech Edge, you're going to want to go back to our March Tech Edge.
+Once again, you can get it through the Help Center. It gives you a link to the Knowledge Center,
+and you'll be able to look at our pricing and repricing primer or first-level webinar
+and maybe get more context or level set for some of the topics we're going to talk about today.
+As always, Dr. James is going to be my co-host today, but I think in the coming months,
+we're going to start seeing some new people take on this role.
+Thank you for coming. Remember, you can always get the video after the session.
+James, take it away.
+As Jeff mentioned, I encourage you to look at the previous repricing webinar to get your footing
+in terms of the basics, in terms of policy assignment, and overall,
+it gives you a lot of the background knowledge you need to engage in this material.
+We're going to discuss repricing triggers in a more specific way than last time,
+looking at some of the more powerful ones and how they're utilized.
+Spend some time discussing UPP management, how that's handled in EVP.
+Look at the price parity option really quickly and how that can be leveraged.
+Discuss lookup tables once more, reiterating how they should be leveraged
+and what you need, the mindset you should be putting yourself in
+when thinking about how am I going to use them.
+Then lastly, we'll end with some Q&A.
+Our mission is always to drive growth and profits for you guys through our platform.
+The goal of these webinars is to educate you to enable you to, in this case,
+offer a more competitive price or capture more margin when repricing.
+Hopefully, one of the... I'm sorry, James.
+I think one of the other things that we're learning more and more from some of our clients
+is helping them find some cost savings initiatives,
+finding ways to be more efficient,
+finding ways to not always have to add people to accomplish highly repetitious kind of tasks.
+Increasing margin and profits,
+while we often think about sales and revenue growth as the primary way to do that,
+many times helping you be more efficient in your operations
+can also achieve the same goal of being more profitable.
+Yep.
+We'll first discuss price event trigger,
+what that does and how it can be leveraged, sales velocity trigger,
+a whole buy box policy and what that looks like,
+and then an FBA stock age policy,
+exploring how you would leverage the stock age trigger to implement that.
+Jumping right in, the first trigger is the price event trigger.
+A very simple explanation is when we reach a certain price point,
+we take an action and move the item to a new policy.
+The price points are the floor target and ceiling calculated by the formulas
+that are associated with policies.
+The main thing you can leverage this trigger for is to prevent price stagnation.
+You may have a seek loop or you're using a relative amount policy,
+but the behavior you're seeing is items get to the floor and they sit there.
+There's no next action.
+There's no competitive factor.
+I can't lower my price anymore, so I'm sitting at my floor.
+I encourage you to look at any policy you have where items get to the floor
+and sit there and add a price event trigger for at floor.
+You could move it into a seek rule that seeks up.
+You can move it into a policy with a higher floor to jump the price up,
+but what you're trying to address is preventing price stagnation
+either sitting at the floor or the target or the ceiling.
+You can have an initial policy that's using relative amount.
+Again, a relative amount is I'm looking at a competitor's price
+and I'm trying to beat it by a certain amount.
+Have a price event trigger within a relative amount policy that says,
+if my relative amount gets me to my floor,
+I'm going to move it to a policy that instigates new behavior.
+Maybe I see, maybe I adjust my formula,
+but again, relative amount competed me down to my floor.
+I still didn't win the buy box or I still didn't achieve my sales velocity goals,
+so I need to do something besides just sit at my floor
+or try and compete against the other sellers with a relative amount.
+I encourage people to jump to the ceiling if they reach the floor
+and what you will find is a lot of other re-pricing engines will chase you.
+They chase you down, they just as well might likely chase you up.
+If I reach my floor, I often encourage clients to move it to a policy
+that spikes the price up, monitor the re-pricing results screen,
+see if your competitors follow you,
+and then you know you can manipulate your price off the floor
+on certain skews when that price event occurs.
+James, I think sometimes this is counterintuitive.
+If you're not winning at the bottom,
+how can jumping to the top help you?
+People will follow you, Amazon will follow you as you go up,
+and then if you're the first one to drop,
+you create a window where you can be very successful.
+Exactly.
+The sales velocity trigger is one you may be familiar with,
+but it is, in my opinion,
+one of the more powerful triggers we have
+in that it gives you an alternative to relative amount.
+I keep saying relative amount,
+but the two options you have to compete
+in an e-commerce re-pricing environment are relative amount,
+i.e. I reference the price and try and beat it,
+or B, I seek my price independent of other players.
+What the sales velocity lets you do
+is set up a sales velocity-based seek loop,
+so what you do is you assess your sales velocity.
+If I'm low sales, i.e. I'm below a threshold,
+I move to a seek down,
+and I lower my price until I hopefully start selling.
+If I'm selling a lot, i.e. I'm above a threshold,
+I want to see if I can capture a bit more margins
+so I move the item to a seek up loop.
+This checkbox you see here
+will determine how we assess sales velocity.
+If I check this box,
+I will look at the sales of that skew
+across all the listings on that channel.
+On Amazon, I might have five or six ASINs
+for a single skew.
+If I want to look at my sales velocity
+from that holistic perspective,
+I would check this box.
+If I want to just consider the sales velocity
+of the individual listing, I leave it unchecked.
+And that can be, that's really determined
+on a kind of a product-by-product basis.
+How many skews does this item have?
+Are there reasons those skews would compete differently,
+i.e. one's a UOM that doesn't sell as often
+or has got a longer latency?
+Whatever it may be, you have to make a determination.
+Is the sales velocity of all these skews important
+or are all these listings important
+or is it more important to assess it on an individual basis?
+Again, as I mentioned, you want to leverage
+the sales velocity trigger into a seek loop
+is the most standard in best practice function.
+I often have someone use a relative amount
+and the relative amount policy is their seed.
+That's where things start.
+And then I have the sales velocity trigger
+within that relative amount.
+So if the relative amount isn't winning the buy box
+or generating the sales,
+we change our competitive tactic to seek
+and we see if that can generate sales.
+Again, don't sleep on the seek up.
+People get very focused on the seek down.
+What do I do when I seek down?
+Be creative with the seek up.
+You can learn to manipulate other people's pricing
+because their repricers are predictable.
+If I go up, they're going to follow me.
+If I have the buy box and I can seek up a bit
+because my latency is a lot better than the other sellers,
+that's another opportunity to use seek up.
+I also love the seek up when my competition
+is very low on inventory or maybe even stocked out
+or if I've picked up a product line
+where there's literally no other sellers,
+why not find that balance point
+where I can maintain my sales velocity
+but also maximize my margin
+and profitability on a product?
+Mm-hmm.
+One thing I'll comment about sales velocity is,
+and I'm going to emphasize this later
+in this PowerPoint presentation,
+is it comes down to catalog segmentation.
+Some clients have huge catalogs of 100,000 items.
+Some only have 1,000,
+but the better you can slice and dice that to say,
+hey, I expect these items to sell really fast,
+so I need to put them in a rule with a sales velocity trigger
+that's appropriate verse.
+I have these huge 1,000 UOM items that sell very slow,
+so I need to have them in a separate policy
+because their sales velocity is going to be different.
+My expectations are going to be different,
+so when you're thinking about how to segment my catalog,
+a good place to start is,
+I expect these things to be high-volume sellers.
+I expect these things to be medium-volume sellers
+and then low-volume sellers,
+and then setting up initial sales velocity policies
+that correlate to whether they're fast, slow, or medium sellers.
+Next, we're going to talk about the whole buy box policy.
+This is a combination of two triggers
+that you should include in most of your Amazon rules
+if you want to be buy box sensitive.
+The first trigger is a price event trigger,
+so you may or may not know when something happens on Amazon,
+the buy box changes, the price changes,
+the latency changes, an image is added.
+It creates a notification event that we then download and assess,
+and we can assess, hey, the notification we're getting
+is indicated that we lost the buy box or we won the buy box,
+and then we can instigate a behavior.
+If I win the buy box while I'm in a relative amount policy,
+I definitely want to move it to a hold buy box or seek up.
+If I'm in a policy that's meant to hold the buy box
+and I lose it, then I probably want to seek down
+or move back to a relative amount.
+The second trigger you're going to want to add
+is the buy box status trigger.
+So rather than looking at a price event to see if we win or loss,
+this trigger simply checks who's in the buy box.
+What's powerful about this is the buy box owner
+can be self, FBA, FBM, or Amazon.
+So I could have four different buy box status triggers
+that then feed into if I'm competing against Amazon,
+this is how I want to respond.
+If I'm competing against an FBM merchant,
+this is how I want to respond, and then with FBA similarly.
+So I can decide based on who the seller is, what type of it is,
+and then move it to a policy.
+In a hold buy box rule, you want to check,
+does the buy box owner equal self?
+If it does not equal self, I need to likely instigate a behavior
+because I've lost the buy box.
+But with these two triggers,
+you can find, exit, and enter prices for the buy box.
+So again, you're going to the pricing results screen.
+When did I enter a hold buy box rule?
+That tells me what my price point is that got me the buy box.
+When did I move out of a hold buy box policy?
+That'll tell me what my price point is when I lost the buy box.
+And looking at those trends can help you assess, you know,
+all right, if I want to consistently hold the buy box,
+I need to keep my ceiling below this.
+On a lot of the triggers, you'll see this restore previous price option.
+This can make a lot of sense when you're losing the buy box,
+because again, it occurs during a reprice event.
+So we may have calculated a new price when we detected the loss,
+that price might have been higher.
+So what this does is it says, if I apply this trigger,
+use the previous price versus the one I've just calculated
+that occurred during this event.
+And again, if we lost the buy box,
+we typically want to lower our price back down when that trigger makes
+that that behavior occur.
+The delay setting you see here and on a few other triggers,
+it's pretty self-explanatory.
+What it does if I set this to five minutes,
+the item has to be in the policy for five minutes before this trigger
+is applied.
+So in a relative amount policy,
+if I'm checking to see if I won the buy box,
+I may delay it for an hour or two because I'm just,
+want the natural, uh,
+competitive behavior to occur for a period of time before I try and,
+um,
+instigate a series of behaviors based on winning or losing the buy box.
+And again, this is very powerful to include within the seek loops.
+I just previously mentioned in that, uh,
+relative amount engages.
+If I win the buy box, I hold it.
+I'm seeking down.
+If I lose the buy box,
+I instigate a competitive behavior.
+If I win the buy box,
+I instigate a certain type of behavior.
+But again, um,
+when you're setting up your seek loops,
+work with your CSM incorporate the whole buy box policy.
+So that again,
+if you're holding the buy box,
+you're either keeping that margin or trying to increase it.
+The stock age trigger can be used for FBM or FBA.
+Uh, we've seen a lot of success using it for FBA.
+We're looking to improve your ability to use it with FBM.
+But at a high level, what it does is it access,
+it assesses the stock age of an item and it's low sales threshold.
+And then moves the item to a new policy.
+If those thresholds are met,
+what I've done with some clients that's been successful as I've set up
+stock age tiers.
+So I have maybe four or five rules.
+Each rule has a lower floor.
+So as stock age increases,
+I'll have a stock age trigger that says if it's five days,
+and then another in a different policy,
+if it's 10 days, 30 days, uh, 60 days, you know,
+the segments are something you can determine.
+But as stock gets older,
+I move the item to a policy with the lower floor.
+And so what that's enabled people to do is, um,
+in a, you know, automated way,
+lower my floor price is my stock gets older to try and push it,
+try and get rid of it. Um,
+so that I can send new stock in, um,
+again, each time we move to a new tier, we lower the floor.
+You know, James, you could even go, go ahead.
+I love this idea that occasionally as a stocking merchant,
+uh, um, you're going to just, you're going to have a dog,
+something that's not going to sell.
+There's a better product out there,
+but rather than waiting till the very last bullet that James is going to
+talk about, where you just blow it out on a clearance sale,
+where you're going at 30, 40, 50, 60% off.
+When we see it doesn't, isn't selling early on,
+maybe just a week or two, maybe a couple of weeks, whatever that,
+that business rule for your business defines.
+Let's give up five or 10% margin rather than all my margin and take a loss
+during the clearance sale.
+Yeah.
+And you know, I'm just thinking creatively,
+I could have that stock age, uh,
+tier set of policies that I talked about is a stock age gets older.
+I lower the tier or I lower the floor.
+Excuse me.
+Uh,
+you could incorporate a sales velocity trigger within each one of those
+policies.
+So I reached here for, and all of a sudden I start selling it.
+I don't want to,
+I don't want to lower my floor now because I've started selling it.
+So that sales velocity trigger applies, uh,
+and moves it to a policy that says, Hey, keep this price point.
+The stock's old, but it's selling.
+So again,
+the sky's the limit in terms of creativity, um,
+with the EV, EV pricing options.
+So, uh,
+if anyone's interested in incorporating a, uh,
+sales velocity trigger within their stock age loops, let me know.
+And we can, we can see what we can achieve,
+but I think that would be very powerful because again,
+you seek down, you're lowering your floor.
+Eventually you'll read a price point where it sells and you can
+identify that with a sales velocity trigger.
+Uh, some clients, uh, often deal with UPP or map price.
+Uh, for those unaware, that's a minimum advertised price or a universal
+price policy.
+It essentially means you can't sell below this point set by the
+manufacturer. Typically.
+One thing to know UPP can be stored on individual channel records.
+So if I have a supply record, a sales channel record,
+retail record, each one could have a different UPP stored.
+Um, we aggregate all the data being sent to us, you know,
+sometimes there's discrepancies. Typically.
+I always trust the manufacturer over a distributor.
+Um, and so I may have a content channel or, uh,
+I know I'm always loading manufacturer data to the etail record.
+Um,
+but be aware of where that date is coming from and where it's being
+stored in your system.
+If you have multiple UPPs in your system,
+if you go to system, the system module set up in the top banner,
+you'll find UPP config.
+We set up a basic logic statement on how it's handled.
+If there's multiple UPPs present. So again,
+I can have etail UPP view my source of truth.
+And then if it's not there,
+I kind of leverage other data or I can, you know,
+this is the safest bet. I'm always using the highest.
+It's a safe bet,
+but it may mean that you're priced too high in some cases.
+If you have bad data in the system.
+But again,
+work with your CSM.
+If you're having UPP map management problems,
+there's a number of tools available.
+Uh, there's a background checker that doesn't require a reprice event to
+apply.
+It simply checks UPP and what the price is and,
+and moves it up.
+If it texts it's below.
+Um,
+how UPP works is it overrides the floor price.
+So we calculate a floor price.
+If the UPP stored, it overrides it.
+So again,
+go ahead, Jeff.
+Well, I was finished your top,
+but before we move on, I'd like to add something.
+Uh,
+this reiterating know where that date is coming from,
+know where it's stored and know your options for how you can handle,
+uh, the,
+the multiple sources of that information.
+I think for a brand clients that are either fairly new in the online
+selling or been there for awhile.
+Uh, and not only sell retail or,
+or a dropship for retailers,
+um, or have actually authorized resellers.
+I think it is so important to have a standardized pricing policy or an,
+uh, have a map policy in place.
+It will
+either eliminate or vastly reduce the amount of channel conflict in the
+marketplace.
+It will help you clean up the gray market that has been eroding your brand
+value and your brand image by willing to go, uh,
+just keep going lower on the products that you manufacture and sell.
+And it'll help create enforce with your approved sellers.
+If you have some that,
+Hey, we're going to all play by the same rules now.
+And it's really important as a brand to take control,
+control that in the online environment.
+That was what I was going to add.
+Yeah.
+You can be a pain in the butt if you're being held accountable.
+But again, the tools made available in EDP help make that a lot easier to
+deal with.
+Um, I always encourage you to be proactive rather than reactive, uh,
+with this stuff.
+So having a good relation with your manufacturer,
+so they're giving you that data at a time, uh,
+knowing when you can expect UPP changes, you know,
+automotive space it's yearly, you know, some, some brands are quarterly,
+but, uh,
+knowing when to expect those changes rather than getting the violation
+notice and going and scrambling to fix it.
+Also know that UPP can be a token within a formula and it can be
+leveraged in selection criteria.
+So you can simply say, Hey, if an item has a UPP greater than zero,
+put it in a policy and the price is UPP.
+Uh, I encourage you to be creative with it again,
+just cause you have UPP doesn't mean you can't seek up a bit on
+marketplaces to manipulate the price on your website.
+You're a little more limited.
+Uh, but the next option I wanted to cover,
+I've gone over a lot of what you can do with policies and what you
+can do with triggers and you want to segment your catalog.
+And this can be a bit overwhelming if you then compound it with,
+well,
+I have six marketplaces to sign up, set up and reprice and get working
+and flowing well. If you're feeling that way,
+I encourage you to look at the price parity tool,
+pick a channel that's going to be a price driver.
+Amazon's a good one cause it's a competitive marketplace.
+So there's things influencing the price.
+Um, but maybe you want your Shopify your own website sales
+velocity, being a price driver, whatever you're thinking through that
+process, pick on a channel, focus on setting up the
+repricing policies and lookup tables for that channel and
+leverage the price parity option while, uh, you know,
+you're tackling that channel and then you can tackle channel,
+you know, your next channel and remove price parity.
+Um, but again, it lets you tackle one channel,
+set the others to price parity, um,
+and then slowly work on each channel, um,
+versus trying to figure them out all at once.
+Very simply price parity has you reference a channel.
+So in this case,
+I'm looking at Amazon and I'm going to copy that price.
+The mode you'll click that dropdown.
+There's 60 different options.
+I encourage you just to stick with match lowest delivered.
+If you have very nuanced price parity objectives,
+we can look at those other options,
+but if you're using it for the first time,
+use match lowest delivered so you understand the behavior factor
+versus Delta, we can adjust the price.
+Um, we don't have to copy it one for one.
+So in this case, uh,
+let's say this is my eBay channel.
+My eBay channel is going to look at my Amazon price and lower it
+by 10%.
+So this can be a way to, um,
+you know, I may want the price parity on my website from Amazon,
+but I always want my website to be cheaper.
+That's the way you can achieve this.
+Lastly, uh, I'm going to end on lookup tables.
+I read, I brought this up on the last webinar,
+but when you're looking at lookup tables,
+you want to be,
+this is the question you want to be asking yourself,
+brainstorm with your team.
+What variables impact my margin?
+Bring that list to your CSM and engage with it.
+We can identify which ones are handled by token like shipping cost,
+item cost, uh, static overhead.
+Um,
+but then we can help identify the ones that aren't handled as tokens and
+set them up as lookup tables.
+Uh,
+I wanted to call it overhead tokens because overhead can be a token.
+You go to a location,
+a supplier location on the fulfillment methods tab.
+You can set up per order per item.
+The limitation here is this is a static number.
+If my overhead is dependent on weight or brand or,
+um,
+you know, uh,
+a certain attribute value,
+I can't dynamically adjust this value, but I can,
+if I'm using lookup tables,
+my overhead value can be dynamically adjusted based on item conditions.
+So that's something to consider.
+Do I have a flat overhead or do I have a dynamic overhead?
+And so as you're looking at those,
+those things that impact margin working on that list with your CSM,
+you can set up the lookup tables to achieve the ultimate goal.
+Which is to have your price policies drive your price behavior.
+Do I seek up? Do I seek down? Do I compete based on my competitor?
+Do I ignore my competitor? Do I just hold my price price behavior?
+Then lookup tables handle.
+Well, if it's this brand, my margin's different.
+If it weighs over a hundred pounds, my margin's different.
+Uh,
+if, uh,
+if it has attribute X,
+then I need this overhead cost added. Um,
+anything that's a dynamic variable impacting margin or costs,
+we want to handle this lookup tables.
+So you separate those two aspects of repricing into their, you know,
+allotted swim lanes and you're not running into each other.
+Oh, do I need to adjust my margin on my price policy? No,
+I handle margins in my lookup table. So really being disciplined,
+and thinking about it and what am I, what am I trying to attack?
+How my price behaves or something that's influencing my margin or costs?
+Lastly,
+I've seen a lot of people adopt the lookup tables in the past, uh,
+month since the first webinar. So that's encouraging to see.
+And I've seen some customers take it to the next level and utilize to
+look up tables within a single policy. As far as I'm aware,
+there's no limit. You could.
+Have five lookup tables referenced in a single pricing formula.
+Well, what it's allowing them to do.
+Is.
+This yellow string of text returns a number. That's their margin.
+This red string of text returns a number.
+That's a additional commission or an overhead.
+And again, this is dynamically adjusted.
+Both of them are dynamically adjusted based on the skew.
+And so they're handling a lot of complexity.
+And I'm going to give you an example.
+And then.
+And then these are the two different modules.
+And the two are dynamically adjusted based on the skew.
+And so they're handling a lot of complexity.
+Um, in a very simplified way.
+With the lookup tables.
+Focused on the margin, you know, this is my formula.
+These things are impacting my margin.
+And then the behavior of what do I do with those ranges is handled by
+the policy.
+Um, so my foot, my.
+I encourage you to at least use the one lookup table.
+really ponder on this question,
+give that list to your CSM and we can help you achieve,
+you know, multiple lookup tables within policy,
+handling all those variables that impact margin.
+I'm gonna reiterate some key points that I have found
+help people manage repricing in EVP
+and in the e-commerce space, have clear objectives.
+If your objective is to make more money,
+that's incredibly hard to measure in terms of
+I took an action that made me more money.
+I can look at a chart and see that I've done that,
+but you can't really attribute that to an action.
+I encourage you to have clear objectives.
+I wanna sell 20% more of Brand X in the next six months,
+or I want to increase my profit margin
+across on Amazon by X%.
+These clear objectives will help you identify
+more specific, actionable steps.
+Versus something as grandiose as just win the buy box more.
+Win the buy box more, how?
+By seeking down, by using relative amount,
+winning the buy box more isn't always the best objective,
+but it's more specific than just get more sales.
+So again, have clear objectives.
+If you're having trouble segmenting your catalog
+by the data that's present,
+you can leverage a re-pricing class attribute
+at a high level.
+It's an attribute on the ETail record called re-pricing class.
+And what I do is I have customers getting their feet wet
+with re-pricing, go use the bulk update tool
+or the catalog source tool
+to add re-pricing class attribute group one,
+group two, test group three,
+and then leverage that attribute in the selection criteria
+to get items in the specific policies.
+One of the challenges people face is like,
+what selection criteria do I use
+to get things where I need them to be?
+This kind of simplifies that problem.
+So you can move forward and then kind of double back
+and go, how can I get this to be more data-driven
+versus a grouping that I manually create?
+Again, avoid multiple price policies
+that just change your margin, use the lookup tables.
+The number one violation of this tenant
+is people having a policy for cost range.
+Historically, that's what you had to do,
+but I would encourage you,
+if that's what your setup looks like,
+one of the first things you're gonna wanna focus on
+is moving all of those into one policy
+and using a lookup table to handle cost range.
+But you may find that,
+oh, I have six policies for these six different brands.
+That can be one policy and then a lookup table.
+Lastly, can't reiterate this enough,
+leverage the repricing results screen.
+You can see when you exited and entered the buy box,
+so you know those price ranges.
+You can see who you're competing against most often.
+You can see which policy and item moved from and to,
+so you can kind of assess the life cycle
+and the behavior of your setup.
+But simply looking at the SKU
+and what price it's calculating
+won't tell you the entire journey it's gone through.
+Look at the repricing results screen,
+get familiar with that.
+And I've looked at it enough
+and helped enough clients that I can look at that.
+I can look at a SKU, I can look at several SKUs,
+and I can see the journey it's taking
+that just takes time and exposure using the screen.
+So I encourage you to, every time you wanna go,
+hey, what's going on with repricing, start there,
+look up a SKU and get familiar
+with what that information's telling you.
+I think also remember that while pricing is important
+for the reseller community to win the buy box,
+it is not the only variable in the Amazon algorithm.
+Latency is also very important.
+How quickly can you get the product to somebody?
+Somebody that's FBA and is gonna get it there in a day
+or two is going to always beat somebody
+at five or six days,
+even if they're selling at a higher price.
+Your ODR, your seller ranking is gonna make a difference.
+So there's other factors in your business
+you need to focus on to have these repricing strategies
+have the greatest impact.
+I think for any of our clients
+that have some fantastic high velocity products
+and they're not at FBA,
+you might wanna think about that.
+So-
+Nick, if you can to reiterate,
+this webinar went a bit more granular than the previous one,
+but they're all purposed around getting you
+some background knowledge so that you can start thinking
+and then in turn engage with your CSM.
+Again, going back,
+what variables impact your margin?
+If you come to your CSM with a list of things
+that you've identified impacting your margin,
+they're gonna be much better enabled
+to help you set up lookup tables.
+So these are, I'm encouraging you,
+I'm trying to get you to think
+so that when you meet with your CSM,
+they can help you leverage all that content
+you've generated from that brainstorming.
+A few questions here, James.
+Are there triggers for eBay and Walmart or just Amazon?
+Triggers and controllers work on all channels.
+Some channels have triggers that others don't.
+For example, Amazon price event triggers only on Amazon,
+but sales velocity, price events, timers,
+those will work across all channels.
+Okay.
+Seek up, seek down, hold price will also work on all channels.
+Also, if some of you have been holding your questions,
+get them in here before I get done.
+How often can I seek up and down?
+That's a great question.
+It's gonna really be dependent on a number of variables
+that would have to be assessed,
+such as catalog size,
+the number of notifications we're dealing with from Amazon,
+the banding on certain channels.
+But at a high level, I typically seek every,
+the quickest I try and seek is every 15 minutes.
+You're not likely going to achieve seeking every minute
+without very,
+without setup that isolates and handles that very specifically.
+And at that point, there's probably a better solution
+than getting the repricing engine
+to just look at that one skew.
+You could achieve it in a different way.
+But it's a good question.
+It would have to be determined with your CSM on a call,
+but-
+I would imagine also depends on catalog size.
+Yeah, I mean, that's gonna be the biggest variable
+because how long does it take us to get to your catalog?
+How many items are getting prioritized for repricing?
+But, you know, the quickest increments
+I typically recommend are between 15 and 30 minutes.
+Okay.
+Can I schedule policies?
+Maybe I wanna raise my price in the evenings.
+Yeah, so there's an indirect way to achieve that
+with shipping policies.
+You can have your selection criteria
+within your repricing policies,
+look at what shipping policy and items assigned to.
+And shipping policies can be scheduled.
+So I can have an item scheduled to move to a shipping policy.
+I can have a very high priority rule
+that says items in this shipping policy get assigned to it.
+And then it would reprice with that rule
+that the pricing policy schedule would expire
+and I assume we would move it back.
+And at that point,
+the repricing policy assigned to it would change.
+So you can achieve time scheduled repricing
+with the usage of scheduling shipping policy assignment.
+Okay.
+Well, and here's one very similar to the statement
+I made just a few minutes ago.
+Jen, if I'm selling an FBA and my competition is FBM,
+can I raise my price or seek up with my price
+and then wait till I lose the buy box
+and then steal it right back?
+So you would have, from understanding correctly,
+you're in the buy box and the person competing is FBM?
+Correct, and I'm FBA.
+I have the prime batch.
+So I could, you would have a policy
+that detects you in the buy box, moves you to a seek up.
+And that seek up, you have a trigger that's detecting
+if you lose the buy box.
+And if you lose, you move to a seek down
+or a relative amount.
+You could also have a, say it's in a price policy.
+You could have a buy box status trigger
+that says if buy box owner is FBA,
+I wanna compete in a certain way
+that gets your price going back up.
+But yeah, you could achieve that.
+Well, I only have a few minutes left.
+What's the best way to segment my catalog?
+Great question.
+I think,
+just to give some examples in the automotive space brand,
+manufacturer, huge drivers in the home goods space,
+it's more about what type of product it is.
+I want all my curtains.
+I want all my bathroom accessories.
+I want all my space rugs.
+So there isn't a one size fits all answer,
+but I would encourage you looking at brands
+is a segmentation factor.
+Cost is obviously an obvious one,
+but it's gonna be dependent on your space
+and industry knowledge, really.
+For example, I deal with a lot of customers
+that sell light bulbs.
+They're gonna know a lot.
+They're gonna know better how to segment that than I would.
+Do they have industrial light bulbs
+and then commercial light bulbs?
+I would engage with your CSM
+so they can provide some input,
+but it's really gonna be your industry knowledge
+and your industry segment that's gonna drive that.
+But again, two examples, automotive space,
+it's really brand driving it.
+And then in home goods, it's really the type of product.
+Okay, here's a quick one.
+Does UPP override MAP for re-pricing?
+Great question.
+MAP is actually more of just a stored data point in EVP.
+If you want MAP to be leveraged
+as a price influencing mechanism stored as UPP.
+Oh, that's pretty simple.
+The terms are synonymously used out in the marketplaces.
+So what we chose to do is they serve the same function.
+So again, MAP is just stored in EVP.
+You can reference it, you can see it.
+UPP is the one that's gonna drive price behavior,
+prevent you from selling below that.
+So if you're hyper aware or wanna be vigilant on UPP slash MAP,
+always store it as a UPP.
+Okay.
+MAP has no influence on pricing.
+I don't think we're gonna get to all of them today.
+So any of them that I don't get to,
+just email your CSM and or schedule a meeting
+and bear with me, James,
+this one is about a small paragraph.
+Is it possible to re-price an ASIN on Amazon
+relative to the price of a completely different ASIN?
+We have a product that we are the only seller.
+So we always have the buy box
+but we compete against a different ASIN.
+We'd like to set our re-pricing to compete against
+the buy box price of a different ASIN that we don't sell.
+Is that possible?
+So it's almost like two brands competing with each other.
+Yeah, what I'm hearing is you wanna do
+a skew level price parity.
+I'm not aware of a way to achieve that today
+but that would be an excellent feature request to explore.
+What you're saying is I have two ASINs
+and I want this one to be the price driver for both
+because I'm alone on one of them.
+Yeah, that's a very interesting scenario.
+Just thinking through, yeah, I don't know
+if that could be achieved today
+but it would be something worth exploring
+as a price parity enhancement.
+Yeah, and we had some comments
+from their other CSMs that are on the call,
+a great product feature request.
+So whoever brought that up,
+sit with your CSM, figure out how to more fully define that
+and we'll have Dev take a look at that.
+All those other questions that you had out there,
+I'm sorry, we're coming up on our time
+and we wanna be respectful of your time.
+I do wanna remind you, you can move to the next slide.
+Our next session is gonna be in July.
+It is gonna be July 12th,
+a month from the second Wednesday of the month.
+We will be sending out a survey again,
+asking you for your input on three different topics
+that we can talk about.
+Hopefully you'll pick a topic
+that we can give James a month off.
+But I love doing these, we want you to attend.
+Remember, this will be available in 24 to 48 hours
+after the session is over in the Help Center,
+in the Knowledge Center.
+If you have any other questions
+or wanna talk about this in more in depth,
+please work with your CSM.
+And I also wanna talk about some new offers coming up.
+Several of you have already initiated something.
+We're trying to take questions
+and similar kind of thoughts from multiple clients
+and develop packages that are more optimally priced
+to make it easier for you to move forward.
+There's less ambiguity and there's less unknowns.
+You know what you're getting.
+There's a known price
+and you know how quickly you can expect to see results.
+One of them that many of you are familiar with
+is the eBay Accelerate Program.
+We're taking this approach
+from working with a couple other merchants
+that do very well on eBay
+and have very successful eBay programs.
+And finding out those best practices and best approaches
+to keep in their eBay program fresh and aligned
+with their growth objectives.
+And the major things that we've pulled out about of that
+are things that like delisting and relisting
+can have a major impact.
+Understanding what it would take to get your account
+into the eBay Top Seller Program
+and trying to round out your user profile
+along with re-pricing optimizations.
+And one of these other merchants saw a 10% increase
+and it's been for several months now
+on their eBay program, monthly sales.
+Now, let's be honest,
+eBay is not necessarily a retirement account for most of you
+but 10% is 10%, multiply it times 12, it's a real number.
+A number of you already reviewing your re-pricing goals
+with your CSM to be commended.
+And those of you that have not reviewed your re-pricing goals
+and looked at all your different policies
+in the last 12 to 18 months, it's time.
+Contact your CSM so we can take a quick review.
+But once again, we wanna be packaging this up
+into a simple offering.
+We're working on actually doing several predefined policies
+that can be added to your environment
+and then tweet to meet your exact objectives.
+So you'll be seeing some very,
+the basics of any business
+will be developed by some of our people.
+And once again, we're seeing some people increase sales
+15 to 25% by just taking a fresh new look
+at how they're doing their pricing policies
+and it's very doable.
+And then stay tuned,
+while we initiated the eBay Accelerate Program
+around 30, 45 days ago,
+we're starting to look at other marketplaces and saying,
+how can we make our community more successful
+on that marketplace?
+And we'll work with one or two people
+to figure out the best way to approach that.
+Then we'll take those best practices to you, the community
+and offer a very affordable program.
+And I'm hearing rumblings, it's gonna be Walmart
+and we'll share that with you.
+And if that's something you wanna engage us on
+to grow your Walmart business, we'd be happy to do so.
+Thank you for attending.
+I really enjoy doing this
+because James has to do all the work.
+I just get to do introductions
+and I hope that you get some value each time we do this.
+So thank you again.
+Have a great summer.
+We'll see you in July.
+And if you have any further questions, once again,
+we say it all the time,
+just give James or Jason or someone at eBay a call.
+We're gonna try and help you out.
+Thank you.
+Thank you.

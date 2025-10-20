@@ -1,0 +1,77 @@
+# GMT20230614-170048 Recording 1920x1080
+
+## Quick Steps
+
+1. Yep.
+2. Exactly.
+3. Yeah.
+4. Uh,
+5. Um,
+6. You're going to miss a great session today, but as always, you'll be able to find it on the Help Center.
+7. Once again, you can get it through the Help Center. It gives you a link to the Knowledge Center,.
+8. And maybe get more context or level set for some of the topics we're going to talk about today.
+9. And what you need, the mindset you should be putting yourself in.
+10. You create a window where you can be very successful.
+11. Is set up a sales velocity-based seek loop,.
+12. Is the sales velocity of all these skews important.
+13. Or are all these listings important.
+14. Or is it more important to assess it on an individual basis?
+15. And then setting up initial sales velocity policies.
+16. It creates a notification event that we then download and assess,.
+17. So I can decide based on who the seller is, what type of it is,.
+18. You can find, exit, and enter prices for the buy box.
+19. When did I enter a hold buy box rule?
+20. So what this does is it says, if I apply this trigger,.
+21. The delay setting you see here and on a few other triggers,.
+22. What it does if I set this to five minutes,.
+23. I instigate a certain type of behavior.
+24. When you're setting up your seek loops,.
+25. What I've done with some clients that's been successful as I've set up.
+26. Tier set of policies that I talked about is a stock age gets older.
+27. Uh, some clients, uh, often deal with UPP or map price.
+28. It essentially means you can't sell below this point set by the.
+29. If you go to system, the system module set up in the top banner,.
+30. We set up a basic logic statement on how it's handled.
+31. If you're having UPP map management problems,.
+32. Apply.
+33. I think it is so important to have a standardized pricing policy or an,.
+34. Uh, have a map policy in place.
+35. And it'll help create enforce with your approved sellers.
+36. And it's really important as a brand to take control,.
+37. Notice and going and scrambling to fix it.
+38. Leveraged in selection criteria.
+39. I have six marketplaces to sign up, set up and reprice and get working.
+40. Process, pick on a channel, focus on setting up the.
+41. Set the others to price parity, um,.
+42. The mode you'll click that dropdown.
+43. Set them up as lookup tables.
+44. You go to a location,.
+45. You can set up per order per item.
+46. You can set up the lookup tables to achieve the ultimate goal.
+47. With re-pricing, go use the bulk update tool.
+48. And then leverage that attribute in the selection criteria.
+49. What selection criteria do I use.
+50. Versus a grouping that I manually create?
+51. If that's what your setup looks like,.
+52. You can see when you exited and entered the buy box,.
+53. And the behavior of your setup.
+54. I think also remember that while pricing is important.
+55. Latency is also very important.
+56. To help you set up lookup tables.
+57. Without setup that isolates and handles that very specifically.
+58. You can have your selection criteria.
+59. It's more about what type of product it is.
+60. And then in home goods, it's really the type of product.
+61. Does UPP override MAP for re-pricing?
+62. MAP is actually more of just a stored data point in EVP.
+63. If you want MAP to be leveraged.
+64. So again, MAP is just stored in EVP.
+65. So if you're hyper aware or wanna be vigilant on UPP slash MAP,.
+66. MAP has no influence on pricing.
+67. We'd like to set our re-pricing to compete against.
+68. After the session is over in the Help Center,.
+69. In the Knowledge Center.
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.

@@ -1,0 +1,92 @@
+# GMT20230712-170037 Recording 1920x1080
+
+## Quick Steps
+
+1. Okay.
+2. Yes.
+3. Yes.
+4. Excellent.
+5. Center. Most of them have some significant documentation, and I will say that we know that.
+6. It does give you a sense of the impact when this is set up, set up correctly,.
+7. And continuously run. Always looking for new ways or nuances to put your settings at,.
+8. Then we're going to explore the matching criteria options you have, which are the filters available.
+9. These articles are available on the Help Center. When you guys access the Help Center,.
+10. For the dynamic auto-matcher. I encourage you to open that up and review that as we go through.
+11. Best practices. One thing you'll learn with the dam is it is a sort of set it and forget it,.
+12. Again, Jeff and me are doing this webinar. I should update my picture. As you can see,.
+13. Criteria, which essentially says it filters out ASINs that don't match a certain tier of quality,.
+14. You can implement it in steps so that some listings go to a fully automated publishing and some go to.
+15. You have tiered matching. You can optimize the match process for various types of listing quality.
+16. Automature with your CSM is what options do I have to filter listings? By filter listings,.
+17. Package quantities, this can help with UOM variations. When someone creates an ASIN,.
+18. Pack quantities that we know we can fulfill. I will comment that not everyone who sets up an.
+19. ASIN knows exactly what this field means, and so sometimes it is set up incorrectly on the ASIN,.
+20. Next set of matching criteria. When you're matching with the Dynamic Automatture, you have two.
+21. Manufacturing EVP and make sure those align. Now, as many of you know, people set up manufacturers.
+22. With tons of name variations. EVP handles that through the manufacturer name mapping tool.
+23. And the Dynamic Automatture will utilize that if the Muse manufacturer mapping is set to true,.
+24. Discuss that with your CSM. It's always good to check. You go to Amazon channel.
+25. And then up in the top banner there's a list of manufacturers. You click on that list button.
+26. So you can engage with the CSM, configure them, set them up, and have them running on an automation.
+27. Processor settings control. Do we check for stock before we even consider scanning the item?
+28. It's going to run multiple times a day. If you have it set up where you're running it on an.
+29. So you don't get throttled. And then lastly, processor settings control match limits. So.
+30. Confirmed matches, the dam will stop. And then I would have to either let the automation kick.
+31. In line. If I remove a lot of these options or set them to false, I consider my match rule.
+32. Is going to be the publication mode, the availability mode? Am I going to set a max stock? Will the.
+33. State is inverse in that if I want to edit the review state of a dynamic automature,.
+34. I edit the left side. I would change this to verified or confirmed.
+35. Whereas all the other settings, you're changing the right side.
+36. The last thing to mention about match groups that's very important is it.
+37. Calls this dynamic automature if it should use an item set.
+38. To segment your catalog with item sets. A lot of people do it by brand or manufacturer.
+39. The reason this is important is you're going to find trends.
+40. Not great, and I'll have to review those listings. But again, item sets are controlled.
+41. By the match group. Talked about item sets a lot in the webinars because they're very powerful,.
+42. Matches, opens up the listing from the button here, checks that it's the right product,.
+43. It's good to sell, and then manually updates the item from an unverified status to a.
+44. Using a dam that has less matching criteria. Rejected is important to use. A bad habit is,.
+45. Hey, that's a bad match, I delete it from EVP. What that's going to do is we're just going to.
+46. Don't delete it. Set the item, set the Amazon listing to reject it. This tells EVP that that.
+47. Listing, so those kind of get filtered out. But again, it's important to set bad matches to.
+48. Reject it and not delete them, so we keep track of them in EVP and don't try and rematch.
+49. To publish. You need to go in and manually review it. Confirm is a very powerful option.
+50. Review every single match. What a confirmed status listing will do will make the match,.
+51. Hold, and it prompts the user to check the item, put it on, update the review status,.
+52. I can deal with canceling one order and then setting it to rejected. So I make a bunch of.
+53. Matches, I put them in confirmed status, and as I'm getting orders, as I'm selling that product,.
+54. Have found this more efficient when dealing with large sets of matches in that.
+55. Manually updated it or you have a very strict level of matching criteria. Yeah, because if it's.
+56. A step back. I'm not going to match on manufacturer, and I'm going to put those listings in confirmed.
+57. And again, ASINs are getting created every day, so running the dam all the time is good,.
+58. Do I need to set up a new match?
+59. If you're using an item set, which I recommend, you would need to update it to include the new.
+60. Specific to that. What I would do is I would, what I do for my clients is I set up a dynamic.
+61. Automatcher that's strict, I set up one that's loose, and then a variation of each for UPC and NPM.
+62. I would have them create an item set for that supplier, and then I would have them run the.
+63. Very strict, I would change the item set and the pre-configured dam and have them run it.
+64. Now, if you weren't using item sets, the system will automatically check items.
+65. So if you add a supplier and your dam is set up in a more automated way, you don't have to do anything.
+66. At a minimum, you may have to create an item set and update that field and then run the dams.
+67. 20, 30 new products a year and new SKUs. Do those just fit into those item sets and.
+68. Automatically get run? The item set is simply checking the supplier location for inventory.
+69. Again, because people typically talk to their CSM about it, set it up, and then forget about it.
+70. The way you access those messages is you go into the task and you can export them as a CSV file.
+71. Let's curate and focus on the things that create revenue and that create repetitive revenue.
+72. How would I set up my dam if I have multiple Amazon storefronts and I want to be category specific?
+73. Setting up almost two separate businesses, two separate websites, two separate Amazon accounts,.
+74. Item set for each one of those particular businesses, correct?
+75. And you would set up the item sets to handle that.
+76. Item sets, again, I'm going to nail hit that nail many times.
+77. Item sets can segment your catalog. Segmenting your catalog allows more granular considerations.
+78. Dynamic auto matcher versus just having it all go to unverify. I see a lot of people do that.
+79. And then again, periodic review, ASINs are getting created all the time, trends are changing,.
+80. So setting it, forgetting it for a period of time is okay,.
+81. Is how many of you set up dam during your initial implementation,.
+82. Is it time to relook at some of your settings and re-running it?
+83. Yeah, and lastly, a simple setup for the dam, in the additional documentation,.
+84. If you want a very simple setup, we would add those four steps,.
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.

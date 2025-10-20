@@ -1,0 +1,790 @@
+I would like to thank you all for attending
+the first Tech Edge that ETail is sponsoring.
+This is gonna become a monthly webinar series
+to help you guys grow your business.
+I hope you're seeing that we're trying to make this
+a new ETail with higher engagement,
+more focus on what's gonna help you
+run your business better, grow your business,
+and hopefully grow it more profitably.
+It will be, we're gonna cover this at the end,
+but it is gonna be every month,
+the second Wednesday of the month.
+And we'll be talking about new features, new modules.
+Very possibly we'll be talking about topics
+that you ask us to talk about.
+So mark it on your calendars now.
+1 p.m. East Coast, noon central,
+and 10 a.m. West Coast time,
+and 11 a.m. for the mountain people
+will be the monthly ETail e-commerce Tech Edge
+hosted by me, Jeff Burkhardt.
+And every month I will have a new
+or the appropriate subject matter expert with me.
+And with that, we're off.
+One thing I think that we need to talk about more internally,
+although we bring this up at every company meeting,
+which we hold monthly,
+is there's only one reason why we're really here.
+And it is to help you guys grow
+and really focus on making sure that you grow profitably.
+That is the only use for our platform
+is to help you drive your business.
+And we're gonna find ways to enable you
+to do that more efficiently,
+find ways for you to do that,
+not necessarily asking us to do everything for you,
+but educating you and helping you use the system better.
+So with that in mind,
+I am your host.
+And with me today is one of the many, many, many Davises
+that we have in the organization, James.
+James was gonna actually wanted to get a question
+on the poll, which we'll be showing at the end of the,
+at the end of the session,
+there will be a survey for you to fill out.
+And one of the questions is,
+is James better in a comb-over or a better ball?
+So you have your two options on the screen
+to take a look at right now,
+please vote at the end in the survey at the end.
+Today, we're gonna be talking about catalog source.
+How this tool effectively and efficiently
+helps you get new data sources into ETL
+in a safe, automated way very quickly.
+Future sessions, the sky's the limit.
+What do you wanna learn about?
+We have a full laundry list of things
+that we wanna talk about
+on the second Wednesday of every month,
+but we've polled our internal team.
+Is it pricing?
+Is it taking the next layer down in catalog source?
+Or is there a topic that you want us to talk about
+and we're gonna listen.
+We're gonna get much better at listening.
+God gave us two ears and one mouth for a very good reason.
+So once again, thank you for coming.
+And now James, can you talk about the agenda
+just for a minute or two?
+Yeah, so we did a little intro
+to the webinar series in the house, me and Joe.
+The next slide, I'm gonna spend some time
+talking about what is a catalog source
+and why you should care,
+give you some example usages.
+After that, we're going to go through a basic use case
+and set up of a catalog source to import quantity.
+Then we will look at various applications
+of the catalog source,
+where it can be utilized,
+what it's used for in various business scenarios,
+have some time for Q and A
+and then set some goals for the next Tech Edge
+and do a poll on the next topics
+and wrap it up from there.
+One thing I wanna add is we're gonna make this video
+available to everyone as a digital asset.
+You'll be getting a link to it
+so that you can either rewatch it yourself
+or share with other teammates that maybe couldn't make today.
+We are aware that the second Wednesday of March
+happened to be a Jewish holiday
+and we still wanted to go forward with this date,
+but we do understand that those that are very strong
+in their faith maybe can't make it today.
+So we are gonna make it available and please sit down.
+We're actually gonna provide documentation
+to go along with this.
+James is gonna go a little bit more at a very high level
+over some of the use cases for catalog source
+and then we'll get into more visual representation
+of what you do.
+So I picked the catalog sources and initial topic to work on
+because it is the main tool
+to manage your catalog content,
+whether that's rich attribute data or quantity or pricing,
+but it is the main tool to handle external data
+is it's getting imported into EVP
+and a lot of the functions you can achieve
+with catalog source, if you can manage
+and set them up on your own,
+you can eliminate the need to get your CSM
+to do it for you, which allows you to set up,
+for example, a supplier at a much reduced cost
+because you're doing the work to set up 75% of it
+with the catalog source.
+Again, the catalog source is a tool
+to import external data while also analyzing it
+and doing some checks and balances.
+Obviously your EVP catalog is,
+you want that to be very clean and organized
+and when you're importing data,
+historically it could be very easy to mess up your catalog
+with the catalog source tool.
+That's not as much of a risk.
+It's designed to handle flat files,
+CSV, XML, text.
+We do work with APIs that build files,
+but again, I have external data I need to deal with
+and I want it in my system to be utilized somehow.
+This is the tool you want to know,
+be very familiar with so you can deal
+with that business scenario.
+I know that a while back we had a client
+that literally had hundreds and hundreds
+of non-integrated dropship suppliers
+and during their implementation time period,
+they got up to speed on catalog source very, very quickly
+and during their implementation period,
+created, took 350 of those dropship suppliers
+and turned them into fully integrated suppliers for themselves.
+For the brands out there,
+there are just as many reasons to use catalog source,
+whether it's doing some additional content
+or high quality content.
+There's working with 3PL or fulfillment partners.
+There are hundreds of uses for catalog source.
+Some basic rundown of a catalog source usage scenario
+is you get external data,
+you load that data into a catalog source,
+which I like to think of as a loading dock.
+You apply mappings, you add mappings to the catalog source
+and what a mapping is, is a bridge.
+I'm saying this external data, I have this field
+and that means this in EVP and you're building that linkage.
+So if I have a skew in the external file,
+I tell it that this is the channel skew in EVP
+or if this attribute equates to this attribute
+or this MPN is actually not the one in my system,
+so I'm just gonna load it as an attribute.
+So you build those mappings, you then analyze and validate.
+The analyze and validate step looks at the external data
+and checks that UPCs are valid,
+runs through any analysis mappings you have,
+which can do things like check if the price
+is below a certain amount,
+look for keywords and titles that need to be excluded.
+But again, it's vetting the data bit.
+Then you apply the maps.
+Applying the maps builds that bridge
+that you've kind of outlined in setting up the mappings
+and links and attempts to link the external data
+to an internal skew in EVP so that you have a clean bridge.
+So you know ahead of time,
+when I click step four and import this data,
+I know where it's gonna go and what it's gonna do.
+Again, that's the real power behind a catalog source
+is you can preview the behavior of the import
+before you do so,
+so you're not scrambling to clean up something
+if a column was off or whatnot.
+And then lastly, you can import the data
+and then if there's a need for it,
+you set up an automation so we can regularly import things
+like cost updates, quantity, new images, stuff like that.
+And that all comes to play
+when you automate the catalog source.
+All right, get ready James.
+I'm going to make you the new host
+as soon as I hit the correct button again
+and you have the ball.
+So there you go.
+As of right now, I don't see a lot of questions coming in.
+When they do come in,
+if they're pertinent to what we're covering right at this
+moment, we may insert them in,
+but we are gonna have a time near the end
+where we can handle those questions.
+Any questions that we don't get to
+or any questions that are very, very specific
+to maybe some catalog sources you're currently running
+or very unique problems to something that you're doing,
+please discuss with your CSM.
+We're here, we're here to help
+and we're on the line to kind of understand
+what are our clients thinking
+and how can we help them better utilize this tool?
+Yes, and again, our goal here is to pique your interest,
+give you some surface level details.
+The documentation I've written up
+goes into a bit more detail.
+But again, this is to get you thinking about
+how can I utilize catalog sources in creative ways?
+Some of you may be familiar with its usage
+as a supplier integration mechanism,
+but there's a lot of different ways.
+So again, this is to show you the basics
+so that you can kind of go,
+hey, I've learned a bit about it.
+Do you think we could do this?
+And then you have a conversation with your CSM
+and we can see what we can achieve.
+So as you log into EDP,
+you're always welcome to the sales order screen
+where you see your lovely sales.
+To navigate to the catalog source screen,
+you go to the catalog module
+and then you go to catalog sources.
+First thing you're gonna notice
+is that they are channel specific.
+When you're utilizing a catalog source,
+you're updating the data on a specific channel.
+You can create a new catalog source up here.
+You can create them from marketplaces
+or for your ETail channel
+or for your various supplier channels.
+So in this case, I'm gonna create a new one.
+Just gonna get rid of our test one.
+I'm gonna do new catalog source
+and I'm gonna select from a file.
+You're gonna see this window here.
+You're gonna hit the spy glass
+that's gonna allow you to find that external data.
+I like to use the metaphor of this external data
+as a truckload of information
+and I don't wanna just throw it from my truck
+into my warehouse.
+I wanna bring it onto a loading dock,
+organize it, understand it
+and then move it into my warehouse.
+So my warehouse stays nice and organized.
+Again, your EDP catalog,
+you want as pristine as possible
+because in the e-commerce world, content is king.
+And so if your content isn't up to par
+being kept updated,
+as you all know, you have struggles.
+So I select the file
+and I'm gonna get a preview here.
+I'm gonna hit this configure button
+and here you have various options.
+The main ones you'll probably utilize
+are telling it how that file is delimited.
+As you can see here, we have a number of options.
+You're also going to typically indicate
+that your file has column headers.
+So I can see here,
+I have a column header for these various fields
+but it's not the first row.
+So I'm going to skip the first row
+and say the first row I don't skip has headers.
+I hit okay, you'll see this preview.
+Again, this is a preview of the catalog source
+showing you what the headers are
+and everything looks parsed correctly.
+So I'm gonna hit save.
+By default catalog source will be named
+the same as the file you used to create it.
+Once you've created the initial catalog source,
+you'll be welcomed by this screen
+showing you that it's loading the data.
+Again, at this point, we're putting the data,
+we're taking the data off of that truck
+and putting it onto a loading dock so we can organize it.
+Once the data is loaded,
+you come to this screen and you hit refresh tab
+and you'll see the data.
+There's a rule of thumb.
+Everything in this yellow is the external data.
+It looks like if you did this a few times,
+almost everybody could learn how to use this
+with just a few practice times.
+It's pretty straightforward.
+Yeah, yeah.
+And again, I picked this topic
+because the more familiar with the catalog source
+and the more comfortable you are using it,
+the more empowered you are to A, manage your catalog
+and B, diagnose a lot of issues.
+I get a lot of people asking,
+they submit tickets, hey, inventory didn't update.
+It takes you five seconds to check this automation time
+and go, oh, we didn't get a file.
+I didn't need to reach out or create a support ticket.
+I just needed to understand how the catalog source works
+and then I can check it myself
+and I can go, oh, we didn't get a file.
+I need to reach out to the supplier to get file.
+They've stopped putting it on the FTP.
+Perfect, yeah.
+So after you've loaded your data,
+you're gonna come to this columns tab
+and you establish your mappings.
+Again, a mapping is a bridge.
+I'm saying, this is my external data.
+What does that mean in EVP?
+So in this case, I know that the skew is the skew.
+And for example, we're just gonna load quantity.
+So I know that the supplier stock is the quantity.
+But again, you have all these options.
+I would learn and get familiar
+with all of the mapping options you have available
+because again, these are the bridges I can build
+between external data and what it means in EVP.
+You have a lot of options in various areas.
+Getting familiar with these mapping options
+will be very helpful for you and your team.
+Once you've set up your mappings,
+you're gonna save and close and reopen the catalog source.
+Now on the mappings tab, you will see your mappings.
+One mapping I wanna call out,
+you can change the map type to a custom script.
+A custom script allows us to achieve a lot of complexity
+when we're handling data, some example usages.
+The supplier doesn't provide a very good title.
+So I wanna combine multiple fields to make a title.
+The supplier provides their wholesale costs,
+but I get a discounted rate.
+So I need to take a percentage off of the value in the file.
+Those are just two examples.
+But again, the custom script allows you to achieve
+a lot of complexity within the catalog source
+when dealing with the data.
+So never shy away from asking the question to your CSM.
+Hey, do you think we can do this?
+Because the answer is probably we can work
+with the development team to build a custom script
+that does do that.
+So it doesn't just have to be your dealing with raw data.
+You can manipulate it as you're importing it.
+Remember, you can ask questions at any time.
+Our other CSMs, Jason and James,
+or excuse me, Jeff Baker are reviewing those
+and trying to get the right ones to me at the right time.
+One nuance with quantity loading
+is you do have to define a location.
+So that's what I'm doing here.
+I'm spelling at what location that quantity goes to.
+So once you've set up your mappings,
+you're gonna do actions, analyze data.
+This is just gonna scan the data at a very high level.
+There is an analysis mapping option
+which can do various checks, such as,
+and often if the UPC starts with five zeros,
+I don't wanna import it.
+That's part of the analysis check.
+I'm also gonna be told the max length
+of the values in that field.
+So if one of these says my title is 10,000 characters long,
+I know there's probably some issue with my data.
+And that's good, I've checked it.
+I've identified an issue before I've imported it.
+Again, within the catalog source, you're in a loading dock.
+So you're not corrupting your EVP catalog at this point.
+You're identifying the flaws in your data ahead of time.
+So we're just gonna let this analyze
+a little bit, a few more seconds.
+Well, you're letting it analyze, James.
+How do you form...
+How do formatting map errors alert you?
+And will this cause all data to not load
+or only the specific fields that were incorrect?
+Well, I think you're asking is if the analysis check
+determines something's invalid, does it get imported?
+Okay.
+And the answer would be no.
+Okay.
+So for example, it happens a lot with UPC,
+the system detects that a UPC in the external data
+is invalid, that is identified during the analysis check
+and it doesn't let you import that invalid UPC.
+If you don't have a mapping for a field,
+there's no bridge, so the data is left alone.
+It's not imported.
+So in this case, I'm ignoring all this data
+and I'm just importing the quantity by matching on this view.
+Got it.
+And remember, if we don't get to your question right away,
+we're gonna be covering as many as we can
+during the question and answer session.
+And at the end of James,
+just kind of running through this right now.
+One thing I like to emphasize
+when training people on the catalog source
+is you have four options for creating a link.
+Well, you technically have five options.
+Creating a link from the external data to a SKU
+or a master SKU and EVP,
+because that's the real first step
+is telling the system what SKU and the EVP
+I need to be updating.
+And so your options are SKU,
+you can match on the channel SKU,
+you can match on the master SKU,
+you can match on a UPC, a part number,
+or an attribute.
+If you wanna match on those beyond master SKU and SKU,
+you would configure that here.
+And again, that allows you to build that bridge
+between the external data and what it is in EVP.
+So on step three,
+we're actually gonna try and apply the maps
+that we've set up and build that bridge.
+What I also like to emphasize is these first three steps,
+you're relatively safe.
+You're not gonna corrupt your EVP catalog
+by doing these first three steps.
+They are contained within that loading stage.
+So when apply maps,
+you can see here the results of that.
+I'm matching on SKU, which is good.
+Again, yellow is external data.
+Green is telling me,
+the green section is telling me,
+okay, this is the channel SKU.
+And again, I'm on a specific channel.
+And then this is the master SKU
+and these look could be correct.
+There's no numbers line up.
+So this is where you can check your results
+before you import,
+which is really powerful because again,
+it lets you find flaws in your data.
+It lets you see,
+hey, I'm not matching on a bunch of stuff.
+Does that mean the data is wrong?
+Or do I have potential SKUs I can create?
+Yeah, the last thing you wanna do
+is corrupt your catalog in EVP.
+Typically you have to reach out to your CSM
+and have them help you fix it,
+which is distracting from growth driving business.
+So once you've applied the maps,
+you'll see the matches,
+you'll see where it didn't match.
+This screen here is exportable
+and can be exported into Excel.
+So you can kind of filter out,
+identify stuff that didn't match,
+do various layers of manipulation if needed.
+After it's applied the maps,
+you would do action step four,
+which would load the data
+to the record it's built a bridge to.
+If I, I'm gonna let this run,
+let's go take a second.
+I'm gonna cover the settings really quick.
+Again, I talked about the matching.
+This allows us to match to data points
+beyond SKU and master SKU.
+The other section you're gonna be wanna,
+going to want to be familiar with
+is the create and update.
+I cover this a bit more in depth
+on the documentation that we will provide,
+but essentially think of catalog items as master SKUs.
+Do I wanna create or update master SKUs?
+You should be familiar with master SKU level details
+like a master, a title, UPC, UOM information.
+Those are all stored at the master SKU level.
+Then do I wanna create or update channel records?
+This is typically attributes, images, stuff like that.
+A channel record can be a supplier record
+or a marketplace record.
+But again, if I need to create a channel record,
+I have to have a master SKU.
+So, but this will control how we update
+or create master SKUs and SKUs.
+So as I applied map, we're almost done there.
+You would do action step four and load the data,
+which we may or may not get to.
+But that's the very basics.
+You're getting your external data,
+you're importing it to a catalog source,
+you're establishing your mappings,
+you're applying your mappings and analyzing the results
+and then you're importing the data.
+And again, the power behind the catalog source
+is once you've set it up, you can automate it.
+So if that file is regularly available,
+you can set up automation so we pull that file.
+You also have the ability to check the data
+before you import it,
+which when setting up a new catalog for a new supplier is huge.
+And again-
+So James, just let me reiterate,
+in these 10, 12 minutes, we've taken an external file,
+brought it in DVP, corrected it,
+analyzed it, created our mappings
+and imported 21,000 new items into our catalog
+that once you have the quantity or the,
+you said what you wanna do in the pricing,
+you got 20,000 new products up on your sales channels,
+ready to go.
+Yeah, I mean, if we were creating supplier records here,
+you'd get your item creators to run
+and yeah, you could add 21,000 new listings for each channel.
+Fantastic.
+And again, I emphasize that getting familiar
+with the catalog source,
+A, allows you to set up flat file suppliers on your own
+and B, diagnose what's going on
+with the automation that's been set up.
+Okay, another quick question for you.
+How does it work when a supplier's inventory record
+drops from their feed?
+Will it expire the inventory and set it to zero?
+So if somebody had a hundred items in their normal feed
+and now there's only 99.
+Yeah, you can configure the system to behave in various ways
+when that occurs.
+So in the availability section you've seen here,
+if I check expire and after days,
+if the specific SKU has not had quantity loaded
+from this file in three days,
+we will expire the inventory.
+So if you'll want to expire right away,
+I would check the box and leave it at zero.
+You can also define behavior for if no file is found.
+So the supplier stops dropping off a file,
+we can expire everything
+if we don't find a file after X amount of days.
+So you do have options to expire availability
+if the row is dropped from the file.
+So it sounds like we thought of everything.
+If you can think of the example,
+we're gonna cover it somehow.
+Okay.
+Yeah.
+James, why don't you throw it back over to me?
+Sounds good.
+Okay, this is the one thing we have to figure out
+as we do these monthly
+to be a little bit more efficient
+in the passing of the baton, but we'll get better.
+We also would be on saying what we should do
+in these webinars,
+give us suggestions on how we can get better.
+This is our first one.
+I know I'm just killing it,
+and I'm kind of dragging James along,
+but what can we do to make this more interesting,
+more pertinent, or just more enjoyable?
+I can tell jokes.
+Some of the uses, we did the demo,
+some of the real uses,
+let's think about how to use it.
+We've given you literally how easy it is to use.
+I don't think any of you that were at novices
+coming in today would consider yourself experts,
+but you now understand what the power is.
+One of our future sessions may give you
+additional tools and techniques on how to use this,
+but now you know what it's for
+and how you can use it for your business.
+You can import content, images
+to improve the quality of your listings.
+You can set up those supplier integrations
+for inventory level information.
+Nobody likes to have their ODR go down
+because they ran out of inventory
+in their dropship suppliers,
+and you want to be able to sell at a price
+that's a good price for you.
+Win the buy box, but make some profit, make some margin.
+James, you can probably address the last bullet point
+a little bit better than I can.
+Yeah, so again, content, supplier integrations
+are the primary ways in which catalog sources are used,
+and another way they can be used
+is with the active inventory option.
+So on marketplaces, instead of using an external file,
+I can build a file based on the active inventory
+on that marketplace.
+So what you would see in the new catalog source dropdown
+on a channel like Amazon is an option
+to choose active inventory.
+That uses the API connection to build a file
+of everything that's existing out on the marketplace
+that's active at that point in time,
+and allows you to do a comparison of what's going on in EVP.
+Historically, people would have to export something
+from EVP, export something from the marketplace,
+put Excel files right next to each other.
+With the active inventory catalog source,
+you can do that comparison within the application,
+and then take action without having to go from a file
+to Excel to a file to an application.
+You can do all that assessment in comparison with an EVP.
+I've seen a lot of creative usages with that.
+One example is you can diagnose and make sure
+that shipping templates are in sync,
+and identify items that are potentially having issues
+that are making them inactive.
+Okay, and we're getting towards the end of our time
+with you as much as we're enjoying it.
+We're in that question and answer session,
+and I'm not gonna use any names here,
+but can you use the catalog source to create variant groups
+and assign your various items to the variant group?
+Great question.
+It is a good question.
+I've worked, the SME of variations on our team is Heather.
+I do believe that the catalog source can be utilized
+to set up variations in child-parent relationships.
+Okay, obviously for more information, contact your CSM,
+and if we need to have Heather jump on the call
+or answer a few more questions, we'll figure that out.
+Here's another one we have.
+Can the catalog source be used to automate marketing data
+that is sitting on a supplier FTP site?
+For example, supplier gives us marketing data weekly.
+Can we automatically grab the new file and load it in the VP?
+I mean, usually when we talk about automate,
+we're talking hourly, daily.
+What about setting them up a week apart?
+Yeah, the schedules can be set to any sort of cadence.
+Yes, you could import marketing data
+from suppliers on a weekly basis.
+You would also wanna look at and work with your CSM
+on utilizing the attribute mappings
+so that that data as it's updated on the supplier record
+gets pushed up to the marketplace to supplier lists
+or sales listings.
+But you could definitely pull a file from an FTP
+or have them drop it off on ours, import it weekly,
+and that updates attribute level marketing details.
+And then if you have attribute maps,
+which essentially take an attribute from one channel
+and populate it on another,
+that would automatically be updated and republished
+as that content is imported.
+Okay, here's gonna be a really good one.
+How do you pull current catalog sources
+and their mapping already in EVP
+so that you can use this as a template?
+So I think I'm gonna answer this question correctly.
+If I set up a catalog source
+and I have a bunch of intricate mappings
+with custom scripts and whatnot,
+and I wanna reuse those mappings
+and a different catalog source,
+you can export mappings
+and re-import them on other catalog sources.
+So the mappings can be exported into a map file
+and then re-import it on a different catalog source.
+Perfect.
+And will the catalog source replace the MCIs in the future?
+Is it possible to add MCIs functionality
+into the catalog source?
+By the way, James,
+I don't know, it's an appropriate question for some of these.
+What I would wanna know is the things you're doing
+with the MCI that you can't do with the catalog source
+because I haven't run into that scenario very often.
+You can pretty much,
+we would like to see you use the catalog source
+more and more again,
+because it has that checks and balances.
+The MCI has its purpose in its place,
+but I always try and use the catalog source first.
+So I'd want more details
+on what you aren't able to achieve
+with the catalog source that you are with the MCI.
+So a great example of reach out directly to your CSM,
+have that very thorough discussion
+about what you're trying to do,
+how you're using the MCIs,
+and how we would do that same,
+those same set of functions in the catalog source,
+or what do you believe might be missing?
+But a very good question.
+I would just end with, on that note,
+I'll move on to the next question.
+Okay.
+Do you know when some listings fail to be created?
+We always have to fix the column,
+mostly authorized or manufacturing alignment issues
+when we manually create the listings,
+but ETL doesn't really show us such details.
+I guess that question is already being answered.
+So look forward in your chat box,
+because one of our CSMs has jumped onto that one.
+What if there are a bunch of product categories
+or a certain manufacturer, I don't want to load.
+Can I block the manufacturer or category from loading?
+Yeah, absolutely.
+Again, the analysis mapping allows you to set up
+various if-then statements.
+So if I meet this condition, then I don't import.
+You can look for strings of text.
+You can look at the starting string and say,
+hey, if it starts with this,
+you can look within the whole field and find a string.
+So there's a lot of options to exclude data
+as it's getting imported,
+and only importing the data that you want
+from the external file.
+Perfect.
+I think-
+Oh, I remember what I was gonna say.
+If you left with processes that utilize the MCI
+from historical processes that you just left with,
+I would revisit those with your CSM
+to evaluate whether it makes sense to transition them.
+Okay.
+And one last question before we move on.
+Can the catalog import match with bulk image uploads
+if naming title schemes are followed?
+Not sure I follow the question.
+I think what they're asking is,
+can I bulk import images
+if the title of the image is the same?
+I'm gonna ask you to follow up with your CSM on that one,
+but thank you for the question.
+What I would say is you can configure the catalog source
+to either update or add images.
+So you can replace images
+or you can add it as a secondary image.
+Okay.
+So next month, second Wednesday,
+1 p.m. Eastern time,
+you figure out the time adjustment for your time zone.
+You'll be getting an email.
+You're gonna get invited again and please register.
+Even I know that sometimes the reminders
+or the final link can end up in your spam folder.
+So if you don't see the info,
+please look in that spam folder.
+And while we have a series of these webinars planned out,
+we want you to direct us to where we go.
+If in your survey or through your conversations
+in your meetings with their CSM,
+we see other topics that are of higher value
+to a greater number of people,
+we will be more than happy to provide webinars on that.
+I want you to remember to fill,
+please fill out your survey at the end of the session.
+If you don't fill it online, you're gonna get an email.
+Also, before the beginning of every next webinar,
+we're gonna actually take a poll
+to judge the expertise level of the people attending
+and we can dial in how we present the information.
+We do wanna thank you
+for attending the first of TechEdges.
+We do wanna make a difference in your business.
+We do wanna become your most valuable tool
+in your organization.
+And we will do anything and everything,
+well, almost everything we can do to make that happen.
+All your CSMs are around this afternoon.
+If you wanna fire them an email,
+we can cover this in your weeklies or monthlies.
+But thank you for attending.
+Please fill out the survey.
+And James, do you have any parting wise words
+for the people that attended today?
+Okay, no wise words.
+Learn about the mapping options on catalog sources
+and I look forward to seeing you guys next time.
+Perfect.
+So a tool that's there,
+that is, I think everybody will recognize
+is much easier to use than anybody thought
+that can improve your business,
+increase your catalog size
+and allow you to find ways to grow your business.
+Major wins in all ways.
+And with that, James and I are gonna sign off.
+Until next time, adios.

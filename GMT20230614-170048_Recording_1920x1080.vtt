@@ -1,0 +1,2693 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.919
+Well, here it is. A month has already gone by, and here we are at the June version of Tech Edge.
+
+00:00:10.919 --> 00:00:17.920
+For those of you that might be on vacation, lucky you.
+
+00:00:17.920 --> 00:00:25.920
+You're going to miss a great session today, but as always, you'll be able to find it on the Help Center
+
+00:00:25.920 --> 00:00:33.920
+and review not only this one, but all the previous Tech Edges.
+
+00:00:33.920 --> 00:00:40.920
+This month, once again, based on your input, we're going to be talking about pricing.
+
+00:00:40.920 --> 00:00:48.920
+We're going to be talking about advanced pricing, taking repricing to that next level.
+
+00:00:48.920 --> 00:00:57.920
+For those of you that this is your first Tech Edge, you're going to want to go back to our March Tech Edge.
+
+00:00:57.920 --> 00:01:03.920
+Once again, you can get it through the Help Center. It gives you a link to the Knowledge Center,
+
+00:01:03.920 --> 00:01:11.920
+and you'll be able to look at our pricing and repricing primer or first-level webinar
+
+00:01:11.920 --> 00:01:20.920
+and maybe get more context or level set for some of the topics we're going to talk about today.
+
+00:01:20.920 --> 00:01:28.920
+As always, Dr. James is going to be my co-host today, but I think in the coming months,
+
+00:01:28.920 --> 00:01:33.920
+we're going to start seeing some new people take on this role.
+
+00:01:33.920 --> 00:01:39.920
+Thank you for coming. Remember, you can always get the video after the session.
+
+00:01:39.920 --> 00:01:43.920
+James, take it away.
+
+00:01:43.920 --> 00:01:49.920
+As Jeff mentioned, I encourage you to look at the previous repricing webinar to get your footing
+
+00:01:49.920 --> 00:01:54.920
+in terms of the basics, in terms of policy assignment, and overall,
+
+00:01:54.920 --> 00:02:00.920
+it gives you a lot of the background knowledge you need to engage in this material.
+
+00:02:00.920 --> 00:02:05.920
+We're going to discuss repricing triggers in a more specific way than last time,
+
+00:02:05.920 --> 00:02:10.919
+looking at some of the more powerful ones and how they're utilized.
+
+00:02:10.919 --> 00:02:16.919
+Spend some time discussing UPP management, how that's handled in EVP.
+
+00:02:16.919 --> 00:02:21.919
+Look at the price parity option really quickly and how that can be leveraged.
+
+00:02:21.919 --> 00:02:27.919
+Discuss lookup tables once more, reiterating how they should be leveraged
+
+00:02:27.919 --> 00:02:30.919
+and what you need, the mindset you should be putting yourself in
+
+00:02:30.919 --> 00:02:33.919
+when thinking about how am I going to use them.
+
+00:02:33.919 --> 00:02:35.919
+Then lastly, we'll end with some Q&A.
+
+00:02:35.919 --> 00:02:42.259
+Our mission is always to drive growth and profits for you guys through our platform.
+
+00:02:42.259 --> 00:02:48.259
+The goal of these webinars is to educate you to enable you to, in this case,
+
+00:02:48.259 --> 00:02:54.259
+offer a more competitive price or capture more margin when repricing.
+
+00:02:54.259 --> 00:02:57.259
+Hopefully, one of the... I'm sorry, James.
+
+00:02:57.259 --> 00:03:01.259
+I think one of the other things that we're learning more and more from some of our clients
+
+00:03:01.259 --> 00:03:05.259
+is helping them find some cost savings initiatives,
+
+00:03:05.259 --> 00:03:08.259
+finding ways to be more efficient,
+
+00:03:08.259 --> 00:03:17.259
+finding ways to not always have to add people to accomplish highly repetitious kind of tasks.
+
+00:03:17.259 --> 00:03:21.259
+Increasing margin and profits,
+
+00:03:21.259 --> 00:03:29.259
+while we often think about sales and revenue growth as the primary way to do that,
+
+00:03:29.259 --> 00:03:33.259
+many times helping you be more efficient in your operations
+
+00:03:33.259 --> 00:03:38.259
+can also achieve the same goal of being more profitable.
+
+00:03:38.259 --> 00:03:42.509
+Yep.
+
+00:03:42.509 --> 00:03:45.509
+We'll first discuss price event trigger,
+
+00:03:45.509 --> 00:03:50.509
+what that does and how it can be leveraged, sales velocity trigger,
+
+00:03:50.509 --> 00:03:53.509
+a whole buy box policy and what that looks like,
+
+00:03:53.509 --> 00:03:56.509
+and then an FBA stock age policy,
+
+00:03:56.509 --> 00:04:02.509
+exploring how you would leverage the stock age trigger to implement that.
+
+00:04:02.509 --> 00:04:06.509
+Jumping right in, the first trigger is the price event trigger.
+
+00:04:06.509 --> 00:04:11.509
+A very simple explanation is when we reach a certain price point,
+
+00:04:11.509 --> 00:04:15.509
+we take an action and move the item to a new policy.
+
+00:04:15.509 --> 00:04:20.509
+The price points are the floor target and ceiling calculated by the formulas
+
+00:04:20.509 --> 00:04:23.509
+that are associated with policies.
+
+00:04:23.509 --> 00:04:29.509
+The main thing you can leverage this trigger for is to prevent price stagnation.
+
+00:04:29.509 --> 00:04:34.509
+You may have a seek loop or you're using a relative amount policy,
+
+00:04:34.509 --> 00:04:39.509
+but the behavior you're seeing is items get to the floor and they sit there.
+
+00:04:40.509 --> 00:04:42.509
+There's no next action.
+
+00:04:42.509 --> 00:04:45.509
+There's no competitive factor.
+
+00:04:45.509 --> 00:04:49.509
+I can't lower my price anymore, so I'm sitting at my floor.
+
+00:04:49.509 --> 00:04:54.509
+I encourage you to look at any policy you have where items get to the floor
+
+00:04:54.509 --> 00:05:02.509
+and sit there and add a price event trigger for at floor.
+
+00:05:02.509 --> 00:05:05.509
+You could move it into a seek rule that seeks up.
+
+00:05:05.509 --> 00:05:09.509
+You can move it into a policy with a higher floor to jump the price up,
+
+00:05:09.509 --> 00:05:13.509
+but what you're trying to address is preventing price stagnation
+
+00:05:13.509 --> 00:05:19.420
+either sitting at the floor or the target or the ceiling.
+
+00:05:19.420 --> 00:05:24.420
+You can have an initial policy that's using relative amount.
+
+00:05:24.420 --> 00:05:27.420
+Again, a relative amount is I'm looking at a competitor's price
+
+00:05:27.420 --> 00:05:30.420
+and I'm trying to beat it by a certain amount.
+
+00:05:30.420 --> 00:05:34.420
+Have a price event trigger within a relative amount policy that says,
+
+00:05:34.420 --> 00:05:37.420
+if my relative amount gets me to my floor,
+
+00:05:37.420 --> 00:05:41.420
+I'm going to move it to a policy that instigates new behavior.
+
+00:05:41.420 --> 00:05:44.420
+Maybe I see, maybe I adjust my formula,
+
+00:05:44.420 --> 00:05:48.420
+but again, relative amount competed me down to my floor.
+
+00:05:48.420 --> 00:05:53.420
+I still didn't win the buy box or I still didn't achieve my sales velocity goals,
+
+00:05:53.420 --> 00:05:56.420
+so I need to do something besides just sit at my floor
+
+00:05:56.420 --> 00:06:01.420
+or try and compete against the other sellers with a relative amount.
+
+00:06:01.420 --> 00:06:05.420
+I encourage people to jump to the ceiling if they reach the floor
+
+00:06:05.420 --> 00:06:11.420
+and what you will find is a lot of other re-pricing engines will chase you.
+
+00:06:11.420 --> 00:06:15.420
+They chase you down, they just as well might likely chase you up.
+
+00:06:15.420 --> 00:06:21.420
+If I reach my floor, I often encourage clients to move it to a policy
+
+00:06:21.420 --> 00:06:25.420
+that spikes the price up, monitor the re-pricing results screen,
+
+00:06:25.420 --> 00:06:27.420
+see if your competitors follow you,
+
+00:06:27.420 --> 00:06:31.420
+and then you know you can manipulate your price off the floor
+
+00:06:31.420 --> 00:06:37.420
+on certain skews when that price event occurs.
+
+00:06:37.420 --> 00:06:41.420
+James, I think sometimes this is counterintuitive.
+
+00:06:41.420 --> 00:06:44.420
+If you're not winning at the bottom,
+
+00:06:44.420 --> 00:06:48.420
+how can jumping to the top help you?
+
+00:06:48.420 --> 00:06:52.420
+People will follow you, Amazon will follow you as you go up,
+
+00:06:52.420 --> 00:06:55.420
+and then if you're the first one to drop,
+
+00:06:55.420 --> 00:06:59.420
+you create a window where you can be very successful.
+
+00:07:00.420 --> 00:07:05.389
+Exactly.
+
+00:07:05.389 --> 00:07:09.389
+The sales velocity trigger is one you may be familiar with,
+
+00:07:09.389 --> 00:07:11.389
+but it is, in my opinion,
+
+00:07:11.389 --> 00:07:14.389
+one of the more powerful triggers we have
+
+00:07:14.389 --> 00:07:19.389
+in that it gives you an alternative to relative amount.
+
+00:07:19.389 --> 00:07:21.389
+I keep saying relative amount,
+
+00:07:21.389 --> 00:07:24.389
+but the two options you have to compete
+
+00:07:24.389 --> 00:07:27.389
+in an e-commerce re-pricing environment are relative amount,
+
+00:07:27.389 --> 00:07:29.389
+i.e. I reference the price and try and beat it,
+
+00:07:29.389 --> 00:07:34.389
+or B, I seek my price independent of other players.
+
+00:07:34.389 --> 00:07:37.389
+What the sales velocity lets you do
+
+00:07:37.389 --> 00:07:41.389
+is set up a sales velocity-based seek loop,
+
+00:07:41.389 --> 00:07:45.389
+so what you do is you assess your sales velocity.
+
+00:07:45.389 --> 00:07:48.389
+If I'm low sales, i.e. I'm below a threshold,
+
+00:07:48.389 --> 00:07:50.389
+I move to a seek down,
+
+00:07:50.389 --> 00:07:54.389
+and I lower my price until I hopefully start selling.
+
+00:07:54.389 --> 00:07:58.389
+If I'm selling a lot, i.e. I'm above a threshold,
+
+00:07:58.389 --> 00:08:01.389
+I want to see if I can capture a bit more margins
+
+00:08:01.389 --> 00:08:04.389
+so I move the item to a seek up loop.
+
+00:08:04.389 --> 00:08:06.389
+This checkbox you see here
+
+00:08:06.389 --> 00:08:10.389
+will determine how we assess sales velocity.
+
+00:08:10.389 --> 00:08:12.389
+If I check this box,
+
+00:08:12.389 --> 00:08:16.389
+I will look at the sales of that skew
+
+00:08:16.389 --> 00:08:18.389
+across all the listings on that channel.
+
+00:08:18.389 --> 00:08:21.389
+On Amazon, I might have five or six ASINs
+
+00:08:21.389 --> 00:08:23.389
+for a single skew.
+
+00:08:23.389 --> 00:08:25.389
+If I want to look at my sales velocity
+
+00:08:25.389 --> 00:08:27.389
+from that holistic perspective,
+
+00:08:27.389 --> 00:08:29.389
+I would check this box.
+
+00:08:29.389 --> 00:08:31.389
+If I want to just consider the sales velocity
+
+00:08:31.389 --> 00:08:35.389
+of the individual listing, I leave it unchecked.
+
+00:08:35.389 --> 00:08:38.389
+And that can be, that's really determined
+
+00:08:38.389 --> 00:08:41.389
+on a kind of a product-by-product basis.
+
+00:08:41.389 --> 00:08:45.389
+How many skews does this item have?
+
+00:08:45.389 --> 00:08:48.389
+Are there reasons those skews would compete differently,
+
+00:08:48.389 --> 00:08:51.389
+i.e. one's a UOM that doesn't sell as often
+
+00:08:51.389 --> 00:08:56.389
+or has got a longer latency?
+
+00:08:56.389 --> 00:09:00.389
+Whatever it may be, you have to make a determination.
+
+00:09:00.389 --> 00:09:03.389
+Is the sales velocity of all these skews important
+
+00:09:03.389 --> 00:09:05.389
+or are all these listings important
+
+00:09:05.389 --> 00:09:08.389
+or is it more important to assess it on an individual basis?
+
+00:09:08.389 --> 00:09:11.389
+Again, as I mentioned, you want to leverage
+
+00:09:11.389 --> 00:09:14.389
+the sales velocity trigger into a seek loop
+
+00:09:14.389 --> 00:09:18.389
+is the most standard in best practice function.
+
+00:09:18.389 --> 00:09:20.389
+I often have someone use a relative amount
+
+00:09:20.389 --> 00:09:22.389
+and the relative amount policy is their seed.
+
+00:09:22.389 --> 00:09:24.389
+That's where things start.
+
+00:09:24.389 --> 00:09:26.389
+And then I have the sales velocity trigger
+
+00:09:26.389 --> 00:09:28.389
+within that relative amount.
+
+00:09:28.389 --> 00:09:30.389
+So if the relative amount isn't winning the buy box
+
+00:09:30.389 --> 00:09:32.389
+or generating the sales,
+
+00:09:32.389 --> 00:09:36.389
+we change our competitive tactic to seek
+
+00:09:36.389 --> 00:09:40.389
+and we see if that can generate sales.
+
+00:09:40.389 --> 00:09:42.389
+Again, don't sleep on the seek up.
+
+00:09:42.389 --> 00:09:44.389
+People get very focused on the seek down.
+
+00:09:44.389 --> 00:09:46.389
+What do I do when I seek down?
+
+00:09:46.389 --> 00:09:48.389
+Be creative with the seek up.
+
+00:09:48.389 --> 00:09:51.389
+You can learn to manipulate other people's pricing
+
+00:09:51.389 --> 00:09:53.389
+because their repricers are predictable.
+
+00:09:53.389 --> 00:09:56.389
+If I go up, they're going to follow me.
+
+00:09:56.389 --> 00:09:59.389
+If I have the buy box and I can seek up a bit
+
+00:09:59.389 --> 00:10:02.389
+because my latency is a lot better than the other sellers,
+
+00:10:02.389 --> 00:10:05.389
+that's another opportunity to use seek up.
+
+00:10:05.389 --> 00:10:08.389
+I also love the seek up when my competition
+
+00:10:08.389 --> 00:10:12.389
+is very low on inventory or maybe even stocked out
+
+00:10:12.389 --> 00:10:15.389
+or if I've picked up a product line
+
+00:10:15.389 --> 00:10:18.389
+where there's literally no other sellers,
+
+00:10:18.389 --> 00:10:21.389
+why not find that balance point
+
+00:10:21.389 --> 00:10:24.389
+where I can maintain my sales velocity
+
+00:10:24.389 --> 00:10:27.389
+but also maximize my margin
+
+00:10:27.389 --> 00:10:29.389
+and profitability on a product?
+
+00:10:29.389 --> 00:10:31.389
+Mm-hmm.
+
+00:10:31.389 --> 00:10:34.389
+One thing I'll comment about sales velocity is,
+
+00:10:34.389 --> 00:10:36.389
+and I'm going to emphasize this later
+
+00:10:36.389 --> 00:10:38.389
+in this PowerPoint presentation,
+
+00:10:38.389 --> 00:10:43.389
+is it comes down to catalog segmentation.
+
+00:10:43.389 --> 00:10:46.389
+Some clients have huge catalogs of 100,000 items.
+
+00:10:46.389 --> 00:10:48.389
+Some only have 1,000,
+
+00:10:48.389 --> 00:10:50.389
+but the better you can slice and dice that to say,
+
+00:10:50.389 --> 00:10:53.389
+hey, I expect these items to sell really fast,
+
+00:10:53.389 --> 00:10:56.389
+so I need to put them in a rule with a sales velocity trigger
+
+00:10:56.389 --> 00:10:58.389
+that's appropriate verse.
+
+00:10:58.389 --> 00:11:02.389
+I have these huge 1,000 UOM items that sell very slow,
+
+00:11:02.389 --> 00:11:06.389
+so I need to have them in a separate policy
+
+00:11:06.389 --> 00:11:09.389
+because their sales velocity is going to be different.
+
+00:11:09.389 --> 00:11:11.389
+My expectations are going to be different,
+
+00:11:11.389 --> 00:11:16.389
+so when you're thinking about how to segment my catalog,
+
+00:11:16.389 --> 00:11:18.389
+a good place to start is,
+
+00:11:18.389 --> 00:11:21.389
+I expect these things to be high-volume sellers.
+
+00:11:21.389 --> 00:11:23.389
+I expect these things to be medium-volume sellers
+
+00:11:23.389 --> 00:11:25.389
+and then low-volume sellers,
+
+00:11:25.389 --> 00:11:28.389
+and then setting up initial sales velocity policies
+
+00:11:28.389 --> 00:11:32.389
+that correlate to whether they're fast, slow, or medium sellers.
+
+00:11:32.389 --> 00:11:37.919
+Next, we're going to talk about the whole buy box policy.
+
+00:11:37.919 --> 00:11:40.919
+This is a combination of two triggers
+
+00:11:40.919 --> 00:11:44.919
+that you should include in most of your Amazon rules
+
+00:11:44.919 --> 00:11:48.919
+if you want to be buy box sensitive.
+
+00:11:48.919 --> 00:11:51.919
+The first trigger is a price event trigger,
+
+00:11:51.919 --> 00:11:56.919
+so you may or may not know when something happens on Amazon,
+
+00:11:56.919 --> 00:11:58.919
+the buy box changes, the price changes,
+
+00:11:58.919 --> 00:12:01.919
+the latency changes, an image is added.
+
+00:12:01.919 --> 00:12:06.919
+It creates a notification event that we then download and assess,
+
+00:12:06.919 --> 00:12:10.919
+and we can assess, hey, the notification we're getting
+
+00:12:10.919 --> 00:12:14.919
+is indicated that we lost the buy box or we won the buy box,
+
+00:12:14.919 --> 00:12:16.919
+and then we can instigate a behavior.
+
+00:12:16.919 --> 00:12:19.919
+If I win the buy box while I'm in a relative amount policy,
+
+00:12:19.919 --> 00:12:23.919
+I definitely want to move it to a hold buy box or seek up.
+
+00:12:23.919 --> 00:12:27.919
+If I'm in a policy that's meant to hold the buy box
+
+00:12:27.919 --> 00:12:30.919
+and I lose it, then I probably want to seek down
+
+00:12:30.919 --> 00:12:33.919
+or move back to a relative amount.
+
+00:12:33.919 --> 00:12:35.919
+The second trigger you're going to want to add
+
+00:12:35.919 --> 00:12:38.919
+is the buy box status trigger.
+
+00:12:38.919 --> 00:12:41.919
+So rather than looking at a price event to see if we win or loss,
+
+00:12:41.919 --> 00:12:45.919
+this trigger simply checks who's in the buy box.
+
+00:12:45.919 --> 00:12:48.919
+What's powerful about this is the buy box owner
+
+00:12:48.919 --> 00:12:51.919
+can be self, FBA, FBM, or Amazon.
+
+00:12:51.919 --> 00:12:56.919
+So I could have four different buy box status triggers
+
+00:12:56.919 --> 00:12:59.919
+that then feed into if I'm competing against Amazon,
+
+00:12:59.919 --> 00:13:01.919
+this is how I want to respond.
+
+00:13:01.919 --> 00:13:03.919
+If I'm competing against an FBM merchant,
+
+00:13:03.919 --> 00:13:06.919
+this is how I want to respond, and then with FBA similarly.
+
+00:13:06.919 --> 00:13:11.919
+So I can decide based on who the seller is, what type of it is,
+
+00:13:11.919 --> 00:13:14.919
+and then move it to a policy.
+
+00:13:14.919 --> 00:13:16.919
+In a hold buy box rule, you want to check,
+
+00:13:16.919 --> 00:13:18.919
+does the buy box owner equal self?
+
+00:13:18.919 --> 00:13:24.919
+If it does not equal self, I need to likely instigate a behavior
+
+00:13:24.919 --> 00:13:26.919
+because I've lost the buy box.
+
+00:13:26.919 --> 00:13:28.919
+But with these two triggers,
+
+00:13:28.919 --> 00:13:33.919
+you can find, exit, and enter prices for the buy box.
+
+00:13:33.919 --> 00:13:36.919
+So again, you're going to the pricing results screen.
+
+00:13:36.919 --> 00:13:39.919
+When did I enter a hold buy box rule?
+
+00:13:39.919 --> 00:13:42.919
+That tells me what my price point is that got me the buy box.
+
+00:13:42.919 --> 00:13:45.919
+When did I move out of a hold buy box policy?
+
+00:13:45.919 --> 00:13:48.919
+That'll tell me what my price point is when I lost the buy box.
+
+00:13:48.919 --> 00:13:52.919
+And looking at those trends can help you assess, you know,
+
+00:13:52.919 --> 00:13:55.919
+all right, if I want to consistently hold the buy box,
+
+00:13:55.919 --> 00:14:02.320
+I need to keep my ceiling below this.
+
+00:14:02.320 --> 00:14:07.320
+On a lot of the triggers, you'll see this restore previous price option.
+
+00:14:07.320 --> 00:14:10.320
+This can make a lot of sense when you're losing the buy box,
+
+00:14:10.320 --> 00:14:13.320
+because again, it occurs during a reprice event.
+
+00:14:13.320 --> 00:14:18.320
+So we may have calculated a new price when we detected the loss,
+
+00:14:18.320 --> 00:14:20.320
+that price might have been higher.
+
+00:14:20.320 --> 00:14:23.320
+So what this does is it says, if I apply this trigger,
+
+00:14:23.320 --> 00:14:26.320
+use the previous price versus the one I've just calculated
+
+00:14:26.320 --> 00:14:28.320
+that occurred during this event.
+
+00:14:28.320 --> 00:14:30.320
+And again, if we lost the buy box,
+
+00:14:30.320 --> 00:14:34.320
+we typically want to lower our price back down when that trigger makes
+
+00:14:34.320 --> 00:14:37.320
+that that behavior occur.
+
+00:14:37.320 --> 00:14:42.629
+The delay setting you see here and on a few other triggers,
+
+00:14:42.629 --> 00:14:44.629
+it's pretty self-explanatory.
+
+00:14:44.629 --> 00:14:47.629
+What it does if I set this to five minutes,
+
+00:14:47.629 --> 00:14:51.629
+the item has to be in the policy for five minutes before this trigger
+
+00:14:51.629 --> 00:14:52.629
+is applied.
+
+00:14:52.629 --> 00:14:54.629
+So in a relative amount policy,
+
+00:14:54.629 --> 00:14:56.629
+if I'm checking to see if I won the buy box,
+
+00:14:56.629 --> 00:14:59.629
+I may delay it for an hour or two because I'm just,
+
+00:14:59.629 --> 00:15:02.629
+want the natural, uh,
+
+00:15:02.629 --> 00:15:06.629
+competitive behavior to occur for a period of time before I try and,
+
+00:15:06.629 --> 00:15:07.629
+um,
+
+00:15:07.629 --> 00:15:13.879
+instigate a series of behaviors based on winning or losing the buy box.
+
+00:15:13.879 --> 00:15:18.539
+And again, this is very powerful to include within the seek loops.
+
+00:15:18.539 --> 00:15:22.539
+I just previously mentioned in that, uh,
+
+00:15:22.539 --> 00:15:24.539
+relative amount engages.
+
+00:15:24.539 --> 00:15:26.539
+If I win the buy box, I hold it.
+
+00:15:26.539 --> 00:15:27.539
+I'm seeking down.
+
+00:15:27.539 --> 00:15:29.539
+If I lose the buy box,
+
+00:15:29.539 --> 00:15:32.539
+I instigate a competitive behavior.
+
+00:15:32.539 --> 00:15:34.539
+If I win the buy box,
+
+00:15:34.539 --> 00:15:37.539
+I instigate a certain type of behavior.
+
+00:15:37.539 --> 00:15:39.539
+But again, um,
+
+00:15:39.539 --> 00:15:41.539
+when you're setting up your seek loops,
+
+00:15:41.539 --> 00:15:44.539
+work with your CSM incorporate the whole buy box policy.
+
+00:15:44.539 --> 00:15:45.539
+So that again,
+
+00:15:45.539 --> 00:15:47.539
+if you're holding the buy box,
+
+00:15:47.539 --> 00:15:51.539
+you're either keeping that margin or trying to increase it.
+
+00:15:51.539 --> 00:15:58.519
+The stock age trigger can be used for FBM or FBA.
+
+00:15:58.519 --> 00:16:01.519
+Uh, we've seen a lot of success using it for FBA.
+
+00:16:01.519 --> 00:16:06.519
+We're looking to improve your ability to use it with FBM.
+
+00:16:06.519 --> 00:16:08.519
+But at a high level, what it does is it access,
+
+00:16:08.519 --> 00:16:14.519
+it assesses the stock age of an item and it's low sales threshold.
+
+00:16:14.519 --> 00:16:18.519
+And then moves the item to a new policy.
+
+00:16:18.519 --> 00:16:21.519
+If those thresholds are met,
+
+00:16:21.519 --> 00:16:24.519
+what I've done with some clients that's been successful as I've set up
+
+00:16:24.519 --> 00:16:26.519
+stock age tiers.
+
+00:16:26.519 --> 00:16:30.519
+So I have maybe four or five rules.
+
+00:16:30.519 --> 00:16:34.519
+Each rule has a lower floor.
+
+00:16:34.519 --> 00:16:37.519
+So as stock age increases,
+
+00:16:37.519 --> 00:16:40.519
+I'll have a stock age trigger that says if it's five days,
+
+00:16:40.519 --> 00:16:42.519
+and then another in a different policy,
+
+00:16:42.519 --> 00:16:46.519
+if it's 10 days, 30 days, uh, 60 days, you know,
+
+00:16:46.519 --> 00:16:49.519
+the segments are something you can determine.
+
+00:16:49.519 --> 00:16:51.519
+But as stock gets older,
+
+00:16:51.519 --> 00:16:54.519
+I move the item to a policy with the lower floor.
+
+00:16:54.519 --> 00:16:58.519
+And so what that's enabled people to do is, um,
+
+00:16:58.519 --> 00:17:01.519
+in a, you know, automated way,
+
+00:17:01.519 --> 00:17:05.519
+lower my floor price is my stock gets older to try and push it,
+
+00:17:05.519 --> 00:17:07.519
+try and get rid of it. Um,
+
+00:17:07.519 --> 00:17:10.519
+so that I can send new stock in, um,
+
+00:17:10.519 --> 00:17:15.519
+again, each time we move to a new tier, we lower the floor.
+
+00:17:15.519 --> 00:17:19.519
+You know, James, you could even go, go ahead.
+
+00:17:19.519 --> 00:17:23.519
+I love this idea that occasionally as a stocking merchant,
+
+00:17:24.519 --> 00:17:27.519
+uh, um, you're going to just, you're going to have a dog,
+
+00:17:27.519 --> 00:17:29.519
+something that's not going to sell.
+
+00:17:29.519 --> 00:17:31.519
+There's a better product out there,
+
+00:17:31.519 --> 00:17:36.519
+but rather than waiting till the very last bullet that James is going to
+
+00:17:36.519 --> 00:17:40.519
+talk about, where you just blow it out on a clearance sale,
+
+00:17:40.519 --> 00:17:46.519
+where you're going at 30, 40, 50, 60% off.
+
+00:17:46.519 --> 00:17:50.519
+When we see it doesn't, isn't selling early on,
+
+00:17:51.519 --> 00:17:55.519
+maybe just a week or two, maybe a couple of weeks, whatever that,
+
+00:17:55.519 --> 00:17:59.519
+that business rule for your business defines.
+
+00:18:00.519 --> 00:18:07.519
+Let's give up five or 10% margin rather than all my margin and take a loss
+
+00:18:07.519 --> 00:18:09.519
+during the clearance sale.
+
+00:18:10.519 --> 00:18:11.519
+Yeah.
+
+00:18:11.519 --> 00:18:14.519
+And you know, I'm just thinking creatively,
+
+00:18:14.519 --> 00:18:16.519
+I could have that stock age, uh,
+
+00:18:17.519 --> 00:18:21.519
+tier set of policies that I talked about is a stock age gets older.
+
+00:18:21.519 --> 00:18:24.519
+I lower the tier or I lower the floor.
+
+00:18:25.519 --> 00:18:26.519
+Excuse me.
+
+00:18:26.519 --> 00:18:27.519
+Uh,
+
+00:18:27.519 --> 00:18:29.519
+you could incorporate a sales velocity trigger within each one of those
+
+00:18:29.519 --> 00:18:30.519
+policies.
+
+00:18:30.519 --> 00:18:34.519
+So I reached here for, and all of a sudden I start selling it.
+
+00:18:34.519 --> 00:18:35.519
+I don't want to,
+
+00:18:35.519 --> 00:18:39.519
+I don't want to lower my floor now because I've started selling it.
+
+00:18:39.519 --> 00:18:42.519
+So that sales velocity trigger applies, uh,
+
+00:18:42.519 --> 00:18:45.519
+and moves it to a policy that says, Hey, keep this price point.
+
+00:18:46.519 --> 00:18:48.519
+The stock's old, but it's selling.
+
+00:18:48.519 --> 00:18:49.519
+So again,
+
+00:18:50.519 --> 00:18:53.519
+the sky's the limit in terms of creativity, um,
+
+00:18:53.519 --> 00:18:55.519
+with the EV, EV pricing options.
+
+00:18:55.519 --> 00:18:57.519
+So, uh,
+
+00:18:57.519 --> 00:19:00.519
+if anyone's interested in incorporating a, uh,
+
+00:19:00.519 --> 00:19:04.519
+sales velocity trigger within their stock age loops, let me know.
+
+00:19:04.519 --> 00:19:06.519
+And we can, we can see what we can achieve,
+
+00:19:06.519 --> 00:19:08.519
+but I think that would be very powerful because again,
+
+00:19:08.519 --> 00:19:11.519
+you seek down, you're lowering your floor.
+
+00:19:11.519 --> 00:19:13.519
+Eventually you'll read a price point where it sells and you can
+
+00:19:13.519 --> 00:19:15.519
+identify that with a sales velocity trigger.
+
+00:19:19.920 --> 00:19:23.920
+Uh, some clients, uh, often deal with UPP or map price.
+
+00:19:23.920 --> 00:19:27.920
+Uh, for those unaware, that's a minimum advertised price or a universal
+
+00:19:27.920 --> 00:19:28.920
+price policy.
+
+00:19:28.920 --> 00:19:32.920
+It essentially means you can't sell below this point set by the
+
+00:19:32.920 --> 00:19:33.920
+manufacturer. Typically.
+
+00:19:35.920 --> 00:19:40.920
+One thing to know UPP can be stored on individual channel records.
+
+00:19:40.920 --> 00:19:43.920
+So if I have a supply record, a sales channel record,
+
+00:19:43.920 --> 00:19:47.920
+retail record, each one could have a different UPP stored.
+
+00:19:49.920 --> 00:19:52.920
+Um, we aggregate all the data being sent to us, you know,
+
+00:19:52.920 --> 00:19:55.920
+sometimes there's discrepancies. Typically.
+
+00:19:55.920 --> 00:19:58.920
+I always trust the manufacturer over a distributor.
+
+00:19:58.920 --> 00:20:02.920
+Um, and so I may have a content channel or, uh,
+
+00:20:02.920 --> 00:20:07.920
+I know I'm always loading manufacturer data to the etail record.
+
+00:20:07.920 --> 00:20:08.920
+Um,
+
+00:20:08.920 --> 00:20:11.920
+but be aware of where that date is coming from and where it's being
+
+00:20:11.920 --> 00:20:12.920
+stored in your system.
+
+00:20:13.920 --> 00:20:16.920
+If you have multiple UPPs in your system,
+
+00:20:17.920 --> 00:20:21.920
+if you go to system, the system module set up in the top banner,
+
+00:20:21.920 --> 00:20:23.920
+you'll find UPP config.
+
+00:20:23.920 --> 00:20:26.920
+We set up a basic logic statement on how it's handled.
+
+00:20:26.920 --> 00:20:29.920
+If there's multiple UPPs present. So again,
+
+00:20:29.920 --> 00:20:32.920
+I can have etail UPP view my source of truth.
+
+00:20:32.920 --> 00:20:33.920
+And then if it's not there,
+
+00:20:33.920 --> 00:20:36.920
+I kind of leverage other data or I can, you know,
+
+00:20:36.920 --> 00:20:39.920
+this is the safest bet. I'm always using the highest.
+
+00:20:39.920 --> 00:20:40.920
+It's a safe bet,
+
+00:20:40.920 --> 00:20:43.920
+but it may mean that you're priced too high in some cases.
+
+00:20:43.920 --> 00:20:45.920
+If you have bad data in the system.
+
+00:20:47.920 --> 00:20:48.920
+But again,
+
+00:20:48.920 --> 00:20:49.920
+work with your CSM.
+
+00:20:49.920 --> 00:20:52.920
+If you're having UPP map management problems,
+
+00:20:52.920 --> 00:20:54.920
+there's a number of tools available.
+
+00:20:55.920 --> 00:20:59.920
+Uh, there's a background checker that doesn't require a reprice event to
+
+00:20:59.920 --> 00:21:00.920
+apply.
+
+00:21:00.920 --> 00:21:03.920
+It simply checks UPP and what the price is and,
+
+00:21:03.920 --> 00:21:04.920
+and moves it up.
+
+00:21:04.920 --> 00:21:06.920
+If it texts it's below.
+
+00:21:07.920 --> 00:21:08.920
+Um,
+
+00:21:08.920 --> 00:21:11.920
+how UPP works is it overrides the floor price.
+
+00:21:11.920 --> 00:21:12.920
+So we calculate a floor price.
+
+00:21:12.920 --> 00:21:14.920
+If the UPP stored, it overrides it.
+
+00:21:15.920 --> 00:21:16.920
+So again,
+
+00:21:17.920 --> 00:21:18.920
+go ahead, Jeff.
+
+00:21:18.920 --> 00:21:19.920
+Well, I was finished your top,
+
+00:21:19.920 --> 00:21:22.920
+but before we move on, I'd like to add something.
+
+00:21:24.920 --> 00:21:25.920
+Uh,
+
+00:21:25.920 --> 00:21:27.920
+this reiterating know where that date is coming from,
+
+00:21:27.920 --> 00:21:31.920
+know where it's stored and know your options for how you can handle,
+
+00:21:31.920 --> 00:21:32.920
+uh, the,
+
+00:21:32.920 --> 00:21:34.920
+the multiple sources of that information.
+
+00:21:36.920 --> 00:21:41.920
+I think for a brand clients that are either fairly new in the online
+
+00:21:41.920 --> 00:21:43.920
+selling or been there for awhile.
+
+00:21:44.920 --> 00:21:46.920
+Uh, and not only sell retail or,
+
+00:21:46.920 --> 00:21:49.920
+or a dropship for retailers,
+
+00:21:50.920 --> 00:21:53.920
+um, or have actually authorized resellers.
+
+00:21:53.920 --> 00:21:58.920
+I think it is so important to have a standardized pricing policy or an,
+
+00:22:00.920 --> 00:22:03.920
+uh, have a map policy in place.
+
+00:22:04.920 --> 00:22:05.920
+It will
+
+00:22:06.920 --> 00:22:11.920
+either eliminate or vastly reduce the amount of channel conflict in the
+
+00:22:12.920 --> 00:22:13.920
+marketplace.
+
+00:22:13.920 --> 00:22:18.920
+It will help you clean up the gray market that has been eroding your brand
+
+00:22:19.920 --> 00:22:23.920
+value and your brand image by willing to go, uh,
+
+00:22:23.920 --> 00:22:28.920
+just keep going lower on the products that you manufacture and sell.
+
+00:22:29.920 --> 00:22:34.920
+And it'll help create enforce with your approved sellers.
+
+00:22:34.920 --> 00:22:36.920
+If you have some that,
+
+00:22:36.920 --> 00:22:39.920
+Hey, we're going to all play by the same rules now.
+
+00:22:39.920 --> 00:22:42.920
+And it's really important as a brand to take control,
+
+00:22:42.920 --> 00:22:45.920
+control that in the online environment.
+
+00:22:46.920 --> 00:22:47.920
+That was what I was going to add.
+
+00:22:48.920 --> 00:22:52.829
+Yeah.
+
+00:22:52.829 --> 00:22:55.829
+You can be a pain in the butt if you're being held accountable.
+
+00:22:55.829 --> 00:22:59.829
+But again, the tools made available in EDP help make that a lot easier to
+
+00:22:59.829 --> 00:23:00.829
+deal with.
+
+00:23:01.829 --> 00:23:05.829
+Um, I always encourage you to be proactive rather than reactive, uh,
+
+00:23:05.829 --> 00:23:06.829
+with this stuff.
+
+00:23:06.829 --> 00:23:08.829
+So having a good relation with your manufacturer,
+
+00:23:08.829 --> 00:23:11.829
+so they're giving you that data at a time, uh,
+
+00:23:12.829 --> 00:23:16.829
+knowing when you can expect UPP changes, you know,
+
+00:23:16.829 --> 00:23:20.829
+automotive space it's yearly, you know, some, some brands are quarterly,
+
+00:23:20.829 --> 00:23:21.829
+but, uh,
+
+00:23:21.829 --> 00:23:24.829
+knowing when to expect those changes rather than getting the violation
+
+00:23:24.829 --> 00:23:26.829
+notice and going and scrambling to fix it.
+
+00:23:27.829 --> 00:23:31.829
+Also know that UPP can be a token within a formula and it can be
+
+00:23:31.829 --> 00:23:33.829
+leveraged in selection criteria.
+
+00:23:33.829 --> 00:23:37.829
+So you can simply say, Hey, if an item has a UPP greater than zero,
+
+00:23:37.829 --> 00:23:40.829
+put it in a policy and the price is UPP.
+
+00:23:41.829 --> 00:23:44.829
+Uh, I encourage you to be creative with it again,
+
+00:23:45.829 --> 00:23:49.829
+just cause you have UPP doesn't mean you can't seek up a bit on
+
+00:23:49.829 --> 00:23:52.829
+marketplaces to manipulate the price on your website.
+
+00:23:52.829 --> 00:23:53.829
+You're a little more limited.
+
+00:23:54.829 --> 00:24:01.490
+Uh, but the next option I wanted to cover,
+
+00:24:01.490 --> 00:24:06.490
+I've gone over a lot of what you can do with policies and what you
+
+00:24:06.490 --> 00:24:10.490
+can do with triggers and you want to segment your catalog.
+
+00:24:10.490 --> 00:24:13.490
+And this can be a bit overwhelming if you then compound it with,
+
+00:24:13.490 --> 00:24:14.490
+well,
+
+00:24:14.490 --> 00:24:18.490
+I have six marketplaces to sign up, set up and reprice and get working
+
+00:24:18.490 --> 00:24:21.490
+and flowing well. If you're feeling that way,
+
+00:24:21.490 --> 00:24:24.490
+I encourage you to look at the price parity tool,
+
+00:24:24.490 --> 00:24:27.490
+pick a channel that's going to be a price driver.
+
+00:24:27.490 --> 00:24:30.490
+Amazon's a good one cause it's a competitive marketplace.
+
+00:24:30.490 --> 00:24:32.490
+So there's things influencing the price.
+
+00:24:32.490 --> 00:24:37.490
+Um, but maybe you want your Shopify your own website sales
+
+00:24:37.490 --> 00:24:41.490
+velocity, being a price driver, whatever you're thinking through that
+
+00:24:41.490 --> 00:24:46.490
+process, pick on a channel, focus on setting up the
+
+00:24:46.490 --> 00:24:51.490
+repricing policies and lookup tables for that channel and
+
+00:24:51.490 --> 00:24:56.490
+leverage the price parity option while, uh, you know,
+
+00:24:56.490 --> 00:24:58.490
+you're tackling that channel and then you can tackle channel,
+
+00:24:58.490 --> 00:25:02.490
+you know, your next channel and remove price parity.
+
+00:25:02.490 --> 00:25:06.490
+Um, but again, it lets you tackle one channel,
+
+00:25:06.490 --> 00:25:09.490
+set the others to price parity, um,
+
+00:25:09.490 --> 00:25:11.490
+and then slowly work on each channel, um,
+
+00:25:11.490 --> 00:25:14.490
+versus trying to figure them out all at once.
+
+00:25:14.490 --> 00:25:17.490
+Very simply price parity has you reference a channel.
+
+00:25:17.490 --> 00:25:18.490
+So in this case,
+
+00:25:18.490 --> 00:25:22.490
+I'm looking at Amazon and I'm going to copy that price.
+
+00:25:22.490 --> 00:25:24.490
+The mode you'll click that dropdown.
+
+00:25:24.490 --> 00:25:27.490
+There's 60 different options.
+
+00:25:27.490 --> 00:25:30.490
+I encourage you just to stick with match lowest delivered.
+
+00:25:30.490 --> 00:25:34.490
+If you have very nuanced price parity objectives,
+
+00:25:34.490 --> 00:25:35.490
+we can look at those other options,
+
+00:25:35.490 --> 00:25:38.490
+but if you're using it for the first time,
+
+00:25:38.490 --> 00:25:44.279
+use match lowest delivered so you understand the behavior factor
+
+00:25:44.279 --> 00:25:47.279
+versus Delta, we can adjust the price.
+
+00:25:47.279 --> 00:25:50.279
+Um, we don't have to copy it one for one.
+
+00:25:50.279 --> 00:25:52.279
+So in this case, uh,
+
+00:25:52.279 --> 00:25:54.279
+let's say this is my eBay channel.
+
+00:25:54.279 --> 00:25:57.279
+My eBay channel is going to look at my Amazon price and lower it
+
+00:25:57.279 --> 00:26:00.279
+by 10%.
+
+00:26:00.279 --> 00:26:04.279
+So this can be a way to, um,
+
+00:26:04.279 --> 00:26:07.279
+you know, I may want the price parity on my website from Amazon,
+
+00:26:07.279 --> 00:26:10.279
+but I always want my website to be cheaper.
+
+00:26:10.279 --> 00:26:12.279
+That's the way you can achieve this.
+
+00:26:12.279 --> 00:26:18.009
+Lastly, uh, I'm going to end on lookup tables.
+
+00:26:18.009 --> 00:26:21.009
+I read, I brought this up on the last webinar,
+
+00:26:21.009 --> 00:26:23.009
+but when you're looking at lookup tables,
+
+00:26:23.009 --> 00:26:24.009
+you want to be,
+
+00:26:24.009 --> 00:26:26.009
+this is the question you want to be asking yourself,
+
+00:26:26.009 --> 00:26:28.009
+brainstorm with your team.
+
+00:26:28.009 --> 00:26:31.009
+What variables impact my margin?
+
+00:26:31.009 --> 00:26:34.009
+Bring that list to your CSM and engage with it.
+
+00:26:34.009 --> 00:26:38.009
+We can identify which ones are handled by token like shipping cost,
+
+00:26:38.009 --> 00:26:41.009
+item cost, uh, static overhead.
+
+00:26:41.009 --> 00:26:42.009
+Um,
+
+00:26:42.009 --> 00:26:45.009
+but then we can help identify the ones that aren't handled as tokens and
+
+00:26:45.009 --> 00:26:48.009
+set them up as lookup tables.
+
+00:26:48.009 --> 00:26:49.009
+Uh,
+
+00:26:49.009 --> 00:26:53.009
+I wanted to call it overhead tokens because overhead can be a token.
+
+00:26:53.009 --> 00:26:54.009
+You go to a location,
+
+00:26:54.009 --> 00:26:57.009
+a supplier location on the fulfillment methods tab.
+
+00:26:57.009 --> 00:26:59.009
+You can set up per order per item.
+
+00:26:59.009 --> 00:27:02.009
+The limitation here is this is a static number.
+
+00:27:02.009 --> 00:27:06.009
+If my overhead is dependent on weight or brand or,
+
+00:27:07.009 --> 00:27:08.009
+um,
+
+00:27:08.009 --> 00:27:10.539
+you know, uh,
+
+00:27:10.539 --> 00:27:12.539
+a certain attribute value,
+
+00:27:12.539 --> 00:27:15.539
+I can't dynamically adjust this value, but I can,
+
+00:27:15.539 --> 00:27:17.539
+if I'm using lookup tables,
+
+00:27:17.539 --> 00:27:21.539
+my overhead value can be dynamically adjusted based on item conditions.
+
+00:27:21.539 --> 00:27:22.539
+So that's something to consider.
+
+00:27:22.539 --> 00:27:26.539
+Do I have a flat overhead or do I have a dynamic overhead?
+
+00:27:27.539 --> 00:27:29.539
+And so as you're looking at those,
+
+00:27:29.539 --> 00:27:33.539
+those things that impact margin working on that list with your CSM,
+
+00:27:33.539 --> 00:27:36.539
+you can set up the lookup tables to achieve the ultimate goal.
+
+00:27:36.539 --> 00:27:39.539
+Which is to have your price policies drive your price behavior.
+
+00:27:39.539 --> 00:27:43.539
+Do I seek up? Do I seek down? Do I compete based on my competitor?
+
+00:27:43.539 --> 00:27:47.539
+Do I ignore my competitor? Do I just hold my price price behavior?
+
+00:27:48.539 --> 00:27:50.539
+Then lookup tables handle.
+
+00:27:50.539 --> 00:27:53.539
+Well, if it's this brand, my margin's different.
+
+00:27:53.539 --> 00:27:57.539
+If it weighs over a hundred pounds, my margin's different.
+
+00:27:57.539 --> 00:27:58.539
+Uh,
+
+00:27:58.539 --> 00:28:00.539
+if, uh,
+
+00:28:00.539 --> 00:28:02.539
+if it has attribute X,
+
+00:28:02.539 --> 00:28:05.539
+then I need this overhead cost added. Um,
+
+00:28:05.539 --> 00:28:10.539
+anything that's a dynamic variable impacting margin or costs,
+
+00:28:10.539 --> 00:28:12.539
+we want to handle this lookup tables.
+
+00:28:12.539 --> 00:28:16.539
+So you separate those two aspects of repricing into their, you know,
+
+00:28:16.539 --> 00:28:21.539
+allotted swim lanes and you're not running into each other.
+
+00:28:21.539 --> 00:28:25.539
+Oh, do I need to adjust my margin on my price policy? No,
+
+00:28:25.539 --> 00:28:29.539
+I handle margins in my lookup table. So really being disciplined,
+
+00:28:29.539 --> 00:28:33.539
+and thinking about it and what am I, what am I trying to attack?
+
+00:28:33.539 --> 00:28:37.539
+How my price behaves or something that's influencing my margin or costs?
+
+00:28:38.539 --> 00:28:39.539
+Lastly,
+
+00:28:39.539 --> 00:28:43.539
+I've seen a lot of people adopt the lookup tables in the past, uh,
+
+00:28:43.539 --> 00:28:46.539
+month since the first webinar. So that's encouraging to see.
+
+00:28:46.539 --> 00:28:50.539
+And I've seen some customers take it to the next level and utilize to
+
+00:28:50.539 --> 00:28:53.539
+look up tables within a single policy. As far as I'm aware,
+
+00:28:53.539 --> 00:28:55.539
+there's no limit. You could.
+
+00:28:55.539 --> 00:28:58.539
+Have five lookup tables referenced in a single pricing formula.
+
+00:28:58.539 --> 00:29:00.539
+Well, what it's allowing them to do.
+
+00:29:00.539 --> 00:29:01.539
+Is.
+
+00:29:01.539 --> 00:29:04.539
+This yellow string of text returns a number. That's their margin.
+
+00:29:04.539 --> 00:29:06.539
+This red string of text returns a number.
+
+00:29:06.539 --> 00:29:09.539
+That's a additional commission or an overhead.
+
+00:29:09.539 --> 00:29:12.539
+And again, this is dynamically adjusted.
+
+00:29:12.539 --> 00:29:15.539
+Both of them are dynamically adjusted based on the skew.
+
+00:29:15.539 --> 00:29:18.539
+And so they're handling a lot of complexity.
+
+00:29:18.539 --> 00:29:20.539
+And I'm going to give you an example.
+
+00:29:20.539 --> 00:29:21.539
+And then.
+
+00:29:21.539 --> 00:29:23.539
+And then these are the two different modules.
+
+00:29:23.539 --> 00:29:26.539
+And the two are dynamically adjusted based on the skew.
+
+00:29:26.539 --> 00:29:29.539
+And so they're handling a lot of complexity.
+
+00:29:29.539 --> 00:29:31.539
+Um, in a very simplified way.
+
+00:29:31.539 --> 00:29:33.539
+With the lookup tables.
+
+00:29:33.539 --> 00:29:36.539
+Focused on the margin, you know, this is my formula.
+
+00:29:36.539 --> 00:29:40.539
+These things are impacting my margin.
+
+00:29:40.539 --> 00:29:43.539
+And then the behavior of what do I do with those ranges is handled by
+
+00:29:43.539 --> 00:29:44.539
+the policy.
+
+00:29:44.539 --> 00:29:46.539
+Um, so my foot, my.
+
+00:29:46.539 --> 00:29:48.539
+I encourage you to at least use the one lookup table.
+
+00:29:48.539 --> 00:29:50.740
+really ponder on this question,
+
+00:29:50.740 --> 00:29:53.259
+give that list to your CSM and we can help you achieve,
+
+00:29:53.259 --> 00:29:56.400
+you know, multiple lookup tables within policy,
+
+00:29:56.400 --> 00:30:03.240
+handling all those variables that impact margin.
+
+00:30:03.240 --> 00:30:06.640
+I'm gonna reiterate some key points that I have found
+
+00:30:06.640 --> 00:30:09.839
+help people manage repricing in EVP
+
+00:30:09.839 --> 00:30:12.920
+and in the e-commerce space, have clear objectives.
+
+00:30:12.920 --> 00:30:14.619
+If your objective is to make more money,
+
+00:30:14.619 --> 00:30:16.720
+that's incredibly hard to measure in terms of
+
+00:30:16.720 --> 00:30:18.440
+I took an action that made me more money.
+
+00:30:18.440 --> 00:30:22.920
+I can look at a chart and see that I've done that,
+
+00:30:22.920 --> 00:30:26.119
+but you can't really attribute that to an action.
+
+00:30:26.119 --> 00:30:28.240
+I encourage you to have clear objectives.
+
+00:30:28.240 --> 00:30:32.880
+I wanna sell 20% more of Brand X in the next six months,
+
+00:30:32.880 --> 00:30:35.660
+or I want to increase my profit margin
+
+00:30:37.319 --> 00:30:40.960
+across on Amazon by X%.
+
+00:30:40.960 --> 00:30:44.480
+These clear objectives will help you identify
+
+00:30:44.480 --> 00:30:47.740
+more specific, actionable steps.
+
+00:30:48.960 --> 00:30:53.920
+Versus something as grandiose as just win the buy box more.
+
+00:30:53.920 --> 00:30:55.279
+Win the buy box more, how?
+
+00:30:55.279 --> 00:30:58.920
+By seeking down, by using relative amount,
+
+00:30:58.920 --> 00:31:03.920
+winning the buy box more isn't always the best objective,
+
+00:31:05.559 --> 00:31:08.279
+but it's more specific than just get more sales.
+
+00:31:08.279 --> 00:31:10.099
+So again, have clear objectives.
+
+00:31:12.569 --> 00:31:15.029
+If you're having trouble segmenting your catalog
+
+00:31:15.029 --> 00:31:17.710
+by the data that's present,
+
+00:31:17.710 --> 00:31:20.910
+you can leverage a re-pricing class attribute
+
+00:31:20.910 --> 00:31:22.210
+at a high level.
+
+00:31:22.210 --> 00:31:25.509
+It's an attribute on the ETail record called re-pricing class.
+
+00:31:25.509 --> 00:31:28.990
+And what I do is I have customers getting their feet wet
+
+00:31:28.990 --> 00:31:33.069
+with re-pricing, go use the bulk update tool
+
+00:31:33.069 --> 00:31:34.430
+or the catalog source tool
+
+00:31:34.430 --> 00:31:37.950
+to add re-pricing class attribute group one,
+
+00:31:37.950 --> 00:31:40.349
+group two, test group three,
+
+00:31:40.349 --> 00:31:43.910
+and then leverage that attribute in the selection criteria
+
+00:31:43.910 --> 00:31:46.269
+to get items in the specific policies.
+
+00:31:48.710 --> 00:31:51.190
+One of the challenges people face is like,
+
+00:31:51.190 --> 00:31:53.349
+what selection criteria do I use
+
+00:31:53.349 --> 00:31:55.950
+to get things where I need them to be?
+
+00:31:55.950 --> 00:31:57.750
+This kind of simplifies that problem.
+
+00:31:57.750 --> 00:32:01.109
+So you can move forward and then kind of double back
+
+00:32:01.109 --> 00:32:05.630
+and go, how can I get this to be more data-driven
+
+00:32:05.630 --> 00:32:08.190
+versus a grouping that I manually create?
+
+00:32:09.789 --> 00:32:12.230
+Again, avoid multiple price policies
+
+00:32:12.230 --> 00:32:15.349
+that just change your margin, use the lookup tables.
+
+00:32:15.589 --> 00:32:20.470
+The number one violation of this tenant
+
+00:32:20.470 --> 00:32:24.269
+is people having a policy for cost range.
+
+00:32:25.509 --> 00:32:27.470
+Historically, that's what you had to do,
+
+00:32:27.470 --> 00:32:28.789
+but I would encourage you,
+
+00:32:28.789 --> 00:32:30.589
+if that's what your setup looks like,
+
+00:32:30.589 --> 00:32:32.549
+one of the first things you're gonna wanna focus on
+
+00:32:32.549 --> 00:32:35.509
+is moving all of those into one policy
+
+00:32:35.509 --> 00:32:37.950
+and using a lookup table to handle cost range.
+
+00:32:39.910 --> 00:32:40.990
+But you may find that,
+
+00:32:40.990 --> 00:32:44.150
+oh, I have six policies for these six different brands.
+
+00:32:44.150 --> 00:32:49.250
+That can be one policy and then a lookup table.
+
+00:32:49.250 --> 00:32:52.089
+Lastly, can't reiterate this enough,
+
+00:32:52.089 --> 00:32:54.569
+leverage the repricing results screen.
+
+00:32:54.569 --> 00:32:57.650
+You can see when you exited and entered the buy box,
+
+00:32:57.650 --> 00:32:58.970
+so you know those price ranges.
+
+00:32:58.970 --> 00:33:03.369
+You can see who you're competing against most often.
+
+00:33:03.369 --> 00:33:07.890
+You can see which policy and item moved from and to,
+
+00:33:07.890 --> 00:33:09.849
+so you can kind of assess the life cycle
+
+00:33:09.849 --> 00:33:11.529
+and the behavior of your setup.
+
+00:33:12.490 --> 00:33:16.369
+But simply looking at the SKU
+
+00:33:16.369 --> 00:33:18.250
+and what price it's calculating
+
+00:33:18.250 --> 00:33:20.930
+won't tell you the entire journey it's gone through.
+
+00:33:21.890 --> 00:33:23.890
+Look at the repricing results screen,
+
+00:33:23.890 --> 00:33:25.250
+get familiar with that.
+
+00:33:25.250 --> 00:33:28.490
+And I've looked at it enough
+
+00:33:29.450 --> 00:33:31.809
+and helped enough clients that I can look at that.
+
+00:33:31.809 --> 00:33:33.809
+I can look at a SKU, I can look at several SKUs,
+
+00:33:33.809 --> 00:33:36.369
+and I can see the journey it's taking
+
+00:33:36.369 --> 00:33:40.250
+that just takes time and exposure using the screen.
+
+00:33:40.250 --> 00:33:43.609
+So I encourage you to, every time you wanna go,
+
+00:33:43.609 --> 00:33:46.690
+hey, what's going on with repricing, start there,
+
+00:33:46.690 --> 00:33:48.769
+look up a SKU and get familiar
+
+00:33:48.769 --> 00:33:52.980
+with what that information's telling you.
+
+00:33:52.980 --> 00:33:57.339
+I think also remember that while pricing is important
+
+00:33:57.339 --> 00:34:00.660
+for the reseller community to win the buy box,
+
+00:34:00.660 --> 00:34:05.299
+it is not the only variable in the Amazon algorithm.
+
+00:34:05.299 --> 00:34:07.940
+Latency is also very important.
+
+00:34:07.940 --> 00:34:10.820
+How quickly can you get the product to somebody?
+
+00:34:10.820 --> 00:34:13.619
+Somebody that's FBA and is gonna get it there in a day
+
+00:34:13.619 --> 00:34:16.739
+or two is going to always beat somebody
+
+00:34:16.739 --> 00:34:18.539
+at five or six days,
+
+00:34:18.539 --> 00:34:21.340
+even if they're selling at a higher price.
+
+00:34:21.340 --> 00:34:25.500
+Your ODR, your seller ranking is gonna make a difference.
+
+00:34:25.500 --> 00:34:28.139
+So there's other factors in your business
+
+00:34:28.139 --> 00:34:32.900
+you need to focus on to have these repricing strategies
+
+00:34:32.900 --> 00:34:34.820
+have the greatest impact.
+
+00:34:34.820 --> 00:34:36.300
+I think for any of our clients
+
+00:34:36.300 --> 00:34:41.300
+that have some fantastic high velocity products
+
+00:34:42.260 --> 00:34:44.860
+and they're not at FBA,
+
+00:34:44.860 --> 00:34:48.980
+you might wanna think about that.
+
+00:34:48.980 --> 00:34:49.820
+So-
+
+00:34:49.820 --> 00:34:51.179
+Nick, if you can to reiterate,
+
+00:34:52.659 --> 00:34:56.300
+this webinar went a bit more granular than the previous one,
+
+00:34:56.300 --> 00:35:00.019
+but they're all purposed around getting you
+
+00:35:00.019 --> 00:35:03.500
+some background knowledge so that you can start thinking
+
+00:35:03.500 --> 00:35:05.820
+and then in turn engage with your CSM.
+
+00:35:05.820 --> 00:35:09.230
+Again, going back,
+
+00:35:09.230 --> 00:35:10.989
+what variables impact your margin?
+
+00:35:10.989 --> 00:35:14.269
+If you come to your CSM with a list of things
+
+00:35:14.269 --> 00:35:16.469
+that you've identified impacting your margin,
+
+00:35:16.469 --> 00:35:18.829
+they're gonna be much better enabled
+
+00:35:18.829 --> 00:35:21.070
+to help you set up lookup tables.
+
+00:35:21.070 --> 00:35:24.230
+So these are, I'm encouraging you,
+
+00:35:24.230 --> 00:35:25.550
+I'm trying to get you to think
+
+00:35:25.550 --> 00:35:27.989
+so that when you meet with your CSM,
+
+00:35:27.989 --> 00:35:30.269
+they can help you leverage all that content
+
+00:35:30.269 --> 00:35:34.170
+you've generated from that brainstorming.
+
+00:35:35.010 --> 00:35:38.530
+A few questions here, James.
+
+00:35:40.489 --> 00:35:45.489
+Are there triggers for eBay and Walmart or just Amazon?
+
+00:35:48.329 --> 00:35:51.050
+Triggers and controllers work on all channels.
+
+00:35:51.050 --> 00:35:53.570
+Some channels have triggers that others don't.
+
+00:35:53.570 --> 00:35:58.570
+For example, Amazon price event triggers only on Amazon,
+
+00:35:59.409 --> 00:36:03.050
+but sales velocity, price events, timers,
+
+00:36:03.050 --> 00:36:04.969
+those will work across all channels.
+
+00:36:06.210 --> 00:36:07.050
+Okay.
+
+00:36:07.050 --> 00:36:10.130
+Seek up, seek down, hold price will also work on all channels.
+
+00:36:10.130 --> 00:36:12.570
+Also, if some of you have been holding your questions,
+
+00:36:12.570 --> 00:36:14.730
+get them in here before I get done.
+
+00:36:15.610 --> 00:36:18.210
+How often can I seek up and down?
+
+00:36:19.570 --> 00:36:20.969
+That's a great question.
+
+00:36:20.969 --> 00:36:24.769
+It's gonna really be dependent on a number of variables
+
+00:36:24.769 --> 00:36:26.210
+that would have to be assessed,
+
+00:36:26.210 --> 00:36:27.889
+such as catalog size,
+
+00:36:28.889 --> 00:36:35.739
+the number of notifications we're dealing with from Amazon,
+
+00:36:37.460 --> 00:36:39.900
+the banding on certain channels.
+
+00:36:40.780 --> 00:36:44.739
+But at a high level, I typically seek every,
+
+00:36:45.619 --> 00:36:48.780
+the quickest I try and seek is every 15 minutes.
+
+00:36:49.820 --> 00:36:53.219
+You're not likely going to achieve seeking every minute
+
+00:36:53.219 --> 00:36:54.340
+without very,
+
+00:36:54.340 --> 00:36:59.340
+without setup that isolates and handles that very specifically.
+
+00:37:01.579 --> 00:37:04.739
+And at that point, there's probably a better solution
+
+00:37:04.739 --> 00:37:08.739
+than getting the repricing engine
+
+00:37:08.739 --> 00:37:10.860
+to just look at that one skew.
+
+00:37:10.860 --> 00:37:13.380
+You could achieve it in a different way.
+
+00:37:13.380 --> 00:37:14.579
+But it's a good question.
+
+00:37:14.579 --> 00:37:17.699
+It would have to be determined with your CSM on a call,
+
+00:37:17.699 --> 00:37:18.539
+but-
+
+00:37:19.539 --> 00:37:23.179
+I would imagine also depends on catalog size.
+
+00:37:23.179 --> 00:37:25.260
+Yeah, I mean, that's gonna be the biggest variable
+
+00:37:25.260 --> 00:37:28.420
+because how long does it take us to get to your catalog?
+
+00:37:28.420 --> 00:37:31.260
+How many items are getting prioritized for repricing?
+
+00:37:33.179 --> 00:37:35.300
+But, you know, the quickest increments
+
+00:37:35.300 --> 00:37:38.940
+I typically recommend are between 15 and 30 minutes.
+
+00:37:38.940 --> 00:37:39.780
+Okay.
+
+00:37:40.980 --> 00:37:44.460
+Can I schedule policies?
+
+00:37:44.460 --> 00:37:50.760
+Maybe I wanna raise my price in the evenings.
+
+00:37:50.760 --> 00:37:54.079
+Yeah, so there's an indirect way to achieve that
+
+00:37:54.159 --> 00:37:56.519
+with shipping policies.
+
+00:37:56.519 --> 00:37:58.920
+You can have your selection criteria
+
+00:37:58.920 --> 00:38:00.639
+within your repricing policies,
+
+00:38:00.639 --> 00:38:04.119
+look at what shipping policy and items assigned to.
+
+00:38:05.280 --> 00:38:07.559
+And shipping policies can be scheduled.
+
+00:38:07.559 --> 00:38:12.239
+So I can have an item scheduled to move to a shipping policy.
+
+00:38:12.239 --> 00:38:15.519
+I can have a very high priority rule
+
+00:38:15.519 --> 00:38:20.079
+that says items in this shipping policy get assigned to it.
+
+00:38:20.079 --> 00:38:23.039
+And then it would reprice with that rule
+
+00:38:23.440 --> 00:38:27.559
+that the pricing policy schedule would expire
+
+00:38:27.559 --> 00:38:29.119
+and I assume we would move it back.
+
+00:38:29.119 --> 00:38:30.800
+And at that point,
+
+00:38:30.800 --> 00:38:34.480
+the repricing policy assigned to it would change.
+
+00:38:34.480 --> 00:38:39.480
+So you can achieve time scheduled repricing
+
+00:38:40.880 --> 00:38:45.599
+with the usage of scheduling shipping policy assignment.
+
+00:38:45.599 --> 00:38:46.440
+Okay.
+
+00:38:46.440 --> 00:38:48.800
+Well, and here's one very similar to the statement
+
+00:38:48.800 --> 00:38:51.119
+I made just a few minutes ago.
+
+00:38:51.119 --> 00:38:56.119
+Jen, if I'm selling an FBA and my competition is FBM,
+
+00:38:57.119 --> 00:39:01.840
+can I raise my price or seek up with my price
+
+00:39:01.840 --> 00:39:04.559
+and then wait till I lose the buy box
+
+00:39:04.559 --> 00:39:09.199
+and then steal it right back?
+
+00:39:09.199 --> 00:39:13.360
+So you would have, from understanding correctly,
+
+00:39:14.559 --> 00:39:19.039
+you're in the buy box and the person competing is FBM?
+
+00:39:19.039 --> 00:39:21.360
+Correct, and I'm FBA.
+
+00:39:21.360 --> 00:39:23.599
+I have the prime batch.
+
+00:39:23.599 --> 00:39:27.199
+So I could, you would have a policy
+
+00:39:27.199 --> 00:39:31.800
+that detects you in the buy box, moves you to a seek up.
+
+00:39:31.800 --> 00:39:34.360
+And that seek up, you have a trigger that's detecting
+
+00:39:34.360 --> 00:39:35.599
+if you lose the buy box.
+
+00:39:35.599 --> 00:39:38.000
+And if you lose, you move to a seek down
+
+00:39:38.000 --> 00:39:39.079
+or a relative amount.
+
+00:39:41.119 --> 00:39:46.119
+You could also have a, say it's in a price policy.
+
+00:39:46.280 --> 00:39:50.920
+You could have a buy box status trigger
+
+00:39:50.920 --> 00:39:55.559
+that says if buy box owner is FBA,
+
+00:39:57.400 --> 00:39:58.880
+I wanna compete in a certain way
+
+00:39:58.880 --> 00:40:01.400
+that gets your price going back up.
+
+00:40:01.400 --> 00:40:03.440
+But yeah, you could achieve that.
+
+00:40:03.440 --> 00:40:06.159
+Well, I only have a few minutes left.
+
+00:40:06.159 --> 00:40:08.960
+What's the best way to segment my catalog?
+
+00:40:10.360 --> 00:40:11.760
+Great question.
+
+00:40:11.760 --> 00:40:12.599
+I think,
+
+00:40:15.360 --> 00:40:19.840
+just to give some examples in the automotive space brand,
+
+00:40:20.199 --> 00:40:24.239
+manufacturer, huge drivers in the home goods space,
+
+00:40:24.239 --> 00:40:26.840
+it's more about what type of product it is.
+
+00:40:26.840 --> 00:40:28.039
+I want all my curtains.
+
+00:40:28.039 --> 00:40:30.079
+I want all my bathroom accessories.
+
+00:40:30.079 --> 00:40:34.639
+I want all my space rugs.
+
+00:40:34.639 --> 00:40:41.559
+So there isn't a one size fits all answer,
+
+00:40:44.639 --> 00:40:47.599
+but I would encourage you looking at brands
+
+00:40:47.599 --> 00:40:49.800
+is a segmentation factor.
+
+00:40:49.800 --> 00:40:52.320
+Cost is obviously an obvious one,
+
+00:40:54.119 --> 00:40:57.559
+but it's gonna be dependent on your space
+
+00:40:57.559 --> 00:41:00.239
+and industry knowledge, really.
+
+00:41:00.239 --> 00:41:02.280
+For example, I deal with a lot of customers
+
+00:41:02.280 --> 00:41:03.519
+that sell light bulbs.
+
+00:41:06.199 --> 00:41:07.480
+They're gonna know a lot.
+
+00:41:08.679 --> 00:41:11.639
+They're gonna know better how to segment that than I would.
+
+00:41:12.960 --> 00:41:14.760
+Do they have industrial light bulbs
+
+00:41:14.760 --> 00:41:16.539
+and then commercial light bulbs?
+
+00:41:19.210 --> 00:41:20.730
+I would engage with your CSM
+
+00:41:20.730 --> 00:41:22.610
+so they can provide some input,
+
+00:41:22.610 --> 00:41:25.210
+but it's really gonna be your industry knowledge
+
+00:41:27.530 --> 00:41:30.610
+and your industry segment that's gonna drive that.
+
+00:41:30.610 --> 00:41:33.130
+But again, two examples, automotive space,
+
+00:41:33.130 --> 00:41:35.090
+it's really brand driving it.
+
+00:41:35.090 --> 00:41:37.929
+And then in home goods, it's really the type of product.
+
+00:41:39.130 --> 00:41:41.010
+Okay, here's a quick one.
+
+00:41:41.010 --> 00:41:46.949
+Does UPP override MAP for re-pricing?
+
+00:41:46.949 --> 00:41:47.949
+Great question.
+
+00:41:47.949 --> 00:41:54.230
+MAP is actually more of just a stored data point in EVP.
+
+00:41:55.969 --> 00:41:58.590
+If you want MAP to be leveraged
+
+00:41:58.590 --> 00:42:02.829
+as a price influencing mechanism stored as UPP.
+
+00:42:05.380 --> 00:42:07.300
+Oh, that's pretty simple.
+
+00:42:07.300 --> 00:42:12.300
+The terms are synonymously used out in the marketplaces.
+
+00:42:13.460 --> 00:42:17.940
+So what we chose to do is they serve the same function.
+
+00:42:17.940 --> 00:42:20.420
+So again, MAP is just stored in EVP.
+
+00:42:20.420 --> 00:42:22.739
+You can reference it, you can see it.
+
+00:42:22.739 --> 00:42:26.059
+UPP is the one that's gonna drive price behavior,
+
+00:42:26.059 --> 00:42:28.440
+prevent you from selling below that.
+
+00:42:28.440 --> 00:42:33.440
+So if you're hyper aware or wanna be vigilant on UPP slash MAP,
+
+00:42:34.860 --> 00:42:37.219
+always store it as a UPP.
+
+00:42:37.219 --> 00:42:38.059
+Okay.
+
+00:42:38.059 --> 00:42:41.000
+MAP has no influence on pricing.
+
+00:42:41.000 --> 00:42:43.059
+I don't think we're gonna get to all of them today.
+
+00:42:43.059 --> 00:42:45.000
+So any of them that I don't get to,
+
+00:42:45.000 --> 00:42:49.739
+just email your CSM and or schedule a meeting
+
+00:42:49.739 --> 00:42:51.139
+and bear with me, James,
+
+00:42:51.139 --> 00:42:55.579
+this one is about a small paragraph.
+
+00:42:55.579 --> 00:43:00.579
+Is it possible to re-price an ASIN on Amazon
+
+00:43:01.340 --> 00:43:06.039
+relative to the price of a completely different ASIN?
+
+00:43:06.039 --> 00:43:09.900
+We have a product that we are the only seller.
+
+00:43:09.900 --> 00:43:12.780
+So we always have the buy box
+
+00:43:12.780 --> 00:43:16.880
+but we compete against a different ASIN.
+
+00:43:16.880 --> 00:43:20.840
+We'd like to set our re-pricing to compete against
+
+00:43:20.840 --> 00:43:25.840
+the buy box price of a different ASIN that we don't sell.
+
+00:43:26.039 --> 00:43:27.199
+Is that possible?
+
+00:43:27.199 --> 00:43:32.650
+So it's almost like two brands competing with each other.
+
+00:43:32.650 --> 00:43:35.010
+Yeah, what I'm hearing is you wanna do
+
+00:43:35.010 --> 00:43:37.989
+a skew level price parity.
+
+00:43:40.449 --> 00:43:43.349
+I'm not aware of a way to achieve that today
+
+00:43:43.349 --> 00:43:46.090
+but that would be an excellent feature request to explore.
+
+00:43:46.090 --> 00:43:49.510
+What you're saying is I have two ASINs
+
+00:43:49.510 --> 00:43:52.130
+and I want this one to be the price driver for both
+
+00:43:52.130 --> 00:43:54.050
+because I'm alone on one of them.
+
+00:43:54.050 --> 00:43:56.210
+Yeah, that's a very interesting scenario.
+
+00:44:02.519 --> 00:44:07.519
+Just thinking through, yeah, I don't know
+
+00:44:09.719 --> 00:44:11.000
+if that could be achieved today
+
+00:44:11.000 --> 00:44:13.400
+but it would be something worth exploring
+
+00:44:13.400 --> 00:44:15.920
+as a price parity enhancement.
+
+00:44:18.239 --> 00:44:20.920
+Yeah, and we had some comments
+
+00:44:20.920 --> 00:44:23.860
+from their other CSMs that are on the call,
+
+00:44:23.860 --> 00:44:26.480
+a great product feature request.
+
+00:44:26.480 --> 00:44:29.679
+So whoever brought that up,
+
+00:44:29.679 --> 00:44:34.519
+sit with your CSM, figure out how to more fully define that
+
+00:44:34.519 --> 00:44:37.059
+and we'll have Dev take a look at that.
+
+00:44:39.239 --> 00:44:41.280
+All those other questions that you had out there,
+
+00:44:41.280 --> 00:44:44.239
+I'm sorry, we're coming up on our time
+
+00:44:44.239 --> 00:44:47.440
+and we wanna be respectful of your time.
+
+00:44:48.280 --> 00:44:53.280
+I do wanna remind you, you can move to the next slide.
+
+00:44:54.400 --> 00:44:58.400
+Our next session is gonna be in July.
+
+00:44:58.400 --> 00:45:01.079
+It is gonna be July 12th,
+
+00:45:01.079 --> 00:45:05.239
+a month from the second Wednesday of the month.
+
+00:45:05.239 --> 00:45:08.500
+We will be sending out a survey again,
+
+00:45:08.500 --> 00:45:13.420
+asking you for your input on three different topics
+
+00:45:13.420 --> 00:45:15.699
+that we can talk about.
+
+00:45:15.699 --> 00:45:17.539
+Hopefully you'll pick a topic
+
+00:45:17.539 --> 00:45:20.559
+that we can give James a month off.
+
+00:45:22.139 --> 00:45:26.219
+But I love doing these, we want you to attend.
+
+00:45:26.219 --> 00:45:30.019
+Remember, this will be available in 24 to 48 hours
+
+00:45:30.019 --> 00:45:34.460
+after the session is over in the Help Center,
+
+00:45:34.460 --> 00:45:36.219
+in the Knowledge Center.
+
+00:45:36.219 --> 00:45:39.099
+If you have any other questions
+
+00:45:39.099 --> 00:45:42.940
+or wanna talk about this in more in depth,
+
+00:45:42.960 --> 00:45:45.440
+please work with your CSM.
+
+00:45:46.659 --> 00:45:50.000
+And I also wanna talk about some new offers coming up.
+
+00:45:51.179 --> 00:45:55.179
+Several of you have already initiated something.
+
+00:45:55.179 --> 00:45:59.659
+We're trying to take questions
+
+00:45:59.659 --> 00:46:03.900
+and similar kind of thoughts from multiple clients
+
+00:46:03.900 --> 00:46:08.900
+and develop packages that are more optimally priced
+
+00:46:09.420 --> 00:46:11.539
+to make it easier for you to move forward.
+
+00:46:11.539 --> 00:46:16.539
+There's less ambiguity and there's less unknowns.
+
+00:46:17.539 --> 00:46:18.820
+You know what you're getting.
+
+00:46:18.820 --> 00:46:20.139
+There's a known price
+
+00:46:20.139 --> 00:46:23.159
+and you know how quickly you can expect to see results.
+
+00:46:23.159 --> 00:46:26.460
+One of them that many of you are familiar with
+
+00:46:26.460 --> 00:46:29.940
+is the eBay Accelerate Program.
+
+00:46:29.940 --> 00:46:31.559
+We're taking this approach
+
+00:46:31.559 --> 00:46:34.260
+from working with a couple other merchants
+
+00:46:34.260 --> 00:46:37.139
+that do very well on eBay
+
+00:46:37.139 --> 00:46:41.099
+and have very successful eBay programs.
+
+00:46:41.099 --> 00:46:45.380
+And finding out those best practices and best approaches
+
+00:46:45.380 --> 00:46:49.340
+to keep in their eBay program fresh and aligned
+
+00:46:49.340 --> 00:46:51.059
+with their growth objectives.
+
+00:46:52.139 --> 00:46:55.300
+And the major things that we've pulled out about of that
+
+00:46:55.300 --> 00:46:58.519
+are things that like delisting and relisting
+
+00:46:58.519 --> 00:47:00.659
+can have a major impact.
+
+00:47:00.659 --> 00:47:03.800
+Understanding what it would take to get your account
+
+00:47:03.800 --> 00:47:07.260
+into the eBay Top Seller Program
+
+00:47:07.260 --> 00:47:11.739
+and trying to round out your user profile
+
+00:47:11.739 --> 00:47:14.300
+along with re-pricing optimizations.
+
+00:47:14.300 --> 00:47:18.900
+And one of these other merchants saw a 10% increase
+
+00:47:18.900 --> 00:47:21.260
+and it's been for several months now
+
+00:47:21.260 --> 00:47:24.900
+on their eBay program, monthly sales.
+
+00:47:24.900 --> 00:47:26.780
+Now, let's be honest,
+
+00:47:26.780 --> 00:47:30.940
+eBay is not necessarily a retirement account for most of you
+
+00:47:30.940 --> 00:47:35.940
+but 10% is 10%, multiply it times 12, it's a real number.
+
+00:47:37.820 --> 00:47:42.400
+A number of you already reviewing your re-pricing goals
+
+00:47:42.400 --> 00:47:45.980
+with your CSM to be commended.
+
+00:47:45.980 --> 00:47:50.739
+And those of you that have not reviewed your re-pricing goals
+
+00:47:50.739 --> 00:47:53.039
+and looked at all your different policies
+
+00:47:53.039 --> 00:47:56.940
+in the last 12 to 18 months, it's time.
+
+00:47:56.940 --> 00:48:01.059
+Contact your CSM so we can take a quick review.
+
+00:48:01.059 --> 00:48:04.019
+But once again, we wanna be packaging this up
+
+00:48:04.019 --> 00:48:06.460
+into a simple offering.
+
+00:48:07.300 --> 00:48:12.300
+We're working on actually doing several predefined policies
+
+00:48:13.480 --> 00:48:15.579
+that can be added to your environment
+
+00:48:15.579 --> 00:48:20.179
+and then tweet to meet your exact objectives.
+
+00:48:20.179 --> 00:48:23.079
+So you'll be seeing some very,
+
+00:48:25.019 --> 00:48:27.139
+the basics of any business
+
+00:48:27.139 --> 00:48:31.019
+will be developed by some of our people.
+
+00:48:31.019 --> 00:48:35.219
+And once again, we're seeing some people increase sales
+
+00:48:35.219 --> 00:48:40.039
+15 to 25% by just taking a fresh new look
+
+00:48:40.039 --> 00:48:44.219
+at how they're doing their pricing policies
+
+00:48:44.219 --> 00:48:46.019
+and it's very doable.
+
+00:48:46.019 --> 00:48:47.780
+And then stay tuned,
+
+00:48:47.780 --> 00:48:51.940
+while we initiated the eBay Accelerate Program
+
+00:48:51.940 --> 00:48:54.380
+around 30, 45 days ago,
+
+00:48:54.380 --> 00:48:58.780
+we're starting to look at other marketplaces and saying,
+
+00:48:58.780 --> 00:49:02.260
+how can we make our community more successful
+
+00:49:02.260 --> 00:49:03.900
+on that marketplace?
+
+00:49:03.900 --> 00:49:05.900
+And we'll work with one or two people
+
+00:49:05.900 --> 00:49:08.940
+to figure out the best way to approach that.
+
+00:49:08.940 --> 00:49:13.079
+Then we'll take those best practices to you, the community
+
+00:49:13.079 --> 00:49:16.099
+and offer a very affordable program.
+
+00:49:16.099 --> 00:49:20.539
+And I'm hearing rumblings, it's gonna be Walmart
+
+00:49:20.539 --> 00:49:22.380
+and we'll share that with you.
+
+00:49:22.380 --> 00:49:25.280
+And if that's something you wanna engage us on
+
+00:49:25.280 --> 00:49:29.300
+to grow your Walmart business, we'd be happy to do so.
+
+00:49:29.300 --> 00:49:30.820
+Thank you for attending.
+
+00:49:30.820 --> 00:49:33.059
+I really enjoy doing this
+
+00:49:33.059 --> 00:49:36.059
+because James has to do all the work.
+
+00:49:36.059 --> 00:49:38.300
+I just get to do introductions
+
+00:49:39.340 --> 00:49:44.340
+and I hope that you get some value each time we do this.
+
+00:49:44.340 --> 00:49:45.780
+So thank you again.
+
+00:49:46.699 --> 00:49:48.340
+Have a great summer.
+
+00:49:48.340 --> 00:49:50.500
+We'll see you in July.
+
+00:49:50.500 --> 00:49:53.900
+And if you have any further questions, once again,
+
+00:49:53.900 --> 00:49:55.380
+we say it all the time,
+
+00:49:55.380 --> 00:49:59.460
+just give James or Jason or someone at eBay a call.
+
+00:49:59.460 --> 00:50:01.480
+We're gonna try and help you out.
+
+00:50:01.480 --> 00:50:02.320
+Thank you.
+
+00:50:04.300 --> 00:50:05.460
+Thank you.
+

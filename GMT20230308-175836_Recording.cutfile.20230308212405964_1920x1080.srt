@@ -1,0 +1,3160 @@
+1
+00:00:02,700 --> 00:00:07,700
+I would like to thank you all for attending
+
+2
+00:00:07,760 --> 00:00:12,760
+the first Tech Edge that ETail is sponsoring.
+
+3
+00:00:13,520 --> 00:00:18,520
+This is gonna become a monthly webinar series
+
+4
+00:00:20,120 --> 00:00:22,420
+to help you guys grow your business.
+
+5
+00:00:23,760 --> 00:00:25,960
+I hope you're seeing that we're trying to make this
+
+6
+00:00:25,960 --> 00:00:29,640
+a new ETail with higher engagement,
+
+7
+00:00:29,640 --> 00:00:32,080
+more focus on what's gonna help you
+
+8
+00:00:32,080 --> 00:00:35,780
+run your business better, grow your business,
+
+9
+00:00:35,780 --> 00:00:38,000
+and hopefully grow it more profitably.
+
+10
+00:00:38,820 --> 00:00:41,420
+It will be, we're gonna cover this at the end,
+
+11
+00:00:41,420 --> 00:00:44,100
+but it is gonna be every month,
+
+12
+00:00:44,100 --> 00:00:46,180
+the second Wednesday of the month.
+
+13
+00:00:46,180 --> 00:00:49,540
+And we'll be talking about new features, new modules.
+
+14
+00:00:50,580 --> 00:00:53,000
+Very possibly we'll be talking about topics
+
+15
+00:00:53,000 --> 00:00:56,420
+that you ask us to talk about.
+
+16
+00:00:56,420 --> 00:01:00,300
+So mark it on your calendars now.
+
+17
+00:01:00,320 --> 00:01:04,740
+1 p.m. East Coast, noon central,
+
+18
+00:01:04,740 --> 00:01:09,120
+and 10 a.m. West Coast time,
+
+19
+00:01:09,120 --> 00:01:11,480
+and 11 a.m. for the mountain people
+
+20
+00:01:11,480 --> 00:01:16,480
+will be the monthly ETail e-commerce Tech Edge
+
+21
+00:01:17,140 --> 00:01:19,120
+hosted by me, Jeff Burkhardt.
+
+22
+00:01:20,040 --> 00:01:23,200
+And every month I will have a new
+
+23
+00:01:24,220 --> 00:01:27,640
+or the appropriate subject matter expert with me.
+
+24
+00:01:28,220 --> 00:01:30,460
+And with that, we're off.
+
+25
+00:01:33,950 --> 00:01:37,830
+One thing I think that we need to talk about more internally,
+
+26
+00:01:37,830 --> 00:01:40,790
+although we bring this up at every company meeting,
+
+27
+00:01:40,790 --> 00:01:42,590
+which we hold monthly,
+
+28
+00:01:42,590 --> 00:01:45,930
+is there's only one reason why we're really here.
+
+29
+00:01:47,390 --> 00:01:51,910
+And it is to help you guys grow
+
+30
+00:01:53,190 --> 00:01:57,190
+and really focus on making sure that you grow profitably.
+
+31
+00:01:57,190 --> 00:01:59,270
+That is the only use for our platform
+
+32
+00:01:59,290 --> 00:02:01,630
+is to help you drive your business.
+
+33
+00:02:01,630 --> 00:02:05,010
+And we're gonna find ways to enable you
+
+34
+00:02:05,010 --> 00:02:07,770
+to do that more efficiently,
+
+35
+00:02:07,770 --> 00:02:09,890
+find ways for you to do that,
+
+36
+00:02:09,890 --> 00:02:13,330
+not necessarily asking us to do everything for you,
+
+37
+00:02:13,330 --> 00:02:18,250
+but educating you and helping you use the system better.
+
+38
+00:02:18,250 --> 00:02:19,730
+So with that in mind,
+
+39
+00:02:22,330 --> 00:02:24,490
+I am your host.
+
+40
+00:02:24,490 --> 00:02:29,490
+And with me today is one of the many, many, many Davises
+
+41
+00:02:29,650 --> 00:02:33,110
+that we have in the organization, James.
+
+42
+00:02:33,110 --> 00:02:35,830
+James was gonna actually wanted to get a question
+
+43
+00:02:35,830 --> 00:02:40,830
+on the poll, which we'll be showing at the end of the,
+
+44
+00:02:42,150 --> 00:02:43,150
+at the end of the session,
+
+45
+00:02:43,150 --> 00:02:45,710
+there will be a survey for you to fill out.
+
+46
+00:02:45,710 --> 00:02:48,150
+And one of the questions is,
+
+47
+00:02:48,150 --> 00:02:52,030
+is James better in a comb-over or a better ball?
+
+48
+00:02:52,030 --> 00:02:54,970
+So you have your two options on the screen
+
+49
+00:02:54,970 --> 00:02:56,850
+to take a look at right now,
+
+50
+00:02:56,850 --> 00:03:00,290
+please vote at the end in the survey at the end.
+
+51
+00:03:00,290 --> 00:03:02,970
+Today, we're gonna be talking about catalog source.
+
+52
+00:03:02,970 --> 00:03:07,970
+How this tool effectively and efficiently
+
+53
+00:03:08,530 --> 00:03:13,230
+helps you get new data sources into ETL
+
+54
+00:03:13,230 --> 00:03:16,450
+in a safe, automated way very quickly.
+
+55
+00:03:17,750 --> 00:03:20,530
+Future sessions, the sky's the limit.
+
+56
+00:03:20,530 --> 00:03:22,310
+What do you wanna learn about?
+
+57
+00:03:22,310 --> 00:03:25,110
+We have a full laundry list of things
+
+58
+00:03:25,110 --> 00:03:26,410
+that we wanna talk about
+
+59
+00:03:26,410 --> 00:03:28,770
+on the second Wednesday of every month,
+
+60
+00:03:28,770 --> 00:03:32,910
+but we've polled our internal team.
+
+61
+00:03:32,910 --> 00:03:34,490
+Is it pricing?
+
+62
+00:03:34,490 --> 00:03:39,490
+Is it taking the next layer down in catalog source?
+
+63
+00:03:39,690 --> 00:03:44,370
+Or is there a topic that you want us to talk about
+
+64
+00:03:44,370 --> 00:03:48,290
+and we're gonna listen.
+
+65
+00:03:48,310 --> 00:03:51,190
+We're gonna get much better at listening.
+
+66
+00:03:51,190 --> 00:03:55,550
+God gave us two ears and one mouth for a very good reason.
+
+67
+00:03:55,550 --> 00:03:59,370
+So once again, thank you for coming.
+
+68
+00:03:59,370 --> 00:04:02,910
+And now James, can you talk about the agenda
+
+69
+00:04:02,910 --> 00:04:04,350
+just for a minute or two?
+
+70
+00:04:05,750 --> 00:04:08,130
+Yeah, so we did a little intro
+
+71
+00:04:08,130 --> 00:04:10,910
+to the webinar series in the house, me and Joe.
+
+72
+00:04:12,250 --> 00:04:14,630
+The next slide, I'm gonna spend some time
+
+73
+00:04:14,630 --> 00:04:16,430
+talking about what is a catalog source
+
+74
+00:04:16,430 --> 00:04:17,890
+and why you should care,
+
+75
+00:04:17,890 --> 00:04:22,170
+give you some example usages.
+
+76
+00:04:23,650 --> 00:04:27,830
+After that, we're going to go through a basic use case
+
+77
+00:04:27,830 --> 00:04:30,890
+and set up of a catalog source to import quantity.
+
+78
+00:04:32,530 --> 00:04:35,850
+Then we will look at various applications
+
+79
+00:04:35,850 --> 00:04:37,690
+of the catalog source,
+
+80
+00:04:37,690 --> 00:04:39,050
+where it can be utilized,
+
+81
+00:04:39,050 --> 00:04:43,010
+what it's used for in various business scenarios,
+
+82
+00:04:43,970 --> 00:04:45,490
+have some time for Q and A
+
+83
+00:04:45,490 --> 00:04:48,310
+and then set some goals for the next Tech Edge
+
+84
+00:04:48,310 --> 00:04:52,750
+and do a poll on the next topics
+
+85
+00:04:52,750 --> 00:04:55,130
+and wrap it up from there.
+
+86
+00:04:56,390 --> 00:05:01,390
+One thing I wanna add is we're gonna make this video
+
+87
+00:05:01,750 --> 00:05:04,310
+available to everyone as a digital asset.
+
+88
+00:05:04,310 --> 00:05:06,710
+You'll be getting a link to it
+
+89
+00:05:06,710 --> 00:05:09,270
+so that you can either rewatch it yourself
+
+90
+00:05:09,270 --> 00:05:13,510
+or share with other teammates that maybe couldn't make today.
+
+91
+00:05:13,510 --> 00:05:16,470
+We are aware that the second Wednesday of March
+
+92
+00:05:16,490 --> 00:05:19,890
+happened to be a Jewish holiday
+
+93
+00:05:19,890 --> 00:05:24,550
+and we still wanted to go forward with this date,
+
+94
+00:05:24,550 --> 00:05:29,550
+but we do understand that those that are very strong
+
+95
+00:05:30,550 --> 00:05:32,470
+in their faith maybe can't make it today.
+
+96
+00:05:32,470 --> 00:05:36,750
+So we are gonna make it available and please sit down.
+
+97
+00:05:36,750 --> 00:05:39,790
+We're actually gonna provide documentation
+
+98
+00:05:39,790 --> 00:05:41,310
+to go along with this.
+
+99
+00:05:46,100 --> 00:05:49,960
+James is gonna go a little bit more at a very high level
+
+100
+00:05:50,260 --> 00:05:53,640
+over some of the use cases for catalog source
+
+101
+00:05:53,640 --> 00:05:56,660
+and then we'll get into more visual representation
+
+102
+00:05:56,660 --> 00:05:57,620
+of what you do.
+
+103
+00:05:59,180 --> 00:06:02,860
+So I picked the catalog sources and initial topic to work on
+
+104
+00:06:02,860 --> 00:06:06,160
+because it is the main tool
+
+105
+00:06:06,160 --> 00:06:08,400
+to manage your catalog content,
+
+106
+00:06:08,400 --> 00:06:13,400
+whether that's rich attribute data or quantity or pricing,
+
+107
+00:06:14,900 --> 00:06:19,220
+but it is the main tool to handle external data
+
+108
+00:06:19,220 --> 00:06:21,640
+is it's getting imported into EVP
+
+109
+00:06:21,640 --> 00:06:23,540
+and a lot of the functions you can achieve
+
+110
+00:06:23,540 --> 00:06:25,640
+with catalog source, if you can manage
+
+111
+00:06:25,640 --> 00:06:27,460
+and set them up on your own,
+
+112
+00:06:27,460 --> 00:06:31,600
+you can eliminate the need to get your CSM
+
+113
+00:06:31,600 --> 00:06:34,540
+to do it for you, which allows you to set up,
+
+114
+00:06:34,540 --> 00:06:37,140
+for example, a supplier at a much reduced cost
+
+115
+00:06:37,140 --> 00:06:40,080
+because you're doing the work to set up 75% of it
+
+116
+00:06:40,080 --> 00:06:41,380
+with the catalog source.
+
+117
+00:06:42,800 --> 00:06:46,560
+Again, the catalog source is a tool
+
+118
+00:06:46,560 --> 00:06:50,980
+to import external data while also analyzing it
+
+119
+00:06:50,980 --> 00:06:54,140
+and doing some checks and balances.
+
+120
+00:06:54,140 --> 00:06:56,800
+Obviously your EVP catalog is,
+
+121
+00:06:59,500 --> 00:07:01,740
+you want that to be very clean and organized
+
+122
+00:07:01,740 --> 00:07:03,580
+and when you're importing data,
+
+123
+00:07:03,580 --> 00:07:06,820
+historically it could be very easy to mess up your catalog
+
+124
+00:07:06,820 --> 00:07:08,220
+with the catalog source tool.
+
+125
+00:07:08,220 --> 00:07:12,220
+That's not as much of a risk.
+
+126
+00:07:13,100 --> 00:07:15,500
+It's designed to handle flat files,
+
+127
+00:07:16,360 --> 00:07:19,120
+CSV, XML, text.
+
+128
+00:07:19,960 --> 00:07:22,720
+We do work with APIs that build files,
+
+129
+00:07:22,720 --> 00:07:26,200
+but again, I have external data I need to deal with
+
+130
+00:07:26,200 --> 00:07:29,320
+and I want it in my system to be utilized somehow.
+
+131
+00:07:29,320 --> 00:07:31,960
+This is the tool you want to know,
+
+132
+00:07:31,960 --> 00:07:33,660
+be very familiar with so you can deal
+
+133
+00:07:33,660 --> 00:07:35,100
+with that business scenario.
+
+134
+00:07:36,560 --> 00:07:39,400
+I know that a while back we had a client
+
+135
+00:07:39,400 --> 00:07:42,280
+that literally had hundreds and hundreds
+
+136
+00:07:43,100 --> 00:07:46,740
+of non-integrated dropship suppliers
+
+137
+00:07:47,780 --> 00:07:50,500
+and during their implementation time period,
+
+138
+00:07:50,500 --> 00:07:55,500
+they got up to speed on catalog source very, very quickly
+
+139
+00:07:55,780 --> 00:07:58,460
+and during their implementation period,
+
+140
+00:07:59,380 --> 00:08:04,380
+created, took 350 of those dropship suppliers
+
+141
+00:08:04,500 --> 00:08:09,500
+and turned them into fully integrated suppliers for themselves.
+
+142
+00:08:10,480 --> 00:08:12,080
+For the brands out there,
+
+143
+00:08:12,080 --> 00:08:15,920
+there are just as many reasons to use catalog source,
+
+144
+00:08:15,920 --> 00:08:19,560
+whether it's doing some additional content
+
+145
+00:08:19,560 --> 00:08:22,000
+or high quality content.
+
+146
+00:08:22,000 --> 00:08:26,200
+There's working with 3PL or fulfillment partners.
+
+147
+00:08:26,200 --> 00:08:32,880
+There are hundreds of uses for catalog source.
+
+148
+00:08:32,880 --> 00:08:37,200
+Some basic rundown of a catalog source usage scenario
+
+149
+00:08:37,200 --> 00:08:38,880
+is you get external data,
+
+150
+00:08:39,100 --> 00:08:43,020
+you load that data into a catalog source,
+
+151
+00:08:43,020 --> 00:08:45,180
+which I like to think of as a loading dock.
+
+152
+00:08:46,180 --> 00:08:50,580
+You apply mappings, you add mappings to the catalog source
+
+153
+00:08:50,580 --> 00:08:52,340
+and what a mapping is, is a bridge.
+
+154
+00:08:52,340 --> 00:08:56,300
+I'm saying this external data, I have this field
+
+155
+00:08:56,300 --> 00:08:59,220
+and that means this in EVP and you're building that linkage.
+
+156
+00:08:59,220 --> 00:09:02,660
+So if I have a skew in the external file,
+
+157
+00:09:02,660 --> 00:09:05,420
+I tell it that this is the channel skew in EVP
+
+158
+00:09:05,420 --> 00:09:10,080
+or if this attribute equates to this attribute
+
+159
+00:09:10,080 --> 00:09:14,240
+or this MPN is actually not the one in my system,
+
+160
+00:09:14,240 --> 00:09:16,360
+so I'm just gonna load it as an attribute.
+
+161
+00:09:16,360 --> 00:09:19,740
+So you build those mappings, you then analyze and validate.
+
+162
+00:09:21,440 --> 00:09:25,280
+The analyze and validate step looks at the external data
+
+163
+00:09:25,280 --> 00:09:28,120
+and checks that UPCs are valid,
+
+164
+00:09:28,120 --> 00:09:30,720
+runs through any analysis mappings you have,
+
+165
+00:09:30,720 --> 00:09:34,640
+which can do things like check if the price
+
+166
+00:09:34,700 --> 00:09:36,460
+is below a certain amount,
+
+167
+00:09:36,460 --> 00:09:39,640
+look for keywords and titles that need to be excluded.
+
+168
+00:09:41,100 --> 00:09:43,140
+But again, it's vetting the data bit.
+
+169
+00:09:43,140 --> 00:09:44,260
+Then you apply the maps.
+
+170
+00:09:44,260 --> 00:09:46,580
+Applying the maps builds that bridge
+
+171
+00:09:46,580 --> 00:09:49,500
+that you've kind of outlined in setting up the mappings
+
+172
+00:09:49,500 --> 00:09:52,980
+and links and attempts to link the external data
+
+173
+00:09:52,980 --> 00:09:57,980
+to an internal skew in EVP so that you have a clean bridge.
+
+174
+00:09:58,380 --> 00:09:59,860
+So you know ahead of time,
+
+175
+00:09:59,860 --> 00:10:02,580
+when I click step four and import this data,
+
+176
+00:10:02,600 --> 00:10:05,040
+I know where it's gonna go and what it's gonna do.
+
+177
+00:10:05,040 --> 00:10:08,680
+Again, that's the real power behind a catalog source
+
+178
+00:10:08,680 --> 00:10:11,500
+is you can preview the behavior of the import
+
+179
+00:10:11,500 --> 00:10:13,000
+before you do so,
+
+180
+00:10:13,000 --> 00:10:15,440
+so you're not scrambling to clean up something
+
+181
+00:10:15,440 --> 00:10:17,680
+if a column was off or whatnot.
+
+182
+00:10:19,440 --> 00:10:21,720
+And then lastly, you can import the data
+
+183
+00:10:21,720 --> 00:10:23,160
+and then if there's a need for it,
+
+184
+00:10:23,160 --> 00:10:26,560
+you set up an automation so we can regularly import things
+
+185
+00:10:26,560 --> 00:10:31,560
+like cost updates, quantity, new images, stuff like that.
+
+186
+00:10:32,500 --> 00:10:33,860
+And that all comes to play
+
+187
+00:10:33,860 --> 00:10:35,960
+when you automate the catalog source.
+
+188
+00:10:37,700 --> 00:10:39,900
+All right, get ready James.
+
+189
+00:10:39,900 --> 00:10:45,740
+I'm going to make you the new host
+
+190
+00:10:45,740 --> 00:10:54,080
+as soon as I hit the correct button again
+
+191
+00:10:54,080 --> 00:10:55,360
+and you have the ball.
+
+192
+00:10:55,360 --> 00:11:02,330
+So there you go.
+
+193
+00:11:02,330 --> 00:11:05,250
+As of right now, I don't see a lot of questions coming in.
+
+194
+00:11:05,250 --> 00:11:06,770
+When they do come in,
+
+195
+00:11:07,810 --> 00:11:10,450
+if they're pertinent to what we're covering right at this
+
+196
+00:11:10,450 --> 00:11:12,550
+moment, we may insert them in,
+
+197
+00:11:12,550 --> 00:11:14,770
+but we are gonna have a time near the end
+
+198
+00:11:14,770 --> 00:11:17,970
+where we can handle those questions.
+
+199
+00:11:17,970 --> 00:11:20,750
+Any questions that we don't get to
+
+200
+00:11:20,750 --> 00:11:23,930
+or any questions that are very, very specific
+
+201
+00:11:23,930 --> 00:11:28,030
+to maybe some catalog sources you're currently running
+
+202
+00:11:28,030 --> 00:11:32,210
+or very unique problems to something that you're doing,
+
+203
+00:11:32,210 --> 00:11:34,050
+please discuss with your CSM.
+
+204
+00:11:34,050 --> 00:11:36,250
+We're here, we're here to help
+
+205
+00:11:36,250 --> 00:11:39,090
+and we're on the line to kind of understand
+
+206
+00:11:39,090 --> 00:11:40,570
+what are our clients thinking
+
+207
+00:11:40,570 --> 00:11:47,760
+and how can we help them better utilize this tool?
+
+208
+00:11:47,760 --> 00:11:52,760
+Yes, and again, our goal here is to pique your interest,
+
+209
+00:11:52,980 --> 00:11:54,820
+give you some surface level details.
+
+210
+00:11:54,820 --> 00:11:56,460
+The documentation I've written up
+
+211
+00:11:56,460 --> 00:11:58,880
+goes into a bit more detail.
+
+212
+00:11:58,880 --> 00:12:03,180
+But again, this is to get you thinking about
+
+213
+00:12:03,180 --> 00:12:07,220
+how can I utilize catalog sources in creative ways?
+
+214
+00:12:07,220 --> 00:12:09,340
+Some of you may be familiar with its usage
+
+215
+00:12:09,340 --> 00:12:12,580
+as a supplier integration mechanism,
+
+216
+00:12:12,580 --> 00:12:13,900
+but there's a lot of different ways.
+
+217
+00:12:13,900 --> 00:12:16,220
+So again, this is to show you the basics
+
+218
+00:12:16,220 --> 00:12:17,220
+so that you can kind of go,
+
+219
+00:12:17,220 --> 00:12:19,980
+hey, I've learned a bit about it.
+
+220
+00:12:19,980 --> 00:12:21,340
+Do you think we could do this?
+
+221
+00:12:21,340 --> 00:12:23,660
+And then you have a conversation with your CSM
+
+222
+00:12:23,660 --> 00:12:25,460
+and we can see what we can achieve.
+
+223
+00:12:26,620 --> 00:12:27,980
+So as you log into EDP,
+
+224
+00:12:27,980 --> 00:12:29,940
+you're always welcome to the sales order screen
+
+225
+00:12:29,940 --> 00:12:31,620
+where you see your lovely sales.
+
+226
+00:12:31,620 --> 00:12:33,660
+To navigate to the catalog source screen,
+
+227
+00:12:33,660 --> 00:12:36,060
+you go to the catalog module
+
+228
+00:12:36,060 --> 00:12:38,180
+and then you go to catalog sources.
+
+229
+00:12:38,180 --> 00:12:39,620
+First thing you're gonna notice
+
+230
+00:12:39,620 --> 00:12:42,260
+is that they are channel specific.
+
+231
+00:12:42,300 --> 00:12:44,100
+When you're utilizing a catalog source,
+
+232
+00:12:44,100 --> 00:12:52,110
+you're updating the data on a specific channel.
+
+233
+00:12:52,110 --> 00:12:54,510
+You can create a new catalog source up here.
+
+234
+00:12:54,510 --> 00:12:56,710
+You can create them from marketplaces
+
+235
+00:12:56,710 --> 00:12:58,870
+or for your ETail channel
+
+236
+00:12:58,870 --> 00:13:01,390
+or for your various supplier channels.
+
+237
+00:13:01,390 --> 00:13:06,960
+So in this case, I'm gonna create a new one.
+
+238
+00:13:06,960 --> 00:13:09,480
+Just gonna get rid of our test one.
+
+239
+00:13:09,480 --> 00:13:11,360
+I'm gonna do new catalog source
+
+240
+00:13:11,360 --> 00:13:16,010
+and I'm gonna select from a file.
+
+241
+00:13:16,010 --> 00:13:17,650
+You're gonna see this window here.
+
+242
+00:13:17,650 --> 00:13:18,830
+You're gonna hit the spy glass
+
+243
+00:13:18,830 --> 00:13:21,710
+that's gonna allow you to find that external data.
+
+244
+00:13:21,710 --> 00:13:25,390
+I like to use the metaphor of this external data
+
+245
+00:13:25,390 --> 00:13:27,230
+as a truckload of information
+
+246
+00:13:27,230 --> 00:13:29,470
+and I don't wanna just throw it from my truck
+
+247
+00:13:29,470 --> 00:13:30,470
+into my warehouse.
+
+248
+00:13:30,470 --> 00:13:32,630
+I wanna bring it onto a loading dock,
+
+249
+00:13:32,630 --> 00:13:34,270
+organize it, understand it
+
+250
+00:13:34,270 --> 00:13:36,510
+and then move it into my warehouse.
+
+251
+00:13:36,510 --> 00:13:38,550
+So my warehouse stays nice and organized.
+
+252
+00:13:38,550 --> 00:13:40,470
+Again, your EDP catalog,
+
+253
+00:13:40,470 --> 00:13:41,990
+you want as pristine as possible
+
+254
+00:13:41,990 --> 00:13:45,310
+because in the e-commerce world, content is king.
+
+255
+00:13:45,310 --> 00:13:48,590
+And so if your content isn't up to par
+
+256
+00:13:49,230 --> 00:13:50,470
+being kept updated,
+
+257
+00:13:51,930 --> 00:13:54,110
+as you all know, you have struggles.
+
+258
+00:13:54,110 --> 00:13:57,260
+So I select the file
+
+259
+00:13:57,260 --> 00:14:02,180
+and I'm gonna get a preview here.
+
+260
+00:14:02,180 --> 00:14:04,460
+I'm gonna hit this configure button
+
+261
+00:14:04,460 --> 00:14:06,040
+and here you have various options.
+
+262
+00:14:06,040 --> 00:14:07,760
+The main ones you'll probably utilize
+
+263
+00:14:07,760 --> 00:14:09,920
+are telling it how that file is delimited.
+
+264
+00:14:09,920 --> 00:14:12,580
+As you can see here, we have a number of options.
+
+265
+00:14:12,580 --> 00:14:14,460
+You're also going to typically indicate
+
+266
+00:14:14,460 --> 00:14:17,140
+that your file has column headers.
+
+267
+00:14:17,140 --> 00:14:18,260
+So I can see here,
+
+268
+00:14:18,260 --> 00:14:21,260
+I have a column header for these various fields
+
+269
+00:14:21,260 --> 00:14:23,420
+but it's not the first row.
+
+270
+00:14:23,420 --> 00:14:25,840
+So I'm going to skip the first row
+
+271
+00:14:25,840 --> 00:14:29,740
+and say the first row I don't skip has headers.
+
+272
+00:14:29,740 --> 00:14:32,160
+I hit okay, you'll see this preview.
+
+273
+00:14:33,340 --> 00:14:36,140
+Again, this is a preview of the catalog source
+
+274
+00:14:36,140 --> 00:14:38,780
+showing you what the headers are
+
+275
+00:14:38,780 --> 00:14:40,420
+and everything looks parsed correctly.
+
+276
+00:14:40,420 --> 00:14:42,340
+So I'm gonna hit save.
+
+277
+00:14:42,340 --> 00:14:45,260
+By default catalog source will be named
+
+278
+00:14:45,260 --> 00:14:49,580
+the same as the file you used to create it.
+
+279
+00:14:49,580 --> 00:14:52,540
+Once you've created the initial catalog source,
+
+280
+00:14:52,540 --> 00:14:53,980
+you'll be welcomed by this screen
+
+281
+00:14:53,980 --> 00:14:56,380
+showing you that it's loading the data.
+
+282
+00:14:56,380 --> 00:14:59,420
+Again, at this point, we're putting the data,
+
+283
+00:14:59,420 --> 00:15:01,420
+we're taking the data off of that truck
+
+284
+00:15:01,420 --> 00:15:04,220
+and putting it onto a loading dock so we can organize it.
+
+285
+00:15:05,500 --> 00:15:06,620
+Once the data is loaded,
+
+286
+00:15:06,620 --> 00:15:09,160
+you come to this screen and you hit refresh tab
+
+287
+00:15:09,160 --> 00:15:10,500
+and you'll see the data.
+
+288
+00:15:10,500 --> 00:15:11,580
+There's a rule of thumb.
+
+289
+00:15:11,580 --> 00:15:14,460
+Everything in this yellow is the external data.
+
+290
+00:15:17,300 --> 00:15:19,840
+It looks like if you did this a few times,
+
+291
+00:15:20,840 --> 00:15:23,180
+almost everybody could learn how to use this
+
+292
+00:15:23,180 --> 00:15:25,360
+with just a few practice times.
+
+293
+00:15:25,360 --> 00:15:27,480
+It's pretty straightforward.
+
+294
+00:15:27,480 --> 00:15:28,480
+Yeah, yeah.
+
+295
+00:15:28,480 --> 00:15:29,840
+And again, I picked this topic
+
+296
+00:15:29,840 --> 00:15:33,380
+because the more familiar with the catalog source
+
+297
+00:15:33,380 --> 00:15:35,600
+and the more comfortable you are using it,
+
+298
+00:15:35,600 --> 00:15:38,600
+the more empowered you are to A, manage your catalog
+
+299
+00:15:38,600 --> 00:15:41,180
+and B, diagnose a lot of issues.
+
+300
+00:15:41,180 --> 00:15:43,000
+I get a lot of people asking,
+
+301
+00:15:43,000 --> 00:15:45,700
+they submit tickets, hey, inventory didn't update.
+
+302
+00:15:45,700 --> 00:15:48,360
+It takes you five seconds to check this automation time
+
+303
+00:15:48,360 --> 00:15:50,560
+and go, oh, we didn't get a file.
+
+304
+00:15:50,560 --> 00:15:53,080
+I didn't need to reach out or create a support ticket.
+
+305
+00:15:53,080 --> 00:15:56,800
+I just needed to understand how the catalog source works
+
+306
+00:15:56,800 --> 00:15:58,120
+and then I can check it myself
+
+307
+00:15:58,120 --> 00:15:59,720
+and I can go, oh, we didn't get a file.
+
+308
+00:15:59,720 --> 00:16:02,080
+I need to reach out to the supplier to get file.
+
+309
+00:16:02,080 --> 00:16:04,400
+They've stopped putting it on the FTP.
+
+310
+00:16:04,400 --> 00:16:07,490
+Perfect, yeah.
+
+311
+00:16:07,490 --> 00:16:10,650
+So after you've loaded your data,
+
+312
+00:16:10,650 --> 00:16:12,170
+you're gonna come to this columns tab
+
+313
+00:16:12,170 --> 00:16:13,570
+and you establish your mappings.
+
+314
+00:16:13,570 --> 00:16:15,150
+Again, a mapping is a bridge.
+
+315
+00:16:15,150 --> 00:16:17,970
+I'm saying, this is my external data.
+
+316
+00:16:17,970 --> 00:16:20,450
+What does that mean in EVP?
+
+317
+00:16:20,450 --> 00:16:23,690
+So in this case, I know that the skew is the skew.
+
+318
+00:16:23,690 --> 00:16:27,170
+And for example, we're just gonna load quantity.
+
+319
+00:16:27,170 --> 00:16:32,080
+So I know that the supplier stock is the quantity.
+
+320
+00:16:32,080 --> 00:16:33,960
+But again, you have all these options.
+
+321
+00:16:33,960 --> 00:16:35,640
+I would learn and get familiar
+
+322
+00:16:35,640 --> 00:16:37,960
+with all of the mapping options you have available
+
+323
+00:16:37,960 --> 00:16:40,880
+because again, these are the bridges I can build
+
+324
+00:16:40,880 --> 00:16:43,320
+between external data and what it means in EVP.
+
+325
+00:16:43,320 --> 00:16:46,320
+You have a lot of options in various areas.
+
+326
+00:16:46,320 --> 00:16:48,160
+Getting familiar with these mapping options
+
+327
+00:16:48,160 --> 00:16:50,400
+will be very helpful for you and your team.
+
+328
+00:16:51,760 --> 00:16:53,240
+Once you've set up your mappings,
+
+329
+00:16:53,240 --> 00:16:57,800
+you're gonna save and close and reopen the catalog source.
+
+330
+00:16:57,800 --> 00:17:03,570
+Now on the mappings tab, you will see your mappings.
+
+331
+00:17:03,570 --> 00:17:06,270
+One mapping I wanna call out,
+
+332
+00:17:06,270 --> 00:17:09,890
+you can change the map type to a custom script.
+
+333
+00:17:09,890 --> 00:17:14,650
+A custom script allows us to achieve a lot of complexity
+
+334
+00:17:14,650 --> 00:17:18,170
+when we're handling data, some example usages.
+
+335
+00:17:19,130 --> 00:17:21,370
+The supplier doesn't provide a very good title.
+
+336
+00:17:21,370 --> 00:17:24,130
+So I wanna combine multiple fields to make a title.
+
+337
+00:17:25,530 --> 00:17:28,810
+The supplier provides their wholesale costs,
+
+338
+00:17:28,810 --> 00:17:30,130
+but I get a discounted rate.
+
+339
+00:17:30,130 --> 00:17:33,490
+So I need to take a percentage off of the value in the file.
+
+340
+00:17:36,810 --> 00:17:38,050
+Those are just two examples.
+
+341
+00:17:38,050 --> 00:17:40,490
+But again, the custom script allows you to achieve
+
+342
+00:17:40,490 --> 00:17:43,210
+a lot of complexity within the catalog source
+
+343
+00:17:43,210 --> 00:17:44,250
+when dealing with the data.
+
+344
+00:17:44,250 --> 00:17:48,370
+So never shy away from asking the question to your CSM.
+
+345
+00:17:48,370 --> 00:17:49,730
+Hey, do you think we can do this?
+
+346
+00:17:49,730 --> 00:17:53,130
+Because the answer is probably we can work
+
+347
+00:17:53,130 --> 00:17:55,290
+with the development team to build a custom script
+
+348
+00:17:55,290 --> 00:17:56,290
+that does do that.
+
+349
+00:17:58,050 --> 00:18:00,450
+So it doesn't just have to be your dealing with raw data.
+
+350
+00:18:00,450 --> 00:18:06,000
+You can manipulate it as you're importing it.
+
+351
+00:18:06,000 --> 00:18:09,040
+Remember, you can ask questions at any time.
+
+352
+00:18:09,920 --> 00:18:12,480
+Our other CSMs, Jason and James,
+
+353
+00:18:12,480 --> 00:18:16,680
+or excuse me, Jeff Baker are reviewing those
+
+354
+00:18:16,680 --> 00:18:20,640
+and trying to get the right ones to me at the right time.
+
+355
+00:18:22,000 --> 00:18:23,760
+One nuance with quantity loading
+
+356
+00:18:23,760 --> 00:18:25,560
+is you do have to define a location.
+
+357
+00:18:25,560 --> 00:18:26,560
+So that's what I'm doing here.
+
+358
+00:18:26,560 --> 00:18:33,600
+I'm spelling at what location that quantity goes to.
+
+359
+00:18:33,600 --> 00:18:35,240
+So once you've set up your mappings,
+
+360
+00:18:35,240 --> 00:18:37,980
+you're gonna do actions, analyze data.
+
+361
+00:18:38,880 --> 00:18:42,040
+This is just gonna scan the data at a very high level.
+
+362
+00:18:42,040 --> 00:18:44,200
+There is an analysis mapping option
+
+363
+00:18:44,200 --> 00:18:47,040
+which can do various checks, such as,
+
+364
+00:18:48,000 --> 00:18:51,360
+and often if the UPC starts with five zeros,
+
+365
+00:18:51,360 --> 00:18:52,400
+I don't wanna import it.
+
+366
+00:18:52,400 --> 00:18:59,820
+That's part of the analysis check.
+
+367
+00:18:59,820 --> 00:19:02,700
+I'm also gonna be told the max length
+
+368
+00:19:02,700 --> 00:19:04,180
+of the values in that field.
+
+369
+00:19:04,180 --> 00:19:07,860
+So if one of these says my title is 10,000 characters long,
+
+370
+00:19:07,860 --> 00:19:10,580
+I know there's probably some issue with my data.
+
+371
+00:19:10,580 --> 00:19:11,900
+And that's good, I've checked it.
+
+372
+00:19:11,900 --> 00:19:14,740
+I've identified an issue before I've imported it.
+
+373
+00:19:14,740 --> 00:19:17,500
+Again, within the catalog source, you're in a loading dock.
+
+374
+00:19:17,500 --> 00:19:21,980
+So you're not corrupting your EVP catalog at this point.
+
+375
+00:19:22,060 --> 00:19:27,640
+You're identifying the flaws in your data ahead of time.
+
+376
+00:19:27,640 --> 00:19:29,240
+So we're just gonna let this analyze
+
+377
+00:19:29,240 --> 00:19:31,080
+a little bit, a few more seconds.
+
+378
+00:19:31,080 --> 00:19:33,360
+Well, you're letting it analyze, James.
+
+379
+00:19:33,360 --> 00:19:35,320
+How do you form...
+
+380
+00:19:35,320 --> 00:19:39,640
+How do formatting map errors alert you?
+
+381
+00:19:39,640 --> 00:19:43,780
+And will this cause all data to not load
+
+382
+00:19:43,780 --> 00:19:55,820
+or only the specific fields that were incorrect?
+
+383
+00:19:55,960 --> 00:20:00,360
+Well, I think you're asking is if the analysis check
+
+384
+00:20:00,360 --> 00:20:03,040
+determines something's invalid, does it get imported?
+
+385
+00:20:04,480 --> 00:20:05,320
+Okay.
+
+386
+00:20:06,520 --> 00:20:08,040
+And the answer would be no.
+
+387
+00:20:08,040 --> 00:20:08,880
+Okay.
+
+388
+00:20:08,880 --> 00:20:11,040
+So for example, it happens a lot with UPC,
+
+389
+00:20:11,040 --> 00:20:13,680
+the system detects that a UPC in the external data
+
+390
+00:20:13,680 --> 00:20:18,160
+is invalid, that is identified during the analysis check
+
+391
+00:20:18,160 --> 00:20:22,500
+and it doesn't let you import that invalid UPC.
+
+392
+00:20:23,480 --> 00:20:25,560
+If you don't have a mapping for a field,
+
+393
+00:20:25,560 --> 00:20:28,080
+there's no bridge, so the data is left alone.
+
+394
+00:20:28,080 --> 00:20:29,000
+It's not imported.
+
+395
+00:20:29,000 --> 00:20:31,960
+So in this case, I'm ignoring all this data
+
+396
+00:20:31,960 --> 00:20:35,800
+and I'm just importing the quantity by matching on this view.
+
+397
+00:20:35,800 --> 00:20:36,680
+Got it.
+
+398
+00:20:36,680 --> 00:20:40,400
+And remember, if we don't get to your question right away,
+
+399
+00:20:40,400 --> 00:20:42,760
+we're gonna be covering as many as we can
+
+400
+00:20:42,760 --> 00:20:45,720
+during the question and answer session.
+
+401
+00:20:45,720 --> 00:20:50,520
+And at the end of James,
+
+402
+00:20:50,520 --> 00:20:54,550
+just kind of running through this right now.
+
+403
+00:20:54,550 --> 00:20:56,950
+One thing I like to emphasize
+
+404
+00:20:56,950 --> 00:20:58,790
+when training people on the catalog source
+
+405
+00:20:58,790 --> 00:21:02,350
+is you have four options for creating a link.
+
+406
+00:21:02,350 --> 00:21:04,630
+Well, you technically have five options.
+
+407
+00:21:04,630 --> 00:21:09,150
+Creating a link from the external data to a SKU
+
+408
+00:21:09,150 --> 00:21:10,630
+or a master SKU and EVP,
+
+409
+00:21:10,630 --> 00:21:12,430
+because that's the real first step
+
+410
+00:21:12,430 --> 00:21:17,030
+is telling the system what SKU and the EVP
+
+411
+00:21:17,030 --> 00:21:18,890
+I need to be updating.
+
+412
+00:21:18,890 --> 00:21:20,670
+And so your options are SKU,
+
+413
+00:21:20,670 --> 00:21:22,230
+you can match on the channel SKU,
+
+414
+00:21:22,230 --> 00:21:24,670
+you can match on the master SKU,
+
+415
+00:21:24,670 --> 00:21:28,430
+you can match on a UPC, a part number,
+
+416
+00:21:28,430 --> 00:21:31,720
+or an attribute.
+
+417
+00:21:31,720 --> 00:21:35,520
+If you wanna match on those beyond master SKU and SKU,
+
+418
+00:21:35,520 --> 00:21:37,320
+you would configure that here.
+
+419
+00:21:37,320 --> 00:21:39,760
+And again, that allows you to build that bridge
+
+420
+00:21:39,760 --> 00:21:42,600
+between the external data and what it is in EVP.
+
+421
+00:21:43,960 --> 00:21:45,880
+So on step three,
+
+422
+00:21:45,880 --> 00:21:47,960
+we're actually gonna try and apply the maps
+
+423
+00:21:47,960 --> 00:21:50,360
+that we've set up and build that bridge.
+
+424
+00:21:50,360 --> 00:21:53,600
+What I also like to emphasize is these first three steps,
+
+425
+00:21:53,600 --> 00:21:54,720
+you're relatively safe.
+
+426
+00:21:54,720 --> 00:21:58,280
+You're not gonna corrupt your EVP catalog
+
+427
+00:21:58,280 --> 00:22:00,080
+by doing these first three steps.
+
+428
+00:22:00,080 --> 00:22:03,080
+They are contained within that loading stage.
+
+429
+00:22:04,040 --> 00:22:05,480
+So when apply maps,
+
+430
+00:22:05,480 --> 00:22:07,280
+you can see here the results of that.
+
+431
+00:22:07,280 --> 00:22:09,600
+I'm matching on SKU, which is good.
+
+432
+00:22:11,200 --> 00:22:13,240
+Again, yellow is external data.
+
+433
+00:22:13,240 --> 00:22:14,600
+Green is telling me,
+
+434
+00:22:14,600 --> 00:22:15,720
+the green section is telling me,
+
+435
+00:22:15,720 --> 00:22:18,400
+okay, this is the channel SKU.
+
+436
+00:22:18,400 --> 00:22:20,960
+And again, I'm on a specific channel.
+
+437
+00:22:20,960 --> 00:22:22,480
+And then this is the master SKU
+
+438
+00:22:22,480 --> 00:22:23,880
+and these look could be correct.
+
+439
+00:22:23,880 --> 00:22:26,380
+There's no numbers line up.
+
+440
+00:22:26,380 --> 00:22:29,660
+So this is where you can check your results
+
+441
+00:22:29,660 --> 00:22:30,620
+before you import,
+
+442
+00:22:30,620 --> 00:22:33,220
+which is really powerful because again,
+
+443
+00:22:33,220 --> 00:22:35,860
+it lets you find flaws in your data.
+
+444
+00:22:35,860 --> 00:22:36,700
+It lets you see,
+
+445
+00:22:36,700 --> 00:22:39,140
+hey, I'm not matching on a bunch of stuff.
+
+446
+00:22:39,140 --> 00:22:40,500
+Does that mean the data is wrong?
+
+447
+00:22:40,500 --> 00:22:44,700
+Or do I have potential SKUs I can create?
+
+448
+00:22:44,700 --> 00:22:45,900
+Yeah, the last thing you wanna do
+
+449
+00:22:45,900 --> 00:22:48,740
+is corrupt your catalog in EVP.
+
+450
+00:22:50,260 --> 00:22:54,260
+Typically you have to reach out to your CSM
+
+451
+00:22:54,260 --> 00:22:56,220
+and have them help you fix it,
+
+452
+00:22:57,020 --> 00:23:00,460
+which is distracting from growth driving business.
+
+453
+00:23:00,460 --> 00:23:04,900
+So once you've applied the maps,
+
+454
+00:23:04,900 --> 00:23:06,340
+you'll see the matches,
+
+455
+00:23:06,340 --> 00:23:08,380
+you'll see where it didn't match.
+
+456
+00:23:08,380 --> 00:23:10,740
+This screen here is exportable
+
+457
+00:23:10,740 --> 00:23:12,700
+and can be exported into Excel.
+
+458
+00:23:12,700 --> 00:23:14,980
+So you can kind of filter out,
+
+459
+00:23:14,980 --> 00:23:17,900
+identify stuff that didn't match,
+
+460
+00:23:19,180 --> 00:23:24,180
+do various layers of manipulation if needed.
+
+461
+00:23:24,180 --> 00:23:25,580
+After it's applied the maps,
+
+462
+00:23:25,580 --> 00:23:27,280
+you would do action step four,
+
+463
+00:23:27,280 --> 00:23:28,960
+which would load the data
+
+464
+00:23:28,960 --> 00:23:32,240
+to the record it's built a bridge to.
+
+465
+00:23:32,240 --> 00:23:34,640
+If I, I'm gonna let this run,
+
+466
+00:23:34,640 --> 00:23:36,320
+let's go take a second.
+
+467
+00:23:36,320 --> 00:23:38,280
+I'm gonna cover the settings really quick.
+
+468
+00:23:38,280 --> 00:23:40,120
+Again, I talked about the matching.
+
+469
+00:23:40,120 --> 00:23:42,440
+This allows us to match to data points
+
+470
+00:23:42,440 --> 00:23:44,880
+beyond SKU and master SKU.
+
+471
+00:23:44,880 --> 00:23:47,160
+The other section you're gonna be wanna,
+
+472
+00:23:47,160 --> 00:23:48,720
+going to want to be familiar with
+
+473
+00:23:48,720 --> 00:23:50,920
+is the create and update.
+
+474
+00:23:50,920 --> 00:23:52,520
+I cover this a bit more in depth
+
+475
+00:23:52,520 --> 00:23:54,400
+on the documentation that we will provide,
+
+476
+00:23:54,400 --> 00:23:59,400
+but essentially think of catalog items as master SKUs.
+
+477
+00:23:59,840 --> 00:24:03,060
+Do I wanna create or update master SKUs?
+
+478
+00:24:03,060 --> 00:24:06,080
+You should be familiar with master SKU level details
+
+479
+00:24:06,080 --> 00:24:11,080
+like a master, a title, UPC, UOM information.
+
+480
+00:24:11,120 --> 00:24:13,400
+Those are all stored at the master SKU level.
+
+481
+00:24:14,440 --> 00:24:17,560
+Then do I wanna create or update channel records?
+
+482
+00:24:17,560 --> 00:24:22,560
+This is typically attributes, images, stuff like that.
+
+483
+00:24:24,730 --> 00:24:26,930
+A channel record can be a supplier record
+
+484
+00:24:26,930 --> 00:24:29,850
+or a marketplace record.
+
+485
+00:24:29,850 --> 00:24:32,330
+But again, if I need to create a channel record,
+
+486
+00:24:32,330 --> 00:24:34,770
+I have to have a master SKU.
+
+487
+00:24:34,770 --> 00:24:37,450
+So, but this will control how we update
+
+488
+00:24:37,450 --> 00:24:42,500
+or create master SKUs and SKUs.
+
+489
+00:24:42,500 --> 00:24:45,300
+So as I applied map, we're almost done there.
+
+490
+00:24:45,300 --> 00:24:47,420
+You would do action step four and load the data,
+
+491
+00:24:47,420 --> 00:24:49,500
+which we may or may not get to.
+
+492
+00:24:50,580 --> 00:24:51,940
+But that's the very basics.
+
+493
+00:24:51,940 --> 00:24:54,580
+You're getting your external data,
+
+494
+00:24:54,580 --> 00:24:57,580
+you're importing it to a catalog source,
+
+495
+00:24:57,580 --> 00:25:00,460
+you're establishing your mappings,
+
+496
+00:25:00,460 --> 00:25:02,900
+you're applying your mappings and analyzing the results
+
+497
+00:25:02,900 --> 00:25:04,700
+and then you're importing the data.
+
+498
+00:25:04,700 --> 00:25:08,260
+And again, the power behind the catalog source
+
+499
+00:25:08,260 --> 00:25:10,900
+is once you've set it up, you can automate it.
+
+500
+00:25:10,900 --> 00:25:13,540
+So if that file is regularly available,
+
+501
+00:25:13,540 --> 00:25:16,060
+you can set up automation so we pull that file.
+
+502
+00:25:17,380 --> 00:25:21,460
+You also have the ability to check the data
+
+503
+00:25:21,460 --> 00:25:22,460
+before you import it,
+
+504
+00:25:22,460 --> 00:25:26,340
+which when setting up a new catalog for a new supplier is huge.
+
+505
+00:25:26,340 --> 00:25:27,180
+And again-
+
+506
+00:25:28,180 --> 00:25:29,700
+So James, just let me reiterate,
+
+507
+00:25:29,700 --> 00:25:33,820
+in these 10, 12 minutes, we've taken an external file,
+
+508
+00:25:34,940 --> 00:25:38,620
+brought it in DVP, corrected it,
+
+509
+00:25:38,620 --> 00:25:41,340
+analyzed it, created our mappings
+
+510
+00:25:41,340 --> 00:25:46,020
+and imported 21,000 new items into our catalog
+
+511
+00:25:46,940 --> 00:25:51,060
+that once you have the quantity or the,
+
+512
+00:25:51,060 --> 00:25:53,300
+you said what you wanna do in the pricing,
+
+513
+00:25:53,300 --> 00:25:57,380
+you got 20,000 new products up on your sales channels,
+
+514
+00:25:58,620 --> 00:26:00,140
+ready to go.
+
+515
+00:26:00,140 --> 00:26:02,460
+Yeah, I mean, if we were creating supplier records here,
+
+516
+00:26:02,460 --> 00:26:04,420
+you'd get your item creators to run
+
+517
+00:26:04,420 --> 00:26:09,420
+and yeah, you could add 21,000 new listings for each channel.
+
+518
+00:26:10,620 --> 00:26:12,260
+Fantastic.
+
+519
+00:26:12,260 --> 00:26:15,540
+And again, I emphasize that getting familiar
+
+520
+00:26:15,540 --> 00:26:16,860
+with the catalog source,
+
+521
+00:26:16,860 --> 00:26:20,500
+A, allows you to set up flat file suppliers on your own
+
+522
+00:26:20,500 --> 00:26:23,420
+and B, diagnose what's going on
+
+523
+00:26:23,420 --> 00:26:25,820
+with the automation that's been set up.
+
+524
+00:26:25,820 --> 00:26:28,540
+Okay, another quick question for you.
+
+525
+00:26:28,540 --> 00:26:32,020
+How does it work when a supplier's inventory record
+
+526
+00:26:33,060 --> 00:26:35,620
+drops from their feed?
+
+527
+00:26:35,620 --> 00:26:39,340
+Will it expire the inventory and set it to zero?
+
+528
+00:26:39,340 --> 00:26:43,220
+So if somebody had a hundred items in their normal feed
+
+529
+00:26:43,220 --> 00:26:45,020
+and now there's only 99.
+
+530
+00:26:46,660 --> 00:26:50,140
+Yeah, you can configure the system to behave in various ways
+
+531
+00:26:50,140 --> 00:26:51,100
+when that occurs.
+
+532
+00:26:51,100 --> 00:26:54,260
+So in the availability section you've seen here,
+
+533
+00:26:54,260 --> 00:26:57,500
+if I check expire and after days,
+
+534
+00:26:58,540 --> 00:27:02,340
+if the specific SKU has not had quantity loaded
+
+535
+00:27:02,340 --> 00:27:04,980
+from this file in three days,
+
+536
+00:27:04,980 --> 00:27:06,300
+we will expire the inventory.
+
+537
+00:27:06,300 --> 00:27:08,340
+So if you'll want to expire right away,
+
+538
+00:27:08,340 --> 00:27:11,140
+I would check the box and leave it at zero.
+
+539
+00:27:11,140 --> 00:27:14,460
+You can also define behavior for if no file is found.
+
+540
+00:27:14,460 --> 00:27:17,420
+So the supplier stops dropping off a file,
+
+541
+00:27:17,420 --> 00:27:18,700
+we can expire everything
+
+542
+00:27:18,700 --> 00:27:21,820
+if we don't find a file after X amount of days.
+
+543
+00:27:21,820 --> 00:27:25,260
+So you do have options to expire availability
+
+544
+00:27:25,260 --> 00:27:27,500
+if the row is dropped from the file.
+
+545
+00:27:27,500 --> 00:27:30,420
+So it sounds like we thought of everything.
+
+546
+00:27:30,420 --> 00:27:32,260
+If you can think of the example,
+
+547
+00:27:32,260 --> 00:27:35,420
+we're gonna cover it somehow.
+
+548
+00:27:35,420 --> 00:27:36,540
+Okay.
+
+549
+00:27:36,540 --> 00:27:37,380
+Yeah.
+
+550
+00:27:38,460 --> 00:27:41,420
+James, why don't you throw it back over to me?
+
+551
+00:27:41,420 --> 00:27:54,740
+Sounds good.
+
+552
+00:27:54,740 --> 00:28:00,040
+Okay, this is the one thing we have to figure out
+
+553
+00:28:00,040 --> 00:28:01,600
+as we do these monthly
+
+554
+00:28:01,600 --> 00:28:03,120
+to be a little bit more efficient
+
+555
+00:28:03,120 --> 00:28:06,960
+in the passing of the baton, but we'll get better.
+
+556
+00:28:06,960 --> 00:28:11,440
+We also would be on saying what we should do
+
+557
+00:28:11,440 --> 00:28:13,080
+in these webinars,
+
+558
+00:28:13,080 --> 00:28:16,320
+give us suggestions on how we can get better.
+
+559
+00:28:16,320 --> 00:28:18,440
+This is our first one.
+
+560
+00:28:18,440 --> 00:28:20,360
+I know I'm just killing it,
+
+561
+00:28:20,360 --> 00:28:23,080
+and I'm kind of dragging James along,
+
+562
+00:28:23,080 --> 00:28:26,800
+but what can we do to make this more interesting,
+
+563
+00:28:26,800 --> 00:28:29,640
+more pertinent, or just more enjoyable?
+
+564
+00:28:29,640 --> 00:28:31,480
+I can tell jokes.
+
+565
+00:28:32,440 --> 00:28:35,520
+Some of the uses, we did the demo,
+
+566
+00:28:35,520 --> 00:28:38,360
+some of the real uses,
+
+567
+00:28:38,360 --> 00:28:40,120
+let's think about how to use it.
+
+568
+00:28:40,960 --> 00:28:44,920
+We've given you literally how easy it is to use.
+
+569
+00:28:46,920 --> 00:28:50,760
+I don't think any of you that were at novices
+
+570
+00:28:50,760 --> 00:28:54,320
+coming in today would consider yourself experts,
+
+571
+00:28:54,320 --> 00:28:58,120
+but you now understand what the power is.
+
+572
+00:28:58,120 --> 00:29:01,600
+One of our future sessions may give you
+
+573
+00:29:01,600 --> 00:29:05,320
+additional tools and techniques on how to use this,
+
+574
+00:29:05,320 --> 00:29:07,680
+but now you know what it's for
+
+575
+00:29:07,680 --> 00:29:10,520
+and how you can use it for your business.
+
+576
+00:29:10,520 --> 00:29:13,880
+You can import content, images
+
+577
+00:29:13,880 --> 00:29:16,760
+to improve the quality of your listings.
+
+578
+00:29:16,760 --> 00:29:20,720
+You can set up those supplier integrations
+
+579
+00:29:20,720 --> 00:29:23,440
+for inventory level information.
+
+580
+00:29:23,440 --> 00:29:25,760
+Nobody likes to have their ODR go down
+
+581
+00:29:25,760 --> 00:29:29,760
+because they ran out of inventory
+
+582
+00:29:29,760 --> 00:29:32,440
+in their dropship suppliers,
+
+583
+00:29:32,440 --> 00:29:34,200
+and you want to be able to sell at a price
+
+584
+00:29:34,200 --> 00:29:36,480
+that's a good price for you.
+
+585
+00:29:36,480 --> 00:29:40,480
+Win the buy box, but make some profit, make some margin.
+
+586
+00:29:40,480 --> 00:29:43,880
+James, you can probably address the last bullet point
+
+587
+00:29:43,880 --> 00:29:45,360
+a little bit better than I can.
+
+588
+00:29:47,120 --> 00:29:50,640
+Yeah, so again, content, supplier integrations
+
+589
+00:29:50,640 --> 00:29:54,200
+are the primary ways in which catalog sources are used,
+
+590
+00:29:54,200 --> 00:29:59,230
+and another way they can be used
+
+591
+00:29:59,230 --> 00:30:01,510
+is with the active inventory option.
+
+592
+00:30:01,510 --> 00:30:05,630
+So on marketplaces, instead of using an external file,
+
+593
+00:30:05,630 --> 00:30:08,790
+I can build a file based on the active inventory
+
+594
+00:30:08,790 --> 00:30:09,830
+on that marketplace.
+
+595
+00:30:09,830 --> 00:30:13,350
+So what you would see in the new catalog source dropdown
+
+596
+00:30:13,350 --> 00:30:15,550
+on a channel like Amazon is an option
+
+597
+00:30:15,550 --> 00:30:17,630
+to choose active inventory.
+
+598
+00:30:17,630 --> 00:30:21,390
+That uses the API connection to build a file
+
+599
+00:30:21,390 --> 00:30:23,830
+of everything that's existing out on the marketplace
+
+600
+00:30:23,830 --> 00:30:26,030
+that's active at that point in time,
+
+601
+00:30:26,030 --> 00:30:31,030
+and allows you to do a comparison of what's going on in EVP.
+
+602
+00:30:31,550 --> 00:30:34,030
+Historically, people would have to export something
+
+603
+00:30:34,030 --> 00:30:36,470
+from EVP, export something from the marketplace,
+
+604
+00:30:36,470 --> 00:30:38,870
+put Excel files right next to each other.
+
+605
+00:30:38,870 --> 00:30:41,190
+With the active inventory catalog source,
+
+606
+00:30:41,190 --> 00:30:44,550
+you can do that comparison within the application,
+
+607
+00:30:44,550 --> 00:30:48,670
+and then take action without having to go from a file
+
+608
+00:30:48,670 --> 00:30:51,430
+to Excel to a file to an application.
+
+609
+00:30:51,430 --> 00:30:55,190
+You can do all that assessment in comparison with an EVP.
+
+610
+00:30:55,190 --> 00:30:57,430
+I've seen a lot of creative usages with that.
+
+611
+00:30:57,430 --> 00:31:02,430
+One example is you can diagnose and make sure
+
+612
+00:31:02,790 --> 00:31:05,790
+that shipping templates are in sync,
+
+613
+00:31:05,790 --> 00:31:10,790
+and identify items that are potentially having issues
+
+614
+00:31:11,710 --> 00:31:16,280
+that are making them inactive.
+
+615
+00:31:16,280 --> 00:31:21,280
+Okay, and we're getting towards the end of our time
+
+616
+00:31:21,680 --> 00:31:24,320
+with you as much as we're enjoying it.
+
+617
+00:31:24,320 --> 00:31:27,080
+We're in that question and answer session,
+
+618
+00:31:27,080 --> 00:31:29,560
+and I'm not gonna use any names here,
+
+619
+00:31:29,560 --> 00:31:34,560
+but can you use the catalog source to create variant groups
+
+620
+00:31:35,760 --> 00:31:40,760
+and assign your various items to the variant group?
+
+621
+00:31:43,160 --> 00:31:44,320
+Great question.
+
+622
+00:31:45,440 --> 00:31:46,560
+It is a good question.
+
+623
+00:31:46,560 --> 00:31:51,140
+I've worked, the SME of variations on our team is Heather.
+
+624
+00:31:52,020 --> 00:31:56,380
+I do believe that the catalog source can be utilized
+
+625
+00:31:56,380 --> 00:32:00,420
+to set up variations in child-parent relationships.
+
+626
+00:32:01,940 --> 00:32:06,940
+Okay, obviously for more information, contact your CSM,
+
+627
+00:32:07,140 --> 00:32:09,940
+and if we need to have Heather jump on the call
+
+628
+00:32:09,940 --> 00:32:12,820
+or answer a few more questions, we'll figure that out.
+
+629
+00:32:13,740 --> 00:32:15,660
+Here's another one we have.
+
+630
+00:32:15,660 --> 00:32:20,660
+Can the catalog source be used to automate marketing data
+
+631
+00:32:20,660 --> 00:32:24,220
+that is sitting on a supplier FTP site?
+
+632
+00:32:24,220 --> 00:32:28,900
+For example, supplier gives us marketing data weekly.
+
+633
+00:32:28,900 --> 00:32:33,820
+Can we automatically grab the new file and load it in the VP?
+
+634
+00:32:33,820 --> 00:32:36,020
+I mean, usually when we talk about automate,
+
+635
+00:32:36,020 --> 00:32:38,220
+we're talking hourly, daily.
+
+636
+00:32:38,220 --> 00:32:40,220
+What about setting them up a week apart?
+
+637
+00:32:41,620 --> 00:32:44,860
+Yeah, the schedules can be set to any sort of cadence.
+
+638
+00:32:47,100 --> 00:32:48,900
+Yes, you could import marketing data
+
+639
+00:32:48,900 --> 00:32:52,140
+from suppliers on a weekly basis.
+
+640
+00:32:52,140 --> 00:32:55,100
+You would also wanna look at and work with your CSM
+
+641
+00:32:55,100 --> 00:32:58,140
+on utilizing the attribute mappings
+
+642
+00:32:58,140 --> 00:33:01,500
+so that that data as it's updated on the supplier record
+
+643
+00:33:01,500 --> 00:33:05,100
+gets pushed up to the marketplace to supplier lists
+
+644
+00:33:05,100 --> 00:33:07,060
+or sales listings.
+
+645
+00:33:07,060 --> 00:33:09,980
+But you could definitely pull a file from an FTP
+
+646
+00:33:09,980 --> 00:33:13,100
+or have them drop it off on ours, import it weekly,
+
+647
+00:33:13,100 --> 00:33:17,060
+and that updates attribute level marketing details.
+
+648
+00:33:17,060 --> 00:33:18,660
+And then if you have attribute maps,
+
+649
+00:33:18,740 --> 00:33:20,860
+which essentially take an attribute from one channel
+
+650
+00:33:20,860 --> 00:33:22,700
+and populate it on another,
+
+651
+00:33:22,700 --> 00:33:26,540
+that would automatically be updated and republished
+
+652
+00:33:26,540 --> 00:33:28,860
+as that content is imported.
+
+653
+00:33:30,060 --> 00:33:32,820
+Okay, here's gonna be a really good one.
+
+654
+00:33:32,820 --> 00:33:36,660
+How do you pull current catalog sources
+
+655
+00:33:36,660 --> 00:33:41,180
+and their mapping already in EVP
+
+656
+00:33:41,180 --> 00:33:48,540
+so that you can use this as a template?
+
+657
+00:33:48,540 --> 00:33:53,540
+So I think I'm gonna answer this question correctly.
+
+658
+00:33:53,980 --> 00:33:55,580
+If I set up a catalog source
+
+659
+00:33:55,580 --> 00:33:59,260
+and I have a bunch of intricate mappings
+
+660
+00:33:59,260 --> 00:34:02,180
+with custom scripts and whatnot,
+
+661
+00:34:02,180 --> 00:34:05,140
+and I wanna reuse those mappings
+
+662
+00:34:05,140 --> 00:34:07,220
+and a different catalog source,
+
+663
+00:34:07,220 --> 00:34:08,740
+you can export mappings
+
+664
+00:34:08,740 --> 00:34:11,220
+and re-import them on other catalog sources.
+
+665
+00:34:12,460 --> 00:34:15,940
+So the mappings can be exported into a map file
+
+666
+00:34:15,940 --> 00:34:19,420
+and then re-import it on a different catalog source.
+
+667
+00:34:19,420 --> 00:34:20,260
+Perfect.
+
+668
+00:34:20,260 --> 00:34:25,260
+And will the catalog source replace the MCIs in the future?
+
+669
+00:34:25,420 --> 00:34:29,620
+Is it possible to add MCIs functionality
+
+670
+00:34:29,620 --> 00:34:35,710
+into the catalog source?
+
+671
+00:34:35,710 --> 00:34:37,110
+By the way, James,
+
+672
+00:34:37,110 --> 00:34:40,350
+I don't know, it's an appropriate question for some of these.
+
+673
+00:34:40,350 --> 00:34:42,790
+What I would wanna know is the things you're doing
+
+674
+00:34:42,790 --> 00:34:47,710
+with the MCI that you can't do with the catalog source
+
+675
+00:34:47,790 --> 00:34:50,110
+because I haven't run into that scenario very often.
+
+676
+00:34:50,110 --> 00:34:51,750
+You can pretty much,
+
+677
+00:34:51,750 --> 00:34:54,030
+we would like to see you use the catalog source
+
+678
+00:34:54,030 --> 00:34:54,870
+more and more again,
+
+679
+00:34:54,870 --> 00:34:57,550
+because it has that checks and balances.
+
+680
+00:34:57,550 --> 00:34:59,750
+The MCI has its purpose in its place,
+
+681
+00:34:59,750 --> 00:35:02,390
+but I always try and use the catalog source first.
+
+682
+00:35:03,550 --> 00:35:04,750
+So I'd want more details
+
+683
+00:35:04,750 --> 00:35:06,550
+on what you aren't able to achieve
+
+684
+00:35:07,990 --> 00:35:10,630
+with the catalog source that you are with the MCI.
+
+685
+00:35:11,870 --> 00:35:16,790
+So a great example of reach out directly to your CSM,
+
+686
+00:35:16,790 --> 00:35:19,830
+have that very thorough discussion
+
+687
+00:35:19,830 --> 00:35:21,590
+about what you're trying to do,
+
+688
+00:35:21,590 --> 00:35:24,110
+how you're using the MCIs,
+
+689
+00:35:24,110 --> 00:35:26,110
+and how we would do that same,
+
+690
+00:35:26,110 --> 00:35:29,710
+those same set of functions in the catalog source,
+
+691
+00:35:29,710 --> 00:35:31,990
+or what do you believe might be missing?
+
+692
+00:35:31,990 --> 00:35:33,630
+But a very good question.
+
+693
+00:35:35,190 --> 00:35:37,470
+I would just end with, on that note,
+
+694
+00:35:40,240 --> 00:35:42,200
+I'll move on to the next question.
+
+695
+00:35:42,200 --> 00:35:43,040
+Okay.
+
+696
+00:35:43,040 --> 00:35:47,000
+Do you know when some listings fail to be created?
+
+697
+00:35:47,000 --> 00:35:51,120
+We always have to fix the column,
+
+698
+00:35:51,120 --> 00:35:55,560
+mostly authorized or manufacturing alignment issues
+
+699
+00:35:55,560 --> 00:35:58,640
+when we manually create the listings,
+
+700
+00:35:58,640 --> 00:36:03,440
+but ETL doesn't really show us such details.
+
+701
+00:36:03,440 --> 00:36:06,440
+I guess that question is already being answered.
+
+702
+00:36:06,440 --> 00:36:08,840
+So look forward in your chat box,
+
+703
+00:36:08,840 --> 00:36:12,960
+because one of our CSMs has jumped onto that one.
+
+704
+00:36:13,600 --> 00:36:18,600
+What if there are a bunch of product categories
+
+705
+00:36:19,200 --> 00:36:23,240
+or a certain manufacturer, I don't want to load.
+
+706
+00:36:23,240 --> 00:36:26,760
+Can I block the manufacturer or category from loading?
+
+707
+00:36:27,640 --> 00:36:28,480
+Yeah, absolutely.
+
+708
+00:36:28,480 --> 00:36:33,480
+Again, the analysis mapping allows you to set up
+
+709
+00:36:35,280 --> 00:36:38,120
+various if-then statements.
+
+710
+00:36:38,120 --> 00:36:41,320
+So if I meet this condition, then I don't import.
+
+711
+00:36:42,120 --> 00:36:45,040
+You can look for strings of text.
+
+712
+00:36:45,040 --> 00:36:48,840
+You can look at the starting string and say,
+
+713
+00:36:48,840 --> 00:36:50,560
+hey, if it starts with this,
+
+714
+00:36:50,560 --> 00:36:53,560
+you can look within the whole field and find a string.
+
+715
+00:36:53,560 --> 00:36:57,400
+So there's a lot of options to exclude data
+
+716
+00:36:57,400 --> 00:36:58,840
+as it's getting imported,
+
+717
+00:37:00,040 --> 00:37:02,000
+and only importing the data that you want
+
+718
+00:37:02,000 --> 00:37:03,920
+from the external file.
+
+719
+00:37:03,920 --> 00:37:04,760
+Perfect.
+
+720
+00:37:06,360 --> 00:37:07,200
+I think-
+
+721
+00:37:07,200 --> 00:37:08,560
+Oh, I remember what I was gonna say.
+
+722
+00:37:08,560 --> 00:37:12,400
+If you left with processes that utilize the MCI
+
+723
+00:37:12,400 --> 00:37:16,360
+from historical processes that you just left with,
+
+724
+00:37:16,360 --> 00:37:19,080
+I would revisit those with your CSM
+
+725
+00:37:19,080 --> 00:37:23,930
+to evaluate whether it makes sense to transition them.
+
+726
+00:37:23,930 --> 00:37:24,970
+Okay.
+
+727
+00:37:24,970 --> 00:37:29,290
+And one last question before we move on.
+
+728
+00:37:29,290 --> 00:37:34,290
+Can the catalog import match with bulk image uploads
+
+729
+00:37:35,290 --> 00:37:43,780
+if naming title schemes are followed?
+
+730
+00:37:43,780 --> 00:37:45,340
+Not sure I follow the question.
+
+731
+00:37:45,340 --> 00:37:46,660
+I think what they're asking is,
+
+732
+00:37:46,660 --> 00:37:52,780
+can I bulk import images
+
+733
+00:37:52,780 --> 00:37:57,780
+if the title of the image is the same?
+
+734
+00:38:00,470 --> 00:38:03,630
+I'm gonna ask you to follow up with your CSM on that one,
+
+735
+00:38:03,630 --> 00:38:05,270
+but thank you for the question.
+
+736
+00:38:05,270 --> 00:38:08,990
+What I would say is you can configure the catalog source
+
+737
+00:38:09,190 --> 00:38:13,110
+to either update or add images.
+
+738
+00:38:13,110 --> 00:38:14,550
+So you can replace images
+
+739
+00:38:14,550 --> 00:38:17,190
+or you can add it as a secondary image.
+
+740
+00:38:18,270 --> 00:38:19,110
+Okay.
+
+741
+00:38:19,110 --> 00:38:24,110
+So next month, second Wednesday,
+
+742
+00:38:24,110 --> 00:38:26,030
+1 p.m. Eastern time,
+
+743
+00:38:26,030 --> 00:38:29,870
+you figure out the time adjustment for your time zone.
+
+744
+00:38:29,870 --> 00:38:31,910
+You'll be getting an email.
+
+745
+00:38:31,910 --> 00:38:36,150
+You're gonna get invited again and please register.
+
+746
+00:38:36,150 --> 00:38:40,390
+Even I know that sometimes the reminders
+
+747
+00:38:40,390 --> 00:38:44,350
+or the final link can end up in your spam folder.
+
+748
+00:38:44,350 --> 00:38:46,150
+So if you don't see the info,
+
+749
+00:38:47,590 --> 00:38:50,670
+please look in that spam folder.
+
+750
+00:38:50,670 --> 00:38:55,670
+And while we have a series of these webinars planned out,
+
+751
+00:38:55,910 --> 00:38:59,350
+we want you to direct us to where we go.
+
+752
+00:38:59,350 --> 00:39:02,830
+If in your survey or through your conversations
+
+753
+00:39:02,830 --> 00:39:04,990
+in your meetings with their CSM,
+
+754
+00:39:04,990 --> 00:39:08,270
+we see other topics that are of higher value
+
+755
+00:39:09,550 --> 00:39:11,630
+to a greater number of people,
+
+756
+00:39:11,630 --> 00:39:15,830
+we will be more than happy to provide webinars on that.
+
+757
+00:39:17,190 --> 00:39:18,910
+I want you to remember to fill,
+
+758
+00:39:18,910 --> 00:39:23,150
+please fill out your survey at the end of the session.
+
+759
+00:39:23,150 --> 00:39:25,990
+If you don't fill it online, you're gonna get an email.
+
+760
+00:39:26,950 --> 00:39:31,830
+Also, before the beginning of every next webinar,
+
+761
+00:39:31,830 --> 00:39:34,430
+we're gonna actually take a poll
+
+762
+00:39:34,430 --> 00:39:39,310
+to judge the expertise level of the people attending
+
+763
+00:39:39,310 --> 00:39:44,310
+and we can dial in how we present the information.
+
+764
+00:39:45,310 --> 00:39:46,870
+We do wanna thank you
+
+765
+00:39:46,870 --> 00:39:50,430
+for attending the first of TechEdges.
+
+766
+00:39:50,430 --> 00:39:53,590
+We do wanna make a difference in your business.
+
+767
+00:39:53,590 --> 00:39:57,550
+We do wanna become your most valuable tool
+
+768
+00:39:57,550 --> 00:39:59,150
+in your organization.
+
+769
+00:39:59,150 --> 00:40:01,270
+And we will do anything and everything,
+
+770
+00:40:01,270 --> 00:40:04,190
+well, almost everything we can do to make that happen.
+
+771
+00:40:05,150 --> 00:40:07,710
+All your CSMs are around this afternoon.
+
+772
+00:40:07,710 --> 00:40:09,470
+If you wanna fire them an email,
+
+773
+00:40:09,470 --> 00:40:12,590
+we can cover this in your weeklies or monthlies.
+
+774
+00:40:12,590 --> 00:40:14,750
+But thank you for attending.
+
+775
+00:40:14,750 --> 00:40:18,870
+Please fill out the survey.
+
+776
+00:40:18,870 --> 00:40:21,710
+And James, do you have any parting wise words
+
+777
+00:40:21,710 --> 00:40:27,860
+for the people that attended today?
+
+778
+00:40:27,860 --> 00:40:29,740
+Okay, no wise words.
+
+779
+00:40:29,740 --> 00:40:32,340
+Learn about the mapping options on catalog sources
+
+780
+00:40:32,340 --> 00:40:34,700
+and I look forward to seeing you guys next time.
+
+781
+00:40:34,700 --> 00:40:35,620
+Perfect.
+
+782
+00:40:35,620 --> 00:40:38,700
+So a tool that's there,
+
+783
+00:40:38,700 --> 00:40:41,740
+that is, I think everybody will recognize
+
+784
+00:40:41,740 --> 00:40:45,900
+is much easier to use than anybody thought
+
+785
+00:40:45,900 --> 00:40:47,700
+that can improve your business,
+
+786
+00:40:47,700 --> 00:40:50,340
+increase your catalog size
+
+787
+00:40:50,340 --> 00:40:54,500
+and allow you to find ways to grow your business.
+
+788
+00:40:54,500 --> 00:40:56,700
+Major wins in all ways.
+
+789
+00:40:56,700 --> 00:40:59,900
+And with that, James and I are gonna sign off.
+
+790
+00:40:59,900 --> 00:41:02,980
+Until next time, adios.
+

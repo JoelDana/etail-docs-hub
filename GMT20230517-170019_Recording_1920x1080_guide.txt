@@ -1,0 +1,88 @@
+# GMT20230517-170019 Recording 1920x1080
+
+## Quick Steps
+
+1. Here we are at the May edition of Tech Edge,.
+2. About how it can apply to your environment specifically.
+3. And available on the Help Center,.
+4. So there's potential there to create it.
+5. What does the market look like for this particular product set?
+6. Again, I've brought up selection criteria.
+7. If an item meets a certain set of conditions,.
+8. If you create a restriction.
+9. We're optimizing that feature set,.
+10. You can create restrictions that affect multiple channels,.
+11. Where I do and do not create listings.
+12. But this item's restricted, so I'm not gonna create it.
+13. Should I restrict it at the time of importing.
+14. Or filter it out or do it with dynamic restrictions?
+15. When I create the supplier record,.
+16. Should I just filter those out and not create them at all?
+17. To prevent those listings from being created.
+18. That after seven days, a listing starts to get suppressed.
+19. That they suppress it.
+20. Is you set various parameters.
+21. Is it creates automated behavior based on order conditions.
+22. It's its own type of selection criteria.
+23. I can filter on all orders that have that tag.
+24. So I can filter on those orders.
+25. Any order with expedited shipping,.
+26. And work with your CSM to set up order action rules.
+27. And optimized filtering on the sales results screen.
+28. And they can work towards setting up.
+29. Do I kit and bundle them and create a new ASIN?
+30. About what pricing strategies you want to apply.
+31. But this is definitely a filter you should utilize.
+32. And more importantly,.
+33. One usage of this filter client identified the listings.
+34. I need to apply this strategy.
+35. Or apply a creative strategy.
+36. Because you can create your own ASIN off of that.
+37. But it is very important to be aware of what it can do.
+38. The bulk updater is a listing management tool.
+39. I select all my Amazon listings, check restriction.
+40. One activity I always encourage is isolate items and error.
+41. Bulk update through existing bulk update force publication.
+42. And see if any of the error message return.
+43. A lot of times those error messages just go away.
+44. And then you can isolate the reoccurring error messages.
+45. This can be good for new listings that you've just created.
+46. So again, the bulk update tool has a lot of potential.
+47. Export the sales listing screen,.
+48. Import it with the catalog source.
+49. With the bulk update, saving them some time.
+50. You should also be aware you can update attribute values.
+51. With the bulk update tool for multiple listings.
+52. I can select the listings on the screen.
+53. And do a bulk update.
+54. Number seven is attribute and category mapping.
+55. Attribute and category mapping allows you.
+56. This can also apply to categories.
+57. Go up to this category mapping tool and it allows you to say,.
+58. You can find a pattern of common ones, color, size, type,.
+59. Find a source for that data, map it to eBay,.
+60. And that addresses that error and prevents it from occurring.
+61. Or I know that a distribution center.
+62. And these expedited orders need to ship.
+63. So I select them, find the next best solution.
+64. Select the orders I can't handle,.
+65. So when you open a skew.
+66. And you go to master skew details page.
+67. And then slowly select from the best source available.
+68. This is important to have in place.
+69. It's important to have in place.
+70. I have these set of boxes, they cost me this much.
+71. That situation where it created two boxes,.
+72. It gives you listing errors, it gives you task errors,.
+73. To work with your CSM and isolate important errors.
+74. That causes a very specific error that we track.
+75. We will create an issue,.
+76. And orders are failing to send or import,.
+77. That's an error message we can track for.
+78. So again, an issue is looking for a specific error message.
+79. We have some customers setting up their own monitors,.
+80. Why don't we go to the next one?
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.

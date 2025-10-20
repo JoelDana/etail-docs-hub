@@ -1,0 +1,93 @@
+# GMT20230412-165942 Recording cutfile 20230412211105578 1920x1080
+
+## Quick Steps
+
+1. Great.
+2. Yeah.
+3. Yeah.
+4. Yeah.
+5. Right.
+6. So today, we're not going to go to the next slide yet, but James and I are going to be.
+7. Why is this important?
+8. This is as important as any module we have.
+9. What type of marketplace are you on?
+10. The next most important thing to think about and understand is, what is your business's.
+11. But really understanding what allows you to be set apart from the rest.
+12. There is some documentation on the Help Center about shipping cost models that you can reference,.
+13. But putting some time and effort into understanding your shipping cost model setup would be a.
+14. Sets.
+15. Catalog in terms of large groups, individual SKUs, and sort of small subsets of.
+16. Very important.
+17. You have a lot of reports available to identify that information, but it's important to have.
+18. It's important to win the buy box, but you want to apply strategies in such a way that.
+19. On this product and increasing volume of a certain subset of products.
+20. Technology and what you will find is you'll apply a strategy.
+21. Repricer will capture what you're doing and apply a counter strategy.
+22. And so it's never good to set up strategies in Q1 and forget about them.
+23. But again, it's important to understand what the competition is doing to your price and.
+24. Whether it's important to respond to their price events or maybe you want to ignore them.
+25. But again, these are the high level mindsets and considerations you should have as you.
+26. The very first thing you're going to start with is selection criteria.
+27. So selection criteria is used in various parts of the system in EVP, but what it is is it's.
+28. And the reason it's important to have a grasp on how selection criteria can work and how.
+29. Selection criteria?
+30. So you need to be able to identify groups of SKUs with selection criteria.
+31. So your ability to nuance selection criteria defines your ability to nuance your pricing.
+32. It's important to familiarize yourselves with the options available.
+33. I encourage you to present a scenario and then work with your CSM to get the selection.
+34. But knowing the selection criteria limitations will help you from kind of putting out, oh,.
+35. It's not possible because selection criteria doesn't have that function.
+36. So knowing the functions of selection criteria is important.
+37. And then what selection criteria will do will automatically assign items to enabled policies.
+38. Second there, we will use this selection criteria to assign an item to the policy.
+39. You can manipulate and adjust this using the bulk updater on the sales channel screen.
+40. A pricing policy with matching selection criteria must be enabled.
+41. Again, the selection criteria is used to automatically assign an item.
+42. Most people will find they'll click reprice.
+43. That means you don't have a selection criteria option that would meet that specific SKU.
+44. So that's an important thing to have in place.
+45. This is also important to know if there's no inventory to publish, then the system cannot.
+46. So it's important to make sure you have some exposed inventory if you are looking for repricing.
+47. And you really do need to go back and check those and get good data in those selections.
+48. Your floor and ceiling set the upper and lower price ranges and your target sets your.
+49. So that's why getting your shipping cost as accurate as possible is very important.
+50. But each policy will have its own set of pricing formula, and they will all.
+51. And I can reprice by an amount or a percent based on the type of seller.
+52. An important thing to understand here is if these numbers are positive,.
+53. Partner with the digital assets that we are providing.
+54. Adjusting by an amount up or down over a fixed period of time.
+55. If a policy has the hold controller set up, we hold that price.
+56. After seeking down for 12 hours, I want to apply a different strategy.
+57. And so you apply strategies that are enforceable versus coming up with ideas.
+58. Two important notes about triggers.
+59. So if you remember on the slide before, I said selection criteria is used.
+60. After it's been assigned via selection criteria.
+61. So I have a default policy that captures the SKU selection criteria,.
+62. But it is important to note, I have many people ask,.
+63. Historically, we found people setting up 20 different policies,.
+64. And so you can see in this formula, instead of having to fix number,.
+65. So here I go to the floor margin.
+66. Dimension is selection criteria.
+67. Again, I emphasize this is why it's really important to know how selection criteria works.
+68. And what's capable and what's not capable of selection criteria.
+69. Again, this is all selection criteria based.
+70. And when you have this set up and all the facets are working together, you have a really.
+71. Each piece, it makes a lot of sense and it will click and you will go, oh, I need to.
+72. To go to the stock dimension and adjust those numbers.
+73. Oh, I'm going to my price policy and adjusting my controller and setting the rate to be faster.
+74. A pro tip to make that more efficient for you is to select a channel.
+75. Set up filters and columns that make sense for analyzing a broad group of items or a.
+76. Specific group of items on sale or items within a certain policy and then save those.
+77. Not have to recreate your views.
+78. Some important metrics to look at on the repricing results screen, price changes,.
+79. A really important one is price policy changes.
+80. And so it's important to leverage this screen when you're doing that analysis.
+81. So some examples of price policy and structures that I've set up that have been successful.
+82. You set an upper and lower threshold for what you consider high and low sales.
+83. I got to keep clicking around to get them in here.
+84. And again, it's all about applying different strategies that all work in tandem with each.
+85. A certain type of behavior.
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.

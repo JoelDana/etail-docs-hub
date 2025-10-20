@@ -1,0 +1,93 @@
+# GMT20230308-175836 Recording cutfile 20230308212405964 1920x1080
+
+## Quick Steps
+
+1. Okay.
+2. Okay.
+3. Fantastic.
+4. Okay.
+5. Yeah.
+6. And set up of a catalog source to import quantity.
+7. And then set some goals for the next Tech Edge.
+8. Available to everyone as a digital asset.
+9. Is it's getting imported into EVP.
+10. And set them up on your own,.
+11. To do it for you, which allows you to set up,.
+12. Because you're doing the work to set up 75% of it.
+13. To import external data while also analyzing it.
+14. And when you're importing data,.
+15. Created, took 350 of those dropship suppliers.
+16. You apply mappings, you add mappings to the catalog source.
+17. And what a mapping is, is a bridge.
+18. So you build those mappings, you then analyze and validate.
+19. The analyze and validate step looks at the external data.
+20. Runs through any analysis mappings you have,.
+21. Then you apply the maps.
+22. Applying the maps builds that bridge.
+23. That you've kind of outlined in setting up the mappings.
+24. When I click step four and import this data,.
+25. Is you can preview the behavior of the import.
+26. And then lastly, you can import the data.
+27. You set up an automation so we can regularly import things.
+28. Like cost updates, quantity, new images, stuff like that.
+29. You go to the catalog module.
+30. And then you go to catalog sources.
+31. You can create a new catalog source up here.
+32. You can create them from marketplaces.
+33. So in this case, I'm gonna create a new one.
+34. And I'm gonna select from a file.
+35. Being kept updated,.
+36. So I select the file.
+37. So I'm gonna hit save.
+38. The same as the file you used to create it.
+39. Once you've created the initial catalog source,.
+40. They submit tickets, hey, inventory didn't update.
+41. I didn't need to reach out or create a support ticket.
+42. And you establish your mappings.
+43. Again, a mapping is a bridge.
+44. With all of the mapping options you have available.
+45. Getting familiar with these mapping options.
+46. Once you've set up your mappings,.
+47. You're gonna save and close and reopen the catalog source.
+48. Now on the mappings tab, you will see your mappings.
+49. One mapping I wanna call out,.
+50. You can change the map type to a custom script.
+51. You can manipulate it as you're importing it.
+52. So once you've set up your mappings,.
+53. There is an analysis mapping option.
+54. I don't wanna import it.
+55. I've identified an issue before I've imported it.
+56. How do formatting map errors alert you?
+57. Determines something's invalid, does it get imported?
+58. And it doesn't let you import that invalid UPC.
+59. If you don't have a mapping for a field,.
+60. It's not imported.
+61. And I'm just importing the quantity by matching on this view.
+62. We're actually gonna try and apply the maps.
+63. That we've set up and build that bridge.
+64. So when apply maps,.
+65. Before you import,.
+66. Or do I have potential SKUs I can create?
+67. And have them help you fix it,.
+68. So once you've applied the maps,.
+69. This screen here is exportable.
+70. And can be exported into Excel.
+71. So you can kind of filter out,.
+72. After it's applied the maps,.
+73. I'm gonna cover the settings really quick.
+74. Is the create and update.
+75. Do I wanna create or update master SKUs?
+76. Then do I wanna create or update channel records?
+77. But again, if I need to create a channel record,.
+78. So, but this will control how we update.
+79. Or create master SKUs and SKUs.
+80. So as I applied map, we're almost done there.
+81. You're importing it to a catalog source,.
+82. You're establishing your mappings,.
+83. You're applying your mappings and analyzing the results.
+84. And then you're importing the data.
+85. Is once you've set it up, you can automate it.
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.

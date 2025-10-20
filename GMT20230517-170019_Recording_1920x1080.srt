@@ -1,0 +1,3192 @@
+1
+00:00:06,130 --> 00:00:07,770
+Well, thank you for joining.
+
+2
+00:00:07,770 --> 00:00:12,770
+Here we are at the May edition of Tech Edge,
+
+3
+00:00:12,770 --> 00:00:16,730
+the ETail Solutions webinar series
+
+4
+00:00:16,730 --> 00:00:19,650
+for our clients on how to better utilize
+
+5
+00:00:19,650 --> 00:00:24,650
+and get more value out of their EVP instance.
+
+6
+00:00:26,810 --> 00:00:29,770
+With you again this month are myself, Jeff Burkard.
+
+7
+00:00:29,770 --> 00:00:32,710
+I'm a partner success manager here,
+
+8
+00:00:32,710 --> 00:00:35,490
+and you may be tired of looking at his face,
+
+9
+00:00:35,510 --> 00:00:38,390
+but for the third month in a row,
+
+10
+00:00:38,390 --> 00:00:42,810
+James Davis is our subject matter expert.
+
+11
+00:00:42,810 --> 00:00:47,810
+James is well-versed in all aspects of the software,
+
+12
+00:00:48,050 --> 00:00:51,090
+and it is a little bit of a coincidence
+
+13
+00:00:51,090 --> 00:00:55,210
+that he has been the subject matter expert for the first three.
+
+14
+00:00:55,210 --> 00:00:59,410
+I guarantee you that you will be seeing some new,
+
+15
+00:00:59,410 --> 00:01:04,070
+fresher, and better looking faces over the coming months.
+
+16
+00:01:05,070 --> 00:01:10,070
+This month is a subject that you picked
+
+17
+00:01:10,350 --> 00:01:15,350
+by filling out the survey at the end of last month's session,
+
+18
+00:01:16,190 --> 00:01:19,350
+10 features that you need to grow your business,
+
+19
+00:01:19,350 --> 00:01:24,190
+and 10 features that will help automate your business
+
+20
+00:01:24,190 --> 00:01:26,550
+and make it easier to run.
+
+21
+00:01:26,550 --> 00:01:30,190
+And the whole idea is,
+
+22
+00:01:31,190 --> 00:01:36,190
+how can we make you more efficient doing the basic things
+
+23
+00:01:36,870 --> 00:01:40,590
+so that you can focus on higher value things
+
+24
+00:01:40,590 --> 00:01:44,430
+that actually can move the needle for your business?
+
+25
+00:01:44,430 --> 00:01:49,430
+So without too much more introduction,
+
+26
+00:01:49,710 --> 00:01:55,630
+James, it's your show.
+
+27
+00:01:55,630 --> 00:01:58,350
+Yeah, so here are the topics we're gonna run through.
+
+28
+00:01:58,350 --> 00:02:01,670
+Again, I'm gonna spend about a minute to two minutes
+
+29
+00:02:01,750 --> 00:02:02,830
+on each topic.
+
+30
+00:02:03,950 --> 00:02:06,710
+As always, if there's one topic that interests you,
+
+31
+00:02:06,710 --> 00:02:08,350
+contact your CSM about it,
+
+32
+00:02:08,350 --> 00:02:10,710
+and you can engage in a more in-depth discussion
+
+33
+00:02:10,710 --> 00:02:13,570
+about how it can apply to your environment specifically.
+
+34
+00:02:14,590 --> 00:02:16,710
+Also, please, oh, go ahead.
+
+35
+00:02:16,710 --> 00:02:20,490
+Put those questions in so that we can address them.
+
+36
+00:02:20,490 --> 00:02:24,270
+Some of them will be right if they're very specific
+
+37
+00:02:24,270 --> 00:02:28,070
+to one of these 10 topics while we're in it,
+
+38
+00:02:28,070 --> 00:02:28,950
+we'll address it.
+
+39
+00:02:28,950 --> 00:02:31,630
+Otherwise, we'll roll back at the end
+
+40
+00:02:31,630 --> 00:02:33,470
+during our Q&A session.
+
+41
+00:02:35,430 --> 00:02:37,990
+As always, please fill out the survey
+
+42
+00:02:37,990 --> 00:02:39,870
+that we send after the webinar
+
+43
+00:02:39,870 --> 00:02:42,150
+so we can get your feedback to improve these
+
+44
+00:02:42,150 --> 00:02:44,550
+and make sure that the topics are relevant
+
+45
+00:02:44,550 --> 00:02:47,390
+for what you guys are looking for.
+
+46
+00:02:47,390 --> 00:02:50,510
+And finally, the webinars are recorded
+
+47
+00:02:50,510 --> 00:02:52,830
+and available on the Help Center,
+
+48
+00:02:52,830 --> 00:02:54,950
+which you can access via a link
+
+49
+00:02:54,950 --> 00:03:00,080
+at the top of where you're creating tickets.
+
+50
+00:03:00,320 --> 00:03:01,840
+After I cover these 10 topics,
+
+51
+00:03:01,840 --> 00:03:04,440
+Jeff has got a surprise bonus topic
+
+52
+00:03:04,440 --> 00:03:06,640
+that will be, it's very interesting.
+
+53
+00:03:06,640 --> 00:03:08,440
+I'm excited about the stuff he's covering
+
+54
+00:03:08,440 --> 00:03:10,140
+and rolling that out to some of you guys
+
+55
+00:03:10,140 --> 00:03:11,680
+over the next two quarters.
+
+56
+00:03:12,820 --> 00:03:13,820
+We'll have Q&A,
+
+57
+00:03:14,720 --> 00:03:17,680
+and then we'll talk about the next Tech Edge.
+
+58
+00:03:17,680 --> 00:03:21,480
+As always, ETails' mission is to drive growth and profits
+
+59
+00:03:21,480 --> 00:03:24,000
+for you guys through the platform.
+
+60
+00:03:24,000 --> 00:03:26,760
+So again, these tools we are going to cover today
+
+61
+00:03:26,760 --> 00:03:29,280
+have been developed over a number of years
+
+62
+00:03:29,440 --> 00:03:31,840
+as we have solved problems for our clients,
+
+63
+00:03:31,840 --> 00:03:34,340
+turning them into tools to be leveraged by others.
+
+64
+00:03:36,040 --> 00:03:37,800
+And so the first tool I'm going to cover
+
+65
+00:03:37,800 --> 00:03:40,800
+is the Amazon Competitive Analysis tool.
+
+66
+00:03:40,800 --> 00:03:42,920
+This has its own screen with an EVP
+
+67
+00:03:42,920 --> 00:03:46,000
+and is an Amazon Market Assessment tool.
+
+68
+00:03:46,000 --> 00:03:51,000
+What it allows you to do is take a list of potential SKUs
+
+69
+00:03:51,080 --> 00:03:54,680
+with identifying information such as UPC or part number,
+
+70
+00:03:55,600 --> 00:03:58,040
+search those SKUs on Amazon,
+
+71
+00:03:59,040 --> 00:04:02,320
+and get results and information about potential ASINs.
+
+72
+00:04:02,320 --> 00:04:05,720
+So I can see and make a determination on,
+
+73
+00:04:05,720 --> 00:04:08,400
+is it worth investing to sell this product?
+
+74
+00:04:08,400 --> 00:04:09,600
+Can I compete?
+
+75
+00:04:09,600 --> 00:04:13,000
+What will my estimated profit margins be?
+
+76
+00:04:13,000 --> 00:04:15,640
+What are the buy box prices looking like?
+
+77
+00:04:16,520 --> 00:04:18,680
+These are all data points you would get
+
+78
+00:04:18,680 --> 00:04:20,320
+from the Competitive Analysis tool.
+
+79
+00:04:20,320 --> 00:04:23,040
+You can also see, hey, no one's selling this ASIN
+
+80
+00:04:23,040 --> 00:04:25,400
+or selling this SKU under this UPC,
+
+81
+00:04:25,400 --> 00:04:27,400
+so there's potential there to create it.
+
+82
+00:04:29,040 --> 00:04:32,120
+The main function of this tool is to assess,
+
+83
+00:04:32,120 --> 00:04:34,880
+can I be competitive on Amazon?
+
+84
+00:04:34,880 --> 00:04:38,440
+What does the market look like for this particular product set?
+
+85
+00:04:39,400 --> 00:04:41,480
+The most common use of this tool
+
+86
+00:04:41,480 --> 00:04:44,080
+is I have a supplier reach out
+
+87
+00:04:44,080 --> 00:04:46,520
+or I'm looking at a potential supplier.
+
+88
+00:04:46,520 --> 00:04:48,480
+I can get their catalog information,
+
+89
+00:04:48,480 --> 00:04:50,680
+run it through this tool and make an evaluation
+
+90
+00:04:50,680 --> 00:04:54,160
+on whether or not I can compete.
+
+91
+00:04:54,160 --> 00:04:55,640
+You may make a business decision,
+
+92
+00:04:55,640 --> 00:04:57,160
+hey, we're going to integrate this supplier,
+
+93
+00:04:57,280 --> 00:04:59,360
+but we're not going to worry about Amazon,
+
+94
+00:04:59,360 --> 00:05:01,880
+or you can make the decision, hey, I can't.
+
+95
+00:05:01,880 --> 00:05:04,840
+Amazon's my driver of most of my revenue.
+
+96
+00:05:04,840 --> 00:05:07,800
+This SKU, this catalog of SKUs
+
+97
+00:05:07,800 --> 00:05:09,440
+is going to be very difficult to compete,
+
+98
+00:05:09,440 --> 00:05:11,760
+so it doesn't make sense to move forward.
+
+99
+00:05:11,760 --> 00:05:13,760
+Again, this tool helps you analyze
+
+100
+00:05:13,760 --> 00:05:17,360
+the market conditions on Amazon for specific products
+
+101
+00:05:17,360 --> 00:05:20,640
+to make a determination on, could I compete?
+
+102
+00:05:20,640 --> 00:05:27,340
+Should I get involved in that market for that SKU?
+
+103
+00:05:27,340 --> 00:05:30,740
+The next tool I'm talking about is dynamic restrictions.
+
+104
+00:05:30,740 --> 00:05:34,700
+Dynamic restrictions are located on the catalog module.
+
+105
+00:05:34,700 --> 00:05:36,340
+They have their own screen here.
+
+106
+00:05:37,620 --> 00:05:39,380
+It's a listing management tool
+
+107
+00:05:39,380 --> 00:05:42,220
+that allows you to prevent the creation of SKUs
+
+108
+00:05:42,220 --> 00:05:43,820
+that meet certain conditions.
+
+109
+00:05:43,820 --> 00:05:46,180
+Again, I've brought up selection criteria
+
+110
+00:05:46,180 --> 00:05:47,420
+during each webinar.
+
+111
+00:05:48,380 --> 00:05:50,020
+It's used again here.
+
+112
+00:05:50,020 --> 00:05:53,580
+If an item meets a certain set of conditions,
+
+113
+00:05:54,580 --> 00:05:58,420
+then it will be restricted on the configured channels.
+
+114
+00:05:58,420 --> 00:06:00,460
+Again, I can have multiple restrictions
+
+115
+00:06:00,460 --> 00:06:02,780
+of various conditions and channels,
+
+116
+00:06:02,780 --> 00:06:04,700
+but what it does is it prevents that,
+
+117
+00:06:05,700 --> 00:06:07,580
+prevents those SKUs from getting published,
+
+118
+00:06:07,580 --> 00:06:10,900
+so you can not have to worry
+
+119
+00:06:10,900 --> 00:06:13,180
+about getting marketplace violations,
+
+120
+00:06:13,180 --> 00:06:17,660
+brand pull-down notices, things of that nature.
+
+121
+00:06:17,660 --> 00:06:19,180
+If you create a restriction
+
+122
+00:06:19,180 --> 00:06:21,420
+and the system finds active listings
+
+123
+00:06:21,820 --> 00:06:23,700
+that match that restriction,
+
+124
+00:06:23,700 --> 00:06:26,540
+it will attempt to disable it and pull it down.
+
+125
+00:06:26,540 --> 00:06:29,380
+We're optimizing that feature set,
+
+126
+00:06:29,380 --> 00:06:32,500
+so right now I would make sure to manually check
+
+127
+00:06:32,500 --> 00:06:34,580
+so that everything's pulled down successfully,
+
+128
+00:06:34,580 --> 00:06:37,540
+but that is the action that is attempted to take.
+
+129
+00:06:37,540 --> 00:06:39,460
+It is dependent on the marketplace,
+
+130
+00:06:39,460 --> 00:06:42,460
+how far down we can delist it,
+
+131
+00:06:42,460 --> 00:06:44,980
+but at a minimum it should start publishing zero,
+
+132
+00:06:44,980 --> 00:06:45,820
+which will prevent you
+
+133
+00:06:45,820 --> 00:06:48,780
+from selling on restricted marketplaces.
+
+134
+00:06:49,780 --> 00:06:52,260
+Again, you can enable this per channel.
+
+135
+00:06:52,260 --> 00:06:55,660
+You can create restrictions that affect multiple channels,
+
+136
+00:06:55,660 --> 00:06:58,700
+but you can get very granular in controlling
+
+137
+00:06:58,700 --> 00:07:01,220
+where I do and do not create listings.
+
+138
+00:07:01,220 --> 00:07:03,780
+This will affect listing creation processes
+
+139
+00:07:03,780 --> 00:07:07,580
+like the dynamic automature and the item creators
+
+140
+00:07:07,580 --> 00:07:09,460
+will work in tandem with this tool and know,
+
+141
+00:07:09,460 --> 00:07:11,620
+okay, I'm creating listings,
+
+142
+00:07:11,620 --> 00:07:14,620
+but this item's restricted, so I'm not gonna create it.
+
+143
+00:07:15,540 --> 00:07:20,540
+Most common usages of this feature
+
+144
+00:07:20,540 --> 00:07:22,780
+are manufacturer restrictions,
+
+145
+00:07:22,780 --> 00:07:24,220
+you're onboarding a new supplier,
+
+146
+00:07:24,220 --> 00:07:26,300
+but you know certain brands can only be sold
+
+147
+00:07:26,300 --> 00:07:27,300
+on your own website,
+
+148
+00:07:27,300 --> 00:07:30,740
+so you need to restrict them from third-party marketplaces.
+
+149
+00:07:30,740 --> 00:07:34,700
+You may also sell hazardous material or liquids
+
+150
+00:07:34,700 --> 00:07:37,700
+and certain marketplaces don't want to
+
+151
+00:07:37,700 --> 00:07:42,700
+or the business expense of those orders is too great,
+
+152
+00:07:42,740 --> 00:07:44,500
+so I wanna restrict them,
+
+153
+00:07:44,500 --> 00:07:47,260
+but again, if you can think of business scenarios
+
+154
+00:07:47,260 --> 00:07:48,980
+where you need to make sure
+
+155
+00:07:48,980 --> 00:07:51,340
+you're not selling certain products in certain places,
+
+156
+00:07:51,340 --> 00:07:53,500
+the dynamic restriction tool
+
+157
+00:07:53,500 --> 00:07:56,420
+should certainly be leveraged there.
+
+158
+00:07:58,540 --> 00:08:03,540
+James, if I'm bringing in a new catalog
+
+159
+00:08:03,580 --> 00:08:08,580
+and there's a whole manufacturer that I can't sell,
+
+160
+00:08:10,460 --> 00:08:12,300
+when using the catalog source,
+
+161
+00:08:12,300 --> 00:08:16,140
+should I restrict it at the time of importing
+
+162
+00:08:16,140 --> 00:08:20,260
+or filter it out or do it with dynamic restrictions?
+
+163
+00:08:21,300 --> 00:08:24,340
+What Jeff's asking is if I got a new catalog
+
+164
+00:08:24,340 --> 00:08:26,260
+and I know part of it's restricted,
+
+165
+00:08:26,260 --> 00:08:28,180
+when I create the supplier record,
+
+166
+00:08:28,180 --> 00:08:31,860
+should I just filter those out and not create them at all?
+
+167
+00:08:31,860 --> 00:08:33,980
+It's really a business decision
+
+168
+00:08:33,980 --> 00:08:35,220
+on whether you think you're gonna be able
+
+169
+00:08:35,220 --> 00:08:37,220
+to sell those things in the future.
+
+170
+00:08:37,220 --> 00:08:40,980
+You can certainly add checks
+
+171
+00:08:40,980 --> 00:08:42,900
+in the catalog source creation tool
+
+172
+00:08:42,900 --> 00:08:45,580
+to prevent those listings from being created.
+
+173
+00:08:45,580 --> 00:08:47,260
+I would add a dynamic restriction
+
+174
+00:08:47,260 --> 00:08:50,140
+as you know, a double safety in that condition,
+
+175
+00:08:50,140 --> 00:08:52,740
+but you can restrict it at the catalog source level,
+
+176
+00:08:52,740 --> 00:08:55,340
+but if you think there's potential to sell it in the future,
+
+177
+00:08:55,340 --> 00:08:57,580
+I would encourage creating the supplier records
+
+178
+00:08:57,580 --> 00:08:59,820
+and leveraging the dynamic restriction tool.
+
+179
+00:09:01,060 --> 00:09:04,260
+Got it.
+
+180
+00:09:04,260 --> 00:09:06,580
+The third feature that you should be aware about
+
+181
+00:09:06,580 --> 00:09:10,540
+and be aware about is the eBay D-List ReList tool.
+
+182
+00:09:10,540 --> 00:09:13,300
+This is a listing publication optimization tool
+
+183
+00:09:13,300 --> 00:09:18,300
+that promotes the freshness of eBay listings.
+
+184
+00:09:18,420 --> 00:09:21,140
+60% of eBay's revenue comes from listings
+
+185
+00:09:21,140 --> 00:09:22,820
+that they see as fresh.
+
+186
+00:09:22,820 --> 00:09:25,900
+Their indexer optimizes those for visibility.
+
+187
+00:09:26,980 --> 00:09:30,340
+We've had information provided us through various sources
+
+188
+00:09:30,340 --> 00:09:33,420
+that after seven days, a listing starts to get suppressed
+
+189
+00:09:33,420 --> 00:09:36,380
+and after 14 days, it's completely buried.
+
+190
+00:09:36,380 --> 00:09:39,300
+What impacts freshness is sort of like
+
+191
+00:09:39,300 --> 00:09:41,220
+the buy box algorithm, there's ideas,
+
+192
+00:09:41,220 --> 00:09:43,180
+but obviously it's proprietary,
+
+193
+00:09:43,180 --> 00:09:47,020
+but things like cost changes, adding new images,
+
+194
+00:09:47,020 --> 00:09:50,900
+title changes all seem to promote the freshness
+
+195
+00:09:50,900 --> 00:09:53,380
+of a listing which improve its visibility.
+
+196
+00:09:53,380 --> 00:09:56,060
+Another key aspect is it's on eBay,
+
+197
+00:09:56,060 --> 00:09:57,660
+you have an eBay item ID.
+
+198
+00:09:57,660 --> 00:09:59,900
+How old is that item ID?
+
+199
+00:09:59,900 --> 00:10:03,620
+After a certain age, again, eBay has indicated
+
+200
+00:10:03,620 --> 00:10:04,660
+that they suppress it.
+
+201
+00:10:04,660 --> 00:10:08,020
+So getting a new fresh eBay item ID
+
+202
+00:10:08,020 --> 00:10:11,140
+can help promote listing visibility on eBay.
+
+203
+00:10:11,140 --> 00:10:14,540
+What the eBay D-List ReList tool does for you
+
+204
+00:10:14,540 --> 00:10:16,780
+is you set various parameters
+
+205
+00:10:16,780 --> 00:10:19,660
+about how many I wanna re-list and de-list
+
+206
+00:10:20,940 --> 00:10:22,220
+and the system does it for you.
+
+207
+00:10:22,220 --> 00:10:24,460
+We'll take a listing down, republish it,
+
+208
+00:10:24,460 --> 00:10:26,500
+that will give it a new item ID
+
+209
+00:10:26,500 --> 00:10:29,980
+and then the idea is that increases its freshness
+
+210
+00:10:29,980 --> 00:10:32,020
+promoting its visibility.
+
+211
+00:10:32,020 --> 00:10:36,460
+We've implemented this tool in a number of clients
+
+212
+00:10:36,460 --> 00:10:39,220
+and we've seen an increase in eBay revenue.
+
+213
+00:10:39,220 --> 00:10:41,300
+So again, I encourage you to reach out to your CSM
+
+214
+00:10:41,300 --> 00:10:44,780
+so we can configure this and implement it.
+
+215
+00:10:44,780 --> 00:10:48,780
+We have various reports to show the impact it's made.
+
+216
+00:10:48,780 --> 00:10:51,180
+We are working on a refinement
+
+217
+00:10:51,180 --> 00:10:54,740
+to allow the system to be smart enough
+
+218
+00:10:54,740 --> 00:10:57,620
+to know when reinsertion fees start to be incurred
+
+219
+00:10:57,620 --> 00:10:59,780
+and throttle the re-listing.
+
+220
+00:10:59,780 --> 00:11:01,580
+So right now, if you do enable it,
+
+221
+00:11:01,580 --> 00:11:04,780
+you'll wanna be aware of your eBay account listing limits
+
+222
+00:11:04,780 --> 00:11:07,660
+so that you don't incur insertion fees
+
+223
+00:11:07,660 --> 00:11:10,100
+after you've reached your allotted amount.
+
+224
+00:11:10,100 --> 00:11:11,940
+But again, this tool is very powerful
+
+225
+00:11:11,940 --> 00:11:14,300
+in helping drive sales on eBay
+
+226
+00:11:14,300 --> 00:11:16,940
+and keep your listings fresh so that they're visible.
+
+227
+00:11:18,340 --> 00:11:19,580
+We kinda know that eBay
+
+228
+00:11:19,580 --> 00:11:23,020
+is probably not your number one marketplace anymore
+
+229
+00:11:23,020 --> 00:11:28,020
+unless you're in a very specific catalog automotive typically
+
+230
+00:11:29,100 --> 00:11:31,900
+but we're always looking for ways
+
+231
+00:11:31,900 --> 00:11:35,220
+that can increase the growth,
+
+232
+00:11:35,220 --> 00:11:39,940
+find ways that other people aren't finding to help you grow.
+
+233
+00:11:39,940 --> 00:11:44,940
+And we're gonna try and package these different services,
+
+234
+00:11:44,940 --> 00:11:49,940
+couple different eBay things that can juice your sales
+
+235
+00:11:50,620 --> 00:11:54,340
+into a package to make it easy to go for you to say,
+
+236
+00:11:55,540 --> 00:11:56,860
+I know it's not big,
+
+237
+00:11:56,860 --> 00:12:00,460
+but I wanna see if I can boost it by 10, 15, 20%
+
+238
+00:12:00,460 --> 00:12:02,060
+my eBay business.
+
+239
+00:12:02,060 --> 00:12:05,220
+So talk to your CSMs.
+
+240
+00:12:05,220 --> 00:12:08,340
+Yeah, well, to build off of that,
+
+241
+00:12:08,340 --> 00:12:12,460
+we've got a number of eBay enhancement tools
+
+242
+00:12:12,460 --> 00:12:14,660
+that we've kind of packaged together
+
+243
+00:12:14,660 --> 00:12:17,180
+related to re-pricing, this re-list,
+
+244
+00:12:17,180 --> 00:12:19,260
+delisting, air management.
+
+245
+00:12:19,260 --> 00:12:21,860
+And so again, reach out to your CSM
+
+246
+00:12:21,860 --> 00:12:26,860
+to see how we can deploy that trifecta of features
+
+247
+00:12:27,180 --> 00:12:31,960
+to your eBay environment to try and promote sales.
+
+248
+00:12:32,040 --> 00:12:33,800
+The fourth topic I'm covering today
+
+249
+00:12:33,800 --> 00:12:36,280
+is order action rules and tags.
+
+250
+00:12:36,280 --> 00:12:39,000
+Order action rules and tags are an order management tool.
+
+251
+00:12:39,000 --> 00:12:40,880
+It allows the sales order screen
+
+252
+00:12:40,880 --> 00:12:46,320
+to work for you, not against you.
+
+253
+00:12:46,320 --> 00:12:47,840
+What the order action rules do
+
+254
+00:12:47,840 --> 00:12:51,600
+is it creates automated behavior based on order conditions.
+
+255
+00:12:51,600 --> 00:12:53,120
+So you can see here,
+
+256
+00:12:53,120 --> 00:12:55,280
+it's its own type of selection criteria
+
+257
+00:12:55,280 --> 00:12:57,520
+but it functions in the very same way.
+
+258
+00:12:57,520 --> 00:13:01,260
+If an order meets the conditions, we can take an action.
+
+259
+00:13:01,260 --> 00:13:03,900
+One of the actions you can take is you can add a tag.
+
+260
+00:13:04,820 --> 00:13:07,500
+There's an unlimited number of tags you can have.
+
+261
+00:13:08,580 --> 00:13:10,140
+Obviously you don't want too many
+
+262
+00:13:10,140 --> 00:13:12,100
+but as they lose their function,
+
+263
+00:13:12,100 --> 00:13:14,300
+but you can add a tag.
+
+264
+00:13:14,300 --> 00:13:15,540
+When an order meets a condition
+
+265
+00:13:15,540 --> 00:13:16,780
+and on the sales order screen,
+
+266
+00:13:16,780 --> 00:13:19,700
+I can filter on all orders that have that tag.
+
+267
+00:13:19,700 --> 00:13:21,500
+One tag I've seen clients use
+
+268
+00:13:21,500 --> 00:13:23,300
+is any order over a hundred pounds.
+
+269
+00:13:23,300 --> 00:13:24,540
+I want a tag added to it
+
+270
+00:13:24,540 --> 00:13:26,540
+so I can filter on those orders.
+
+271
+00:13:26,540 --> 00:13:28,220
+Any order with expedited shipping,
+
+272
+00:13:28,220 --> 00:13:29,380
+I want a tag added to it
+
+273
+00:13:29,380 --> 00:13:31,060
+so I can filter on those orders.
+
+274
+00:13:32,940 --> 00:13:34,700
+There are other actions you can take.
+
+275
+00:13:34,700 --> 00:13:37,020
+You can assign a service level.
+
+276
+00:13:37,020 --> 00:13:39,460
+Any order that comes in for this SKU on Shopify,
+
+277
+00:13:39,460 --> 00:13:42,140
+I want to make sure it ships next day air
+
+278
+00:13:42,140 --> 00:13:46,180
+because I'm having a promotion or something of that nature.
+
+279
+00:13:46,180 --> 00:13:49,020
+You can also put orders on hold for a period of time
+
+280
+00:13:49,020 --> 00:13:50,820
+or until they're manually released.
+
+281
+00:13:51,680 --> 00:13:54,740
+This is a big one for the automotive space.
+
+282
+00:13:54,740 --> 00:13:56,140
+If I'm selling spark plugs,
+
+283
+00:13:56,140 --> 00:13:57,940
+I want to make sure the pack quantity is right
+
+284
+00:13:57,940 --> 00:13:59,380
+or if I'm selling a bumper,
+
+285
+00:13:59,380 --> 00:14:02,420
+I want to make sure that my shipping cost is covered.
+
+286
+00:14:02,420 --> 00:14:05,300
+So again, think about the business conditions
+
+287
+00:14:05,300 --> 00:14:07,220
+that you would like to try and capture
+
+288
+00:14:07,220 --> 00:14:08,860
+as we pull in orders
+
+289
+00:14:08,860 --> 00:14:11,740
+and work with your CSM to set up order action rules
+
+290
+00:14:11,740 --> 00:14:14,200
+to optimize your fulfillment workflow.
+
+291
+00:14:15,220 --> 00:14:17,620
+There's a variety of conditions we can identify
+
+292
+00:14:17,620 --> 00:14:19,420
+and a number of actions we can take.
+
+293
+00:14:20,700 --> 00:14:22,800
+Again, the tags allow for order grouping
+
+294
+00:14:22,800 --> 00:14:27,690
+and optimized filtering on the sales results screen.
+
+295
+00:14:27,730 --> 00:14:29,890
+And I discussed some of these common usages,
+
+296
+00:14:29,890 --> 00:14:32,930
+but the best method is to think about the business scenario,
+
+297
+00:14:32,930 --> 00:14:34,530
+engage with your CSM,
+
+298
+00:14:34,530 --> 00:14:36,270
+and they can work towards setting up
+
+299
+00:14:36,270 --> 00:14:43,620
+multiple order action rules that work for you.
+
+300
+00:14:43,620 --> 00:14:45,780
+On one of our previous webinars,
+
+301
+00:14:45,780 --> 00:14:49,620
+we covered the re-pricing at a 101 level,
+
+302
+00:14:49,620 --> 00:14:52,220
+and I had discussed the re-pricing results screen.
+
+303
+00:14:54,060 --> 00:14:56,460
+Specifically on the re-pricing results screen,
+
+304
+00:14:56,460 --> 00:15:00,060
+the buy box percent delta can be very powerful
+
+305
+00:15:00,060 --> 00:15:02,860
+for re-pricing assessment.
+
+306
+00:15:02,860 --> 00:15:05,780
+What it allows you to do is look at your price
+
+307
+00:15:05,780 --> 00:15:08,380
+and how far away you are from the buy box.
+
+308
+00:15:08,380 --> 00:15:10,540
+So if I'm within 5% of the buy box,
+
+309
+00:15:10,540 --> 00:15:12,740
+there may be potential for me to compete.
+
+310
+00:15:12,740 --> 00:15:15,980
+I want to assign those items to a rule with a lower floor
+
+311
+00:15:15,980 --> 00:15:18,220
+or one that seeks down more aggressively
+
+312
+00:15:19,060 --> 00:15:21,020
+because there's potential, I'm pretty close.
+
+313
+00:15:21,020 --> 00:15:22,980
+If I can get my price down a little bit,
+
+314
+00:15:22,980 --> 00:15:24,980
+I can compete with the buy box.
+
+315
+00:15:24,980 --> 00:15:28,500
+On the flip side, I can look at items
+
+316
+00:15:28,500 --> 00:15:30,340
+that are so far from the buy box,
+
+317
+00:15:30,340 --> 00:15:34,020
+they're not even close, 20% away, 15% away.
+
+318
+00:15:34,020 --> 00:15:38,340
+And I can think about those SKUs strategically.
+
+319
+00:15:38,340 --> 00:15:40,900
+Do I kit and bundle them and create a new ASIN?
+
+320
+00:15:40,900 --> 00:15:44,500
+Do I white label them or do I just kind of, you know,
+
+321
+00:15:44,500 --> 00:15:47,060
+cut my losses and leave them as they are?
+
+322
+00:15:47,060 --> 00:15:50,820
+But again, it gives you visibility on groups of SKUs
+
+323
+00:15:50,820 --> 00:15:54,460
+and how close you are to competing for the buy box price.
+
+324
+00:15:54,460 --> 00:15:56,220
+And then make strategic decisions
+
+325
+00:15:56,260 --> 00:15:58,980
+about what pricing strategies you want to apply
+
+326
+00:15:58,980 --> 00:16:00,580
+to those items.
+
+327
+00:16:00,580 --> 00:16:02,020
+Again, a very powerful,
+
+328
+00:16:02,020 --> 00:16:04,540
+the re-pricing results screen has a lot of potential,
+
+329
+00:16:04,540 --> 00:16:06,780
+but this is definitely a filter you should utilize
+
+330
+00:16:06,780 --> 00:16:10,140
+when you're looking at your Amazon re-pricing results.
+
+331
+00:16:11,420 --> 00:16:13,900
+I think when a lot of you look at
+
+332
+00:16:13,900 --> 00:16:16,560
+your very, very large catalogs,
+
+333
+00:16:19,300 --> 00:16:21,820
+even the ones that you don't sell often,
+
+334
+00:16:21,820 --> 00:16:22,740
+and more importantly,
+
+335
+00:16:22,740 --> 00:16:24,220
+the ones that you literally have
+
+336
+00:16:24,220 --> 00:16:26,980
+as a consultant six months to a year,
+
+337
+00:16:26,980 --> 00:16:29,740
+why are we dealing with those on a daily basis?
+
+338
+00:16:29,740 --> 00:16:34,740
+They take time away from your top 10 or 20% of your products.
+
+339
+00:16:36,820 --> 00:16:39,100
+Focus on what makes you money.
+
+340
+00:16:42,140 --> 00:16:47,140
+One usage of this filter client identified the listings
+
+341
+00:16:48,220 --> 00:16:50,660
+that were really, really out of,
+
+342
+00:16:50,660 --> 00:16:52,240
+he had an inability to compete,
+
+343
+00:16:53,380 --> 00:16:54,860
+but he knew they were hot sellers,
+
+344
+00:16:54,860 --> 00:16:57,620
+so he worked with his supplier to buy them in bulk
+
+345
+00:16:57,620 --> 00:16:59,740
+at a reduced cost so he could get into that.
+
+346
+00:16:59,740 --> 00:17:01,180
+Oh, that's great.
+
+347
+00:17:02,260 --> 00:17:03,580
+He didn't drop ship the item
+
+348
+00:17:03,580 --> 00:17:06,180
+because the supplier wasn't gonna do it at that cost,
+
+349
+00:17:06,180 --> 00:17:07,020
+but he was able to go,
+
+350
+00:17:07,020 --> 00:17:08,700
+hey, this item sells,
+
+351
+00:17:08,700 --> 00:17:10,980
+but I need it at this cost so I can compete.
+
+352
+00:17:10,980 --> 00:17:13,180
+He worked out a deal with his supplier
+
+353
+00:17:13,180 --> 00:17:16,980
+and he was able to start competing on that buy box.
+
+354
+00:17:16,980 --> 00:17:18,580
+But again, this is an assessment tool
+
+355
+00:17:18,580 --> 00:17:20,020
+that gives you visibility on,
+
+356
+00:17:20,020 --> 00:17:21,060
+hey, these SKUs,
+
+357
+00:17:21,060 --> 00:17:23,220
+I need to apply this strategy
+
+358
+00:17:23,220 --> 00:17:25,580
+on these really uncompetitive SKUs.
+
+359
+00:17:25,580 --> 00:17:28,620
+I need to either acknowledge that I'm ignoring them
+
+360
+00:17:28,620 --> 00:17:30,540
+or apply a creative strategy.
+
+361
+00:17:30,540 --> 00:17:33,280
+Again, I encourage hits and bundling
+
+362
+00:17:33,280 --> 00:17:35,380
+because you can create your own ASIN off of that
+
+363
+00:17:35,380 --> 00:17:37,240
+and then you're the only seller.
+
+364
+00:17:37,240 --> 00:17:39,380
+So find products that pair together well
+
+365
+00:17:39,380 --> 00:17:43,640
+that aren't competitive on their own.
+
+366
+00:17:43,640 --> 00:17:46,760
+Number six, many of you may be familiar with this tool,
+
+367
+00:17:46,760 --> 00:17:50,120
+but it is very important to be aware of what it can do
+
+368
+00:17:50,120 --> 00:17:51,800
+and the actions it can take.
+
+369
+00:17:51,800 --> 00:17:54,120
+The bulk updater is a listing management tool
+
+370
+00:17:54,120 --> 00:17:57,560
+that allows bulk changes and forced actions.
+
+371
+00:17:57,560 --> 00:17:59,260
+They're listed on the screen.
+
+372
+00:18:00,120 --> 00:18:02,120
+There's some trees down each option.
+
+373
+00:18:02,120 --> 00:18:03,600
+So I'd be familiar with them,
+
+374
+00:18:03,600 --> 00:18:06,720
+but you can do things like force a price calculation,
+
+375
+00:18:06,720 --> 00:18:11,500
+force publishing, change listing status, check restrictions.
+
+376
+00:18:11,500 --> 00:18:13,680
+I've just added a new dynamic restriction.
+
+377
+00:18:13,680 --> 00:18:16,400
+I select all my Amazon listings, check restriction.
+
+378
+00:18:16,400 --> 00:18:17,800
+It'll start that process of,
+
+379
+00:18:17,800 --> 00:18:21,380
+hey, these listings need to be restricted and publish zero.
+
+380
+00:18:21,900 --> 00:18:24,220
+I'm shipping policy assignment.
+
+381
+00:18:24,220 --> 00:18:26,860
+I've just added a new shipping template to eBay.
+
+382
+00:18:26,860 --> 00:18:29,660
+I need to make sure these items that want to use it
+
+383
+00:18:29,660 --> 00:18:33,960
+are assigned to it, I can do that assessment.
+
+384
+00:18:33,960 --> 00:18:38,960
+One activity I always encourage is isolate items and error
+
+385
+00:18:40,600 --> 00:18:41,920
+on a specific channel,
+
+386
+00:18:41,920 --> 00:18:46,200
+bulk update through existing bulk update force publication
+
+387
+00:18:46,200 --> 00:18:49,000
+and then check in 48 hour, 24 hours later
+
+388
+00:18:49,000 --> 00:18:51,380
+and see if any of the error message return.
+
+389
+00:18:51,420 --> 00:18:54,380
+A lot of times those error messages just go away
+
+390
+00:18:54,380 --> 00:18:57,400
+and then you can isolate the reoccurring error messages.
+
+391
+00:18:58,740 --> 00:19:01,540
+Another action, I have a group of listings.
+
+392
+00:19:01,540 --> 00:19:03,180
+I want to make sure our pricing,
+
+393
+00:19:03,180 --> 00:19:06,260
+I can isolate them, do a force price calculation
+
+394
+00:19:06,260 --> 00:19:08,720
+and a force price publishing.
+
+395
+00:19:08,720 --> 00:19:11,660
+This can be good for new listings that you've just created.
+
+396
+00:19:11,660 --> 00:19:14,940
+If you don't wanna wait for the background tasks to run,
+
+397
+00:19:14,940 --> 00:19:17,260
+you can kind of do it yourself here.
+
+398
+00:19:17,260 --> 00:19:20,260
+So again, the bulk update tool has a lot of potential
+
+399
+00:19:20,260 --> 00:19:23,100
+and I encourage you to think about using it before.
+
+400
+00:19:23,100 --> 00:19:25,140
+What I see a lot of times is people
+
+401
+00:19:25,140 --> 00:19:26,980
+export the sales listing screen,
+
+402
+00:19:26,980 --> 00:19:28,560
+import it with the catalog source
+
+403
+00:19:28,560 --> 00:19:31,580
+to do some sort of manipulation that they could have achieved
+
+404
+00:19:31,580 --> 00:19:33,900
+with the bulk update, saving them some time.
+
+405
+00:19:35,060 --> 00:19:37,860
+You should also be aware you can update attribute values
+
+406
+00:19:38,780 --> 00:19:42,780
+with the bulk update tool for multiple listings.
+
+407
+00:19:42,780 --> 00:19:45,220
+So if I'm using the re-pricing class attribute,
+
+408
+00:19:45,220 --> 00:19:47,260
+for example, and I wanna change that,
+
+409
+00:19:47,260 --> 00:19:49,620
+I can select the listings on the screen
+
+410
+00:19:49,620 --> 00:19:54,300
+and do a bulk update.
+
+411
+00:19:54,300 --> 00:19:57,940
+Number seven is attribute and category mapping.
+
+412
+00:19:57,940 --> 00:19:59,880
+Attribute and category mapping allows you
+
+413
+00:19:59,880 --> 00:20:04,580
+to leverage your catalog data across multiple channels.
+
+414
+00:20:04,580 --> 00:20:07,860
+So often you will have a content rich channel,
+
+415
+00:20:07,860 --> 00:20:09,460
+whether that's a content channel
+
+416
+00:20:10,780 --> 00:20:15,300
+that's sort of a PIM integration or a content channel
+
+417
+00:20:15,300 --> 00:20:18,500
+like a eBay or Shopify where you've spent
+
+418
+00:20:18,500 --> 00:20:21,620
+probably hours building your own repertoire of content.
+
+419
+00:20:22,540 --> 00:20:24,300
+Or you've taken content for Amazon,
+
+420
+00:20:24,300 --> 00:20:27,980
+but you have a good source channel and you wanna go,
+
+421
+00:20:27,980 --> 00:20:30,380
+okay, on eBay, I need to provide my own content.
+
+422
+00:20:30,380 --> 00:20:33,940
+So I'm gonna take information from my content rich channel
+
+423
+00:20:33,940 --> 00:20:36,140
+and I'm gonna move it onto eBay.
+
+424
+00:20:36,140 --> 00:20:37,780
+On the screen, you can see an example.
+
+425
+00:20:37,780 --> 00:20:41,060
+I'm taking the material attribute from Amazon
+
+426
+00:20:43,820 --> 00:20:45,540
+from the supplier.
+
+427
+00:20:45,540 --> 00:20:49,020
+So my source is the supplier and that attribute is material
+
+428
+00:20:49,020 --> 00:20:53,300
+and I'm using it to populate the fabric attribute on Amazon.
+
+429
+00:20:53,300 --> 00:20:55,260
+So I don't have to go into the Amazon listing
+
+430
+00:20:55,260 --> 00:20:56,980
+and add an attribute so it has fabric.
+
+431
+00:20:56,980 --> 00:21:01,380
+It's leveraging my already present data.
+
+432
+00:21:01,380 --> 00:21:03,540
+This can also apply to categories.
+
+433
+00:21:03,540 --> 00:21:06,940
+A major area to leverage this is for Walmart,
+
+434
+00:21:06,940 --> 00:21:09,940
+which doesn't have a native category assignment tool.
+
+435
+00:21:09,940 --> 00:21:12,380
+So I always encourage my clients to go,
+
+436
+00:21:12,380 --> 00:21:16,060
+my eBay categories are good or my Shopify categories are good.
+
+437
+00:21:16,060 --> 00:21:20,060
+Go up to this category mapping tool and it allows you to say,
+
+438
+00:21:20,060 --> 00:21:24,060
+hey, if this SKU is on Shopify in this category,
+
+439
+00:21:24,060 --> 00:21:26,060
+put it in this category on Walmart.
+
+440
+00:21:26,060 --> 00:21:29,300
+And this can help optimize category assignment,
+
+441
+00:21:29,300 --> 00:21:31,860
+which ultimately results in better search results
+
+442
+00:21:31,860 --> 00:21:35,260
+as people will go down the search trees of certain categories
+
+443
+00:21:35,260 --> 00:21:36,300
+and find your product.
+
+444
+00:21:37,180 --> 00:21:41,020
+Another place to leverage this is the eBay required attribute,
+
+445
+00:21:41,020 --> 00:21:45,660
+required attributes, certain categories require certain attributes.
+
+446
+00:21:45,660 --> 00:21:49,780
+You can find a pattern of common ones, color, size, type,
+
+447
+00:21:51,780 --> 00:21:54,780
+find a source for that data, map it to eBay,
+
+448
+00:21:54,780 --> 00:21:58,260
+and that addresses that error and prevents it from occurring.
+
+449
+00:21:58,260 --> 00:22:02,500
+So again, it's a tool to maximize your content
+
+450
+00:22:02,500 --> 00:22:07,860
+across your various marketplaces.
+
+451
+00:22:07,860 --> 00:22:11,660
+Number eight, next best fulfillment is an order management tool
+
+452
+00:22:11,660 --> 00:22:14,660
+that allows you to find the second best solution.
+
+453
+00:22:14,660 --> 00:22:16,420
+It isn't enabled by default,
+
+454
+00:22:16,420 --> 00:22:18,620
+so you would need to work with your CSM.
+
+455
+00:22:18,620 --> 00:22:20,900
+It's just as simple as checking a checkbox,
+
+456
+00:22:20,900 --> 00:22:23,020
+but then you'll see this next best option
+
+457
+00:22:23,020 --> 00:22:27,850
+on the change fulfillment method screen.
+
+458
+00:22:27,850 --> 00:22:30,450
+Common usages of this feature
+
+459
+00:22:30,450 --> 00:22:32,690
+are routing around bad quantity data.
+
+460
+00:22:32,690 --> 00:22:35,770
+The suppliers let me know their inventory feeds inaccurate.
+
+461
+00:22:35,770 --> 00:22:37,370
+The system doesn't know that.
+
+462
+00:22:37,370 --> 00:22:40,930
+I need to take this group of orders and route them elsewhere.
+
+463
+00:22:40,930 --> 00:22:43,850
+Or I know that a distribution center
+
+464
+00:22:43,850 --> 00:22:46,330
+is having a temporary outage for a few hours
+
+465
+00:22:46,330 --> 00:22:48,250
+and these expedited orders need to ship.
+
+466
+00:22:48,250 --> 00:22:52,490
+So I select them, find the next best solution.
+
+467
+00:22:52,490 --> 00:22:56,210
+And another scenario is I'm selling from my stock.
+
+468
+00:22:56,210 --> 00:22:58,450
+I've got more orders than I can deal with.
+
+469
+00:22:58,450 --> 00:22:59,930
+I need to make sure that these things
+
+470
+00:22:59,930 --> 00:23:01,010
+get shipped out on time.
+
+471
+00:23:01,010 --> 00:23:02,930
+I know I can drop ship them,
+
+472
+00:23:02,930 --> 00:23:05,090
+select the orders I can't handle,
+
+473
+00:23:05,090 --> 00:23:07,610
+and I send them to a secondary source.
+
+474
+00:23:07,610 --> 00:23:09,970
+So again, it's a tool to leverage
+
+475
+00:23:09,970 --> 00:23:12,650
+when you're finding yourself
+
+476
+00:23:12,650 --> 00:23:15,930
+in need of a second best solution.
+
+477
+00:23:16,530 --> 00:23:18,690
+It's a use case tool,
+
+478
+00:23:18,690 --> 00:23:21,410
+but it is powerful in helping you route orders
+
+479
+00:23:21,410 --> 00:23:24,410
+and deal with the complexity of order fulfillment
+
+480
+00:23:24,410 --> 00:23:27,690
+when the best solution is not working out
+
+481
+00:23:27,690 --> 00:23:33,840
+or can't handle the orders.
+
+482
+00:23:33,840 --> 00:23:37,000
+Number nine is the item weight priority tool.
+
+483
+00:23:37,960 --> 00:23:40,680
+What this tool does is it helps you manage your DIMM data
+
+484
+00:23:40,680 --> 00:23:42,760
+from various sources.
+
+485
+00:23:42,760 --> 00:23:44,680
+It prioritizes and elevates them
+
+486
+00:23:44,680 --> 00:23:46,880
+to the master skew details page.
+
+487
+00:23:46,880 --> 00:23:48,600
+So when you open a skew
+
+488
+00:23:48,600 --> 00:23:51,440
+and you go to master skew details page
+
+489
+00:23:51,440 --> 00:23:54,160
+in the top corner, there's DIMM data.
+
+490
+00:23:54,160 --> 00:23:57,600
+That data is used for estimated shipping.
+
+491
+00:23:57,600 --> 00:24:01,680
+It's used for when we manifest shipping labels
+
+492
+00:24:01,680 --> 00:24:03,280
+and used in repricing.
+
+493
+00:24:04,480 --> 00:24:06,200
+So you wanna make sure it's accurate
+
+494
+00:24:06,200 --> 00:24:08,240
+and of the highest quality.
+
+495
+00:24:08,240 --> 00:24:10,600
+Now you may have initial DIMM data
+
+496
+00:24:10,600 --> 00:24:12,000
+provided by the supplier,
+
+497
+00:24:12,000 --> 00:24:13,040
+but as you ship stuff,
+
+498
+00:24:13,040 --> 00:24:15,480
+you get more accurate data into the system
+
+499
+00:24:15,480 --> 00:24:18,800
+and what the item weight priority tool lets you do
+
+500
+00:24:18,800 --> 00:24:22,160
+is assess multiple sources of DIMM data,
+
+501
+00:24:22,160 --> 00:24:23,520
+prioritize them,
+
+502
+00:24:23,520 --> 00:24:26,960
+and then slowly select from the best source available.
+
+503
+00:24:28,760 --> 00:24:30,520
+This is important to have in place
+
+504
+00:24:30,520 --> 00:24:32,160
+if you're using native shipping.
+
+505
+00:24:33,480 --> 00:24:34,720
+It's important to have in place
+
+506
+00:24:34,720 --> 00:24:37,040
+to get accurate estimated shipping costs.
+
+507
+00:24:37,040 --> 00:24:39,160
+A big problem I see is suppliers
+
+508
+00:24:39,160 --> 00:24:41,320
+tell you how big the item is.
+
+509
+00:24:41,320 --> 00:24:42,880
+So you have that DIMM data,
+
+510
+00:24:42,880 --> 00:24:45,680
+but that's not how big it is when it's in a box.
+
+511
+00:24:45,680 --> 00:24:47,880
+So your estimated shipping's off.
+
+512
+00:24:47,880 --> 00:24:50,240
+So as you aggregate better and better DIMM data,
+
+513
+00:24:50,240 --> 00:24:52,240
+you get better and better estimated shipping,
+
+514
+00:24:52,240 --> 00:24:54,400
+which means you can compete
+
+515
+00:24:54,400 --> 00:24:57,320
+and optimize your profitability.
+
+516
+00:24:59,040 --> 00:25:00,720
+The last area where this is...
+
+517
+00:25:00,720 --> 00:25:01,640
+Go ahead, John.
+
+518
+00:25:01,640 --> 00:25:03,320
+Oh, I was just gonna say that
+
+519
+00:25:05,000 --> 00:25:07,360
+beyond your actual product cost,
+
+520
+00:25:07,360 --> 00:25:09,560
+I think we're all starting to understand
+
+521
+00:25:09,560 --> 00:25:12,920
+unless you are not operationally excellent
+
+522
+00:25:12,920 --> 00:25:15,800
+in the way you manage your shipping
+
+523
+00:25:15,800 --> 00:25:18,280
+and your weights and your DIMM weights
+
+524
+00:25:18,280 --> 00:25:20,680
+and the way you work with your carriers
+
+525
+00:25:20,680 --> 00:25:22,640
+to get your estimates,
+
+526
+00:25:22,640 --> 00:25:24,760
+it is tough to make money.
+
+527
+00:25:24,760 --> 00:25:29,600
+This is just another tool to better manage your costs
+
+528
+00:25:29,600 --> 00:25:31,560
+to make sure that every shipment
+
+529
+00:25:31,560 --> 00:25:34,440
+that goes out the door is profitable.
+
+530
+00:25:37,980 --> 00:25:40,740
+Another powerful tool that's been slowly rolling out
+
+531
+00:25:40,740 --> 00:25:43,380
+into EVP is cartonization.
+
+532
+00:25:44,540 --> 00:25:47,900
+And accurate DIMM data is key for cartonization.
+
+533
+00:25:47,900 --> 00:25:50,540
+In a brief summary, cartonization allows you to say,
+
+534
+00:25:50,540 --> 00:25:53,740
+I have these set of boxes, they cost me this much
+
+535
+00:25:53,740 --> 00:25:56,380
+and they're this big in terms of volume.
+
+536
+00:25:56,380 --> 00:25:58,660
+The system then, when processing an order,
+
+537
+00:25:58,660 --> 00:26:00,740
+goes, hey, this order has four SKUs,
+
+538
+00:26:00,740 --> 00:26:03,980
+they'll all fit in this box, ship them in this box.
+
+539
+00:26:03,980 --> 00:26:05,980
+Or you have four SKUs,
+
+540
+00:26:05,980 --> 00:26:07,900
+you're gonna have to use two boxes
+
+541
+00:26:07,900 --> 00:26:09,980
+because of the way the volume works out.
+
+542
+00:26:10,060 --> 00:26:12,620
+And then you can optimize your order flow
+
+543
+00:26:12,620 --> 00:26:16,340
+because the system's prompting the worker
+
+544
+00:26:16,340 --> 00:26:18,700
+or the order fulfillment person,
+
+545
+00:26:18,700 --> 00:26:20,860
+hey, I don't need to think about what box to use,
+
+546
+00:26:20,860 --> 00:26:22,460
+the system's telling me.
+
+547
+00:26:22,460 --> 00:26:24,500
+And then the cost of that box
+
+548
+00:26:24,500 --> 00:26:26,860
+has worked into your profitability.
+
+549
+00:26:26,860 --> 00:26:30,060
+So there's a lot of potential with cartonization
+
+550
+00:26:30,060 --> 00:26:33,460
+that starts with leveraging quality DIMM data
+
+551
+00:26:33,460 --> 00:26:35,140
+and the item weight priority tool
+
+552
+00:26:35,140 --> 00:26:37,420
+is the mechanism to get there.
+
+553
+00:26:37,420 --> 00:26:39,900
+And although cartonization will be probably
+
+554
+00:26:39,900 --> 00:26:43,780
+its own webinar topic in the future,
+
+555
+00:26:43,780 --> 00:26:47,060
+that situation where it created two boxes,
+
+556
+00:26:47,060 --> 00:26:49,220
+we can band those together
+
+557
+00:26:49,220 --> 00:26:51,980
+so that you only have one origination fee.
+
+558
+00:26:57,300 --> 00:26:59,980
+Number 10, monitors and alerts.
+
+559
+00:26:59,980 --> 00:27:03,380
+So as you're aware, we have background systems
+
+560
+00:27:03,380 --> 00:27:06,420
+monitoring the system performance at all times.
+
+561
+00:27:06,420 --> 00:27:08,060
+We send out alerts periodically
+
+562
+00:27:08,060 --> 00:27:10,620
+when we notice disruptions in behavior,
+
+563
+00:27:10,620 --> 00:27:14,140
+but you can also get visibility on your system performance
+
+564
+00:27:14,140 --> 00:27:16,220
+with these monitoring tools.
+
+565
+00:27:16,220 --> 00:27:17,860
+Specifically with issues,
+
+566
+00:27:17,860 --> 00:27:20,940
+you will see the issues screen below orders.
+
+567
+00:27:20,940 --> 00:27:22,900
+It's under leveraged in my experience
+
+568
+00:27:22,900 --> 00:27:23,820
+with a lot of clients
+
+569
+00:27:23,820 --> 00:27:25,900
+because there's so much information on it.
+
+570
+00:27:25,900 --> 00:27:30,740
+It gives you listing errors, it gives you task errors,
+
+571
+00:27:30,740 --> 00:27:33,420
+it can be hard to digest.
+
+572
+00:27:33,420 --> 00:27:36,320
+The solution to that is for you
+
+573
+00:27:36,320 --> 00:27:39,440
+to work with your CSM and isolate important errors
+
+574
+00:27:39,440 --> 00:27:40,360
+to know about.
+
+575
+00:27:40,360 --> 00:27:45,360
+A big one is inventory files failing to load from an FTP.
+
+576
+00:27:45,400 --> 00:27:48,760
+That causes a very specific error that we track.
+
+577
+00:27:48,760 --> 00:27:49,920
+We will create an issue,
+
+578
+00:27:49,920 --> 00:27:53,480
+but we can also send out email alerts to specific users.
+
+579
+00:27:53,480 --> 00:27:55,800
+If you have a fulfillment manager
+
+580
+00:27:55,800 --> 00:27:58,440
+and orders are failing to send or import,
+
+581
+00:27:58,440 --> 00:28:02,440
+that's an error message we can track for
+
+582
+00:28:02,440 --> 00:28:04,920
+and email users about so that they're aware
+
+583
+00:28:04,920 --> 00:28:07,200
+that there's something going on with tasks
+
+584
+00:28:07,200 --> 00:28:08,200
+that needs to be addressed
+
+585
+00:28:08,200 --> 00:28:13,010
+that's preventing optimized order flow.
+
+586
+00:28:13,010 --> 00:28:14,970
+Next, we have monitors.
+
+587
+00:28:14,970 --> 00:28:17,450
+Monitors track overall task performance.
+
+588
+00:28:17,450 --> 00:28:20,810
+So again, an issue is looking for a specific error message.
+
+589
+00:28:20,810 --> 00:28:24,730
+Monitors track the average volume load of that task
+
+590
+00:28:24,730 --> 00:28:26,450
+and will note spikes in it.
+
+591
+00:28:26,450 --> 00:28:29,450
+It will note task failures.
+
+592
+00:28:29,450 --> 00:28:31,250
+There's more to come on monitors.
+
+593
+00:28:31,250 --> 00:28:32,770
+We'll have a webinar session on it
+
+594
+00:28:32,770 --> 00:28:34,710
+with our monitor, Smee, Aaron Peck.
+
+595
+00:28:37,330 --> 00:28:39,330
+But again, talk to your CSM.
+
+596
+00:28:39,330 --> 00:28:41,210
+I encourage you to leverage issues
+
+597
+00:28:41,210 --> 00:28:43,650
+and see where that can benefit your team
+
+598
+00:28:43,650 --> 00:28:46,730
+and then move on to looking at monitors.
+
+599
+00:28:46,730 --> 00:28:48,490
+We are exposing that more and more.
+
+600
+00:28:48,490 --> 00:28:50,810
+We have some customers setting up their own monitors,
+
+601
+00:28:50,810 --> 00:28:53,170
+but again, work with your CSM,
+
+602
+00:28:53,170 --> 00:28:55,490
+focus on issue alerts first,
+
+603
+00:28:55,490 --> 00:28:59,050
+and then see where monitors might make sense for you as well.
+
+604
+00:28:59,050 --> 00:29:01,130
+Those are my 10 topics.
+
+605
+00:29:01,130 --> 00:29:04,810
+As noted in the agenda, Jeff, it's a surprise for us.
+
+606
+00:29:04,810 --> 00:29:08,850
+And now, drum roll, please,
+
+607
+00:29:08,850 --> 00:29:11,570
+something that a lot of you've been asking for
+
+608
+00:29:11,570 --> 00:29:13,570
+for a couple of years now,
+
+609
+00:29:13,570 --> 00:29:17,050
+we are happy to announce that ETail
+
+610
+00:29:17,050 --> 00:29:19,930
+is migrating to a browser.
+
+611
+00:29:19,930 --> 00:29:24,930
+We already have certain roles already migrated over,
+
+612
+00:29:25,770 --> 00:29:30,770
+and this is in production use in some of our new clients.
+
+613
+00:29:32,050 --> 00:29:34,210
+Today, the way we're migrating it,
+
+614
+00:29:34,210 --> 00:29:37,770
+we're taking roles and moving them over.
+
+615
+00:29:37,770 --> 00:29:41,890
+So there still may be things that you need to do
+
+616
+00:29:41,890 --> 00:29:46,730
+in your traditional EVP legacy platform.
+
+617
+00:29:46,730 --> 00:29:51,730
+There may be some things that you will always do in EVP.
+
+618
+00:29:51,850 --> 00:29:54,450
+System admin kind of level functions
+
+619
+00:29:54,450 --> 00:29:58,850
+are some very high-end power user kind of functions.
+
+620
+00:29:58,850 --> 00:30:02,370
+But for the people that just need to deal with the data
+
+621
+00:30:02,370 --> 00:30:04,930
+to do their normal daily task,
+
+622
+00:30:04,930 --> 00:30:08,570
+a CSM on order management person,
+
+623
+00:30:08,570 --> 00:30:12,930
+a somebody who handles the shipping and manifesting,
+
+624
+00:30:12,930 --> 00:30:16,530
+we're starting to roll out specific roles
+
+625
+00:30:16,530 --> 00:30:19,050
+to some of our newer clients.
+
+626
+00:30:19,050 --> 00:30:22,330
+And now we're gonna start talking to our current clients
+
+627
+00:30:22,330 --> 00:30:26,890
+about are there potential areas of their business
+
+628
+00:30:26,890 --> 00:30:28,970
+they would like to roll out.
+
+629
+00:30:29,970 --> 00:30:31,770
+Why don't we go to the next one?
+
+630
+00:30:32,890 --> 00:30:36,850
+And along with that, we are working on some functionality
+
+631
+00:30:36,850 --> 00:30:41,370
+where we're gonna be offering a standalone product
+
+632
+00:30:41,370 --> 00:30:44,810
+for new clients in the near future,
+
+633
+00:30:44,810 --> 00:30:46,370
+not formally announced yet.
+
+634
+00:30:46,370 --> 00:30:50,290
+So hopefully all of you are under NDA,
+
+635
+00:30:50,290 --> 00:30:52,290
+but we're calling it ideal order
+
+636
+00:30:52,290 --> 00:30:54,250
+that we're on every single order.
+
+637
+00:30:54,250 --> 00:30:57,650
+We're looking at, did it ship from the right location?
+
+638
+00:30:57,650 --> 00:31:00,170
+Was the right packaging used?
+
+639
+00:31:00,170 --> 00:31:02,090
+Was the right carrier used?
+
+640
+00:31:02,090 --> 00:31:04,770
+Was the right service level used?
+
+641
+00:31:04,770 --> 00:31:07,010
+Did all the documentation get included?
+
+642
+00:31:07,010 --> 00:31:08,250
+Did it ship on time?
+
+643
+00:31:08,250 --> 00:31:09,730
+Did it arrive on time?
+
+644
+00:31:09,730 --> 00:31:14,210
+We're tracking all those individual items per order
+
+645
+00:31:14,210 --> 00:31:18,410
+to tell you if an order was ideal
+
+646
+00:31:18,410 --> 00:31:22,250
+and did it meet your profit goals for that order?
+
+647
+00:31:22,250 --> 00:31:24,850
+And we're calling that ideal order.
+
+648
+00:31:24,850 --> 00:31:28,090
+Next one, we'll even look at,
+
+649
+00:31:28,090 --> 00:31:30,570
+oh, I'm sorry, it was on the bottom of that one.
+
+650
+00:31:30,570 --> 00:31:34,290
+I had a little bit of my screen in the way,
+
+651
+00:31:34,290 --> 00:31:36,370
+which I shall move.
+
+652
+00:31:36,370 --> 00:31:39,530
+For this client, they shipped the massive thing
+
+653
+00:31:39,530 --> 00:31:43,410
+because it was supposed to ship from a location
+
+654
+00:31:43,410 --> 00:31:47,850
+only 190 miles away from the client, excuse me,
+
+655
+00:31:47,850 --> 00:31:52,850
+140 miles and ended up shipping 814 miles.
+
+656
+00:31:52,930 --> 00:31:57,930
+That raised their shipping costs by $122
+
+657
+00:31:58,330 --> 00:32:03,330
+and lowered their net income by over 13%.
+
+658
+00:32:03,530 --> 00:32:08,250
+The product itself, the total sale is $900,
+
+659
+00:32:08,250 --> 00:32:13,250
+kind of to be expected when the shipping by itself is 122.
+
+660
+00:32:14,530 --> 00:32:19,450
+But in looking at all their sales over a period of time,
+
+661
+00:32:19,450 --> 00:32:22,570
+by not having inventory in the right place,
+
+662
+00:32:22,570 --> 00:32:26,170
+they've lost as much as $60,000.
+
+663
+00:32:26,170 --> 00:32:28,290
+And we're identifying that.
+
+664
+00:32:28,290 --> 00:32:31,970
+And then we can go into remediation phase
+
+665
+00:32:31,970 --> 00:32:36,050
+to recapture some of that lost net income.
+
+666
+00:32:36,050 --> 00:32:41,050
+And so stay tuned and talk to your CSM
+
+667
+00:32:41,130 --> 00:32:45,890
+if you'd be interested in bringing this into your house.
+
+668
+00:32:45,890 --> 00:32:50,890
+And that's the major new news for this new application.
+
+669
+00:32:51,250 --> 00:32:53,690
+And we look forward.
+
+670
+00:32:53,690 --> 00:32:56,330
+We think it's got a great look
+
+671
+00:32:56,330 --> 00:32:59,770
+and it's gonna be of great benefit to our clients.
+
+672
+00:33:01,890 --> 00:33:03,250
+Question and answer.
+
+673
+00:33:03,250 --> 00:33:06,450
+And thank you very much for submitting these.
+
+674
+00:33:06,450 --> 00:33:08,810
+Jason, you're gonna have to think
+
+675
+00:33:08,810 --> 00:33:12,610
+because they're gonna go all the way back to near the top.
+
+676
+00:33:12,610 --> 00:33:17,610
+How do I get the eBay delist relist tool?
+
+677
+00:33:20,760 --> 00:33:21,600
+How do you get it?
+
+678
+00:33:22,680 --> 00:33:25,200
+You let your CSM know you're interested.
+
+679
+00:33:25,200 --> 00:33:29,400
+You'll go through a quick survey
+
+680
+00:33:29,400 --> 00:33:32,560
+to evaluate the appropriate settings.
+
+681
+00:33:32,560 --> 00:33:37,560
+Then the CSM will coordinate enabling those jobs
+
+682
+00:33:37,680 --> 00:33:40,040
+and you monitor the reports.
+
+683
+00:33:40,040 --> 00:33:42,240
+So how do you get it?
+
+684
+00:33:42,240 --> 00:33:43,360
+Technically, you already have it.
+
+685
+00:33:43,360 --> 00:33:44,840
+You just gotta work with your CSM
+
+686
+00:33:44,840 --> 00:33:46,040
+to get it up and running.
+
+687
+00:33:46,960 --> 00:33:50,440
+Okay, question number two.
+
+688
+00:33:51,480 --> 00:33:56,480
+Is there an eBay automatic automature
+
+689
+00:33:56,920 --> 00:34:03,490
+to get more listings?
+
+690
+00:34:03,490 --> 00:34:05,410
+Say that one again.
+
+691
+00:34:05,410 --> 00:34:10,410
+Is there an eBay automature to get more listings?
+
+692
+00:34:11,730 --> 00:34:16,610
+So eBay's a marketplace where you're not competing.
+
+693
+00:34:16,610 --> 00:34:19,810
+So you cannot find other sellers
+
+694
+00:34:19,810 --> 00:34:22,330
+and attach to their eBay listing.
+
+695
+00:34:22,330 --> 00:34:27,130
+So there isn't a dynamic automature for eBay.
+
+696
+00:34:27,130 --> 00:34:31,090
+There is an eBay item creator which can create listings
+
+697
+00:34:31,090 --> 00:34:33,090
+under a certain publishing template
+
+698
+00:34:33,090 --> 00:34:36,410
+and get those listings on eBay,
+
+699
+00:34:36,410 --> 00:34:38,010
+but there isn't a automature
+
+700
+00:34:38,010 --> 00:34:40,890
+because you're not linking to other people's listings.
+
+701
+00:34:42,450 --> 00:34:44,730
+You would wanna leverage the item creator
+
+702
+00:34:44,810 --> 00:34:47,890
+to assess a supplier source or an ETL record
+
+703
+00:34:47,890 --> 00:34:49,610
+to create your own eBay listing.
+
+704
+00:34:51,450 --> 00:34:54,610
+Under order action rules,
+
+705
+00:34:54,610 --> 00:34:59,610
+can I use it to put new channel orders on hold
+
+706
+00:35:00,130 --> 00:35:04,610
+for a few hours while allowing for a cancellation window?
+
+707
+00:35:05,770 --> 00:35:09,810
+Absolutely, so an order action rule can be set up
+
+708
+00:35:09,810 --> 00:35:13,210
+for a channel, any order from that channel,
+
+709
+00:35:13,210 --> 00:35:16,130
+any order plus a skew from that channel.
+
+710
+00:35:16,130 --> 00:35:17,690
+And then you do have the option
+
+711
+00:35:17,690 --> 00:35:21,690
+to have a hold be automatically released
+
+712
+00:35:21,690 --> 00:35:23,290
+after a configured delay.
+
+713
+00:35:23,290 --> 00:35:25,810
+So you could definitely configure it
+
+714
+00:35:25,810 --> 00:35:28,050
+to hold the order for an hour or two
+
+715
+00:35:29,010 --> 00:35:30,490
+during the cancellation window
+
+716
+00:35:30,490 --> 00:35:32,130
+and then automatically release
+
+717
+00:35:32,130 --> 00:35:34,410
+for normal order fulfillment afterwards.
+
+718
+00:35:39,290 --> 00:35:41,810
+There was a question on monitoring.
+
+719
+00:35:41,810 --> 00:35:46,810
+Can a monitor be built to alert me
+
+720
+00:35:46,890 --> 00:35:51,890
+if a supplier inventory failed to load
+
+721
+00:35:51,890 --> 00:35:55,810
+or wasn't there to load at all?
+
+722
+00:36:01,680 --> 00:36:04,680
+I would assess that from an issue perspective.
+
+723
+00:36:04,680 --> 00:36:08,480
+Again, a issue is looking for a specific type of failure.
+
+724
+00:36:08,480 --> 00:36:10,960
+So bad credentials to an FTP
+
+725
+00:36:11,080 --> 00:36:13,880
+will cause a specific type of error.
+
+726
+00:36:13,880 --> 00:36:20,240
+No file being found will cause a specific type of error.
+
+727
+00:36:21,240 --> 00:36:25,080
+So you can get an alert from an issue
+
+728
+00:36:26,600 --> 00:36:29,920
+for supplier data imports.
+
+729
+00:36:29,920 --> 00:36:32,280
+Monitors would look at,
+
+730
+00:36:32,280 --> 00:36:34,680
+oh, the file size is greatly reduced
+
+731
+00:36:34,680 --> 00:36:37,400
+so that task isn't doing nearly as much as it was
+
+732
+00:36:37,400 --> 00:36:40,000
+or it's doing way more than it used to.
+
+733
+00:36:40,000 --> 00:36:43,280
+But the end goal there is you get alerted
+
+734
+00:36:43,280 --> 00:36:45,000
+when there's issues with inventory
+
+735
+00:36:45,000 --> 00:36:46,440
+that could be achieved, yes.
+
+736
+00:36:47,440 --> 00:36:49,840
+And if we don't answer any of these questions
+
+737
+00:36:49,840 --> 00:36:51,760
+to your satisfaction,
+
+738
+00:36:51,760 --> 00:36:56,760
+we're available to have a more direct and nuanced discussion
+
+739
+00:36:56,800 --> 00:37:00,000
+about what you're actually hoping to accomplish.
+
+740
+00:37:02,040 --> 00:37:04,040
+And this might be the last one
+
+741
+00:37:04,040 --> 00:37:07,800
+and I'm not really surprised that it showed up.
+
+742
+00:37:07,800 --> 00:37:11,520
+When will the web UI be released?
+
+743
+00:37:11,520 --> 00:37:15,080
+And can I use it for my customer service team?
+
+744
+00:37:15,080 --> 00:37:18,440
+I think we're gonna be doing this pretty much
+
+745
+00:37:18,440 --> 00:37:21,080
+on a one-off basis where we work with you
+
+746
+00:37:21,080 --> 00:37:26,080
+to see if the elements that we've already migrated over
+
+747
+00:37:26,760 --> 00:37:30,680
+fit your actual use case.
+
+748
+00:37:30,680 --> 00:37:33,560
+Clearly when you're in the legacy system,
+
+749
+00:37:33,560 --> 00:37:38,560
+you can go from here to there to there to there.
+
+750
+00:37:38,600 --> 00:37:42,760
+Right now, since we're moving over very discreet functions,
+
+751
+00:37:42,760 --> 00:37:47,280
+we wanna make sure that your use fits within what's migrated
+
+752
+00:37:47,280 --> 00:37:50,320
+so that they're not bouncing between systems.
+
+753
+00:37:50,320 --> 00:37:54,400
+But yeah, probably early third quarter,
+
+754
+00:37:54,400 --> 00:37:56,360
+maybe even late this quarter,
+
+755
+00:37:56,360 --> 00:37:59,520
+we can start having meaningful discussions
+
+756
+00:37:59,520 --> 00:38:02,440
+about if you're really interested,
+
+757
+00:38:02,440 --> 00:38:04,440
+we're gonna sound like a broken record,
+
+758
+00:38:04,440 --> 00:38:10,820
+please work with your CSM.
+
+759
+00:38:10,820 --> 00:38:13,660
+I covered all these topics at a high level
+
+760
+00:38:13,660 --> 00:38:16,700
+to get through them, make you aware of them.
+
+761
+00:38:16,700 --> 00:38:21,060
+I encourage getting your CSM on the line
+
+762
+00:38:21,060 --> 00:38:23,320
+to discuss your specific use needs.
+
+763
+00:38:24,580 --> 00:38:27,500
+But we isolated these features
+
+764
+00:38:27,500 --> 00:38:29,780
+because they are important to know about.
+
+765
+00:38:29,780 --> 00:38:33,860
+And again, we built them over years of working
+
+766
+00:38:33,860 --> 00:38:36,460
+with various customers in the e-commerce space
+
+767
+00:38:36,460 --> 00:38:38,780
+and found that these types of tools are needed
+
+768
+00:38:38,780 --> 00:38:45,790
+for the various business conditions that occur.
+
+769
+00:38:45,790 --> 00:38:49,670
+And if there's no more questions and I'm monitoring right now,
+
+770
+00:38:49,670 --> 00:38:53,390
+we're gonna start talking about next month.
+
+771
+00:38:53,390 --> 00:38:58,390
+Next month, it will be on the second Wednesday of the month.
+
+772
+00:38:58,430 --> 00:39:02,070
+I know we're on the third, that's our fault.
+
+773
+00:39:02,070 --> 00:39:03,950
+We didn't get the email out in time,
+
+774
+00:39:03,950 --> 00:39:06,430
+we didn't get the landing page out in time
+
+775
+00:39:06,550 --> 00:39:11,550
+and we decided that rather than doing a half bad job,
+
+776
+00:39:13,070 --> 00:39:15,390
+we would just push it off a week.
+
+777
+00:39:15,390 --> 00:39:17,310
+I'm glad you were able to attend,
+
+778
+00:39:17,310 --> 00:39:20,690
+but it is the second Wednesday of the month.
+
+779
+00:39:20,690 --> 00:39:24,430
+And the banner at the bottom represents last month,
+
+780
+00:39:24,430 --> 00:39:28,470
+we sent out a survey shortly after the webinar,
+
+781
+00:39:28,470 --> 00:39:33,090
+giving you three choices for this month, May.
+
+782
+00:39:33,090 --> 00:39:35,890
+And there's the results on the bottom.
+
+783
+00:39:35,910 --> 00:39:39,650
+This was the topic that you wanted to hear about
+
+784
+00:39:39,650 --> 00:39:41,850
+by a wide margin.
+
+785
+00:39:41,850 --> 00:39:46,850
+So once again, we will send out a survey, it will go to you.
+
+786
+00:39:47,170 --> 00:39:52,170
+If you respond, you have the ability to tell us
+
+787
+00:39:52,530 --> 00:39:56,210
+what is most important for next month.
+
+788
+00:39:56,210 --> 00:40:00,200
+And that's what the topic will be.
+
+789
+00:40:00,200 --> 00:40:04,640
+If I don't get another question in the next few seconds,
+
+790
+00:40:04,640 --> 00:40:08,520
+I'm gonna say we're gonna wrap up a few minutes early
+
+791
+00:40:08,520 --> 00:40:11,440
+and say, thank you, thanks for coming.
+
+792
+00:40:12,920 --> 00:40:17,240
+Our goal is to make you a better merchant,
+
+793
+00:40:17,240 --> 00:40:18,880
+a more knowledgeable merchant,
+
+794
+00:40:18,880 --> 00:40:23,320
+both about the marketplaces and about EVP
+
+795
+00:40:23,320 --> 00:40:28,320
+so that you can absolutely impact your success
+
+796
+00:40:28,800 --> 00:40:33,800
+and get things even going better, faster, bigger, higher.
+
+797
+00:40:35,760 --> 00:40:36,600
+Thank you.
+
+798
+00:40:37,600 --> 00:40:38,440
+Thank you.
+
