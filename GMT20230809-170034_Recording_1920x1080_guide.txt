@@ -1,0 +1,67 @@
+# GMT20230809-170034 Recording 1920x1080
+
+## Quick Steps
+
+1. Clyde?
+2. Sure.
+3. Okay.
+4. Okay.
+5. Good afternoon. Welcome to the August edition of Tech Edge.
+6. It's a system we run that has sort of some very controlled set of items in it and it's got processes that simulate where behavior is not a real system.
+7. What we're going to start with our inputs. As, as Jeff said at the beginning, fundamentally replacement is driven by what we know about your prior sales activity.
+8. One of the, one of the functions that the system performs is once it's set up and enabled. It's actually tracking sales activity for every single day, there's actually a record recorded every day that tracks statistics around every single sales listing.
+9. We tend to and for the last few years anyway we've tended to set up the sales history reports.
+10. I'm going to go in just to the screen so you can see them in the supply module under replenishment you go to the very first planning item.
+11. And it gives you the, the skews, and what you'll see when you go to these this is the very first thing to get a look at it is the sales history tab. And so, this is, these are the sales that are taking place on those sales listings, you know, over.
+12. You go in and create demand profiles that roughly represent what your annual selling would be like.
+13. And even to understand history because when you when you're taking a day's sales you have to understand like a given day during the holiday sales cycle where you have a very high sales rate, you wouldn't necessarily want to project that forward so it's important.
+14. So there's, there's also some some input and some pre work to make sure that you've gone through, and you've set up your suppliers with the with appropriate lead times, and with settings to indicate that that supplier is you want participating.
+15. In your replenishment calculations. So there's some setup that happens on the supply side as well.
+16. It's showing me the sales channels I'm going to be looking at my supply sources, and then also some settings down here around or some counters down here around, these are basically results.
+17. And that's, that's a good way to set it up because what that allows me to do now is go in and say, Okay, I only care about the items that I've turned on.
+18. And that's a really important thing to do early on because if you have a large catalog.
+19. I could select them.
+20. If you have them, you use this button update items you can come in, you can turn on planning, and that will enable that item.
+21. What is my cycle, what is my planning cycle and let's go look at those settings. So in the system module, if you go to the system setting under planning, there's a group of settings in here.
+22. These aren't bad numbers. If you have very variable sales, you might want to look at a little more history to get a better average, but you can set them to whatever makes sense for you.
+23. And you also don't want to set it to 720 days and look two years for it. It's got to be in a reasonable window based upon how your product sell.
+24. Then you get this one becomes very important. Basically, replenishment deals with what's the minimum stock I ever want to have in place and what is the maximum stock that I want to have.
+25. You might want to set it to one or greater, but in that case, you're saying I never want to get below basically one order cycle from my supplier or one time through there because if something happens, I'm going to run out of stock.
+26. There's some other controls in here that deal with low volume and other things, but I'm not going to talk to those, but fundamentally, those are the settings.
+27. And again, there's detail in that that we can go to at the right time if you need to.
+28. So let's look at, let's go back here then and continue with the controls so we can set our model to run, we can indicate which suppliers want to be enabled, we've set up a demand profile.
+29. And then so let's look at what happens. From a system perspective, what happens is every single morning, generally the jobs are set to render early in the morning.
+30. You know, and then it's kind of grinding down based upon my current settings and I don't know whether they're efficient or not but based upon my current settings, it has calculated.
+31. And so, I may have, I may have consciously let it run out of stock, in which case, I should turn it off, right, I should, I should update that item, and I should turn off planning, so that it doesn't show up here tomorrow.
+32. Having this set up just gives you a great snapshot of what's happening in your ecommerce business, as opposed to your B2B business.
+33. But that's an optional piece of replenishment right we would say that's the second phase of replenishment that you may or may not choose to make use of.
+34. You can set up with a date, and then in the, in the grid, we we've bucketed those numbers into into date ranges, so you have the ability to, if you're kind of looking at it from from today, you can literally come in here and say,.
+35. So you can filter it down to those seven.
+36. You've got the ability to focus it down to which ones you need to act on, and then you've got a reasonable set to come in and review and decide, you know, what, what do I need to do about those.
+37. Concept is you at first think about it as I you know I need 1000 of this skew, but somewhere along the way in the operational process of it, it is important to understand which actual sales skew it was for.
+38. One of the things the system has to make a determination on is you'll note that as I'm selecting these, the supply is, there's a supply section.
+39. We can get into a little bit more of the details. One, I've got a, I currently have a single view, I'm modifying my standard view here because I only, I only have one and I've set that up that way.
+40. If your workflow is broken down into, let's say, different product lines, or perhaps different product types and pre configuring these is slightly different depending on how you're doing it.
+41. And then you can do a save as you can do a save as of the view and you can end up creating the predefined versions of the predefined versions of those of those views.
+42. Yeah, I like the idea of setting it up to do it the way I want to do it so I can go through this and get the information I want and deal with it in the most efficient way because.
+43. And if you haven't gotten if you haven't settled into a useful pattern yet.
+44. A successful operational pattern on replenishment is that you you figure out all of the settings you get it running.
+45. And then it really becomes almost a daily operational task like any other where it's ready to go. It's already to be configured. The only thing that you're doing when you come in here is is applying sort of that final view of it to say I know what those numbers mean I know I know what to do about it and I'm going to choose to order those or not.
+46. These are the things you're going to order. And if I were to, I won't do it but if I were to go ahead and push the create work order that saves this for me, and then I can move that through the rest of the system.
+47. That is your catalog list so every single filter, right if I if I want to come in here and add filters, every possible filter is here.
+48. And I can add those I can filter by them. I can sort, and then you can multi select right so I can go through and I can say okay for all of these.
+49. Maybe the right thing to do is to turn them all off again and let you go back in and really enable selectively turn things on.
+50. Otherwise you're left with having to select them and you know you could do a select all right or I can, but you can only do them 500 at a time.
+51. And then you could, you know, you could update them and it would, it would grind its way through all of them and do what it's going to do.
+52. Do I have this as a module or if so, how do I turn it on or set it up.
+53. There, there is a little bit of setup required as we talked about the recording the sales history, running the replenishment jobs.
+54. Setting up the suppliers, initially, so you can do all that there's some of that that we would probably do for you, but every system has replenishment basically building.
+55. Would it be a best practice to maybe just set up 10 or 15 SKUs and get used to the process and the setup and the inputs and the controls of that be a best practice to get going.
+56. It certainly makes sense to walk before you run, because, as with anything, you're going to, it is a learning experience and getting comfortable with how it works and what it does is much easier if you do that in, in a controlled set where, where it's predictable.
+57. You may choose to, to not use one of those suppliers or to maybe disable or you can force right there's there's the skew by skew if you remember on that screen skew by skew.
+58. One of these we addressed right at the end of this demo session you were doing I thought was a great question. It was a how or can I create save views.
+59. And how do I use all the filters and you actually went through showed a great example of how to use the filters for either a bulk include or exclude.
+
+## Notes
+- This summary was auto-generated from a screen-recording transcript.
+- If something is unclear, refer back to the full transcript.
