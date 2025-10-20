@@ -1,0 +1,101 @@
+﻿[
+    {
+        "path":  "index.html",
+        "url":  "index.html",
+        "size_bytes":  4908,
+        "size_human":  "5 KB",
+        "last_modified_utc":  "2025-10-20T16:39:28Z",
+        "sha256":  "3c377a48d70efc4a1bfc4923805449c90a874d79e88ccd9dd0939baf0b090db0",
+        "ext":  ".html"
+    },
+    {
+        "path":  "manifest.json",
+        "url":  "manifest.json",
+        "size_bytes":  3840,
+        "size_human":  "4 KB",
+        "last_modified_utc":  "2025-10-20T16:39:28Z",
+        "sha256":  "6c35e709ac59ddee25f0a910fd9e2cc40eabe76d0802ce27265eb7870a21f77a",
+        "ext":  ".json"
+    },
+    {
+        "path":  "Simplified_Fulfillment_Publishing.pdf",
+        "url":  "Simplified_Fulfillment_Publishing.pdf",
+        "size_bytes":  68754,
+        "size_human":  "67 KB",
+        "last_modified_utc":  "2025-10-16T04:58:22Z",
+        "sha256":  "28e552ba915821f24cd8006c2076b93df2827a1200c112e6c881f1d2e5685604",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Supplier_Portal_Shipping_Exceptions.pdf",
+        "url":  "Supplier_Portal_Shipping_Exceptions.pdf",
+        "size_bytes":  1341697,
+        "size_human":  "1.28 MB",
+        "last_modified_utc":  "2025-10-16T05:21:14Z",
+        "sha256":  "42206b7a5144ecd2e33a66b1fcc2eba3748210b9a66b2d635957effcdd02b773",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Support_Availability_Guidelines.pdf",
+        "url":  "Support_Availability_Guidelines.pdf",
+        "size_bytes":  868284,
+        "size_human":  "848 KB",
+        "last_modified_utc":  "2025-10-16T04:28:32Z",
+        "sha256":  "5432ec428a07da7a4ed151cdcb7e40e6b3cf673bb05d4fd111c97e883da7dcff",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Tier_and_Priority.pdf",
+        "url":  "Tier_and_Priority.pdf",
+        "size_bytes":  57511,
+        "size_human":  "56 KB",
+        "last_modified_utc":  "2025-10-16T05:04:56Z",
+        "sha256":  "e30895e8ffb1666c57cc87568f7dcb06923635fb26396852e44b17616596697a",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Understanding_How_Support_is_Billed.pdf",
+        "url":  "Understanding_How_Support_is_Billed.pdf",
+        "size_bytes":  439337,
+        "size_human":  "429 KB",
+        "last_modified_utc":  "2025-10-16T04:29:08Z",
+        "sha256":  "d63580c689ec88adcbd587e9e5859d5d0ab5a41033cf33bac77c158d1e744869",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "UOM_Basics.pdf",
+        "url":  "UOM_Basics.pdf",
+        "size_bytes":  851000,
+        "size_human":  "831 KB",
+        "last_modified_utc":  "2025-10-16T04:37:28Z",
+        "sha256":  "104ba4d09ee3cab4e70f4fbe848d4192ada158541207a4a1f496bb2707a86f1e",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "User_Access_Policy_for_EVP_and_Help_Center.pdf",
+        "url":  "User_Access_Policy_for_EVP_and_Help_Center.pdf",
+        "size_bytes":  873085,
+        "size_human":  "853 KB",
+        "last_modified_utc":  "2025-10-16T04:28:46Z",
+        "sha256":  "670f73513e1e0546b6a585354b4f071e02c61ff79c2f53b7ebf5b79174e3fa91",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Variant_Images.pdf",
+        "url":  "Variant_Images.pdf",
+        "size_bytes":  1038358,
+        "size_human":  "1,014 KB",
+        "last_modified_utc":  "2025-10-16T05:05:26Z",
+        "sha256":  "00510ada93a5aa188e9600d434b45c2bb3980bc61b999b504481e48f51745356",
+        "ext":  ".pdf"
+    },
+    {
+        "path":  "Virtual_Item_Template_via_Email_Submission.pdf",
+        "url":  "Virtual_Item_Template_via_Email_Submission.pdf",
+        "size_bytes":  246668,
+        "size_human":  "241 KB",
+        "last_modified_utc":  "2025-10-16T05:14:30Z",
+        "sha256":  "d079b660f1e521ba65775e36ef6de523f39e263209c6cbd9e23caa51dc300927",
+        "ext":  ".pdf"
+    }
+]

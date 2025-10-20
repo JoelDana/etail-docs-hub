@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Etail Docs Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --b:#f7f7f8; --t:#111; --m:#666; --bd:#e5e7eb; }
+    body { font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--b); color:var(--t); margin:24px; }
+    h1 { font-size:1.8rem; margin:0 0 8px; }
+    .sub { color:var(--m); margin-bottom:18px; }
+    .search { width:100%; max-width:720px; padding:10px 12px; border:1px solid var(--bd); border-radius:10px; background:#fff; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:10px; margin-top:16px; }
+    .card { background:#fff; border:1px solid var(--bd); border-radius:14px; padding:12px; }
+    .card a { text-decoration:none; color:#0a58ca; word-break:break-word; }
+    .meta { font-size:.9rem; color:var(--m); margin-top:6px; }
+  </style>
+</head>
+<body>
+  <h1>Etail Docs Hub</h1>
+  <div class="sub">Direct links to files below. Use the search to filter by folder, filename, or extension.</div>
+  <input id="q" class="search" placeholder="Filter e.g. mckesson pdf, teleflex csv">
+  <div id="count" class="sub"></div>
+  <div id="list" class="grid"></div>
+
+  <script>
+  (async function () {
+    try {
+      const resp = await fetch('manifest.json', { cache: 'no-store' });
+      const rows = await resp.json();
+
+      const list = document.getElementById('list');
+      const count = document.getElementById('count');
+
+      function render(items) {
+        list.innerHTML = '';
+        for (const r of items) {
+          const card = document.createElement('div');
+          card.className = 'card';
+          const link = document.createElement('a');
+          link.href = (r.url || r.path || '#');
+          link.target = '_blank';
+          link.rel = 'noopener';
+          link.textContent = (r.path || '(no path)');
+          const meta = document.createElement('div');
+          meta.className = 'meta';
+          meta.textContent = ((r.ext || '').replace('.','').toUpperCase() || '-') + ' • ' +
+                             (r.size_human || '-') + ' • ' +
+                             (r.last_modified_utc || '-');
+          card.appendChild(link);
+          card.appendChild(meta);
+          list.appendChild(card);
+        }
+        count.textContent = items.length + ' file(s)';
+      }
+
+      const all = rows.slice().sort((a,b)=> (a.path||'').localeCompare(b.path||''));
+      render(all);
+
+      document.getElementById('q').addEventListener('input', e => {
+        const v = (e.target.value || '').toLowerCase();
+        render(all.filter(r =>
+          (r.path || '').toLowerCase().includes(v) ||
+          (r.ext || '').toLowerCase().includes(v)
+        ));
+      });
+    } catch (err) {
+      document.getElementById('list').textContent = 'Could not read manifest.json: ' + err;
+    }
+  })();
+  </script>
+</body>
+</html>
