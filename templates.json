@@ -1,0 +1,33 @@
+[
+  {
+    "label": "UOM Import \u2013 v3",
+    "url": "/templates/uom_v3.xlsx",
+    "tags": [
+      "uom",
+      "dimensions",
+      "import"
+    ],
+    "columns": [
+      "E1 SKU",
+      "UOM",
+      "Item_UOM_ID",
+      "Length",
+      "Width",
+      "Height"
+    ]
+  },
+  {
+    "label": "Shared Modifier \u2013 v3 API CSV",
+    "url": "/templates/shared_modifier_v3.csv",
+    "tags": [
+      "modifier",
+      "api",
+      "v3"
+    ],
+    "columns": [
+      "ProductID",
+      "DisplayName",
+      "OptionValuesJSON"
+    ]
+  }
+]
