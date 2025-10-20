@@ -14,12 +14,14 @@
     .card { background:#fff; border:1px solid var(--bd); border-radius:14px; padding:12px; }
     .card a { text-decoration:none; color:#0a58ca; word-break:break-word; }
     .meta { font-size:.9rem; color:var(--m); margin-top:6px; }
+    .actions { margin-top:6px; font-size:.9rem; }
+    .actions a { margin-right:10px; }
   </style>
 </head>
 <body>
   <h1>Etail Docs Hub</h1>
   <div class="sub">Direct links to files below. Use the search to filter by folder, filename, or extension.</div>
-  <input id="q" class="search" placeholder="Filter e.g. thumbnails, jpg, pdf">
+  <input id="q" class="search" placeholder="Filter e.g. thumbnails, jpg, pdf, xlsx">
   <div id="count" class="sub"></div>
   <div id="list" class="grid"></div>
 
@@ -29,19 +31,45 @@
     function byId(id){ return document.getElementById(id); }
     var list = byId('list'), count = byId('count'), input = byId('q');
 
+    function absUrl(row){
+      var u = row.url || row.path || '';
+      try { return new URL(u, location.href).href; } catch(e) { return u; }
+    }
+
+    function excelViewer(url){
+      return 'https://view.officeapps.live.com/op/view.aspx?src=' + encodeURIComponent(url);
+    }
+
     function render(items){
       list.innerHTML = '';
       for (var i=0;i<items.length;i++){
         var r = items[i];
         var card = document.createElement('div'); card.className = 'card';
-        var a = document.createElement('a');
-        a.href = r.url || r.path || '#';
-        a.target = '_blank'; a.rel = 'noopener';
-        a.textContent = r.path || '(no path)';
+
+        var main = document.createElement('a');
+        main.href = r.url || r.path || '#';
+        main.target = '_blank'; main.rel = 'noopener';
+        main.textContent = r.path || '(no path)';
+
         var m = document.createElement('div'); m.className = 'meta';
         var ext = (r.ext||'').replace('.','').toUpperCase();
         m.textContent = (ext||'-') + ' • ' + (r.size_human||'-') + ' • ' + (r.last_modified_utc||'-');
-        card.appendChild(a); card.appendChild(m); list.appendChild(card);
+
+        var actions = document.createElement('div'); actions.className = 'actions';
+        var extLower = (r.ext||'').toLowerCase();
+        if (extLower === '.xlsx' || extLower === '.xls' || extLower === '.csv') {
+          var u = absUrl(r);
+          var view = document.createElement('a');
+          view.href = excelViewer(u);
+          view.target = '_blank'; view.rel = 'noopener';
+          view.textContent = 'View in Excel Online';
+          actions.appendChild(view);
+        }
+
+        card.appendChild(main);
+        card.appendChild(m);
+        if (actions.children.length) card.appendChild(actions);
+        list.appendChild(card);
       }
       count.textContent = items.length + ' file(s)';
     }
