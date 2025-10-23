@@ -1,0 +1,456 @@
+﻿Welcome back to Tech Edge number five, as today we're going to discuss dynamic auto-matching,
+or as we know it, what the damn are you doing with our listings. To those on the east coast,
+good afternoon. To those on the west coast, good morning. Thank you for joining us and a belated
+happy 4th of July. We're glad you're here. I do want to remind you that these are all in the help
+center. Most of them have some significant documentation, and I will say that we know that
+our initial pricing webinar is still the most watched. Let's see if we can edge that out of
+first place with dynamic auto-matching. Just as an example of the potential of dynamic auto-matching
+is one of our larger clients can directly draw a straight line to over 30% or approximately 30%
+of their sales coming from dynamic auto-matching. This is a seller that does over $50 million a year.
+I don't know. I consider $15 million real money. While not everyone will have the exact same results,
+it does give you a sense of the impact when this is set up, set up correctly,
+and continuously run. Always looking for new ways or nuances to put your settings at,
+to always look for new listings. More listings per SKU results in greater revenue.
+James, take it away. The agenda for today, you've met me and Jeff several times so we can
+gloss over the introduction. We are hoping to have some new faces on the upcoming webinars,
+but I will keep at it, keep educating, and helping enable you to grow your business.
+We're going to briefly talk about what the dynamic auto-matcher is and what it does for you.
+Then we're going to explore the matching criteria options you have, which are the filters available
+for checking the quality of an ASIN. Go through the basics of configuring the job which is controlled
+by XML. Discuss the review state and how that impacts matches. What you can do to assess the
+dynamic auto-matching results and how to leverage that to refine and optimize. What you can do to
+maximize your damn potential, and then we'll have some space for Q&A. As Jeff mentioned,
+these articles are available on the Help Center. When you guys access the Help Center,
+you typically see something like this suggesting a ticket. This link up here gets you to the
+archive of webinars, and you can see there is already some introductory material
+for the dynamic auto-matcher. I encourage you to open that up and review that as we go through
+the various slides, as that will help give additional context to what I'm discussing today.
+Then the recording will be put here. Go ahead, Jeff.
+I think the best practices is probably the best document to look at first,
+understanding not only what the different criteria are, but what we found over the last
+almost 13 and a half years in working with all our clients, what's worked the best.
+This is going to outline the match criteria, which we'll discuss, and then our recommended
+best practices. One thing you'll learn with the dam is it is a sort of set it and forget it,
+but then you need to periodically check in so you can refine it over time.
+The best practices are going to get you the low-hanging fruits, but then
+as there's a diminishing return on the dam, you may need to loosen up your restrictions
+and have a review process in place, and we'll get into that shortly.
+Again, Jeff and me are doing this webinar. I should update my picture. As you can see,
+I no longer have there. I'm the one with the really good flow going on.
+I'll unlock the card again, like Jeff. Again, our mission is to help you drive revenue and
+profit to the platform. Again, the goal of the dam is to maximize your listing ratio on Amazon,
+which is often the breadwinner channel for a lot of businesses, but can also just grow
+the channel in general. The dynamic auto-match for Amazon is a tool in EVP to automatically
+identify and publish to ASINs on Amazon. It helps increase your listing ratio and ultimately
+maximizes your sales opportunity by having you present. The more ASINs you're on,
+the more opportunity you have to sell that SKU. It allows you to have pre-configured match
+criteria, which essentially says it filters out ASINs that don't match a certain tier of quality,
+and this prevents bad matches, which ultimately prevents canceled orders.
+The number of people that have put their business at risk because they've used just a UPC match
+are too numerous to talk about. You need to be careful to self-inflected wounds are the worst kind.
+Again, this tool, A, it eliminates the labor cost of having a manual user go through and
+look for ASINs, which is what some people did historically. They offshored that, and then also
+it provides you a lot of guardrails that you don't have if you're just, again, scanning UPC or part
+number, which is what a lot of the other tools will do. This has a lot of guardrails and a lot of
+you can implement it in steps so that some listings go to a fully automated publishing and some go to
+a, hey, I've made a match, but I want someone to check it. That's what I'm talking about here.
+You have tiered matching. You can optimize the match process for various types of listing quality
+checks. The very first thing you want to understand when you're discussing the dynamic
+automature with your CSM is what options do I have to filter listings? By filter listings,
+if an ASIN doesn't have an image, I don't want to match to it. If an ASIN has a price that's
+far too high and I want to avoid price gouging, I don't want to match to it. There's various options,
+and so knowing what these options are allows you to have a discussion with your CSM, hey,
+for this brand, I want these restrictions, and for maybe this manufacturer, I don't.
+The first matching criteria is minimum offers. It's a number, and it's going to dictate how many
+other sellers need to be on the ASIN for us to consider it valid. What we have found historically
+is if there's no other sellers, it's typically a bad ASIN and everyone else has abandoned it.
+That said, it can also be an opportunity to sell a loan on an ASIN, so you should view it from both
+sides. When you initially run the dam, we typically recommend a minimum of one other seller
+on an ASIN, but again, you may run out of matches and look at lowering that to zero and
+having them in a manual review process. Have image, pretty self-explanatory, true, false.
+Does the ASIN have an image? Again, I don't know if you've ever bought off Amazon off an ASIN
+without an image, but it's probably a very low frequency event and indicates an abandoned
+or bad ASIN, so typically, we recommend this to be true. I want to see what I'm buying.
+Package quantities, this can help with UOM variations. When someone creates an ASIN,
+they indicate the package quantities. We then allow the dynamic automatured to accept certain
+values for that field, and this can help make sure we only match to each's or we only match to
+pack quantities that we know we can fulfill. I will comment that not everyone who sets up an
+ASIN knows exactly what this field means, and so sometimes it is set up incorrectly on the ASIN,
+which leads to mismatches between EVP, but typically, if you start with package quantity one
+is your initial base and expand from there, you can catch those listings through a tiered review
+process. Minimum and maximum price formula, these are going to be simple price formulas that take
+the item cost and multiply it by a factor. If an ASIN is below or above this threshold,
+we don't allow the match. The driver behind this is A. If it's above or below those thresholds,
+it's potentially the wrong product because the item cost should be relative across the fulfillment
+base. Two, it can help prevent getting stuck on listings where you might get a price gouging
+violation. I can't sell these wet wipes for a thousand percent margin because Amazon will give
+me a price gouging violation, so that can help prevent that situation from occurring, too,
+but the main driver is if I can expect this item to sell within this range
+by the ASIN is outside of that range, it's likely the wrong product or a UOM variation of the
+product. Lastly, on this slide, sales rank below, it's a number of an ASIN has to be above that
+threshold to be a valid match. This can prevent matching the ASINs that are below a sales rank
+threshold that you deem, you know, I don't want to deal with listings below this threshold.
+Next set of matching criteria. When you're matching with the Dynamic Automatture, you have two
+options. You can use the UPC of the product or you can use part number. A very strict configuration
+would have me check the UPC and the part number and the manufacturer, so that's the most restricted
+you can really get, and so what this matching criteria does is I'd be matching on part number
+or UPC and I'm telling the system I also want to check the manufacturer of the ASIN and the
+manufacturing EVP and make sure those align. Now, as many of you know, people set up manufacturers
+with tons of name variations. EVP handles that through the manufacturer name mapping tool
+and the Dynamic Automatture will utilize that if the Muse manufacturer mapping is set to true,
+so we can handle all the name variations on Amazon as long as they've been configured in EVP.
+Discuss that with your CSM. It's always good to check. You go to Amazon channel
+and then up in the top banner there's a list of manufacturers. You click on that list button
+and you can see on the right side of the screen where we've gotten data from Amazon,
+but we don't know what it means in EVP. Having that groomed will help you make more matches.
+Match on part number can be utilized when I'm searching on UPC, but I also want the part number
+to match. Again, a very strict configuration. And then lastly, I can make sure the match
+matches a supplier UOM. If I'm involved in dropshipping or 3PLs, I need to make sure
+that I can fulfill the right UOM. So what the system will do is, oh, this is a pack two.
+I don't have a fulfillment option for a pack two, so it's a bad match.
+Those are the main matching criteria you have to leverage. We'll explain how they're configured
+in the XML, but again, being familiar with what options you have allows you to determine
+what level of strictness or looseness you're going to have on your dynamic auto-matching.
+So the dynamic auto-match your task has steps and the steps are configured with XML. There's
+three sections of the XML you should be familiar with. Again, the expectation is not that you go
+and configure the XML yourself, although you can. But to give you the background knowledge
+so you can engage with the CSM, configure them, set them up, and have them running on an automation
+or run manually as needed. But knowing what these three sections do will give you all the
+information you need to kind of have that intelligent conversation with the CSM.
+Processor settings control. Do we check for stock before we even consider scanning the item?
+This is a good thing if you have a large catalog and a lot of it's out of stock all the time.
+I don't want to clog up my Amazon account with listing matches that I'm never going to sell
+because they're out of stock. So it's good to have a stock check in place, and then you can
+have a minimum stock check. So if you wanted to say, oh, I need at least 10 in stock,
+you can have that. It controls how many items we look up at a time. So you can see this lookup
+limit is 8,000. So each time the dam runs, it's going to check 8,000 SKUs. I don't recommend
+going above that number. If you're running it multiple times a day, you can get throttled.
+But if you're running it as needed, you may be able to push that limit and then match limit.
+That's great to know, James, because that is one of the questions that just came in.
+How many listings can I look up at a time? So you've already answered that one for whoever asked it.
+Yeah, if you're running the dam on a schedule in the background, do you want a lower number? Because
+it's going to run multiple times a day. If you have it set up where you're running it on an
+as-needed basis, you may be able to put this number higher because it's not going to run
+repeatedly in the background. But I recommend staying below 10,000 at the time, again,
+so you don't get throttled. And then lastly, processor settings control match limits. So
+you can see here, we'll go over the review state in a moment. But if I make 1,000
+confirmed matches, the dam will stop. And then I would have to either let the automation kick
+it off or it would run on its own. But this is a way, you can see here, unverified limits, 400.
+If I run the dam and I get 400 unverified matches, I'm going to have to go check those.
+So I want that number to be lower. So the workload's more manageable. But again,
+it controls, do we check for stock? How many items do we look up at a time?
+And what review statuses limits are there? Additionally, you'll see the check days.
+What this is doing is saying, hey, I checked this item. I'm going to check it again in two days.
+Depending on your catalog size, that number needs to be fluctuated. But engage with your
+CSM2 is a good default. So we get to your whole catalog. And then we check again in two days.
+The next section of the XML is the match rules. The match rules will control the matching
+criteria we discussed. So I can either add or remove various matching criteria and that will
+affect my match rule. Again, if I have everything in place, I consider that very strict. It's only
+going to match to what I would predict as high quality ASINs because the criteria has to be so
+in line. If I remove a lot of these options or set them to false, I consider my match rule
+a lot looser. And I'm going to match the things that might be of lower quality or the wrong ASIN.
+But once you've got all your strict matches, you do need to kind of loosen up the dam and
+find out what else is out there on Amazon. So again, the match rule
+is a configuration of matching criteria that we discussed on the previous slide.
+It's just like the idea that if you're selling a product that could be listed in
+two different categories and you're only listed in one,
+let's find that other category and get you listed there also.
+Lastly, you have match group. Match group controls what we do with a match if we find it. So what
+is going to be the publication mode, the availability mode? Am I going to set a max stock? Will the
+system use automatic pricing? One thing to note about match group is that the review
+state is inverse in that if I want to edit the review state of a dynamic automature,
+I edit the left side. I would change this to verified or confirmed.
+Whereas all the other settings, you're changing the right side.
+The last thing to mention about match groups that's very important is it
+calls this dynamic automature if it should use an item set.
+I'll expand on this idea later on in the PowerPoint, but it's very powerful
+to segment your catalog with item sets. A lot of people do it by brand or manufacturer.
+The reason this is important is you're going to find trends
+on ASIN quality with similar products. In the automotive space, very often
+ASIN quality is associated to the brand of the item.
+Brand X never has UPC on the ASIN, so I have to use part number even though I have a UPC.
+Or brand Y always has this certain name variation for the manufacturer. So identifying those trends
+is easier if you segment your catalog. And again, the most typical segmentation I see
+is by brand or manufacturer. Those are where you see trends across ASINs and you can identify,
+okay, this brand, I need a really loose dynamic automature because the ASIN quality out there is
+not great, and I'll have to review those listings. But again, item sets are controlled
+by the match group. Talked about item sets a lot in the webinars because they're very powerful,
+cool, and again, they help you segment your catalog. I've mentioned this a few times,
+but we have review status, review state, and EVP. You see this on the listing screen here,
+and the dropdown shows you the options. Covering them briefly here, again, they're
+covered in more detail in the supplementary documentation. If I make an unverified match,
+it has to be manually checked. So I would have a very loose dynamic automature with limited
+matching criteria, and then the expectation is a user comes in, looks at all the unverified
+matches, opens up the listing from the button here, checks that it's the right product,
+it's good to sell, and then manually updates the item from an unverified status to a
+verified status. Again, this is the least automated option, but it can be utilized when you're
+using a dam that has less matching criteria. Rejected is important to use. A bad habit is,
+hey, that's a bad match, I delete it from EVP. What that's going to do is we're just going to
+rematch to it. So what we've added is the rejected status. If you identified a bad match,
+don't delete it. Set the item, set the Amazon listing to reject it. This tells EVP that that
+is a bad ASIN, so we won't try and match to it again, and you have it cataloged as a rejected
+listing, so those kind of get filtered out. But again, it's important to set bad matches to
+reject it and not delete them, so we keep track of them in EVP and don't try and rematch.
+And it'll improve your throughput.
+Review status is not heavily utilized. It's similar to unverified. Listings aren't going
+to publish. You need to go in and manually review it. Confirm is a very powerful option
+if you want to leverage the dam with looser configuration, but you don't want to
+review every single match. What a confirmed status listing will do will make the match,
+publish the listing and the items, but the first time you get an order, it puts that order on
+hold, and it prompts the user to check the item, put it on, update the review status,
+and then either fulfill or cancel the order. And the philosophy behind this is, again,
+if I'm making a lot of matches and it's too costly to review each one,
+I can deal with canceling one order and then setting it to rejected. So I make a bunch of
+matches, I put them in confirmed status, and as I'm getting orders, as I'm selling that product,
+I'm slowly grooming those matches to a verified status or a rejected status. And some people
+have found this more efficient when dealing with large sets of matches in that
+it's only ever presented to you once you've sold it, and then you have to deal with it. You're not
+dealing with matches when they're unsold. And then lastly, you have verified status. This is
+the most automated status. Listings are live, orders will flow. Use this when you have either
+manually updated it or you have a very strict level of matching criteria. Yeah, because if it's
+matched all those variables, it's almost guaranteed to be a good match. I didn't say guaranteed.
+Yeah. But again, if you're checking UPC and manufacturer and part number, and those all three
+sync up an image and price and all those other things, that's where you can really leverage
+automation and say, hey, just make those matches, make those listings live. Over time,
+you'll find a diminishing return because you matched everything. Okay, now I'm going to take
+a step back. I'm not going to match on manufacturer, and I'm going to put those listings in confirmed.
+Okay, over a period of time, I go back and reassess. All right, now I'm just going to
+match on UPC, and I'm going to put those in unverified and have a manually reviewed. So
+you start really strict, you loosen up, and then you loosen up even more.
+And again, ASINs are getting created every day, so running the dam all the time is good,
+but you will find over time, you're matching the less, and that's just because you've
+captured most of what's out there. It's always good to have it running.
+With that in mind, what happens when I add a new supplier? And I have all these dynamic
+automatchers running in the background, and I have a bunch of new SKUs on my system.
+Do I need to set up a new match?
+You would want to be familiar with your dynamic automatcher configuration.
+If you're using an item set, which I recommend, you would need to update it to include the new
+supplier. If it was truly a brand new supplier, I would go through the process of running dams
+specific to that. What I would do is I would, what I do for my clients is I set up a dynamic
+automatcher that's strict, I set up one that's loose, and then a variation of each for UPC and NPM.
+I would have them create an item set for that supplier, and then I would have them run the
+very strict, I would change the item set and the pre-configured dam and have them run it.
+Now, if you weren't using item sets, the system will automatically check items
+that have inventory exposed, assuming you're doing an inventory check.
+So if you add a supplier and your dam is set up in a more automated way, you don't have to do anything.
+At a minimum, you may have to create an item set and update that field and then run the dams
+that are appropriate for the level of matching criteria you want to use.
+How about if I add a little tweak to it? Let's say it's a supplier you've done
+a lot of business with, but the manufacturers they represent are just adding
+20, 30 new products a year and new SKUs. Do those just fit into those item sets and
+automatically get run? The item set is simply checking the supplier location for inventory
+then yes. That's excellent. One of the most underutilized aspects of the dam,
+again, because people typically talk to their CSM about it, set it up, and then forget about it.
+Again, I encourage quarterly reviews is assessing the dam results. The CSM can assess the dam
+results, but they don't have the industry knowledge you have to look at. I don't know if
+part number variations on automotive brand Y are expected or if
+a manufacturer name variation is acceptable because sometimes they're very different.
+Iron hog and busted wheels are actually the same product. They're just white labeled
+and you would know that with industry knowledge and we wouldn't.
+Again, when the dam runs, it stores messages which are saying,
+hey, I've tried to match this ASIN, but I didn't for one reason or another.
+What you can do with the results is find the patterns and then adjust your restrictions
+and then ultimately adjust your dam configuration and get more matches.
+The way you access those messages is you go into the task and you can export them as a CSV file.
+Then what I do is I go with my clients and I look for a trend. I identify, hey,
+we're restricting a lot of potential matches here because we're requiring a manufacturer match.
+Can we remove that and try? Or, hey, I'm seeing package quantities of 12,
+24, and 64 and we don't have those configured. Can we add those? That's a judgment call on
+your end. Can I fulfill those packs? Are those ASINs things I want to be on?
+Or will they cause me a headache? Again, work with your CSM to get access to the
+dynamic auto-match or messages to identify trends. It can also be leveraged in that sometimes the
+ASIN won't get matched by the dam, but I know it's something I want to sell on,
+so I found it in the messages and I just manually add it to the system.
+That can be another way the messages are leveraged, but essentially you're looking
+for trends, adjusting your restrictions, re-running your dam. That pattern identification, that
+assessment of the messages is not something a lot of people do today and I would encourage
+you to do more of. James said re-assessing your dam once a quarter is a great best practice.
+I know you're all busy. Hopefully the last two days have been
+really good for you. We're seeing some great numbers on Prime Day from Aladia, so congratulations,
+but assessing your whole catalog. If you haven't done it in the last year, it's probably
+something you should do. If you haven't sold something for two years, I understand that
+you can make your catalog as massively big as you want, but why?
+Let's curate and focus on the things that create revenue and that create repetitive revenue.
+We're starting to get some questions here, so I'm not going to leave them all to the end.
+I'm going to pop one at you right now and I'm going to give you the first one right now.
+How would I set up my dam if I have multiple Amazon storefronts and I want to be category specific?
+I'm not sure I understand the question. If you had multiple Amazon sales channels,
+the Dynamic Automattcher runs on a channel per channel basis.
+So you would need two, let's get both hands on the screen, two of them,
+operating under each of your seller names.
+If you had a unified account, you wouldn't need one for each like Amazon, Canada, and Mexico,
+but if you didn't have a unified account or you had two separate Amazon accounts,
+you would need separate Dynamic Automattcher tasks.
+We are seeing more and more of our clients based on category. If they have apparel and automotive,
+setting up almost two separate businesses, two separate websites, two separate Amazon accounts,
+those would need the dams themselves may be very, very similar, but they would be an
+item set for each one of those particular businesses, correct?
+Correct. Business X usually fills through supplier X and business Y fills through supplier Y,
+and you would set up the item sets to handle that.
+We'll get to some of the other ones before the end of the webinar,
+but thank you and keep them coming.
+Questions are great. So maximize your damn potential. Just I love that.
+Item sets, again, I'm going to nail hit that nail many times.
+Item sets can segment your catalog. Segmenting your catalog allows more granular considerations
+if you try and treat. Again, this is going to be specific to your business,
+but a lot of our clients have a diverse catalog that needs to be segmented so that I can say,
+hey, brake discs have this level of quality I can expect and swim shorts and curtains
+are all going to have different trends in terms of
+ASIN quality. Again, if you're not sure how to approach segmentation for the dynamic auto
+matcher, my default and best practice is to look at either manufacturer or brand.
+That's where you're going to see the trends.
+Look at the degrees of restriction you have and leverage the review status.
+Have a dynamic auto matcher that's always running,
+that's very restrict and putting items in a verified status.
+Have a dynamic auto matcher that's not very restrict and is run as needed,
+that puts items in an unverified status that a user then manually reviews.
+Understand the review states you have and leverage them to run different styles of the
+dynamic auto matcher versus just having it all go to unverify. I see a lot of people do that.
+They run the dam, everything goes down verified and then they manually review it.
+That defeats the point of some of these features in that you can trust the system with a very strict
+matching criteria and make those listings verified.
+Procedureized results assessment. Again, I recommend minimum once a quarter biannually
+looking at the results and looking for trends. If you're adding suppliers every month,
+you may want to increase that because identifying those trends,
+changing your dam configuration is going to maximize your listing ratio.
+Work with your CSM to leverage the automation tab. Some of you are unfamiliar or don't have
+access to the task screen, which is where you would run the dam.
+We can enable it so that the dynamic auto matchers can be run from the automation tab,
+so you may have users where you want them to be in charge of the dam,
+but you don't want to give them access to tasks. They can access the automation tab
+and run the dam as needed. Again, this is very powerful for the unverified one.
+Hey, I don't want to just build up a list, but today's dam day,
+so I'm going to go run the dams and check the listings that have been made.
+And then again, periodic review, ASINs are getting created all the time, trends are changing,
+so setting it, forgetting it for a period of time is okay,
+but make sure you have a mindfulness around what was the last time I checked my dams,
+when was the last time I adjusted those, and make sure it's to some level of frequency.
+And I think that's something that we just realized over the last six months or year,
+is how many of you set up dam during your initial implementation,
+and maybe shame on us a little bit that we weren't encouraging you or in collaboration with us
+to review that on a more regular basis, but I think most of you we've had that discussion with us.
+Is it time to relook at some of your settings and re-running it?
+Yeah, and lastly, a simple setup for the dam, in the additional documentation,
+I provided four XML templates, strict and loose for UPC and MPM.
+If you want a very simple setup, we would add those four steps,
+and then you control what listings we look up with item sets,
+and all you're doing is going, hey, I want to look at this item set
+with very restrict on UPC, or I want to look at this item set very loosely with MPM,
+and you're just managing, changing the item set,
+so we're looking at different products periodically,
+and then you don't have to worry about configuring the dam and adjusting the settings.
+You can just leverage what I've kind of built out over time is my default initial pass is
+restrict, strict and loose on MPM and UPC. Obviously, we can tweak it as much as you need,
+but that's a good starting point is looking at those templates I've provided and focusing on
+building your item sets to be leveraged. So that's all I got. We got more questions, I hope.
+Yes, we do. And I think a couple of these
+were kind of answered during the webinar, but maybe we didn't get
+highlight them enough for going to quite enough depth,
+but we're going to cover as many as we can, even if we think we've already covered it.
+If a UPC matched multiple ASINs, different units of measure,
+will the dam pick up these listings or will it only create one listing
+which matches the correct unit of measure?
+So again, it would depend on some of the configuration points,
+but assuming package quantity allowed that UOM,
+and we weren't checking UOM of suppliers, the dynamic auto-match would match to both.
+You often see a SKU with a dash and then a number, like a dash two, a dash three.
+The dam will do that if it matches to multiple ASINs for a single SKU.
+When we match to an ASIN that has a UOM that's not in each,
+we set the UOM of the ASIN and EVP based on the package quantity value of the ASIN.
+So the system tries to set up the pack two as a pack to an EVP.
+So we would match to both, assuming the configuration allowed it now.
+If I had the package quantity as one and I only allowed one,
+that second match wouldn't occur, ideally,
+because the user set up the ASIN with the package quantity of two.
+But the system does try to match to multiple listings
+and set the UOM based on the ASIN information.
+But if there were, in the example I brought up earlier,
+if a product was sold in three different categories,
+would it match to three different listings if all the criteria matched?
+Right, yep.
+And you would end up with a listing where it's the SKU and then the SKU dash two
+and then the SKU dash three.
+And you would see multiple Amazon listings,
+each with its own ASIN stored as an attribute.
+Okay, here's another one that I pretty sure we covered.
+Do you recommend the dam only look at in-stock items?
+Is it general rule of thumb, yes.
+If you're onboarding a new supplier and they haven't sent inventory yet,
+that would be a reason not to check stock.
+If you fulfill an item on demand and you don't have an inventory feed,
+you don't want to check stock.
+But typically, you don't gain much from attaching to an ASIN that you can't sell on.
+So, as a rule of thumb, I recommend checking stock in a minimum of one.
+Because simply put, if I don't have it to sell, why do I want to be on the ASIN?
+Okay.
+But again, there may be business scenarios like I don't have an inventory feed
+or it's not set up yet where that would drive some business context
+as to why I don't want to check stock.
+And I think the last one here that we haven't covered at any time
+during our 40 minutes together was,
+can we search by manufacturer part number and manufacture?
+And not just UPC.
+Yes.
+Pretty basic one.
+Your basic options for searching are UPC and MPN.
+I can add a secondary check so that remember the manufacturer true, false,
+and the matching criteria.
+So, by search on MPN, I can also make sure the manufacturer matches.
+Inversely, I could search on UPC and also make sure the manufacturer matches.
+But in terms of, can I just search by MPN and manufacturer?
+Yes.
+You do not need UPC.
+I learned something today.
+Excellent.
+Are there any other questions out there?
+If so, type quick.
+All right.
+Let's talk about next month.
+One more slide.
+Next month, we're pretty early in the month.
+August 9th.
+I know that this is a time of year where certain categories or industries
+are maybe taking a little bit more vacation.
+So, remember, even if you missed the webinar and we brought it up early today,
+all this information is stored for you to go back to and review in the future.
+Most all the videos are there and there's matching documentation
+for almost all the different webinars.
+We'll be sending out invitations for you to join.
+We do realize this was prime day.
+So, I think our numbers might be down a little bit.
+That's okay.
+We're seeing that several of these topics are getting hit multiple times.
+I think pricing was the second webinar we did
+and is still sitting out there as our most watched and re-watched webinars.
+So, we're really happy that we're getting that kind of new people coming to it
+and others going back to review what we're doing.
+In future sessions, we're going to be covering things like monitoring,
+everything you want to know about monitoring.
+How are we watching what Amazon is doing, what you're doing,
+what your orders are doing to make sure that your business is operating at peak efficiency?
+What are some of the other topics that we'll be handling in the near future,
+James, that we've talked about?
+The replenishment will be coming up.
+Replenishment, I think that's a big one.
+We will have a webinar on the web UI at some point.
+And then I also have material ready to cover shipping cost models and shipping levels.
+So, that will be a topic that comes up.
+Yeah, we're going to easily get through the end of the year
+and we're going to keep this going.
+If we have to, we'll keep going deeper or wider as needed to keep this going
+so that you can learn as much about the product or relearn.
+This is great for clients and partners that have been with us since day one
+and for the people that we signed on last month.
+So, we want to make this as valuable as possible.
+Two other things I want to remind you is
+fill out your quarterly surveys, please, as we want to get better.
+And the only way we know we're getting better is if you fill out those surveys.
+And we may even send out a survey on what maybe not next month.
+I think next month we're kind of locked into a topic based on vacations.
+But we're also going to give you that opportunity
+to have some say in what might be the September one.
+So, thank you for attending.
+I hope you are having a fabulous Prime Day.
+I know my wife has almost bankrupted me over the last two days.
+Hopefully, they're your products.
+And until we see you again, thanks for being our client and partner.

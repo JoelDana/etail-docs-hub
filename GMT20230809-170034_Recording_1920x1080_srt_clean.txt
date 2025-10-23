@@ -1,0 +1,311 @@
+﻿Good afternoon. Welcome to the August edition of Tech Edge.
+I think we have a great topic for you today, replenishment.
+A timely topic as we fourth quarter is not that far away.
+And we're looking at how we are going to best manage our inventory capital
+and maximize sales as we go into fourth quarter.
+So I think it's going to be a great fun topic.
+And I think the first thing you guys are going to notice, guys and gals,
+is I have a brand new subject matter expert with me today.
+Some say Clyde's kind of rather new to the organization,
+only having been here 13 and a half years.
+And he is one of our co-founders.
+So James is probably going to be listening in on the webinar today,
+but Clyde is going to be going over product replenishment, reordering.
+Leveraging all we know about your sales
+and using that to handle your inventory replenishment
+in a more automated and intelligent way.
+So Clyde, say hello to the group. Your audience awaits.
+Thanks, Jeff. I'm glad to be here. Hello, everybody.
+So I would think most of you have spoken to Clyde at some point in your past.
+But what we'll be going over today in a very straightforward way is replenishment.
+Now, we really want to focus on the business problem, the why,
+but Clyde's going to step us through that
+and then a little bit of the how before we get to question and answers.
+Remember, submit your questions at any time during today's webinar.
+If it's appropriate, I will have Clyde address it at that time.
+Otherwise, we'll be stocking these up to handle at the end of the webinar.
+And thank you for attending. And thank you for being our partners in your e-commerce business.
+Clyde?
+So we've got the agenda up now that we hope to go through.
+And as Jeff said, any things that we don't cover or any questions you have around what we're discussing,
+please get those in so we can dig into them.
+I want to start actually by spending a little bit of time on what we mean by replenishment
+and really the problem space that it's covering and what we're trying to solve.
+Of course, we always start with our mission statement of what we are, why ETL exists.
+So there it is. Let's go ahead and jump to the problem.
+So replenishment as a function in ETL is meant to address the issue of having the right stock in the right location at the right time
+and to do so as efficiently as possible.
+And then the obvious benefits of that are avoiding sales you didn't get because you didn't have stock,
+buying too much stock or having too much stock stored somewhere,
+and avoiding any fees that come because you're storing at a place where you're going to get charged extra for it.
+So one thing maybe to sort of include in this is that there's a crystal ball aspect of this,
+meaning it is impossible to know exactly what the future will bring and what will happen and how it will happen.
+So replenishment really is a sort of directionally accurate, reasonably close answer.
+It's never trying to get you to the exact number of units or an absolute exact date where something will happen.
+It's trying to get you close.
+And as a part of that replenishment really isn't an event, it is a process that's ongoing.
+And because you have a cycle, what ends up happening is the overtime those cycles really get better and better and as the prior cycle worked better,
+the one ahead of it should be even better than that. So it's basically a constant improvement process.
+So that's the problem that we're really going to talk to.
+And we're going to do most of this as a demo. So let me get, let me get an application up here.
+Green share.
+Why is it not allowing you to do something here. No, we don't want that application.
+We want this application.
+So I'm going to be demoing today in fact our demo system, which is a, which is a system we run we pop this out for a second.
+It's a system we run that has sort of some very controlled set of items in it and it's got processes that simulate where behavior is not a real system.
+It is a demo it's got, it's got some interesting behaviors as a result of that but it does a good job I think of showing you the concepts or being able to see the concepts in flight and how they work.
+What we're going to start with our inputs. As, as Jeff said at the beginning, fundamentally replacement is driven by what we know about your prior sales activity.
+One of the, one of the functions that the system performs is once it's set up and enabled. It's actually tracking sales activity for every single day, there's actually a record recorded every day that tracks statistics around every single sales listing.
+How many sales took place what the revenue was.
+It also does things like track your in stock quantity on that day your published quantity on that day.
+And it also to the extent that you're using our repricer.
+It is also then tracking current selling price or selling price range on those days. So it gives you a little bit of history around what you know what has happened on that item which is the basis for us to understand.
+What's going to happen in the future. So, it's probably the most critical input. And if you're going to try and use replenishment. One of the things you need to do first is to make sure that you get this thing up and running properly collecting sales history, and then also
+get over a useful range of time, you can't turn it on and have it work on the first day you normally have to let it run for a month or two or longer depending on how much time you need to, to have to have a sort of a useful sales history.
+Does that suggest that even so, though somebody maybe has been an ETL client for five years. If this wasn't properly turned on we're not collecting the sales history that could preload this right, it's possibly true.
+We tend to and for the last few years anyway we've tended to set up the sales history reports.
+And the easy way to tell that is in any of the catalog screens if you go in and add the sales activity results and you've got numbers in there then then sales history is running for you but that could be the case if those were never configured in your system.
+Got it. Right. So those are there.
+I'm going to go in just to the screen so you can see them in the supply module under replenishment you go to the very first planning item.
+And it gives you the, the skews, and what you'll see when you go to these this is the very first thing to get a look at it is the sales history tab. And so, this is, these are the sales that are taking place on those sales listings, you know, over.
+Everything has run right but all right so depending how long you want to see it, there's your sales history. So that's one of the inputs.
+One of the other inputs you have to think about is the, the selling pattern the seasonality of your items.
+One of the things the system can't do very well is is know what the whole year is unless it's seen an entire year. So generally what we do that we have something called a demand profile.
+You go in and create demand profiles that roughly represent what your annual selling would be like.
+So there's a default one that comes with it that's literally perfectly flat. Very few people have a perfectly flat sales pattern but some do.
+And that would, and we also build into that, the, the weekly variation as well.
+And then what we've done here because we've got two different groups is I've got one for fidget spinners that show a very steep increase in sales around the holiday selling period because they would be gifts or something.
+And then I've got a different one, which are power generators and such with which have a sort of a slightly different annual cycle.
+And, and that's a critical. That's a critical piece to get right when you're trying to project forward.
+And even to understand history because when you when you're taking a day's sales you have to understand like a given day during the holiday sales cycle where you have a very high sales rate, you wouldn't necessarily want to project that forward so it's important
+that you get these right.
+I'm not going to spend a lot of time today on the gory details of how you get those right but just try and keep it at the level of concept where you sort of understand that you've got to be able to figure out how to get here you know this this is data we need it to generate a useful
+result.
+Like I say in this system we basically have generated three of those as inputs.
+Another thing to think about is, what is your
+what are your items that you want to participate in planning. And what is your supply network look like, because one of the things that the replenishment algorithms do is they look at an item.
+And they're going to, they need to know if I want to buy this item or if I want to acquire this item from my manufacturer.
+How long is it going to take me to get it, and that way we can understand lead time on an item to know how far ahead of reaching your minimum stock levels, we need to think about generating a purchase order.
+So there's, there's also some some input and some pre work to make sure that you've gone through, and you've set up your suppliers with the with appropriate lead times, and with settings to indicate that that supplier is you want participating
+in your replenishment calculations. So there's some setup that happens on the supply side as well.
+And I think with, with all that in place that those are all basically, you know, day zero activities you need to get all those in place you need to get all those running so you have the data.
+Now you're ready to actually start using the system and tuning it.
+So let's talk about some of the controls you have for that.
+On the screen.
+You basically control at a skew level, whether that's an item that you want to be included in your replenishment planning.
+And maybe let me talk to the screen a little bit. I've configured this screen right now for sort of generalized use and it's showing me whether I have replenishment turned on.
+It's showing me the sales channels I'm going to be looking at my supply sources, and then also some settings down here around or some counters down here around, these are basically results.
+And that's, that's a good way to set it up because what that allows me to do now is go in and say, Okay, I only care about the items that I've turned on.
+And that's a really important thing to do early on because if you have a large catalog.
+You don't want to be have it you don't want to have to dig through lots of useless recommendations on items you have no intention of selling again, right, either maybe it was end of line or for whatever reason you don't want to sell it.
+You really would want to come in here and disable that as a as a as a replenishment item in that way the system will stop telling you to replenish it.
+This really is your operational screen at the end of the day and the cleaner you can make it and the more relevant you can make it the easier it is to deal with those those daily activities so at an individual item level if I wanted to.
+If you pick some that are currently off. I don't think I have any off that are currently selling but if I had some that were currently off these are all items that if I wanted to.
+I could select them.
+I could come in and
+that one doesn't have any items on that I can even pick.
+All right, well let me pick one that's auto.
+If you have them, you use this button update items you can come in, you can turn on planning, and that will enable that item.
+It's highly recommended that you don't do that for your entire catalog. I think that's a it's a thoughtful process of what you should turn on, and the only things that you really would want to consider selling.
+One of the ways to do that is to make use of the sales history. So it's one thing that I normally do is you come into the screen.
+You can bring in the sales history. You can look at the recent sales activity and maybe, you know, maybe say all right I'm going to sort it by revenue in the last month and I'm going to pick the top, whatever, right, and focus on the ones that matter.
+And that way it gives you some way to pick the ones that should be in there.
+So that's turning them on. The next thing to think about is
+what is my cycle, what is my planning cycle and let's go look at those settings. So in the system module, if you go to the system setting under planning, there's a group of settings in here.
+These are the two that start to describe and I'll use the word model. One thing to think about is that replenishment is basically looking back a certain period of time and looking forward a certain period of time to understand what's going to happen in that window.
+And that's not to say that you're trying to keep, in this case, I'm not trying to keep 120 days of stock. Well, I'm really trying to do is say let me see what's going to happen 120 days into the future.
+These aren't bad numbers. If you have very variable sales, you might want to look at a little more history to get a better average, but you can set them to whatever makes sense for you.
+And you also don't want to set it to 720 days and look two years for it. It's got to be in a reasonable window based upon how your product sell.
+Then you get this one becomes very important. Basically, replenishment deals with what's the minimum stock I ever want to have in place and what is the maximum stock that I want to have.
+And obviously, the minimum one is generally, in this case, I've configured it to best practice, which is to say, I want it to be at least in this case, I'm saying three quarters of the cycle that of the amount of time it takes me to get that product from my supplier.
+You might want to set it to one or greater, but in that case, you're saying I never want to get below basically one order cycle from my supplier or one time through there because if something happens, I'm going to run out of stock.
+And then on the other end, it becomes a question, really an efficiency question around what's the right amount to buy? Is there built in efficiency in buying over some longer period?
+Obviously, from a capital management perspective, the shorter you can buy, the better. But clearly, there are business reasons in there why replenishing every week may not be the right answer.
+There's some other controls in here that deal with low volume and other things, but I'm not going to talk to those, but fundamentally, those are the settings.
+Remember, you can always go back to your CSM and have some of these additional controls explained, or we can schedule a follow-up meeting with Clyde and we have several other replenishment subject matter experts with any tell that can cover this in much greater data.
+Maybe two points I would make here before I drop off. There's a low volume control.
+The replenishment algorithms don't work great on items that sell very infrequently. If you have a product that sells one a week, it's very hard to plan that well, or at least it's hard to plan that with the default algorithms.
+So that's a different pattern. The replenishment tends to work better on things that actually have some movement.
+If you do have low volume, we have some ways to deal with that. But for example, we had a merchant who sold clothing, and so they had an incredible number of different styles and sizes and colors.
+And so each individual size and color may be sold relatively infrequently, but taken in bulk, it made some sense. Those have a different pattern. So if you have that, we can talk to that.
+The other one is, and I didn't touch on this yet, so maybe I should.
+Replenishment actually triggers two things. One is the starting point is you need inventory in a particular location so it can be sold.
+But there are two different ways that could get there. If it's your warehouse, and you don't have it at all, then it might be telling you that you need to buy inventory or you need to manufacture inventory to get it to your warehouse.
+We would call that a purchase event. But in the case of, for example, FBA, you may have all of that inventory or plenty of that inventory sitting in your warehouse, and really the task at hand is to get that inventory to FBA.
+And we would call that a replenishment event, in which case you're not actually acquiring it, you're simply sending it from one place to another.
+There are some controls here that let you deal with how you want to manage the crossover between those two events.
+And again, there's detail in that that we can go to at the right time if you need to.
+So let's look at, let's go back here then and continue with the controls so we can set our model to run, we can indicate which suppliers want to be enabled, we've set up a demand profile.
+And then so let's look at what happens. From a system perspective, what happens is every single morning, generally the jobs are set to render early in the morning.
+It runs through and does a calculation of that item for that day.
+And the results of that are listed here in the projections.
+So let me make that as big as it can be.
+So what this is doing, skew by skew is, and let me just spend a little time on the graph. This ultimately is the heart of what the replenishment process is about this, this is the projection that's generated.
+Here's today. And remember we went 30 days back and 120 days forward.
+The, the, the gold bars here are real historic sales right that's actually what happened on that day those are the sales that happened, and the dark blue line behind it is the stock level that you had on that day.
+So here's today.
+This is the future right this is where we start to predict the future. And in the future section of this graph the green bars are what we project as a future sale or a future sales level.
+And then if you get a red bar, a red bar indicates that sales that could have happened but but won't because at least according to the current plan you won't have any stock on that day.
+So that's the that's the beginning part of history projected into the future.
+And then compared with your stock levels. And we quite often call those, those blue and purple triangles burn down rates, right, yeah, this is so this is a burn down, and the charts over here but fundamentally the blue is your, is your current
+stock, your current in stock your current known stock and you can see, we haven't actually probably done a great job of managing replenishment in the system we just throw inventory into it once in a while so it'll sell.
+You know, and then it's kind of grinding down based upon my current settings and I don't know whether they're efficient or not but based upon my current settings, it has calculated.
+In this case, that I'm, I'm already below what I would like my minimum to be get this thing out of the way here.
+I'm and and so it's it's telling me that I should reorder right away, so that I get my stock levels back above my threshold amounts.
+That's what this purchase is here, you can you can see for the skew it's come up with the day that if I do nothing I'm going to run out of stock, so it's about a month from now, and it wants me to reorder right away.
+And that's the quantity it wants me to order. And so if you look at the chart, this blue is what's going to happen if I do nothing.
+And then the purple is the inventory that it's telling me I should purchase and then how long it's going to last as it goes into the future.
+So that's, you know, that's sort of a typical replenishment pattern to see that this this for example, this is a terrible scenario for stock management because I clearly have far too much inventory on this item you can see that I don't run out of stock on this until you know almost, almost
+the end of the year. So that was way too much tied up in that one.
+See there's some other interesting patterns here.
+Second from the bottom. I think I flipped them.
+Oh, here. So here's, here's an interesting one. So for this item. This is an item that in fact, has sold out.
+And we've run out of stock on this item and so this is this is this is the thing you're trying to avoid, which is these are sales that we would have gotten, but we can't, because we don't have any stock to fulfill.
+So again, this this one it's, it's, it is recommending an immediate purchase, but looking at the lead time then we know that if I if I send the purchase order today we don't expect that that inventory is available until the 20th.
+And then it'll come into stock and then it'll start selling again. And there's real sales numbers there, which could be translated into real lost revenue.
+Right. So this is, yeah, this, this is the, this is the thing you never want to see is the are the red bars because you you've run out of stock. Now, that may be, you know, again I'll go back to the earlier point.
+I may have decided I don't like this item, whenever I get a lot of returns, I, whatever I don't make the margin I want to make on it.
+And so, I may have, I may have consciously let it run out of stock, in which case, I should turn it off, right, I should, I should update that item, and I should turn off planning, so that it doesn't show up here tomorrow.
+And for our brand clients, you probably have a much more sophisticated planning and ordering system on your ERP.
+Having this set up just gives you a great snapshot of what's happening in your ecommerce business, as opposed to your B2B business.
+Let's look at a few more interesting things.
+We didn't talk about let me let me jump over for just one quick second we didn't talk about output so we talked about all the work that's input to it, and we're now we're sort of going through some of the details of, of understanding what it's telling you.
+We're sort of purposefully not going in any meaningful detail into what the output is other than to describe at a basic level, the, the output of the replenishment process
+is a list of SKUs that we're thinking and quantities that we think you should order.
+And the way that we do that is there's a concept in a system called work orders.
+And a work order is, is, is basically a list of SKUs and quantities, along with an indication of where you think you're going to get them from.
+And they're beneficial because they, they act sort of like sales orders and that they allocate inventory and they move it around and you know they do all the magic for you.
+So they're a very, you know, they're a very purpose built mechanism to keep track of things you need to buy.
+But that's an optional piece of replenishment right we would say that's the second phase of replenishment that you may or may not choose to make use of.
+People who simply come in here, look at these numbers, and, you know, and take those numbers and write them down or put them in some other system or do something else with them but are able to simply take the, you know, the quantities
+and the SKUs and then do what they need to do.
+So, so you have your choice, depending on what makes the most sense in your environment.
+From an operational perspective, the, the expectation is that it is maybe not daily, depending on depending on how how effective you are depending on how frequently you want to look.
+But probably at a minimum weekly, what we try to do with it is when it runs, and when it does determine when we think you're going to run out of stock and when we think you need to reorder.
+You can set up with a date, and then in the, in the grid, we we've bucketed those numbers into into date ranges, so you have the ability to, if you're kind of looking at it from from today, you can literally come in here and say,
+I only care about the SKUs on the list that the system thinks I need to do something about today, and that's going to get you down to sort of a manageable list.
+So you can filter it down to those seven.
+And you and you can go further. If you, I see, I see people tend to sometimes do it by supply source so they may.
+They may say, and I only care about a particular manufacturer today or cool.
+Right and, and you might even want to go wider and say okay I'm going to worry about what's happening in the next two weeks. So anything that shows up, it doesn't happen here it does happen in other systems as they spread out, but
+you've got the ability to focus it down to which ones you need to act on, and then you've got a reasonable set to come in and review and decide, you know, what, what do I need to do about those.
+Okay, Clyde I'm going to shoot you our first question. Okay. Why is the, are the projections based on a sales skew, and not the master skew. Right.
+Sure. So let's, let's talk to that.
+So the, the sales skew is the item that sells, and the sub so the, the master skew quantities, ultimately, are just adding up the individual sales cues and so let me give an example.
+In FBA.
+You may be selling an item, and you might be selling it as an each, and you may also be selling it as a two pack.
+And those are two separate skews.
+In fact in FBA I didn't talk about this it's maybe a good way to get there.
+Those two separate skews actually have their own pool of inventory, right, you have to replenish those skews separately.
+And so in that case, I don't I don't have a good example here because this one doesn't tend to have multiple skews but in that case, you would need to really understand each of those skews separately.
+And you can order them all together, and maybe even more interesting is, let's say you do have the scenario of the each and the two pack.
+The output from replenishment is going to tell you that you need 100 items for the each, and you need 100 items for the two pack.
+And then when you buy those right when when you acquire that inventory. When that inventory arrives because you recorded where that inventory needs to go, you know specifically what to do with it once it comes back.
+So it does matter and it's kind of a, it's an interesting.
+concept is you at first think about it as I you know I need 1000 of this skew, but somewhere along the way in the operational process of it, it is important to understand which actual sales skew it was for.
+Got it. Thank you.
+So, okay, so we talked a bit about that we talked here about the operations.
+Let's look at maybe some of the, some of the supply aspect of it.
+One of the.
+One of the things the system has to make a determination on is you'll note that as I'm selecting these, the supply is, there's a supply section.
+You may have in your environment.
+You may have in your environment, details around
+a skew which can be acquired from multiple sources.
+And what's going to happen during their replenishment process is that
+the system would know that, and you would have enabled them, and it's going to actually look at the inventory, or at least potentially look at the inventory that you have exposed or that you're getting from those suppliers.
+So it in fact it even knows where to source that product from right so it's bringing some of the same intelligence that we use on the sales order fulfillment side to allow the replenishment to kind of head you in the right place from a supply side,
+so that you end up.
+You end up knowing where to get it from not having to go and sort of dig it back out again. Let me see what else we might want to look at here.
+I think we've so we've talked about inputs, talked about outputs. We've talked about operations.
+I think from a
+we can get into a little bit more of the details. One, I've got a, I currently have a single view, I'm modifying my standard view here because I only, I only have one and I've set that up that way.
+One of the things that you can do is if your workflow is
+if your workflow is broken down into, let's say, different product lines, or perhaps different product types and pre configuring these is slightly different depending on how you're doing it.
+It's the same functionality that the catalog does where you can configure it exactly the way you want it.
+And then you can do a save as you can do a save as of the view and you can end up creating the predefined versions of the predefined versions of those of those views.
+So when you when you come to it, you can come in and it's already looking at the right thing.
+Yeah, I like the idea of setting it up to do it the way I want to do it so I can go through this and get the information I want and deal with it in the most efficient way because
+it's all about automation and making your job easier, but in an intelligent way, giving you the right data to make good decisions.
+And maybe an interesting point there is in the beginning.
+And if you haven't gotten if you haven't settled into a useful pattern yet.
+There's a lot of discovery and there's a lot of whatever random is maybe the wrong word but there's a lot of behavior within it that it's expensive and you spend a lot of time because you're trying to figure out what the heck to do.
+A successful operational pattern on replenishment is that you you figure out all of the settings you get it running.
+And then it really becomes almost a daily operational task like any other where it's ready to go. It's already to be configured. The only thing that you're doing when you come in here is is applying sort of that final view of it to say I know what those numbers mean I know I know what to do about it and I'm going to choose to order those or not.
+And I didn't actually do any of these so I'm wondering whether I would want to do it, but let's just see we have that to the order list.
+Yeah, let's do that just quickly because we didn't really show it.
+If I'm coming in here and this is my daily list and I'm saying okay I'm going to go through, it kind of uses a shopping cart model of if I agree with the recommendation that it came up with, I can just say yes put that one on the list.
+And what you'll see in the bottom is, it's actually building now this, this is, I mean it's a very complicated notepad.
+These are all the skews I chose to buy. These are the, you know, it's the math, it's grouped by master item but then it's also listed by the individual sales skew that makes it up and kind of kind of to your earlier to the earlier question.
+It does ultimately order by master item, but it, but it retains the detail of what skew it's for. Okay.
+And then, so, you know, so now you've built your list of these are the things that you're going to.
+These are the things you're going to order. And if I were to, I won't do it but if I were to go ahead and push the create work order that saves this for me, and then I can move that through the rest of the system.
+So, as we're starting to get down towards the end the first thing is really to turn on that sales history or sales activity. If it's not turned down in your environment.
+And then it's figuring out for a for a merchant with this many skews, or for many of our brand merchants, they could probably do their whole catalog.
+But for our, our partners that have hundreds of thousands of products, figuring out how to shorten that up to your a level products, however you define that.
+Is there a way to exclude items in bulk is one of the questions.
+Sure.
+You, well, the easiest way to do that would be from this screen.
+It's a small catalog so you don't get to see a lot but in a larger catalog. This is the same list.
+That is your catalog list so every single filter, right if I if I want to come in here and add filters, every possible filter is here.
+And I can add those I can filter by them. I can sort, and then you can multi select right so I can go through and I can say okay for all of these.
+I'm going to, I want to turn those off, and, and what we normally do is this way.
+The default is that planning is not enabled.
+You know, so, and for some people maybe that's the right thing to do if, if you had, you know, if you had an earlier false start on replenishment and you're not really currently using it and you left it in some strange half on state.
+Maybe the right thing to do is to turn them all off again and let you go back in and really enable selectively turn things on.
+Yeah, turn them back on.
+Because otherwise you, you would be left with and we can we can do that for you easily.
+Otherwise you're left with having to select them and you know you could do a select all right or I can, but you can only do them 500 at a time.
+And then you could, you know, you could update them and it would, it would grind its way through all of them and do what it's going to do.
+Okay.
+Well, I'm going to steal the screen back from you, and we're going to do the very fast speed round on question and answer, or as I like to call it can we stump Clyde time.
+Do I have this as a module or if so, how do I turn it on or set it up.
+Every system has it as a module it's a standard module that's in the system.
+It may depending on your user role. It may or may not be enabled. So that's one thing if you have users that can't see it that could be because for security reasons it's been requested to be turned off.
+There, there is a little bit of setup required as we talked about the recording the sales history, running the replenishment jobs.
+Setting up the suppliers, initially, so you can do all that there's some of that that we would probably do for you, but every system has replenishment basically building.
+It's just a question of get turning it on.
+Okay.
+Would it be a best practice to maybe just set up 10 or 15 SKUs and get used to the process and the setup and the inputs and the controls of that be a best practice to get going.
+It certainly makes sense to walk before you run, because, as with anything, you're going to, it is a learning experience and getting comfortable with how it works and what it does is much easier if you do that in, in a controlled set where, where it's predictable
+when you do it for 10,000 items, and you come in and look at those you're, you're, you're probably not going to make your way back to those same items each day and you're probably not going to recognize the behavior so I absolutely I would say,
+start with your top 10 best sellers.
+And even I would go a step further.
+For most people getting started with replenishment.
+I actually recommend that they pick the items that that the top items that they're currently replenishing and however they do it right if it's totally manual if it's some other system, whatever it is.
+There's a transition there there's a there's a common knowledge there of if you understand what replenishment looks like today however you do it. And now you can see what replenishment looks like in this system and begin to get comfortable with it.
+This is one is very specific to our reseller community.
+If you can get the same product from two different get my hands on the screen, two different suppliers that have two different reordering times or latencies. How does the system handle that.
+It's always going to pick one.
+It's going to pick one, and it's generally going to pick.
+We pick currently best cost and whatever that latency is you if you do have that scenario where they're different I think that would be one we'd have to dig down on a little bit.
+You may choose to, to not use one of those suppliers or to maybe disable or you can force right there's there's the skew by skew if you remember on that screen skew by skew.
+You had the ability to either let the system decide which supplier to use, or you can force it to a given supplier so it always uses that supplier during replenishment calculations.
+One of these we addressed right at the end of this demo session you were doing I thought was a great question. It was a how or can I create save views.
+And how do I use all the filters and you actually went through showed a great example of how to use the filters for either a bulk include or exclude.
+And I think the last one for today is, once again, this is more of a best practice question. How much sales history is recommended before really turning something replenishment on.
+Right. So I would say,
+it's a cop out but it depends. I would say the minimum you want 30 days, so that you so that it's not an anomaly.
+The more you have and probably in an ideal world.
+You have a whole year. Right, the only way you understand seasonality in that case is is knowing that product or a similar product, what what the sales look like over a year.
+But I would say and you kind of want a minimum of 30 to 60 days.
+If your profiles are accurate. If your profiles are accurate then, then you don't need much more than that.
+But but I would say a minimum of 30 of 30 days 30 to 60 days. Here's, here's one interesting piece of that though.
+One thing we see sometimes in startup is
+the quality of the projections and the quality of the go forward is greatly impacted by the poor quality of replenishment you have been doing so if you have an item that's a good seller but it keeps going out of stock because you didn't know about it.
+It's from a history perspective.
+It's going to have a strange look and it's going to have strange data. Whereas if you had kept it in stock the whole time it would have it, it would have a different out would have a different future outlook so in some ways that's what I was saying in the beginning it kind of feeds on itself, as you get better at replenishment
+and your history gets better.
+Your projections get better.
+Wow. If I wasn't advocating for the product somebody can almost call that artificial intelligence.
+But I won't go that far.
+I think we're going to wrap it up for today, I want to say thank you to everybody that attended.
+I want to say, please always fill out the surveys that come out whether there's one immediately after this session, or the quarterly surveys you get so thank you to those that fill out those diligently and shame on you for those of you that forget.
+And we will be doing one of these again in September. I'm going to give you a heads up. We're having internal discussions on whether November and December are good months to have webinars based on the level of activity in your organization so you can
+give that feedback to your CSMs.
+And remember, if you have more questions, just ask your CSM. We're here to help.
+We hopefully have really, really made that point in all of 2023 trying to take a new approach to how we handle our relationships with you.
+It is in our mission statement.
+It's to help you grow.
+And with that, I want to say thank you, I want to say thank you to Clyde for being one of our subject matter experts. I'm going to give you a B plus, I think you'll do better next time.
+And until next month. Thank you for being an ETail partner and client.
+Thank you.
