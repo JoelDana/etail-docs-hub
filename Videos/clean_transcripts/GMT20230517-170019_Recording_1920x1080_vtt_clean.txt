@@ -1,0 +1,798 @@
+﻿Well, thank you for joining.
+Here we are at the May edition of Tech Edge,
+the ETail Solutions webinar series
+for our clients on how to better utilize
+and get more value out of their EVP instance.
+With you again this month are myself, Jeff Burkard.
+I'm a partner success manager here,
+and you may be tired of looking at his face,
+but for the third month in a row,
+James Davis is our subject matter expert.
+James is well-versed in all aspects of the software,
+and it is a little bit of a coincidence
+that he has been the subject matter expert for the first three.
+I guarantee you that you will be seeing some new,
+fresher, and better looking faces over the coming months.
+This month is a subject that you picked
+by filling out the survey at the end of last month's session,
+10 features that you need to grow your business,
+and 10 features that will help automate your business
+and make it easier to run.
+And the whole idea is,
+how can we make you more efficient doing the basic things
+so that you can focus on higher value things
+that actually can move the needle for your business?
+So without too much more introduction,
+James, it's your show.
+Yeah, so here are the topics we're gonna run through.
+Again, I'm gonna spend about a minute to two minutes
+on each topic.
+As always, if there's one topic that interests you,
+contact your CSM about it,
+and you can engage in a more in-depth discussion
+about how it can apply to your environment specifically.
+Also, please, oh, go ahead.
+Put those questions in so that we can address them.
+Some of them will be right if they're very specific
+to one of these 10 topics while we're in it,
+we'll address it.
+Otherwise, we'll roll back at the end
+during our Q&A session.
+As always, please fill out the survey
+that we send after the webinar
+so we can get your feedback to improve these
+and make sure that the topics are relevant
+for what you guys are looking for.
+And finally, the webinars are recorded
+and available on the Help Center,
+which you can access via a link
+at the top of where you're creating tickets.
+After I cover these 10 topics,
+Jeff has got a surprise bonus topic
+that will be, it's very interesting.
+I'm excited about the stuff he's covering
+and rolling that out to some of you guys
+over the next two quarters.
+We'll have Q&A,
+and then we'll talk about the next Tech Edge.
+As always, ETails' mission is to drive growth and profits
+for you guys through the platform.
+So again, these tools we are going to cover today
+have been developed over a number of years
+as we have solved problems for our clients,
+turning them into tools to be leveraged by others.
+And so the first tool I'm going to cover
+is the Amazon Competitive Analysis tool.
+This has its own screen with an EVP
+and is an Amazon Market Assessment tool.
+What it allows you to do is take a list of potential SKUs
+with identifying information such as UPC or part number,
+search those SKUs on Amazon,
+and get results and information about potential ASINs.
+So I can see and make a determination on,
+is it worth investing to sell this product?
+Can I compete?
+What will my estimated profit margins be?
+What are the buy box prices looking like?
+These are all data points you would get
+from the Competitive Analysis tool.
+You can also see, hey, no one's selling this ASIN
+or selling this SKU under this UPC,
+so there's potential there to create it.
+The main function of this tool is to assess,
+can I be competitive on Amazon?
+What does the market look like for this particular product set?
+The most common use of this tool
+is I have a supplier reach out
+or I'm looking at a potential supplier.
+I can get their catalog information,
+run it through this tool and make an evaluation
+on whether or not I can compete.
+You may make a business decision,
+hey, we're going to integrate this supplier,
+but we're not going to worry about Amazon,
+or you can make the decision, hey, I can't.
+Amazon's my driver of most of my revenue.
+This SKU, this catalog of SKUs
+is going to be very difficult to compete,
+so it doesn't make sense to move forward.
+Again, this tool helps you analyze
+the market conditions on Amazon for specific products
+to make a determination on, could I compete?
+Should I get involved in that market for that SKU?
+The next tool I'm talking about is dynamic restrictions.
+Dynamic restrictions are located on the catalog module.
+They have their own screen here.
+It's a listing management tool
+that allows you to prevent the creation of SKUs
+that meet certain conditions.
+Again, I've brought up selection criteria
+during each webinar.
+It's used again here.
+If an item meets a certain set of conditions,
+then it will be restricted on the configured channels.
+Again, I can have multiple restrictions
+of various conditions and channels,
+but what it does is it prevents that,
+prevents those SKUs from getting published,
+so you can not have to worry
+about getting marketplace violations,
+brand pull-down notices, things of that nature.
+If you create a restriction
+and the system finds active listings
+that match that restriction,
+it will attempt to disable it and pull it down.
+We're optimizing that feature set,
+so right now I would make sure to manually check
+so that everything's pulled down successfully,
+but that is the action that is attempted to take.
+It is dependent on the marketplace,
+how far down we can delist it,
+but at a minimum it should start publishing zero,
+which will prevent you
+from selling on restricted marketplaces.
+Again, you can enable this per channel.
+You can create restrictions that affect multiple channels,
+but you can get very granular in controlling
+where I do and do not create listings.
+This will affect listing creation processes
+like the dynamic automature and the item creators
+will work in tandem with this tool and know,
+okay, I'm creating listings,
+but this item's restricted, so I'm not gonna create it.
+Most common usages of this feature
+are manufacturer restrictions,
+you're onboarding a new supplier,
+but you know certain brands can only be sold
+on your own website,
+so you need to restrict them from third-party marketplaces.
+You may also sell hazardous material or liquids
+and certain marketplaces don't want to
+or the business expense of those orders is too great,
+so I wanna restrict them,
+but again, if you can think of business scenarios
+where you need to make sure
+you're not selling certain products in certain places,
+the dynamic restriction tool
+should certainly be leveraged there.
+James, if I'm bringing in a new catalog
+and there's a whole manufacturer that I can't sell,
+when using the catalog source,
+should I restrict it at the time of importing
+or filter it out or do it with dynamic restrictions?
+What Jeff's asking is if I got a new catalog
+and I know part of it's restricted,
+when I create the supplier record,
+should I just filter those out and not create them at all?
+It's really a business decision
+on whether you think you're gonna be able
+to sell those things in the future.
+You can certainly add checks
+in the catalog source creation tool
+to prevent those listings from being created.
+I would add a dynamic restriction
+as you know, a double safety in that condition,
+but you can restrict it at the catalog source level,
+but if you think there's potential to sell it in the future,
+I would encourage creating the supplier records
+and leveraging the dynamic restriction tool.
+Got it.
+The third feature that you should be aware about
+and be aware about is the eBay D-List ReList tool.
+This is a listing publication optimization tool
+that promotes the freshness of eBay listings.
+60% of eBay's revenue comes from listings
+that they see as fresh.
+Their indexer optimizes those for visibility.
+We've had information provided us through various sources
+that after seven days, a listing starts to get suppressed
+and after 14 days, it's completely buried.
+What impacts freshness is sort of like
+the buy box algorithm, there's ideas,
+but obviously it's proprietary,
+but things like cost changes, adding new images,
+title changes all seem to promote the freshness
+of a listing which improve its visibility.
+Another key aspect is it's on eBay,
+you have an eBay item ID.
+How old is that item ID?
+After a certain age, again, eBay has indicated
+that they suppress it.
+So getting a new fresh eBay item ID
+can help promote listing visibility on eBay.
+What the eBay D-List ReList tool does for you
+is you set various parameters
+about how many I wanna re-list and de-list
+and the system does it for you.
+We'll take a listing down, republish it,
+that will give it a new item ID
+and then the idea is that increases its freshness
+promoting its visibility.
+We've implemented this tool in a number of clients
+and we've seen an increase in eBay revenue.
+So again, I encourage you to reach out to your CSM
+so we can configure this and implement it.
+We have various reports to show the impact it's made.
+We are working on a refinement
+to allow the system to be smart enough
+to know when reinsertion fees start to be incurred
+and throttle the re-listing.
+So right now, if you do enable it,
+you'll wanna be aware of your eBay account listing limits
+so that you don't incur insertion fees
+after you've reached your allotted amount.
+But again, this tool is very powerful
+in helping drive sales on eBay
+and keep your listings fresh so that they're visible.
+We kinda know that eBay
+is probably not your number one marketplace anymore
+unless you're in a very specific catalog automotive typically
+but we're always looking for ways
+that can increase the growth,
+find ways that other people aren't finding to help you grow.
+And we're gonna try and package these different services,
+couple different eBay things that can juice your sales
+into a package to make it easy to go for you to say,
+I know it's not big,
+but I wanna see if I can boost it by 10, 15, 20%
+my eBay business.
+So talk to your CSMs.
+Yeah, well, to build off of that,
+we've got a number of eBay enhancement tools
+that we've kind of packaged together
+related to re-pricing, this re-list,
+delisting, air management.
+And so again, reach out to your CSM
+to see how we can deploy that trifecta of features
+to your eBay environment to try and promote sales.
+The fourth topic I'm covering today
+is order action rules and tags.
+Order action rules and tags are an order management tool.
+It allows the sales order screen
+to work for you, not against you.
+What the order action rules do
+is it creates automated behavior based on order conditions.
+So you can see here,
+it's its own type of selection criteria
+but it functions in the very same way.
+If an order meets the conditions, we can take an action.
+One of the actions you can take is you can add a tag.
+There's an unlimited number of tags you can have.
+Obviously you don't want too many
+but as they lose their function,
+but you can add a tag.
+When an order meets a condition
+and on the sales order screen,
+I can filter on all orders that have that tag.
+One tag I've seen clients use
+is any order over a hundred pounds.
+I want a tag added to it
+so I can filter on those orders.
+Any order with expedited shipping,
+I want a tag added to it
+so I can filter on those orders.
+There are other actions you can take.
+You can assign a service level.
+Any order that comes in for this SKU on Shopify,
+I want to make sure it ships next day air
+because I'm having a promotion or something of that nature.
+You can also put orders on hold for a period of time
+or until they're manually released.
+This is a big one for the automotive space.
+If I'm selling spark plugs,
+I want to make sure the pack quantity is right
+or if I'm selling a bumper,
+I want to make sure that my shipping cost is covered.
+So again, think about the business conditions
+that you would like to try and capture
+as we pull in orders
+and work with your CSM to set up order action rules
+to optimize your fulfillment workflow.
+There's a variety of conditions we can identify
+and a number of actions we can take.
+Again, the tags allow for order grouping
+and optimized filtering on the sales results screen.
+And I discussed some of these common usages,
+but the best method is to think about the business scenario,
+engage with your CSM,
+and they can work towards setting up
+multiple order action rules that work for you.
+On one of our previous webinars,
+we covered the re-pricing at a 101 level,
+and I had discussed the re-pricing results screen.
+Specifically on the re-pricing results screen,
+the buy box percent delta can be very powerful
+for re-pricing assessment.
+What it allows you to do is look at your price
+and how far away you are from the buy box.
+So if I'm within 5% of the buy box,
+there may be potential for me to compete.
+I want to assign those items to a rule with a lower floor
+or one that seeks down more aggressively
+because there's potential, I'm pretty close.
+If I can get my price down a little bit,
+I can compete with the buy box.
+On the flip side, I can look at items
+that are so far from the buy box,
+they're not even close, 20% away, 15% away.
+And I can think about those SKUs strategically.
+Do I kit and bundle them and create a new ASIN?
+Do I white label them or do I just kind of, you know,
+cut my losses and leave them as they are?
+But again, it gives you visibility on groups of SKUs
+and how close you are to competing for the buy box price.
+And then make strategic decisions
+about what pricing strategies you want to apply
+to those items.
+Again, a very powerful,
+the re-pricing results screen has a lot of potential,
+but this is definitely a filter you should utilize
+when you're looking at your Amazon re-pricing results.
+I think when a lot of you look at
+your very, very large catalogs,
+even the ones that you don't sell often,
+and more importantly,
+the ones that you literally have
+as a consultant six months to a year,
+why are we dealing with those on a daily basis?
+They take time away from your top 10 or 20% of your products.
+Focus on what makes you money.
+One usage of this filter client identified the listings
+that were really, really out of,
+he had an inability to compete,
+but he knew they were hot sellers,
+so he worked with his supplier to buy them in bulk
+at a reduced cost so he could get into that.
+Oh, that's great.
+He didn't drop ship the item
+because the supplier wasn't gonna do it at that cost,
+but he was able to go,
+hey, this item sells,
+but I need it at this cost so I can compete.
+He worked out a deal with his supplier
+and he was able to start competing on that buy box.
+But again, this is an assessment tool
+that gives you visibility on,
+hey, these SKUs,
+I need to apply this strategy
+on these really uncompetitive SKUs.
+I need to either acknowledge that I'm ignoring them
+or apply a creative strategy.
+Again, I encourage hits and bundling
+because you can create your own ASIN off of that
+and then you're the only seller.
+So find products that pair together well
+that aren't competitive on their own.
+Number six, many of you may be familiar with this tool,
+but it is very important to be aware of what it can do
+and the actions it can take.
+The bulk updater is a listing management tool
+that allows bulk changes and forced actions.
+They're listed on the screen.
+There's some trees down each option.
+So I'd be familiar with them,
+but you can do things like force a price calculation,
+force publishing, change listing status, check restrictions.
+I've just added a new dynamic restriction.
+I select all my Amazon listings, check restriction.
+It'll start that process of,
+hey, these listings need to be restricted and publish zero.
+I'm shipping policy assignment.
+I've just added a new shipping template to eBay.
+I need to make sure these items that want to use it
+are assigned to it, I can do that assessment.
+One activity I always encourage is isolate items and error
+on a specific channel,
+bulk update through existing bulk update force publication
+and then check in 48 hour, 24 hours later
+and see if any of the error message return.
+A lot of times those error messages just go away
+and then you can isolate the reoccurring error messages.
+Another action, I have a group of listings.
+I want to make sure our pricing,
+I can isolate them, do a force price calculation
+and a force price publishing.
+This can be good for new listings that you've just created.
+If you don't wanna wait for the background tasks to run,
+you can kind of do it yourself here.
+So again, the bulk update tool has a lot of potential
+and I encourage you to think about using it before.
+What I see a lot of times is people
+export the sales listing screen,
+import it with the catalog source
+to do some sort of manipulation that they could have achieved
+with the bulk update, saving them some time.
+You should also be aware you can update attribute values
+with the bulk update tool for multiple listings.
+So if I'm using the re-pricing class attribute,
+for example, and I wanna change that,
+I can select the listings on the screen
+and do a bulk update.
+Number seven is attribute and category mapping.
+Attribute and category mapping allows you
+to leverage your catalog data across multiple channels.
+So often you will have a content rich channel,
+whether that's a content channel
+that's sort of a PIM integration or a content channel
+like a eBay or Shopify where you've spent
+probably hours building your own repertoire of content.
+Or you've taken content for Amazon,
+but you have a good source channel and you wanna go,
+okay, on eBay, I need to provide my own content.
+So I'm gonna take information from my content rich channel
+and I'm gonna move it onto eBay.
+On the screen, you can see an example.
+I'm taking the material attribute from Amazon
+from the supplier.
+So my source is the supplier and that attribute is material
+and I'm using it to populate the fabric attribute on Amazon.
+So I don't have to go into the Amazon listing
+and add an attribute so it has fabric.
+It's leveraging my already present data.
+This can also apply to categories.
+A major area to leverage this is for Walmart,
+which doesn't have a native category assignment tool.
+So I always encourage my clients to go,
+my eBay categories are good or my Shopify categories are good.
+Go up to this category mapping tool and it allows you to say,
+hey, if this SKU is on Shopify in this category,
+put it in this category on Walmart.
+And this can help optimize category assignment,
+which ultimately results in better search results
+as people will go down the search trees of certain categories
+and find your product.
+Another place to leverage this is the eBay required attribute,
+required attributes, certain categories require certain attributes.
+You can find a pattern of common ones, color, size, type,
+find a source for that data, map it to eBay,
+and that addresses that error and prevents it from occurring.
+So again, it's a tool to maximize your content
+across your various marketplaces.
+Number eight, next best fulfillment is an order management tool
+that allows you to find the second best solution.
+It isn't enabled by default,
+so you would need to work with your CSM.
+It's just as simple as checking a checkbox,
+but then you'll see this next best option
+on the change fulfillment method screen.
+Common usages of this feature
+are routing around bad quantity data.
+The suppliers let me know their inventory feeds inaccurate.
+The system doesn't know that.
+I need to take this group of orders and route them elsewhere.
+Or I know that a distribution center
+is having a temporary outage for a few hours
+and these expedited orders need to ship.
+So I select them, find the next best solution.
+And another scenario is I'm selling from my stock.
+I've got more orders than I can deal with.
+I need to make sure that these things
+get shipped out on time.
+I know I can drop ship them,
+select the orders I can't handle,
+and I send them to a secondary source.
+So again, it's a tool to leverage
+when you're finding yourself
+in need of a second best solution.
+It's a use case tool,
+but it is powerful in helping you route orders
+and deal with the complexity of order fulfillment
+when the best solution is not working out
+or can't handle the orders.
+Number nine is the item weight priority tool.
+What this tool does is it helps you manage your DIMM data
+from various sources.
+It prioritizes and elevates them
+to the master skew details page.
+So when you open a skew
+and you go to master skew details page
+in the top corner, there's DIMM data.
+That data is used for estimated shipping.
+It's used for when we manifest shipping labels
+and used in repricing.
+So you wanna make sure it's accurate
+and of the highest quality.
+Now you may have initial DIMM data
+provided by the supplier,
+but as you ship stuff,
+you get more accurate data into the system
+and what the item weight priority tool lets you do
+is assess multiple sources of DIMM data,
+prioritize them,
+and then slowly select from the best source available.
+This is important to have in place
+if you're using native shipping.
+It's important to have in place
+to get accurate estimated shipping costs.
+A big problem I see is suppliers
+tell you how big the item is.
+So you have that DIMM data,
+but that's not how big it is when it's in a box.
+So your estimated shipping's off.
+So as you aggregate better and better DIMM data,
+you get better and better estimated shipping,
+which means you can compete
+and optimize your profitability.
+The last area where this is...
+Go ahead, John.
+Oh, I was just gonna say that
+beyond your actual product cost,
+I think we're all starting to understand
+unless you are not operationally excellent
+in the way you manage your shipping
+and your weights and your DIMM weights
+and the way you work with your carriers
+to get your estimates,
+it is tough to make money.
+This is just another tool to better manage your costs
+to make sure that every shipment
+that goes out the door is profitable.
+Another powerful tool that's been slowly rolling out
+into EVP is cartonization.
+And accurate DIMM data is key for cartonization.
+In a brief summary, cartonization allows you to say,
+I have these set of boxes, they cost me this much
+and they're this big in terms of volume.
+The system then, when processing an order,
+goes, hey, this order has four SKUs,
+they'll all fit in this box, ship them in this box.
+Or you have four SKUs,
+you're gonna have to use two boxes
+because of the way the volume works out.
+And then you can optimize your order flow
+because the system's prompting the worker
+or the order fulfillment person,
+hey, I don't need to think about what box to use,
+the system's telling me.
+And then the cost of that box
+has worked into your profitability.
+So there's a lot of potential with cartonization
+that starts with leveraging quality DIMM data
+and the item weight priority tool
+is the mechanism to get there.
+And although cartonization will be probably
+its own webinar topic in the future,
+that situation where it created two boxes,
+we can band those together
+so that you only have one origination fee.
+Number 10, monitors and alerts.
+So as you're aware, we have background systems
+monitoring the system performance at all times.
+We send out alerts periodically
+when we notice disruptions in behavior,
+but you can also get visibility on your system performance
+with these monitoring tools.
+Specifically with issues,
+you will see the issues screen below orders.
+It's under leveraged in my experience
+with a lot of clients
+because there's so much information on it.
+It gives you listing errors, it gives you task errors,
+it can be hard to digest.
+The solution to that is for you
+to work with your CSM and isolate important errors
+to know about.
+A big one is inventory files failing to load from an FTP.
+That causes a very specific error that we track.
+We will create an issue,
+but we can also send out email alerts to specific users.
+If you have a fulfillment manager
+and orders are failing to send or import,
+that's an error message we can track for
+and email users about so that they're aware
+that there's something going on with tasks
+that needs to be addressed
+that's preventing optimized order flow.
+Next, we have monitors.
+Monitors track overall task performance.
+So again, an issue is looking for a specific error message.
+Monitors track the average volume load of that task
+and will note spikes in it.
+It will note task failures.
+There's more to come on monitors.
+We'll have a webinar session on it
+with our monitor, Smee, Aaron Peck.
+But again, talk to your CSM.
+I encourage you to leverage issues
+and see where that can benefit your team
+and then move on to looking at monitors.
+We are exposing that more and more.
+We have some customers setting up their own monitors,
+but again, work with your CSM,
+focus on issue alerts first,
+and then see where monitors might make sense for you as well.
+Those are my 10 topics.
+As noted in the agenda, Jeff, it's a surprise for us.
+And now, drum roll, please,
+something that a lot of you've been asking for
+for a couple of years now,
+we are happy to announce that ETail
+is migrating to a browser.
+We already have certain roles already migrated over,
+and this is in production use in some of our new clients.
+Today, the way we're migrating it,
+we're taking roles and moving them over.
+So there still may be things that you need to do
+in your traditional EVP legacy platform.
+There may be some things that you will always do in EVP.
+System admin kind of level functions
+are some very high-end power user kind of functions.
+But for the people that just need to deal with the data
+to do their normal daily task,
+a CSM on order management person,
+a somebody who handles the shipping and manifesting,
+we're starting to roll out specific roles
+to some of our newer clients.
+And now we're gonna start talking to our current clients
+about are there potential areas of their business
+they would like to roll out.
+Why don't we go to the next one?
+And along with that, we are working on some functionality
+where we're gonna be offering a standalone product
+for new clients in the near future,
+not formally announced yet.
+So hopefully all of you are under NDA,
+but we're calling it ideal order
+that we're on every single order.
+We're looking at, did it ship from the right location?
+Was the right packaging used?
+Was the right carrier used?
+Was the right service level used?
+Did all the documentation get included?
+Did it ship on time?
+Did it arrive on time?
+We're tracking all those individual items per order
+to tell you if an order was ideal
+and did it meet your profit goals for that order?
+And we're calling that ideal order.
+Next one, we'll even look at,
+oh, I'm sorry, it was on the bottom of that one.
+I had a little bit of my screen in the way,
+which I shall move.
+For this client, they shipped the massive thing
+because it was supposed to ship from a location
+only 190 miles away from the client, excuse me,
+140 miles and ended up shipping 814 miles.
+That raised their shipping costs by $122
+and lowered their net income by over 13%.
+The product itself, the total sale is $900,
+kind of to be expected when the shipping by itself is 122.
+But in looking at all their sales over a period of time,
+by not having inventory in the right place,
+they've lost as much as $60,000.
+And we're identifying that.
+And then we can go into remediation phase
+to recapture some of that lost net income.
+And so stay tuned and talk to your CSM
+if you'd be interested in bringing this into your house.
+And that's the major new news for this new application.
+And we look forward.
+We think it's got a great look
+and it's gonna be of great benefit to our clients.
+Question and answer.
+And thank you very much for submitting these.
+Jason, you're gonna have to think
+because they're gonna go all the way back to near the top.
+How do I get the eBay delist relist tool?
+How do you get it?
+You let your CSM know you're interested.
+You'll go through a quick survey
+to evaluate the appropriate settings.
+Then the CSM will coordinate enabling those jobs
+and you monitor the reports.
+So how do you get it?
+Technically, you already have it.
+You just gotta work with your CSM
+to get it up and running.
+Okay, question number two.
+Is there an eBay automatic automature
+to get more listings?
+Say that one again.
+Is there an eBay automature to get more listings?
+So eBay's a marketplace where you're not competing.
+So you cannot find other sellers
+and attach to their eBay listing.
+So there isn't a dynamic automature for eBay.
+There is an eBay item creator which can create listings
+under a certain publishing template
+and get those listings on eBay,
+but there isn't a automature
+because you're not linking to other people's listings.
+You would wanna leverage the item creator
+to assess a supplier source or an ETL record
+to create your own eBay listing.
+Under order action rules,
+can I use it to put new channel orders on hold
+for a few hours while allowing for a cancellation window?
+Absolutely, so an order action rule can be set up
+for a channel, any order from that channel,
+any order plus a skew from that channel.
+And then you do have the option
+to have a hold be automatically released
+after a configured delay.
+So you could definitely configure it
+to hold the order for an hour or two
+during the cancellation window
+and then automatically release
+for normal order fulfillment afterwards.
+There was a question on monitoring.
+Can a monitor be built to alert me
+if a supplier inventory failed to load
+or wasn't there to load at all?
+I would assess that from an issue perspective.
+Again, a issue is looking for a specific type of failure.
+So bad credentials to an FTP
+will cause a specific type of error.
+No file being found will cause a specific type of error.
+So you can get an alert from an issue
+for supplier data imports.
+Monitors would look at,
+oh, the file size is greatly reduced
+so that task isn't doing nearly as much as it was
+or it's doing way more than it used to.
+But the end goal there is you get alerted
+when there's issues with inventory
+that could be achieved, yes.
+And if we don't answer any of these questions
+to your satisfaction,
+we're available to have a more direct and nuanced discussion
+about what you're actually hoping to accomplish.
+And this might be the last one
+and I'm not really surprised that it showed up.
+When will the web UI be released?
+And can I use it for my customer service team?
+I think we're gonna be doing this pretty much
+on a one-off basis where we work with you
+to see if the elements that we've already migrated over
+fit your actual use case.
+Clearly when you're in the legacy system,
+you can go from here to there to there to there.
+Right now, since we're moving over very discreet functions,
+we wanna make sure that your use fits within what's migrated
+so that they're not bouncing between systems.
+But yeah, probably early third quarter,
+maybe even late this quarter,
+we can start having meaningful discussions
+about if you're really interested,
+we're gonna sound like a broken record,
+please work with your CSM.
+I covered all these topics at a high level
+to get through them, make you aware of them.
+I encourage getting your CSM on the line
+to discuss your specific use needs.
+But we isolated these features
+because they are important to know about.
+And again, we built them over years of working
+with various customers in the e-commerce space
+and found that these types of tools are needed
+for the various business conditions that occur.
+And if there's no more questions and I'm monitoring right now,
+we're gonna start talking about next month.
+Next month, it will be on the second Wednesday of the month.
+I know we're on the third, that's our fault.
+We didn't get the email out in time,
+we didn't get the landing page out in time
+and we decided that rather than doing a half bad job,
+we would just push it off a week.
+I'm glad you were able to attend,
+but it is the second Wednesday of the month.
+And the banner at the bottom represents last month,
+we sent out a survey shortly after the webinar,
+giving you three choices for this month, May.
+And there's the results on the bottom.
+This was the topic that you wanted to hear about
+by a wide margin.
+So once again, we will send out a survey, it will go to you.
+If you respond, you have the ability to tell us
+what is most important for next month.
+And that's what the topic will be.
+If I don't get another question in the next few seconds,
+I'm gonna say we're gonna wrap up a few minutes early
+and say, thank you, thanks for coming.
+Our goal is to make you a better merchant,
+a more knowledgeable merchant,
+both about the marketplaces and about EVP
+so that you can absolutely impact your success
+and get things even going better, faster, bigger, higher.
+Thank you.
+Thank you.

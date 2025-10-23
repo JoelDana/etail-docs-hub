@@ -1,0 +1,675 @@
+﻿Well, thank you for those of you joining us on our second maiden voyage of Tech Edge.
+Here it is, April already, and we want to thank you for attending.
+We are going to be a very prompt group for this webinar from here on forward, and we're
+going to kick it off now.
+So thank you for attending.
+Today, we're going to be talking about pricing, or if I screw up badly, how quickly I can
+go out of business.
+We're going to be focusing on the basics of the ETail pricing and repricing module with
+over 100 million Prime users out there today, always on the hunt for a bargain.
+Even the slightest mistake in pricing can be disastrous for many merchants and sellers.
+So today, we're not going to go to the next slide yet, but James and I are going to be
+once again your host.
+Thank you for attending.
+We're going to be going through why you want or need to reprice in the e-commerce sphere
+of influence.
+Why is this important?
+This is as important as any module we have.
+James is going to go through the actual, let's break this apart into basic steps that we
+can walk through for any of those that are not super familiar with our pricing module.
+From there, we'll talk about some practical applications of it and some already existing
+ways to put this into your business environment immediately.
+Then we'll get into the question and answer session, and those can come up starting almost
+now, and when appropriate, I will ask them during that section of the webinar, otherwise
+we'll leave them towards the end, and then we'll talk a little bit about next month
+and what's going on in Tech Edge.
+The one thing I do want to remind you right here and now is there will be a survey at
+the end.
+We would love to get your feedback.
+Also you get a survey quarterly for me, Tal.
+Please fill that out.
+You may have filled that out in the past, but we still want to see you do it every month
+to see if we're improving or if we're not.
+Also while we already have our session picked out for next month, it's going to be your
+chance to give us some feedback on where you would like us to go.
+E-commerce is not just about revenue.
+It's not just about whether you win or lose the buy box.
+It's also about protecting your margins.
+For those of you that are golfers, you may be familiar with the slogan, you drive for
+show but putt for dough.
+In e-commerce is revenue is vanity, profit is sanity, and cash is king.
+It's all about making sure that we're profitable.
+I'll be your host again, and I'm happy to be here with you, and then I have with
+me my partner, James Davis, our subject matter expert, and some of yours, a customer success
+manager from ETL, and he's going to be taking you through the rest of today.
+But always, always, always.
+Please questions, questions, questions.
+If we're not answering your questions, we're not sure that we're giving you the right
+information, and our one primary goal here is to help you get better.
+So with that, let's get started.
+We're always going to remind you, why are we here?
+It really is.
+It isn't about tickets, yes, it's about tickets, but did we help you grow this month?
+Did we help you get more profitable this month?
+I know we've helped several of our clients by going through and saying, we're selling
+a lot, are we optimized for profitability, and we've had some great results recently.
+Ask your CSM about those kind of working with us.
+And James, now it's you.
+As Jeff mentioned, the first topic we're really going to dive into is how to think about re-pricing
+in the e-commerce space.
+What are the things to be thinking about as you're strategizing at a high level before you
+get into the weeds of policies and lookup tables?
+So the first thing you want to think about is, am I competing on a competitive marketplace
+where there's other sellers, marketplaces like Amazon or Walmart, where you're not the
+only seller on that listing, and you're all competing for some version of a buy place?
+Or are you re-pricing on an independent marketplace like eBay or Shopify where you don't have other
+competitors that the buyer can kind of compare around and other competitors that drive price
+changes?
+So that's a very high level thing to consider when you're approaching, how do I re-price?
+What type of marketplace are you on?
+The next most important thing to think about and understand is, what is your business's
+competitive differentiator that allows you to get an edge on re-pricing?
+If you're a reseller and there's 12 other people selling the same product, how do you
+get a competitive differentiator?
+It could be latency, it could be your seller ring, it could be your ability to get inventory
+at a premium cost that allows you to have a lower floor than your competitors while
+still making a healthy margin.
+But really understanding what allows you to be set apart from the rest.
+Do you have an exclusive brand deal so you're the only person who should be selling?
+There's a lot of different ways you can get a competitive differentiator, but you want
+to understand what you have in your toolkit to give you a competitive edge.
+And those are going to be very specific to what your business can achieve with your
+relationships with your suppliers, your manufacturers, and so forth.
+The next variable to really consider because it feeds directly into re-pricing is shipping
+cost and latency.
+Do you have accurate weight or dim data?
+Are your shipping cost estimates as accurate as possible?
+Is your latency as accurate as possible because latency is going to drive your appeal to buyers.
+Obviously if it's a great price, but I have to wait a month, I'm not interested because
+if I'm on e-commerce, I want it now, I want it in two days.
+And then with shipping cost, the more accurate you can generate an estimated shipping cost,
+the better you can get at squeezing your margin, maximizing your margin, knowing where
+your profit potential is.
+Shipping cost is driven off of weight data and dim data.
+Dim data is always preferred because a lot of carriers will use dim weight over flat weight.
+And again, that lets you get to a more accurate estimated shipping cost.
+James, we already have our first question.
+What are some of the ways to improve the accuracy of my shipping costs?
+Can I get my shipping costs from my carriers?
+So there's two general approaches to getting an accurate shipping cost.
+The ideal method is to get your shipping rates from your carriers.
+You can typically reach out to your rep and they'll send you an Excel spreadsheet which
+has all of your negotiated rates and replicating those in EVP as shipping cost models.
+There is some documentation on the Help Center about shipping cost models that you can reference,
+but you're essentially replicating your fulfillment costs in shipping cost models that can then
+be leveraged for estimated shipping.
+The secondary method which is also utilized but slightly less ideal is to use a blended
+rate table.
+Look at your average shipping costs.
+Generate a blended rate table that you know puts you above a minimum threshold.
+The disadvantage of a blended rate table is, again, you're estimating on top of estimates
+instead of replicating the actual costs with your rate tables.
+But putting some time and effort into understanding your shipping cost model setup would be a
+way to get more accurate shipping costs.
+Great.
+Thank you.
+Also, if you're leveraging the native shipping workflow in EVP, we capture DIM data during
+shipping label manifesting which can help you get accurate DIM data into the system.
+Because you're leveraging supplier data which isn't as good as, hey, I put it in a box and
+shipped it and this is how big it was, you know, that might be a slightly different than
+what your supplier says.
+So capturing that data in that way is also very effective.
+The next piece of advice I give a lot of my clients is you are the masters of your
+catalog.
+I as a CSM can get to know your catalog, but you're going to have the most intimate
+relationship with it.
+You want to be able to look at your catalog at a macro level in terms of large category
+sets.
+For example, this break kits can come in the range of 1,000 SKUs.
+It's more prudent to tackle those at a macro level.
+How do I want all of these repricing versus going how does an individual break kit
+reprice?
+On the flip side, I may want to look at my top 20 selling items and really focus
+individually on those SKUs and their repricing behavior.
+But if I have 10,000 SKUs, I can't focus individually on each one.
+So you need to be able to understand where it makes sense to slice and dice your
+catalog in terms of large groups, individual SKUs, and sort of small subsets of
+high volume SKUs.
+So it really is a precursor to effective repricing is knowing where it makes sense
+to slice and dice your catalog.
+In the out of motive space, spark plugs, you typically need to be isolated
+because of repricing nuances.
+But there are many ways to understand the catalog and you will
+understand it best, but you want to think about where do I need to isolate
+items because they're very competitive and they're high volume and I need their
+own repricing structure versus well, I can put these 25,000 items and look at
+them at a macro level because they're slower volume, they are UPP price and
+force, so there's not much options in terms of behavior, things like that.
+But really understanding where it makes sense to group your catalog is
+very important.
+The trap many people call them to is I'm going to focus on individual SKUs only and
+they never back up into the macro level.
+And these are all great topics to go over with your CSM and go, how would you break
+up my catalog?
+How do I identify those top selling products, whether it's the top 20 or the top 5 or 10%?
+Let's go in and take a look at your catalog together and find those areas where we can
+have the biggest impact on your business.
+You have a lot of reports available to identify that information, but it's important to have
+an idea of those nuances as you're going into what am I doing with repricing.
+Having business objectives is a really good goal.
+Oftentimes I ask clients what the results they are looking for and they say I want
+to win the buy box.
+While that is a business objective, it's very generic and hard to sort of measure success
+again.
+So you can look at your buy box percent, but I encourage people to go, I want to sell 10%
+more of this product category this month than last month.
+Or I want to generate sales via having products on a discount to see the, you know, maybe
+I sell it at a lower margin, but I'm selling more of it.
+So I end up with a higher total profit, but having a defined business objective that can
+be a measure of success is good and getting away from the obsession of the buy box.
+It's important to win the buy box, but you want to apply strategies in such a way that
+the outcome isn't just you're in the buy box because you can have the buy box and
+not make sales just as easily as you can have the buy box and make sales.
+So defining your business objective is a good place to start at the beginning of this process.
+You can win the buy box and lose money.
+Yes, you can win the buy box and lose money and that's, you know, another good example
+of what's your objective really is selling more of this product, improving your margin
+on this product and increasing volume of a certain subset of products.
+The next thing I encourage customers to do, your clients to do is to always be monitoring
+the competition.
+There's a million different repricers out there, but they're all based on the same
+technology and what you will find is you'll apply a strategy.
+It may drive sales up for a week, a month, a quarter, but at some point your competitors
+repricer will capture what you're doing and apply a counter strategy.
+And so it's never good to set up strategies in Q1 and forget about them.
+It requires constant monitoring and analysis and making adjustments.
+And so looking at what your competitors are doing can help you understand where those
+adjustments may need to occur.
+But again, it's important to understand what the competition is doing to your price and
+whether it's important to respond to their price events or maybe you want to ignore them
+because they're just manipulating your price, but you have to kind of understand what they're
+doing.
+And then again, analyzing and adjusting.
+I always making a change to repricing, giving it two to three weeks to see the behavior and
+then making adjustments.
+But you want to constantly be reviewing and adjusting and I'll show you how you can do
+that effectively shortly.
+But again, these are the high level mindsets and considerations you should have as you
+approach repricing and e-commerce.
+So the repricing basics and EVP.
+The very first thing you're going to start with is selection criteria.
+Then there's some basic configuration that must be in place to allow automatic repricing
+to occur.
+Go over what a pricing formula is and what its functions are and some of the options you
+have there.
+Some basic price policy configuration options that can affect behavior.
+Then I'll discuss controllers and triggers and their functions.
+AppTables is a currently under leveraged feature, which I will explain how it works in tandem
+with pricing formula to achieve a lot of complexity and nuance in a very simple structure.
+And lastly, I will discuss the repricing result screen, which needs to be leveraged
+to do that analysis and adjustment.
+So selection criteria is used in various parts of the system in EVP, but what it is is it's
+a logic statement that defines a group of SKUs.
+And the reason it's important to have a grasp on how selection criteria can work and how
+simple or nuanced it can get is because many times a client will approach me and say,
+I want these items to reprice them this way.
+And the first question I ask is, how do I identify those items systematically with
+selection criteria?
+I can obviously go through 10,000 SKUs and assign them manually, but that is ineffective.
+So you need to be able to identify groups of SKUs with selection criteria.
+This example on the screen is very simple.
+It's just saying an Amazon record exists.
+I match that criteria if that's true.
+But I can get as nuanced as it weighs greater than a certain amount, has a certain manufacturer
+and a certain supplier record is present.
+So your ability to nuance selection criteria defines your ability to nuance your pricing
+policies.
+It's important to familiarize yourselves with the options available.
+I encourage you to present a scenario and then work with your CSM to get the selection
+criteria correct.
+But knowing the selection criteria limitations will help you from kind of putting out, oh,
+I want to identify the items in this way.
+It's not possible because selection criteria doesn't have that function.
+So knowing the functions of selection criteria is important.
+And then what selection criteria will do will automatically assign items to enabled policies.
+So this checkbox is here.
+It's also up in the corner over here on the full screen.
+But if this box is checked and the other configuration options that I'll mention a
+second there, we will use this selection criteria to assign an item to the policy.
+So to allow automatic repricing, the following conditions must be true.
+Automatic pricing must be enabled on the SKU.
+That's right here.
+This is enabled by default.
+You can manipulate and adjust this using the bulk updater on the sales channel screen.
+So if you want to disable a group of listings or enable a group of listings, you can do
+it in bulk.
+You don't have to go through individually.
+A pricing policy with matching selection criteria must be enabled.
+Again, the selection criteria is used to automatically assign an item.
+So if it can't be assigned, then it can't be associated to a policy to use.
+Most people will find they'll click reprice.
+It'll say no matching price policy.
+That means you don't have a selection criteria option that would meet that specific SKU.
+So that's an important thing to have in place.
+An item must have publishable inventory.
+This is also important to know if there's no inventory to publish, then the system cannot
+reprice due to the way the logic and EDP works and how the system kind of estimates
+shipping and exposes inventory.
+So it's important to make sure you have some exposed inventory if you are looking for repricing
+to occur.
+And then an item must have weight and or DIM data.
+This is because a shipping cost has to be generated.
+Technically you could have a shipping override as well.
+But obviously the ideal is to have DIM data.
+So DIM weight can be calculated and you can have the most accurate shipping costs.
+And as I mentioned before, the more accurate your shipping cost, the more accurate and
+tighter your margins can get.
+James, it seems like while as robust and powerful as this is, if you just take a very structured
+approach to it, you just can kind of follow the steps.
+You know, clearly talk to your CSM, but it's pretty logical things that it's asking
+for.
+Yeah.
+Then again, what I'm covering in this slide are the pillars.
+Once you have a grasp of these concepts, you have background knowledge to engage in a meaningful
+conversation with your CSM.
+Yeah.
+And I've talked to some of our clients that early on, they didn't have all their weight,
+so they just threw some numbers in during implementation.
+And you really do need to go back and check those and get good data in those selections.
+Yeah.
+Cash is king, but so is data.
+There you go.
+You want up to me.
+Pricing formula, conceptually very basic.
+Your floor and ceiling set the upper and lower price ranges and your target sets your
+ideal price range.
+Target is used on independent marketplaces like Shopify and eBay as a starting price.
+I start there.
+And then I may have mechanisms, which I'll cover in a sec, that drive the price up or
+down, and I will never go below my floor above my ceiling.
+Target is also used on competitive marketplaces like Amazon if you're the only person on
+the ASIN.
+If you're alone on an ASIN, we'll start at your target.
+And then again, there may be functions that drive the price up or down.
+Pricing policies utilize tokens.
+Be familiar with the tokens available.
+P tokens are dynamically looking up that variable for that skew at that specific
+point in time, returning it to the formula and then doing the calculation.
+So again, if I don't have accurate shipping cost estimates, I'm not going to be able
+to have an accurate margin.
+So that's why getting your shipping cost as accurate as possible is very important.
+You know, and again, item cost, we'll look at the supplier channel or the
+ETL channel that has the inventory exposed at that time, based on all of your
+priorities, configuration for each location.
+And again, that can be a big competitive differentiator is that I get the items at
+a better cost.
+Therefore, I can have a lower floor.
+I can have a better price.
+I can get more sales.
+But each policy will have its own set of pricing formula, and they will all
+utilize tokens and then basic order operation and math functions.
+Some basic price policy configuration options to be aware of an EVP.
+First, relative amount.
+I'll cover seeking in a moment, but your two options for adjusting your price in a
+competitive way are relative amount or you seek.
+A relative amount is used on a collective marketplace.
+And because there's other sellers, we can look at and make a price adjustment
+based on their price.
+So a relative amount on an Amazon price policy looks like this here.
+And I can reprice by an amount or a percent based on the type of seller.
+So if I'm competing against Amazon, I may want to just adjust by a penny because
+Amazon's biased and will give themself the buy box.
+But if I'm competing against a merchant, I may want to beat them by 10 cents
+because I know that that range will kick them out of the buy box and give it to
+me and then FBA.
+Similar understanding the nuance of your FBA competition will let you know,
+should I adjust by a lot, a little?
+Should I maybe I price above FBA because my latency is better and that could be a
+way to win the buy box.
+And then this one down here is Walmart.
+We have less information provided by Walmart, but we can still adjust the
+price by a relative amount.
+An important thing to understand here is if these numbers are positive,
+I will adjust above.
+So if I want to adjust below, I need to make sure these numbers are negative.
+If they are at zero, then we match the price that the competitors have.
+The second repricing configuration option that is available and you should be
+aware of is price parity.
+Simply put, price parity is where we copy the price on one channel and put it on another.
+You can copy it and adjust it by an amount.
+This has been used historically to allow marketplaces with competition to help
+drive the price on marketplaces without competition.
+For example, eBay has competitors, so the price is adjusting all the time.
+eBay doesn't.
+So I may have my eBay price be driven by what's occurring on Amazon.
+And then within price policies, you'll see options to ignore price
+parity if needed, but the general idea being that one marketplace doesn't have
+price drivers and the other does.
+And just like last month, all this information is going to be available so
+that you can rewatch the webinar here.
+You'll be able to go through the PowerPoints and James has prepared some
+really good documentation that goes into these in a little bit greater depth to
+partner with the digital assets that we are providing.
+So I encourage you to rewatch this and then review the material.
+As I did last time, I put out a series of questions that you should be able to
+answer after reviewing the material and answering the questions demonstrates you
+have the knowledge to understand the basics.
+So you can A, take a stab at it yourself and B, independent self-enabled and B,
+engage in a conversation with your CSM where they're not having to kind of go,
+well, we can't achieve that in that way.
+You need to ask it in a different way.
+So one of the first more advanced functions of a pricing policy are controllers and triggers.
+They're available on each policy on all channels.
+A controller is a behavior.
+So I want the price to behave in a certain way.
+There are two options that are readily available and utilized.
+One is seek, as I mentioned, you can either use a relative amount to adjust your
+price based on what the other sellers are doing, or I can seek, which is simply
+adjusting by an amount up or down over a fixed period of time.
+Steep can be used on a marketplace like eBay where you don't have a price
+driver, so I'm just seeking down until I start seeing sales or I'm seeking up
+until my sales fall below a certain threshold.
+The second controller option is hold, pretty self-explanatory.
+If a policy has the hold controller set up, we hold that price.
+I'll explain a bit more about some pricing policy loops that utilize that,
+but essentially it's most heavily used when you want to hold a price such as
+I've won the buy box, hold that price until I lose the buy box or an items on a
+promotional, so I want it to hold the price so I get items into a policy and
+then it just holds the price.
+On top of controllers, we have triggers.
+Triggers are a marketplace or price event.
+Something happens on the marketplace or something happens in the EVP
+that triggers a response, so a very obvious one is I win the buy box.
+If I win the buy box, I want something to happen to the SKU in terms of how it's pricing.
+The function of a trigger is that event occurs and the item is moved to a new policy,
+so the idea being that if I'm seeking down for five hours, or in this case,
+12 hours, I then want to move it to a new rule because if I haven't won the buy box
+after seeking down for 12 hours, I want to apply a different strategy.
+Maybe I use relative amount after that period of time, so it allows you to move items
+in between different rules as these marketplace events occur,
+and then in tandem with controllers, which affect price.
+Couples look really interesting, James.
+I like the idea of stock age.
+If I've had something for 45, 60 days and I'm not seeing any movement on it
+and I'm trying to manage 10,000 or 100,000 SKUs,
+just let the system start pricing that so that I actually free up some inventory and capital.
+Yeah, I'll cover it in a sec, but we've seen results with a FBA stock age loop,
+so as your FBA inventory gets older, you offer it at a better price,
+and that's been effective at selling the inventory as it ages.
+Sales velocity is a big one, which I'll cover.
+But again, being familiar with these options and what they do allows you to engage
+in a meaningful conversation with the CSM and also enables you to kind of know,
+this is what the system can do for me, and this is what it can't.
+And so you apply strategies that are enforceable versus coming up with ideas
+that you struggle to implement.
+Two important notes about triggers.
+Triggers can move items to policies that are not enabled.
+So if you remember on the slide before, I said selection criteria is used
+to assign items to policies that are enabled.
+A policy can not have that checkbox and still be utilized,
+but what that typically indicates is a trigger is moving a SKU to that policy
+after it's been assigned via selection criteria.
+So I have a default policy that captures the SKU selection criteria,
+and then I have a trigger event which moves it to a policy that's not enabled.
+So when you're looking at your repricing policies, don't necessarily think
+because that checkbox is not there, it means the rule doesn't be used.
+It could be that SKUs only get there because a trigger moved it there.
+The second thing to understand and know is a trigger can move a SKU
+to a policy with no formula.
+In this scenario, the formula from the policy it moved from are inherited,
+and this can be used in a number of ways.
+But the main one is I define my floor, ceiling, and target within my default policy,
+and then I may have a secondary default policy for a subcategory of products,
+defining their floor, target, and ceiling.
+Both those rules have triggers which move items into a SQL.
+Now, the SQL doesn't have formula, so it doesn't redefine the target floor and ceiling,
+and you don't need two different SQLs with formula
+because they're being inherited as their move.
+And again, work with your CSM, they can demonstrate this in some working examples,
+but it is important to note, I have many people ask,
+oh, that policy doesn't have formula, is it not working?
+That may not be the case.
+It may be that the expectation is the formula is inherited as the items move by a trigger.
+Also, Ramon, remind everyone, keep those questions coming in
+so that we have a very lively question and answer session at the end of this.
+The lookup tables are the newest function that's been added to the repricing toolkit,
+and it's utilized to determine your margin.
+Historically, we found people setting up 20 different policies,
+and the only reason they had 20 policies is they had some factor impacting the margin ranges,
+oftentimes cost.
+So you'd have a zero through 10 rule and a 10 through 15 and a 15 through 20 and 20.
+And it was very difficult to manage 50 different rules for different cost ranges.
+So we added lookup tables as a way to dynamically calculate margin based on SKU conditions.
+So as you can see here in this formula, the margin is 0.9.
+So I'm always going to calculate a 10% margin.
+But as many of you know, I don't always need a 10% margin.
+Sometimes I can get five, sometimes I need 20.
+There's conditions around a SKU that kind of impact what margin is appropriate.
+And so you can see in this formula, instead of having to fix number,
+I have this big long string of text.
+And all this is doing is telling the formula to look at a lookup table,
+in this case, the margin floor table,
+and then use the item cost to return a number.
+So it allows you, again, to dynamically adjust your margin within a single price policy.
+And this helps you have a simple pricing policy structure that's focused on behavior and response to events.
+And then you let lookup tables handle all of the nuances of this impacts margin and that impacts margin.
+So you first start off at a table, as I showed before, the table is defined in the formula.
+So here I go to the floor margin.
+I then look at a dimension.
+Dimension is selection criteria.
+Again, I emphasize this is why it's really important to know how selection criteria works
+and what's capable and what's not capable of selection criteria.
+Because in here is a very simple example.
+I'm just looking at, am I selling it from my stock or am I selling it from my stock?
+And then I'm able to return two different margin values depending on which condition is true.
+The value column, I have a bigger screenshot of this slide, so you'll see it in a sec.
+But this column says value.
+This is the cost of the item.
+This column is amount.
+This will be the number returned to the formula based on which dimension path we went down
+and based on what the cost of the item is at the time of repricing.
+So again, we start with a table.
+We identify which dimension the skew would match.
+Again, this is all selection criteria based.
+Then we return an amount based on a value.
+And again, the goal here is that the factors and nuances that impact your margin are handled
+in lookup tables so that your pricing policies can be, the number of pricing policy you need is reduced
+and they're focused on price behavior and response to marketplace events rather than
+handling margin, price behavior, and response to marketplace events.
+So just to recap, you have a pricing policy that either is using controllers and triggers
+relative amount of price parity to handle the behavior of your price on the marketplace.
+And then you use lookup tables to dynamically adjust your margin within a price policy.
+And when you have this set up and all the facets are working together, you have a really
+powerful repricing toolkit that, while it might not seem simple at first, once you understand
+each piece, it makes a lot of sense and it will click and you will go, oh, I need to
+adjust my margin.
+I'm going to my lookup table and I need to adjust my margin for stock, so I'm going
+to go to the stock dimension and adjust those numbers.
+Oh, I need to, I want to get more competitive with the rate I seek down.
+Oh, I'm going to my price policy and adjusting my controller and setting the rate to be faster
+or adding a policy that has a trigger that moves it and I have seek rate fast and seek
+rate slow.
+But again, you want to handle behavior and response in the price policy and the nuances
+of margin and lookup tables.
+And James, I think these webinars do a great job of highlighting, showcasing some of the
+changes we've made to the software that maybe not all our clients are aware of and how
+they can use it, a positive impact on their business to drive the revenue while still
+protecting the margins.
+Listen again, my goal here is to give you the knowledge to engage in a conversation while
+also being, you know, self-sufficient with repricing.
+There's no reason you can't be in control of your own destiny when it comes to repricing
+an EVP.
+I'm going to go through this last slide relatively quickly, but oftentimes what I find is people
+are looking at the repricing results on the SKU and they're on the repricing tab of
+the SKU.
+This gives you very basic details and I don't encourage using that screen except to maybe
+check a price.
+You should train yourself to use the repricing results screen to understand repricing results
+and do that analysis and adjust.
+A pro tip to make that more efficient for you is to select a channel.
+Each repricing results screen is channel dependent.
+Set up filters and columns that make sense for analyzing a broad group of items or a
+specific group of items on sale or items within a certain policy and then save those
+views so that you can reference them later, that other team members can look at them and
+not have to recreate your views.
+The more views you have, the easier it will be for you to do that analysis and adjustment.
+Some important metrics to look at on the repricing results screen, price changes,
+cost changes.
+Does the item have a UPP that's limiting my floor?
+What is my floor and ceiling?
+Could those be expanded?
+What's the comparison price?
+Is it way below my floor and then there's no reason I can't compete at all?
+Is it within the realm of possibility that I compete with that price?
+Who's the competitor?
+It shows you the last re-price event, the shipping price used at the time of calculation.
+Is that accurate?
+Can that be adjusted?
+Is there a reason it's not accurate, such as inaccurate DIMM data?
+A really important one is price policy changes.
+You will see the item moving between price policies and that really tells you the narrative
+of how effectively your triggers and controllers are working.
+An example would be I can work with your CSM to look at the repricing results screen
+in your system because the data is client specific.
+I haven't shown anything in terms of the details, but you can see a, oh, I won the
+buy box.
+And then I lost the buy box, so I started seeking down and I seek down to a certain price
+and that got me the buy box.
+And then I was in the buy box for an hour and I started seeking up.
+You can see that narrative play out in the repricing results screen.
+And so it's important to leverage this screen when you're doing that analysis.
+As I mentioned-
+James, a quick one that I think kind of fits in right there.
+Why the commission is out of the formula and you put it at the end, I'm not sure.
+He's talking about-
+Well, we're going way back.
+Right.
+So he's talking about having a like plus commission here.
+That's really a business decision.
+But what that means is I'm not putting, I'm not, my total cost doesn't include commission.
+So I find out my total cost, I figure out my margin based on those total costs, and then
+I add my commission on top of that.
+Because the commission could vary by where you're selling also.
+Yes.
+Alternatively, you could have permission be included in your total cost basis.
+It's really a business decision on whether you handle commission as part of your total
+cost basis or you add it at the end.
+Some people offer free shipping, so they exclude the shipping cost token because they don't
+need that in their price.
+Or they take their item cost, adjust that by a margin, take their shipping cost, adjust
+that by a margin.
+And then, so it's just a nuance in the way you're calculating your margin and adding
+on those additional variables.
+So some examples of price policy and structures that I've set up that have been successful.
+FBA Stockage Loop, very simply use the stockage trigger, move an item to a different policy
+with the lower floor as the stockage increases.
+Sales Velocity Seek Loop, you utilize the sales velocity trigger.
+You set an upper and lower threshold for what you consider high and low sales.
+If you have low sales, you move your seek down policy.
+And if you have high sales, you move your seek up, either trying to lower your margin
+to the point where people are buying or increasing your margin to maximize how much money you
+make as people are buying.
+And then, within the seek down, you can have additional triggers to reevaluate.
+But you're essentially, you're finding a, you're either not selling the item, you
+seek down, so you find a price point that it sells at, and you start selling it.
+Or you're selling a lot of it, and you want to see how much you can increase the price
+before the sales decrease.
+And then the whole buy box loop is a classic Amazon behavior, but essentially you either
+use relative amount or a seek function.
+And if you win the buy box, you hold the price, and then sometimes you have a timer
+trigger which says after an hour, if I'm still in the buy box, increase the price till
+I lose it.
+But essentially, if I lose the buy box, I then respond by lowering my price until I win
+it again.
+So if you're interested in any of these three different loops being part of your environment,
+talk to your CSM, James, it looks like we've exposed a tremendous amount of power, a tremendous
+amount of capability and flexibility, but in, I'm going to use an old Marvel movie reference
+from Spider-Man with great response, with great power comes great responsibility.
+If you have any questions on how this works or what you're trying to accomplish, or what
+is that business goal, please talk to your CSM.
+As much power as you're bringing to bear, you can all, we don't want to make mistakes.
+So that's where we are.
+I'm looking for other, more questions as we get into our Q&A session.
+Well this one, thank you, this is pretty cool, how do I learn more?
+I think we've said it about a half dozen times, just talk to Jason or Jeff or James or myself
+or whoever your CSM here is here at ETail Solutions.
+We love focusing on these kind of topics to improve the business and really getting you
+to where you're going.
+We want to make you smart enough to go it alone, but we want to give you enough reasons
+to work with us that you don't have to and know that there's somebody with you all the
+way.
+Are there any other questions?
+I think we do.
+I got to keep clicking around to get them in here.
+If we cannot match or beat the buy box price item at floor, can we yo-yo on a schedule to
+trick the algorithms?
+Yeah, so what that question is getting at is, as many people know on those competitive
+marketplaces it's a race condition of the floor and then everyone sits at their lowest price
+and what many people figured out is everyone's using an automated repricer, so I jump my price
+up really high, everyone follows me and kind of prices a penny below my really high price.
+It starts working your way down again, but everybody's making a little bit more for a
+while.
+Well, you pull everyone up off the floor because you can win the buy box with the
+higher price if your latency is good, but essentially you do want to evaluate our items
+just sitting at the floor and there is a trigger that says at floor price, you can then have
+a behavior occur and say, hey, instead of sitting at my floor, seek up by an excessive
+amount for an hour and see if that changes the behavior of the buy box and then put
+it back in a seek down after I went way up.
+Or you can go, oh, I'm at the floor, oftentimes with relative amount, if you can't beat anyone
+with the relative amount adjustments, you default to your floor.
+So if you find that occurring, have a trigger in your relative amount rule that says if
+at floor, move it to a seek rule that elevates your price up above your floor and start
+seeking the price.
+And again, it's all about applying different strategies that all work in tandem with each
+other via the loops that's driven by the triggers.
+So yes, you can achieve a sort of yo-yoing effect that drives the price up and down.
+Here's another one, James.
+Do all these features work for my Shopify and Walmart marketplaces?
+Controllers, triggers, and lookup tables work on all sales channels.
+What triggers are available will be dependent on the marketplace.
+For example, eBay doesn't have a buy box, so there's no buy box trigger.
+Got it.
+And then Amazon and Walmart will have slightly nuanced repricing configuration options because
+of the data they provide.
+But the core structure behind triggers, controllers, and lookup tables and price formula work with
+all channels.
+And I'm sorry to say this is going to have to be our last one because we're actually
+over a little bit.
+What is the advanced tab inside of the pricing policy screen used for?
+You may remember I mentioned custom scripts about catalog in the catalog source webinar.
+That's a similar idea.
+You can work with your CSM to have the product team build a custom script that initiates
+a certain type of behavior.
+It'd be a very nuanced scenario that would.
+Very specialized.
+You'd reach the conclusion that you couldn't achieve that behavior with the functions available
+and we would write a custom script.
+Okay.
+But yeah.
+And again, my goal here was to give you the knowledge to A, kind of take a stab at yourself
+and B, engage in a meaningful conversation with your CSM where you can present ideas
+that can be implemented versus me having to go, well, that's not quite how the system
+works, so I can't achieve that.
+That's reasonable.
+All right.
+And I encourage you to look at the supplementary material, see if you can answer those questions,
+and then reach out to your CSM and have them set up a session to review a bit more in depth
+in your system because there can be a lot more learned about the re-pricing results screen
+and what you have in place when you dive into your specifics.
+Can we get to the next screen then as we wrap this up, James?
+So once again, second Wednesday of the month, that means that next month it's going to
+be on May 10th.
+Right now, we believe we're going to focus on Dam or excuse me, Dam dynamic auto-matching.
+How do you add a large number of SKUs safely into your Amazon marketplace?
+And we'll go into that.
+But once again, on your survey, if there's a topic that is of greater importance to the
+majority of you, that's what we'll do.
+That's how we got to pricing this month, was because of your feedback.
+Also, remember your quarterly surveys.
+Please fill those out.
+And you will have access to this webinar, to the PowerPoint, and to the pricing documentation
+available.
+And every webinar will come with those three digital assets so that you can review, go
+into areas that you were less comfortable with, and review as you try, and with our assistance,
+drive your company successfully to a higher, faster-growing organization with more profit.
+And with that, thank you.
